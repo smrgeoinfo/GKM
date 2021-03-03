@@ -41,6 +41,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
+rdfs:comment "use to generate documentation and test";
+
 gsmaster:ontology
   rdf:type owl:Ontology ;
   rdfs:comment "This is a shell to load all GSO files."@en ;
