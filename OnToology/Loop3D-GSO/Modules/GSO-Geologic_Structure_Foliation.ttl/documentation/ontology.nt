@@ -1,0 +1,562 @@
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/common/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geology/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "2020-01-28 SKOS vocabulary converted to OWL ontology by Stephen Richard (SMR), skos:concepts becoming owl:Class, skos:prefLabel to rdfs:label, skos:broader to rdfs:subClassOf. URIs mapped to GSO/ontology URIs."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "Original version created by IUGS Commission for Geoscience Information (CGI) Geoscience Terminology Working Group as a SKOS vocabulary in 2010, see http://resource.geosciml.org/vocabulary/cgi/2016/foliationtype.rdf for current version. 2018-08-03 version was used to generate this ontology"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "This scheme specifies concepts used to describe planar fabrics in rocks, as defined by the IUGS Commission for Geoscience Information (CGI) Geoscience Terminology Working Group. Includes primary (eg, sedimentary and igneous) and deformation-related (eg, metamorphic and tectonic) planar fabrics from  CGI foliationtype SKOS vocabulary 2018-08-03."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "dct:creator--  CGI Geoscience Terminology Working Group, Stephen M. Richard for Loop3d project"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "dct:date--  2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "dct:modified-- 2020-01-28"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/ontology> <http://www.w3.org/2000/01/rdf-schema#label> "Foliation"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/anastomosing_spaced_cleavage
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/anastomosing_spaced_cleavage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/anastomosing_spaced_cleavage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/spaced_cleavage> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/anastomosing_spaced_cleavage> <http://purl.org/dc/terms/source> "Geoscience Victoria, Australia"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/anastomosing_spaced_cleavage> <http://www.w3.org/2000/01/rdf-schema#comment> "spaced cleavage domains branch and rejoin, creating lens-shaped microlithons."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/anastomosing_spaced_cleavage> <http://www.w3.org/2000/01/rdf-schema#label> "anastomosing spaced cleavage"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/bedding_fabric
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/bedding_fabric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/bedding_fabric> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/primary_foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/bedding_fabric> <http://purl.org/dc/terms/source> "NADM sedimentary rock vocabulary (https://pubs.usgs.gov/of/2004/1451/sltt/appendixC/appendixC_pdf.zip)  SLTTs 2004, CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/bedding_fabric> <http://www.w3.org/2000/01/rdf-schema#comment> "Fabric defined by textural or mineralogic variations in sediment produced by depositional processes. May be manifested by lamination structure within the sediment, or by layering in which the individual layers (beds) are bounded by discontinuities related to events in the depositional history."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/bedding_fabric> <http://www.w3.org/2000/01/rdf-schema#label> "bedding"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/bedding_lamination_structure
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/bedding_lamination_structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/bedding_lamination_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/bedding_fabric> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/bedding_lamination_structure> <http://purl.org/dc/terms/source> "NADM sedimentary rock vocabulary (https://pubs.usgs.gov/of/2004/1451/sltt/appendixC/appendixC_pdf.zip)  SLTTs 2004"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/bedding_lamination_structure> <http://www.w3.org/2000/01/rdf-schema#comment> "A surface internal to the containing sediment mass defined by textural or mineralogical variation, produced by sediment deposition process, and reflecting the orientation of the original depositional surface. Syn Laminated structure (NADM sedimentary rock vocabulary (https://pubs.usgs.gov/of/2004/1451/sltt/appendixC/appendixC_pdf.zip)  SLTTs 2004)."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/bedding_lamination_structure> <http://www.w3.org/2000/01/rdf-schema#label> "bedding lamination structure"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/c_fabric
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/c_fabric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/c_fabric> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/ductile_shear_banding_foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/c_fabric> <http://purl.org/dc/terms/source> "Geoscience Victoria, Australia"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/c_fabric> <http://www.w3.org/2000/01/rdf-schema#comment> "Ductile shear banding foliation defined by spaced, discrete planar zones of high strain less than 1mm thick. Commonly associated with a particle flattening ('S') fabric to form a mylonitic foliation."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/c_fabric> <http://www.w3.org/2000/01/rdf-schema#label> "c fabric"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cleavage
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cleavage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cleavage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/tectonic_foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cleavage> <http://purl.org/dc/terms/source> "Brodie, Kate, Fettes, Douglas, and Harte, Ben, 2007, Structural terms including fault rock terms, in Fettes, D., and Desmons, J., Metamorphic rocks-A classification and Glossary of Terms: Cambridge, UK, Cambridge University Press, p. 24-31."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cleavage> <http://www.w3.org/2000/01/rdf-schema#comment> "A tectonic foliation in a rock characterized by a tendency for the rock to split along a regular set of parallel or sub-parallel closely spaced surfaces. Cleavage is a more general term than schistosity because schistosity need not be present in order for a rock to display cleavage. Cleavage domains or parting surfaces are not spaced more than 5 cm apart on average (Borradaille et al., 1982)"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cleavage> <http://www.w3.org/2000/01/rdf-schema#label> "cleavage"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cleavage_parallel_to_bedding
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cleavage_parallel_to_bedding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cleavage_parallel_to_bedding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cleavage> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cleavage_parallel_to_bedding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/compound_foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cleavage_parallel_to_bedding> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cleavage_parallel_to_bedding> <http://www.w3.org/2000/01/rdf-schema#comment> "Composite fabric in which a cleavage is developed parallel to bedding."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cleavage_parallel_to_bedding> <http://www.w3.org/2000/01/rdf-schema#label> "cleavage parallel to bedding"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/close_joints
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/close_joints> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/close_joints> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cleavage> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/close_joints> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/joint_fabric> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/close_joints> <http://purl.org/dc/terms/source> "Borradaile et al. 1982, CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/close_joints> <http://www.w3.org/2000/01/rdf-schema#comment> "Foliation defined by parting surfaces (cleavage domains) that have no apparent thickness, are spaced between 5 cm and 25 cm, and do not crenulate an older foliation. Fabric intermediate between typical cleavage and joints. Parting surfaces are regularly spaced, and penetrative on a 1-10 m scale. 5 cm upper limit on spacing of 'cleavage domains' in a 'cleavage 'fabric is suggested by Borradaile et al. [1982]."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/close_joints> <http://www.w3.org/2000/01/rdf-schema#label> "close joints"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/comb_layering
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/comb_layering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/comb_layering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/layering> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/comb_layering> <http://purl.org/dc/terms/source> "Neuendorf et al. 2005, CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/comb_layering> <http://www.w3.org/2000/01/rdf-schema#comment> "Layering fabric defined by layers that have internal comb structure. Layer boundaries are the termination surfaces for the constituent crystals."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/comb_layering> <http://www.w3.org/2000/01/rdf-schema#label> "comb layering"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/compositional_layering
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/compositional_layering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/compositional_layering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/layering> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/compositional_layering> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03, submitted by British Antarctic Survey"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/compositional_layering> <http://www.w3.org/2000/01/rdf-schema#comment> "Layering fabric defined by layers that have different mineralogic composition."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/compositional_layering> <http://www.w3.org/2000/01/rdf-schema#label> "compositional layering"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/compound_foliation
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/compound_foliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/compound_foliation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Foliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/compound_foliation> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/compound_foliation> <http://www.w3.org/2000/01/rdf-schema#comment> "Foliation that includes fabric elements indicating classification with foliation types of different genetic origin, e.g. cleavage parallel to bedding is a compound fabric with a sedimentary foliation and a tectonic foliation. No connotation of genetic origin of fabric elements."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/compound_foliation> <http://www.w3.org/2000/01/rdf-schema#label> "compound foliation"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/compound_metamorphic_foliation
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/compound_metamorphic_foliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/compound_metamorphic_foliation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/compound_foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/compound_metamorphic_foliation> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/compound_metamorphic_foliation> <http://www.w3.org/2000/01/rdf-schema#comment> "A compound foliation in which the constituent fabric elements are of metamorphic origin."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/compound_metamorphic_foliation> <http://www.w3.org/2000/01/rdf-schema#label> "compound metamorphic foliation"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/continuous_cleavage
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/continuous_cleavage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/continuous_cleavage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cleavage> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/continuous_cleavage> <http://purl.org/dc/terms/source> "Borradaile et al 1982"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/continuous_cleavage> <http://www.w3.org/2000/01/rdf-schema#comment> "A cleavage that is statistically homogeneous down to the scale of individual mineral grains."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/continuous_cleavage> <http://www.w3.org/2000/01/rdf-schema#label> "continuous cleavage"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/continuous_crenulation_cleavage
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/continuous_crenulation_cleavage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/continuous_crenulation_cleavage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/continuous_cleavage> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/continuous_crenulation_cleavage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/crenulation_cleavage> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/continuous_crenulation_cleavage> <http://purl.org/dc/terms/source> "Borradaile et al 1982"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/continuous_crenulation_cleavage> <http://www.w3.org/2000/01/rdf-schema#comment> "Cleavage defined by long, thin limbs of crenulation folds of pre-existing foliation, in which the boundaries between cleavage domains and lithons are gradational. Both the crenulation foliation and the crenulated (older) foliation are easily visible. Grades to spaced crenulation cleavage as boundaries of cleavage domains become sharp, and to schistosity or compositional layering as the crenulation foliation obscures the crenulated foliation to become the dominant fabric in the rock. In many rocks with continuous crenulation cleavage, the tendency to part along the cleavage may be weak, thus the rock may not technically meet the definition of 'cleavage as used in CGI foliationtype SKOS vocabulary 2018-08-03."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/continuous_crenulation_cleavage> <http://www.w3.org/2000/01/rdf-schema#label> "continuous crenulation cleavage"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/crenulation_cleavage
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/crenulation_cleavage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/crenulation_cleavage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cleavage> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/crenulation_cleavage> <http://purl.org/dc/terms/source> "Brodie, Kate, Fettes, Douglas, and Harte, Ben, 2007, Structural terms including fault rock terms, in Fettes, D., and Desmons, J., Metamorphic rocks-A classification and Glossary of Terms: Cambridge, UK, Cambridge University Press, p. 24-31."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/crenulation_cleavage> <http://www.w3.org/2000/01/rdf-schema#comment> "Cleavage that is overprinted on an older foliation that is folded to some degree in association with development of the younger cleavage. Cleavage domains commonly associated with long limbs of crenulation folds, and hinge surfaces of folds are roughly parallel. Wavelength of crenulation folds is less than or equal to 1 cm. Cleavage defined by limbs of microfolds coincident with zones of mineral differentiation"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/crenulation_cleavage> <http://www.w3.org/2000/01/rdf-schema#label> "crenulation cleavage"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/crude_or_indistinct_bedding
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/crude_or_indistinct_bedding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/crude_or_indistinct_bedding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/bedding_fabric> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/crude_or_indistinct_bedding> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/crude_or_indistinct_bedding> <http://www.w3.org/2000/01/rdf-schema#comment> "Bedding defined by surfaces that are not distinct, e.g. by gradational grain size variations."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/crude_or_indistinct_bedding> <http://www.w3.org/2000/01/rdf-schema#label> "crude or indistinct bedding"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cryptomicrobial_lamination
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cryptomicrobial_lamination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cryptomicrobial_lamination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/bedding_lamination_structure> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cryptomicrobial_lamination> <http://purl.org/dc/terms/source> "GGIPAC"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cryptomicrobial_lamination> <http://www.w3.org/2000/01/rdf-schema#comment> "Fabric defined by fine laminae formed by the trapping of grains and lime precipitation in a microbial mat."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cryptomicrobial_lamination> <http://www.w3.org/2000/01/rdf-schema#label> "cryptomicrobial lamination"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cumulate_layering
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cumulate_layering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cumulate_layering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_layering> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cumulate_layering> <http://purl.org/dc/terms/source> "Carmichael et al 1974, Best 1982"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cumulate_layering> <http://www.w3.org/2000/01/rdf-schema#comment> "Layering in igneous rocks in which layers are characterized by variation in relative proportion of magmatically crystallized minerals. Typically a pattern of mineralogical variation will be repeated many times in a vertical section with layers of relatively consistent thickness. See photos in Best [1982] p. 176-177. Gravity-stratified layers typically have mafic minerals at the base and plagioclase at the top and are interpreted to form by crystal settling in magma."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cumulate_layering> <http://www.w3.org/2000/01/rdf-schema#label> "cumulate layering"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/discrete_cleavage
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/discrete_cleavage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/discrete_cleavage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/spaced_cleavage> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/discrete_cleavage> <http://purl.org/dc/terms/source> "Borradaile et al., 1982"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/discrete_cleavage> <http://www.w3.org/2000/01/rdf-schema#comment> "Spaced cleavage in which cleavage domains have sharply defined edges."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/discrete_cleavage> <http://www.w3.org/2000/01/rdf-schema#label> "discrete cleavage"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/discrete_crenulation_cleavage
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/discrete_crenulation_cleavage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/discrete_crenulation_cleavage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/crenulation_cleavage> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/discrete_crenulation_cleavage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/spaced_cleavage> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/discrete_crenulation_cleavage> <http://purl.org/dc/terms/source> "Borradaile et al 1982"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/discrete_crenulation_cleavage> <http://www.w3.org/2000/01/rdf-schema#comment> "Crenulation cleavage in which the cleavage domains have discrete boundaries. Amplitude of crenulation folds tends to be small."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/discrete_crenulation_cleavage> <http://www.w3.org/2000/01/rdf-schema#label> "discrete crenulation cleavage"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/discrete_disjunct_spaced_cleavage
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/discrete_disjunct_spaced_cleavage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/discrete_disjunct_spaced_cleavage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/spaced_cleavage> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/discrete_disjunct_spaced_cleavage> <http://purl.org/dc/terms/source> "Neuendorf et al. 2005, Borradaile et al. 1982."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/discrete_disjunct_spaced_cleavage> <http://www.w3.org/2000/01/rdf-schema#comment> "Disjunct spaced cleavage defined by discrete cleavage surfaces, typically in low-grade clastic rocks. Syn. Fracture cleavage."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/discrete_disjunct_spaced_cleavage> <http://www.w3.org/2000/01/rdf-schema#label> "discrete disjunct spaced cleavage"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/disjunctive_cleavage
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/disjunctive_cleavage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/disjunctive_cleavage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cleavage> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/disjunctive_cleavage> <http://purl.org/dc/terms/source> "Borradaile et al. 1982"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/disjunctive_cleavage> <http://www.w3.org/2000/01/rdf-schema#comment> "A spaced cleavage independent of any pre-existing mineral orientation, cleavage in which there is no systematic relationship between a pre-existing preferred orientation and the superimposed cleavage. (Borradaile et al., 1982)"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/disjunctive_cleavage> <http://www.w3.org/2000/01/rdf-schema#label> "disjunctive cleavage"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/domainal_cleavage
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/domainal_cleavage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/domainal_cleavage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cleavage> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/domainal_cleavage> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/domainal_cleavage> <http://www.w3.org/2000/01/rdf-schema#comment> "Fabric in which domains of more strongly developed (closely spaced) cleavage are separated by lenses of weakly or non-cleaved rock. Typically observed on outcrop scale and used for geologic unit description"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/domainal_cleavage> <http://www.w3.org/2000/01/rdf-schema#label> "domainal cleavage"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/ductile_shear_banding_foliation
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/ductile_shear_banding_foliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/ductile_shear_banding_foliation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/tectonic_foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/ductile_shear_banding_foliation> <http://purl.org/dc/terms/source> "Geoscience Victoria, Australia"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/ductile_shear_banding_foliation> <http://www.w3.org/2000/01/rdf-schema#comment> "Foliation defined by regularly spaced ductile shear bands at the scale of descripiton."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/ductile_shear_banding_foliation> <http://www.w3.org/2000/01/rdf-schema#label> "ductile shear banding foliation"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/eutaxitic_foliation
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/eutaxitic_foliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/eutaxitic_foliation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/primary_igneous_foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/eutaxitic_foliation> <http://purl.org/dc/terms/source> "Neuendorf et al. 2005, CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/eutaxitic_foliation> <http://www.w3.org/2000/01/rdf-schema#comment> "Foliation defined by flattened pumice clasts or glass shards, aligned elongate lithic fragments, variations in composition, vesicularity, crystallinity, grain size, spherulite and lithophysae abundance, or the degree of devitrification in a welded tuff. This term denotes interpretation that foliation formed during compaction and welding of tuff."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/eutaxitic_foliation> <http://www.w3.org/2000/01/rdf-schema#label> "eutaxitic foliation"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/fissile_lamination
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/fissile_lamination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/fissile_lamination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/bedding_lamination_structure> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/fissile_lamination> <http://purl.org/dc/terms/source> "NADM sedimentary rock vocabulary (https://pubs.usgs.gov/of/2004/1451/sltt/appendixC/appendixC_pdf.zip)  SLTTs 2004, CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/fissile_lamination> <http://www.w3.org/2000/01/rdf-schema#comment> "Diffuse to distinct lamination in mudstones and mud, defined by the alignment of clay minerals. Lacks distinct very-fine scale layering and repetition of couplets that characterize varves. Essentially a continuous cleavage parallel to bedding, but considered a sedimentary structure related to sediment compaction during diagenesis."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/fissile_lamination> <http://www.w3.org/2000/01/rdf-schema#label> "fissile lamination"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/flaser_structure
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/flaser_structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/flaser_structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/tectonic_foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/flaser_structure> <http://purl.org/dc/terms/source> "Neuendorf et al. 2005"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/flaser_structure> <http://www.w3.org/2000/01/rdf-schema#comment> "Tectonic foliation defined by lenses and layers of original or relatively unaltered granular minerals surrounded by a matrix of highly sheared and crushed material. No connotation of metamorphic grade."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/flaser_structure> <http://www.w3.org/2000/01/rdf-schema#label> "flaser structure"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/flow_layering
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/flow_layering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/flow_layering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/layering> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/flow_layering> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/flow_layering> <http://www.w3.org/2000/01/rdf-schema#comment> "Layering produced by flow of magma, lava, or diapiric flow of sedimentary rock. Distinction from eutaxitic foliation may be difficult."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/flow_layering> <http://www.w3.org/2000/01/rdf-schema#label> "flow layering"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/generic_mylonitic_foliation
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/generic_mylonitic_foliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/generic_mylonitic_foliation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/tectonic_foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/generic_mylonitic_foliation> <http://purl.org/dc/terms/source> "NADM metamorphic rock vocabulary (https://pubs.usgs.gov/of/2004/1451/sltt/appendixB/appendixB.pdf) SLTTm1.0 2004"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/generic_mylonitic_foliation> <http://www.w3.org/2000/01/rdf-schema#comment> "Foliation defined by the shapes of deformed mineral grains or grain aggregates having aspect ratios greater than 1.5:1, greater than 10 percent of the rock is composed of 'matrix' showing evidence of tectonic reduction in grain size, and the foliation and matrix are interpreted to be the product of continuous, crystal-plastic deformation processes. Generic class is used when data are insufficient to determine classification to protomylontic, mylonite, or ultramylonitc foliation, or to specify that any sort of mylontic foliation may be present."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/generic_mylonitic_foliation> <http://www.w3.org/2000/01/rdf-schema#label> "generic mylonitic foliation"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/gneissic_layering
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/gneissic_layering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/gneissic_layering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/metamorphic_layering> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/gneissic_layering> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/gneissic_layering> <http://www.w3.org/2000/01/rdf-schema#comment> "Compositional layering in a metamorphic rock, syn. gneissic banding"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/gneissic_layering> <http://www.w3.org/2000/01/rdf-schema#label> "gneissic layering"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/grain_shape_foliation
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/grain_shape_foliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/grain_shape_foliation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/grain_shape_foliation> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/grain_shape_foliation> <http://www.w3.org/2000/01/rdf-schema#comment> "Foliation defined by the alignment of oblate particles, which may be detrital grains, crystals, or crystalline grain aggregates."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/grain_shape_foliation> <http://www.w3.org/2000/01/rdf-schema#label> "grain shape foliation"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_flow_foliation
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_flow_foliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_flow_foliation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/primary_igneous_foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_flow_foliation> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_flow_foliation> <http://www.w3.org/2000/01/rdf-schema#comment> "Foliation interpreted to be due to flow in a body of magma or lava. Includes flow banding in lava, and foliation defined by aligned crystals in a phaneritic igneous rock.."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_flow_foliation> <http://www.w3.org/2000/01/rdf-schema#label> "igneous flow foliation"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_lamination
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_lamination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_lamination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_layering> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_lamination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/primary_igneous_foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_lamination> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_lamination> <http://www.w3.org/2000/01/rdf-schema#comment> "Foliation defined by surfaces of textural or mineralogical variation formed by igneous processes. If the lamination surfaces are regularly spaced, they may be used to define layers."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_lamination> <http://www.w3.org/2000/01/rdf-schema#label> "igneous lamination"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_layering
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_layering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_layering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/layering> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_layering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/primary_igneous_foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_layering> <http://purl.org/dc/terms/source> "Geoscience Victoria, Australia"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_layering> <http://www.w3.org/2000/01/rdf-schema#comment> "Layering that is the product of processes operating in magma or lava. syn. magmatic layering"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_layering> <http://www.w3.org/2000/01/rdf-schema#label> "igneous layering"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_textural_layering
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_textural_layering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_textural_layering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_layering> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_textural_layering> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_textural_layering> <http://www.w3.org/2000/01/rdf-schema#comment> "Layering defined by grain size/ grain shape variations resulting from crystallization processes in igneous rock, most commonly observed in pegmatite/aplite dikes or bodies, and in Laramide leucogranites of Wilderness suite in Arizona."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_textural_layering> <http://www.w3.org/2000/01/rdf-schema#label> "igneous textural layering"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/imbricated_clast_fabric
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/imbricated_clast_fabric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/imbricated_clast_fabric> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/grain_shape_foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/imbricated_clast_fabric> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/primary_foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/imbricated_clast_fabric> <http://purl.org/dc/terms/source> "based on Neuendorf et al 2005"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/imbricated_clast_fabric> <http://www.w3.org/2000/01/rdf-schema#comment> "Fabric defined by long axis of tabular clasts stacked like shingles to define a surface that makes a small angle with the bedding surface. A depositional fabric formed by disk-shaped or elongate pebbles all tilted in the same direction, flat sides commonly dip upstream"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/imbricated_clast_fabric> <http://www.w3.org/2000/01/rdf-schema#label> "imbricated clast fabric"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/impersistent_lamination
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/impersistent_lamination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/impersistent_lamination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/bedding_lamination_structure> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/impersistent_lamination> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/impersistent_lamination> <http://www.w3.org/2000/01/rdf-schema#comment> "Lamination defined by discontinuous surfaces"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/impersistent_lamination> <http://www.w3.org/2000/01/rdf-schema#label> "impersistent lamination"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/irregular_lamination
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/irregular_lamination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/irregular_lamination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/bedding_lamination_structure> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/irregular_lamination> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/irregular_lamination> <http://www.w3.org/2000/01/rdf-schema#comment> "Lamination fabric in which individual lamina or groups of lamina are warped in an irregular fashion, like a flattened peice of crumpled paper. A crude planar orientation is discernible."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/irregular_lamination> <http://www.w3.org/2000/01/rdf-schema#label> "irregular lamination"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/joint_fabric
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/joint_fabric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/joint_fabric> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/joint_fabric> <http://purl.org/dc/terms/source> "Borradaile et al 1982"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/joint_fabric> <http://www.w3.org/2000/01/rdf-schema#comment> "Fabric defined by parting surfaces in rock that occur in crudely parallel orientation, spaced greater than 5 cm on average if in a very regular joint set. Spacing is more variable and alignment of surfaces is cruder that cleavage. Typically applies to geologic unit description."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/joint_fabric> <http://www.w3.org/2000/01/rdf-schema#label> "joint fabric"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/laminated_metamorphic_layering
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/laminated_metamorphic_layering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/laminated_metamorphic_layering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/metamorphic_layering> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/laminated_metamorphic_layering> <http://purl.org/dc/terms/source> "Weiss 1972, Borradaile et al 1982, CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/laminated_metamorphic_layering> <http://www.w3.org/2000/01/rdf-schema#comment> "Metamorphic layering in which the layers are less than 1 cm thick. See Weiss, L.E. [1972] plate 36 or Borraidaile et al [1982] plate 137A B (page 331), plate140A (page 337) for examples."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/laminated_metamorphic_layering> <http://www.w3.org/2000/01/rdf-schema#label> "laminated metamorphic layering"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/lava_flow_banding
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/lava_flow_banding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/lava_flow_banding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/flow_layering> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/lava_flow_banding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_layering> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/lava_flow_banding> <http://purl.org/dc/terms/source> "GGIPAC, Australia"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/lava_flow_banding> <http://www.w3.org/2000/01/rdf-schema#comment> "Layering formed by laminar lava flow, defined by variations in composition, vesicularity, crystallinity, grainsize, spherulite and lithophysae abundance, degree of devitrification, colour, and/or parting surfaces, syn. flow lamination, flow banding"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/lava_flow_banding> <http://www.w3.org/2000/01/rdf-schema#label> "lava flow banding"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/layered_mylonitic_foliation
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/layered_mylonitic_foliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/layered_mylonitic_foliation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/compound_foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/layered_mylonitic_foliation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/generic_mylonitic_foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/layered_mylonitic_foliation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/layering> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/layered_mylonitic_foliation> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/layered_mylonitic_foliation> <http://www.w3.org/2000/01/rdf-schema#comment> "Compound foliation in which mylonitic foliation is present in rock that has continuous compositional layering. Continuous means individual layers can be traced more than 1 m."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/layered_mylonitic_foliation> <http://www.w3.org/2000/01/rdf-schema#label> "layered mylonitic foliation"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/layering
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/layering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/layering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/layering> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/layering> <http://www.w3.org/2000/01/rdf-schema#comment> "Foliation defined by stacked, differentiable, sheet-like masses of material (layers), with no denotation of the nature (composition, grain size, grain shape...) or origin (igneous, sedimentary, metamorphic) of the layers."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/layering> <http://www.w3.org/2000/01/rdf-schema#label> "layering"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/low_temperature_flow_foliation
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/low_temperature_flow_foliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/low_temperature_flow_foliation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/low_temperature_flow_foliation> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/low_temperature_flow_foliation> <http://www.w3.org/2000/01/rdf-schema#comment> "Foliation interpreted to be due to flow in a body of rock (typically mudrock, salt, or anhydrite) under low-temperature (non-metamorphic) conditions, typically related to diapirism."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/low_temperature_flow_foliation> <http://www.w3.org/2000/01/rdf-schema#label> "low temperature flow foliation"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/metamorphic_differentiation_layering
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/metamorphic_differentiation_layering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/metamorphic_differentiation_layering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/compositional_layering> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/metamorphic_differentiation_layering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/metamorphic_layering> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/metamorphic_differentiation_layering> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/metamorphic_differentiation_layering> <http://www.w3.org/2000/01/rdf-schema#comment> "Layering defined by mineralogical variations in a rock body interpreted to be result of solid-state reactions in rock body (metamorphic segregation)."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/metamorphic_differentiation_layering> <http://www.w3.org/2000/01/rdf-schema#label> "metamorphic differentiation layering"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/metamorphic_layering
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/metamorphic_layering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/metamorphic_layering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/layering> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/metamorphic_layering> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/metamorphic_layering> <http://www.w3.org/2000/01/rdf-schema#comment> "Layering of unspecified origin in a metamorphic rock. Compositional or textural variations may be inherited from protolith, or result from metamorphic processes."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/metamorphic_layering> <http://www.w3.org/2000/01/rdf-schema#label> "metamorphic layering"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/metamorphic_layering_inherited_from_protolith
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/metamorphic_layering_inherited_from_protolith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/metamorphic_layering_inherited_from_protolith> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/compositional_layering> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/metamorphic_layering_inherited_from_protolith> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/metamorphic_layering> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/metamorphic_layering_inherited_from_protolith> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/metamorphic_layering_inherited_from_protolith> <http://www.w3.org/2000/01/rdf-schema#comment> "Metamorphic layering in which layer differntiation is relict of compositional variations in the protolith, typically heterogeneous sedimentary or volcanic rock."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/metamorphic_layering_inherited_from_protolith> <http://www.w3.org/2000/01/rdf-schema#label> "metamorphic layering inherited from protolith"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/mineralogical_layering
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/mineralogical_layering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/mineralogical_layering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/compositional_layering> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/mineralogical_layering> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/mineralogical_layering> <http://www.w3.org/2000/01/rdf-schema#comment> "Generic layering defined by variations in mineralogy between individual sheets of material"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/mineralogical_layering> <http://www.w3.org/2000/01/rdf-schema#label> "mineralogical layering"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/mylonite_foliation
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/mylonite_foliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/mylonite_foliation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/generic_mylonitic_foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/mylonite_foliation> <http://purl.org/dc/terms/source> "NADM metamorphic rock vocabulary (https://pubs.usgs.gov/of/2004/1451/sltt/appendixB/appendixB.pdf) SLTTm1.0 2004,  Sibson 1977"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/mylonite_foliation> <http://www.w3.org/2000/01/rdf-schema#comment> "Generic mylonitic foliation in which 50-90 percent of rock is matrix due to tectonic grain size reduction processes. Planar fabric is very apparent due to flattening of mineral grains, development of shear surfaces, and alignment of tabular mineral grains. Lineation is typically present and easily observed."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/mylonite_foliation> <http://www.w3.org/2000/01/rdf-schema#label> "mylonite foliation"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/parallel_bedding
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/parallel_bedding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/parallel_bedding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/bedding_fabric> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/parallel_bedding> <http://purl.org/dc/terms/source> "NADM sedimentary rock vocabulary NADM sedimentary rock vocabulary (https://pubs.usgs.gov/of/2004/1451/sltt/appendixC/appendixC_pdf.zip)  SLTTs 2004"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/parallel_bedding> <http://www.w3.org/2000/01/rdf-schema#comment> "Bedding defined by parallel surfaces. Bedding structure may be lamination or layering."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/parallel_bedding> <http://www.w3.org/2000/01/rdf-schema#label> "parallel bedding"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/parallel_bedding_lamination
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/parallel_bedding_lamination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/parallel_bedding_lamination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/bedding_lamination_structure> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/parallel_bedding_lamination> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/parallel_bedding_lamination> <http://www.w3.org/2000/01/rdf-schema#comment> "Bedding lamination structure in which all visible bedding surfaces are parallel."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/parallel_bedding_lamination> <http://www.w3.org/2000/01/rdf-schema#label> "parallel bedding lamination"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/phyllitic_cleavage
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/phyllitic_cleavage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/phyllitic_cleavage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/continuous_cleavage> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/phyllitic_cleavage> <http://purl.org/dc/terms/source> "NADM metamorphic rock vocabulary (https://pubs.usgs.gov/of/2004/1451/sltt/appendixB/appendixB.pdf) SLTTm1.0 2004,  Geoscience Victoria, Australia"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/phyllitic_cleavage> <http://www.w3.org/2000/01/rdf-schema#comment> "Continuous cleavage in phyllitic rock, phyllosilicate mineral grains just barely visible, grain size midway between slaty cleavage and schist, typically has a satiny lustre."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/phyllitic_cleavage> <http://www.w3.org/2000/01/rdf-schema#label> "phyllitic cleavage"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/planar_lamination
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/planar_lamination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/planar_lamination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/bedding_lamination_structure> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/planar_lamination> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/planar_lamination> <http://www.w3.org/2000/01/rdf-schema#comment> "Lamination that is defined by planar bedding surfaces at the scale of description."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/planar_lamination> <http://www.w3.org/2000/01/rdf-schema#label> "planar lamination"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/primary_foliation
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/primary_foliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/primary_foliation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/primary_foliation> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/primary_foliation> <http://www.w3.org/2000/01/rdf-schema#comment> "Foliation formed during original process of deposition or crystallization of an igneous or sedimentary material."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/primary_foliation> <http://www.w3.org/2000/01/rdf-schema#label> "primary foliation"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/primary_igneous_foliation
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/primary_igneous_foliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/primary_igneous_foliation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/primary_foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/primary_igneous_foliation> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/primary_igneous_foliation> <http://www.w3.org/2000/01/rdf-schema#comment> "Foliation interpreted to be the product of igneous processes, formed in the rock while melt was still present.."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/primary_igneous_foliation> <http://www.w3.org/2000/01/rdf-schema#label> "primary igneous foliation"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/protomylonite_foliation
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/protomylonite_foliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/protomylonite_foliation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/generic_mylonitic_foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/protomylonite_foliation> <http://purl.org/dc/terms/source> "NADM metamorphic rock vocabulary (https://pubs.usgs.gov/of/2004/1451/sltt/appendixB/appendixB.pdf) SLTTm1.0 2004,  Sibson 1977"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/protomylonite_foliation> <http://www.w3.org/2000/01/rdf-schema#comment> "Generic mylonitic foliation in which 10-50 percent of rock is matrix due to tectonic grain size reduction processes. Planar aspect of fabric may be quite subtle in weakly deformed rocks."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/protomylonite_foliation> <http://www.w3.org/2000/01/rdf-schema#label> "protomylonite foliation"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/rhythmic_layering
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/rhythmic_layering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/rhythmic_layering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/igneous_layering> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/rhythmic_layering> <http://purl.org/dc/terms/source> "Jackson 1997"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/rhythmic_layering> <http://www.w3.org/2000/01/rdf-schema#comment> "Layering in igneous rock defined by repeated gravity-stratified layers of typically mafic minerals at the base and plagioclase at the top, formed by crystal settling"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/rhythmic_layering> <http://www.w3.org/2000/01/rdf-schema#label> "rhythmic layering"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/rough_cleavage
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/rough_cleavage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/rough_cleavage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cleavage> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/rough_cleavage> <http://purl.org/dc/terms/source> "Neuendorf et al. 2005, Borradaile et al, 1990"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/rough_cleavage> <http://www.w3.org/2000/01/rdf-schema#comment> "Disjunct (Borradaile et al, 1990) cleavage characterized by short, discontinuous clavage surfaces, typically with concentrations of phyllosilicate minerals. Common in micaceous sandstone."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/rough_cleavage> <http://www.w3.org/2000/01/rdf-schema#label> "rough cleavage"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/s_fabric
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/s_fabric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/s_fabric> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/grain_shape_foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/s_fabric> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/tectonic_foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/s_fabric> <http://purl.org/dc/terms/source> "Geoscience Victoria, Australia"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/s_fabric> <http://www.w3.org/2000/01/rdf-schema#comment> "Foliation in mylonite defined by alignment of tabular crystals or deformed mineral grains, often with sigmoid shape, typically curving into an associated ductile shear banding foliation (C fabric) with a consistent sense."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/s_fabric> <http://www.w3.org/2000/01/rdf-schema#label> "s fabric"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/scaly_cleavage
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/scaly_cleavage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/scaly_cleavage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/spaced_cleavage> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/scaly_cleavage> <http://purl.org/dc/terms/source> "Based on Jackson 1997"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/scaly_cleavage> <http://www.w3.org/2000/01/rdf-schema#comment> "Discrete, anastomosing spaced cleavage characterized by smooth and highly polished/slickensided cleavage surfaces that intersect with one another to form lensoid flakes, scales or chips. Common in pelitic rocks in shear zones, melange, or deformed accretionary complexes."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/scaly_cleavage> <http://www.w3.org/2000/01/rdf-schema#label> "scaly cleavage"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/schistosity
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/schistosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/schistosity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/tectonic_foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/schistosity> <http://purl.org/dc/terms/source> "NADM metamorphic rock vocabulary (https://pubs.usgs.gov/of/2004/1451/sltt/appendixB/appendixB.pdf) SLTTm1.0 2004"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/schistosity> <http://www.w3.org/2000/01/rdf-schema#comment> "A fabric defined the parallel, planar arrangement of mineral grains having a platy, lamellar, or tabular crystallographic habit that are oriented in a continuous planar or rarely a linear fabric. Schistosity is commonly, but not necessarily, a crystalloblastic foliation. Platy mineral grains typically 1 to 10 mm across (Jackson, 1997), at smaller grain size grades into phyllitic cleavage. Schistosity is typically associated with a continuous cleavage due to the tendency to part parallel to the aligned mineral grains."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/schistosity> <http://www.w3.org/2000/01/rdf-schema#label> "schistosity"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/sedimentary_layering
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/sedimentary_layering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/sedimentary_layering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/bedding_fabric> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/sedimentary_layering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/layering> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/sedimentary_layering> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/sedimentary_layering> <http://www.w3.org/2000/01/rdf-schema#comment> "Layering resulting from primary sedimentary processes, in which the individual layers (beds) are bounded by discontinuities related to events in the depositional history."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/sedimentary_layering> <http://www.w3.org/2000/01/rdf-schema#label> "sedimentary layering"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/slaty_cleavage
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/slaty_cleavage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/slaty_cleavage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/continuous_cleavage> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/slaty_cleavage> <http://purl.org/dc/terms/source> "Brodie, Kate, Fettes, Douglas, and Harte, Ben, 2007, Structural terms including fault rock terms, in Fettes, D., and Desmons, J., Metamorphic rocks-A classification and Glossary of Terms: Cambridge, UK, Cambridge University Press, p. 24-31., Jackson 1997"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/slaty_cleavage> <http://www.w3.org/2000/01/rdf-schema#comment> "Continuous cleavage defined by aligned fine to very-fine grained phylosilicate mineral grains. The individual grains defining the fabric are too small to be seen by the unaided eye. Grades into phyllitic cleavage as grain size increases. Cleavage domains typically less than 100 micrometres wide, rock easily splits into slabs and thin plates."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/slaty_cleavage> <http://www.w3.org/2000/01/rdf-schema#label> "slaty cleavage"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/solution_cleavage
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/solution_cleavage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/solution_cleavage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/spaced_cleavage> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/solution_cleavage> <http://purl.org/dc/terms/source> "Geoscience Victoria, Australia"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/solution_cleavage> <http://www.w3.org/2000/01/rdf-schema#comment> "Spaced cleavage forming an array of parallel to anastomosing, stylolitic to smooth, fracture-like partings formed by rock dissolution. Dissolution is indicated by discontinuity and offset of primary features that intersect cleavage surfaces, and typically by accumulation of insoluble residue along cleavage surface. Syn. stylolitic cleavage, pressure solution cleavage"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/solution_cleavage> <http://www.w3.org/2000/01/rdf-schema#label> "solution cleavage"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/spaced_cleavage
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/spaced_cleavage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/spaced_cleavage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cleavage> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/spaced_cleavage> <http://purl.org/dc/terms/source> "Borradaile et al. 1982"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/spaced_cleavage> <http://www.w3.org/2000/01/rdf-schema#comment> "Cleavage in which cleavage domains are spaced at finite intervals as the scale of description. Microlithons of uncleaved rock separate cleavage domains."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/spaced_cleavage> <http://www.w3.org/2000/01/rdf-schema#label> "spaced cleavage"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/stromatic_layering
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/stromatic_layering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/stromatic_layering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/metamorphic_layering> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/stromatic_layering> <http://purl.org/dc/terms/source> "Weiss 1972, Borradaile et al 1982, Neuendorf et al. 2005"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/stromatic_layering> <http://www.w3.org/2000/01/rdf-schema#comment> "Tectonic layering in which variations that distinguish the layers are the result of melt segregation during high-grade metamorphism, some layers have magmatic/igneous mineralogy. Plates 143 and 144, Borradaile et al [1982] (page 344-347) Syn. Migmatitic layering, lit-par-lit layering"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/stromatic_layering> <http://www.w3.org/2000/01/rdf-schema#label> "stromatic layering"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/stromatolitic_lamination
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/stromatolitic_lamination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/stromatolitic_lamination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/cryptomicrobial_lamination> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/stromatolitic_lamination> <http://purl.org/dc/terms/source> "Based on Neuendorf et al 2005"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/stromatolitic_lamination> <http://www.w3.org/2000/01/rdf-schema#comment> "Lamination produced by sediment trapping, binding and or precipitation by cyanophytes (blue-green algae)"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/stromatolitic_lamination> <http://www.w3.org/2000/01/rdf-schema#label> "stromatolitic lamination"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/tectonic_foliation
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/tectonic_foliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/tectonic_foliation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/tectonic_foliation> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/tectonic_foliation> <http://www.w3.org/2000/01/rdf-schema#comment> "Foliation in a rock body defined by physical components related to deformation subsequent to solidification of the rock."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/tectonic_foliation> <http://www.w3.org/2000/01/rdf-schema#label> "tectonic foliation"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/tectonic_layering
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/tectonic_layering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/tectonic_layering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/layering> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/tectonic_layering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/tectonic_foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/tectonic_layering> <http://purl.org/dc/terms/source> "Weiss 1972, Borradaile et al 1982, CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/tectonic_layering> <http://www.w3.org/2000/01/rdf-schema#comment> "Layering defined by mineralogical or textural variations in a rock body that are interpreted to be related to deformation or metamorphism, commonly associated with layers that have sharp boundaries. Also known as gneissic foliation. See plates 142-145 (p. 342-349) in Borradaile et al [1982] and plate 46A to 49A in Weiss [1972]."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/tectonic_layering> <http://www.w3.org/2000/01/rdf-schema#label> "tectonic layering"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/transposed_bedding_layering
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/transposed_bedding_layering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/transposed_bedding_layering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/metamorphic_layering_inherited_from_protolith> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/transposed_bedding_layering> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/transposed_bedding_layering> <http://www.w3.org/2000/01/rdf-schema#comment> "Layering interpreted to have originated as sedimentary bedding that has been transposed as a result of metamorphism and deformation."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/transposed_bedding_layering> <http://www.w3.org/2000/01/rdf-schema#label> "transposed bedding layering"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/ultramylonite_foliation
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/ultramylonite_foliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/ultramylonite_foliation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/generic_mylonitic_foliation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/ultramylonite_foliation> <http://purl.org/dc/terms/source> "NADM metamorphic rock vocabulary (https://pubs.usgs.gov/of/2004/1451/sltt/appendixB/appendixB.pdf) SLTTm1.0 2004,  Sibson 1977"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/ultramylonite_foliation> <http://www.w3.org/2000/01/rdf-schema#comment> "Mylonitic foliation in which greater than 90 percent of rock is matrix due to tectonic grain size reduction processes. Typically rock is very-fine grained to aphanitic, with sparse porphyroclasts, and vague to prominent lamination on a mm scale."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/ultramylonite_foliation> <http://www.w3.org/2000/01/rdf-schema#label> "ultramylonite foliation"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/undulating_lamination
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/undulating_lamination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/undulating_lamination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/bedding_lamination_structure> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/undulating_lamination> <http://purl.org/dc/terms/source> "CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/undulating_lamination> <http://www.w3.org/2000/01/rdf-schema#comment> "Gently curviplanar or wavy bedding lamination structure"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/undulating_lamination> <http://www.w3.org/2000/01/rdf-schema#label> "undulating lamination"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/vague_metamorphic_layering
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/vague_metamorphic_layering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/vague_metamorphic_layering> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/metamorphic_layering> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/vague_metamorphic_layering> <http://purl.org/dc/terms/source> "Weiss 1972,Borradaile et al 1982, CGI foliationtype SKOS vocabulary 2018-08-03"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/vague_metamorphic_layering> <http://www.w3.org/2000/01/rdf-schema#comment> "Metamorphic layering of uncertain origin, defined by subtle mineralogical or textural variations, with gradational layer boundaries. See plate 142 in Borradaile et al [1982]."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/vague_metamorphic_layering> <http://www.w3.org/2000/01/rdf-schema#label> "vague metamorphic layering"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/varve_lamination
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/varve_lamination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/varve_lamination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/bedding_lamination_structure> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/varve_lamination> <http://purl.org/dc/terms/source> "NADM sedimentary rock vocabulary (https://pubs.usgs.gov/of/2004/1451/sltt/appendixC/appendixC_pdf.zip)  NADM sedimentary rock vocabulary (https://pubs.usgs.gov/of/2004/1451/sltt/appendixC/appendixC_pdf.zip)  SLTTs 2004, Jackson 1997"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/varve_lamination> <http://www.w3.org/2000/01/rdf-schema#comment> "Bedding defined by distinct, parallel laminae (layers less than 1 cm thick), typically occurring in sequences of distinct couplets (e.g. dark and light color). Generally interpreted as deposited from suspension in still water, with each lamina thought to be an annual sedimentation unit. Typically consists of mud-size sediment."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/varve_lamination> <http://www.w3.org/2000/01/rdf-schema#label> "varve lamination"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Foliation
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

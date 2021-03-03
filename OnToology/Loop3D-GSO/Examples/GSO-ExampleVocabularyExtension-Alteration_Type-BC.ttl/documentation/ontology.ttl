@@ -1,0 +1,76 @@
+@prefix : <http://loop3d.org/GSO/ontology/2020/1/alterationtype-bc/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://loop3d.org/GSO/ontology/2020/1/alterationtype-bc/ontology> .
+
+<http://loop3d.org/GSO/ontology/2020/1/alterationtype-bc/ontology> rdf:type owl:Ontology ;
+                                                                    owl:imports <http://loop3d.org/GSO/ontology/2020/1/rockmaterial/ontology> ;
+                                                                    <http://purl.org/dc/terms/source> "British Columbia Geological Survey, 2008, Rock Properties Database:  Ministry of Energy, Mines and Petroleum Resources, BC Geological Survey, access online at https://catalogue.data.gov.bc.ca/dataset/2dc8a4f1-c8f8-4603-813e-855af99b7ba5/resource/51f0620a-42cf-458f-821c-bdd895f24fdc/download/of2008-4rpd.xls; see accompanying report http://www.geosciencebc.com/i/pdf/FinalReports/GBCReport_2008-9.pdf"@en ,
+                                                                                                      "SMR provisional 2020-06-15"@en ;
+                                                                    rdfs:comment "Extend CGI alteration type vocabulary to account for alteration reported in British Columbia Geological Survey, 2008, Rock Properties Database"@en ,
+                                                                                 "dct:date-- 2020-06-15 "@en ;
+                                                                    rdfs:label "British Columbia Alteration Type"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://loop3d.org/GSO/ontology/2020/1/alterationtype-bc/disseminated_sulphide_altered_rock
+<http://loop3d.org/GSO/ontology/2020/1/alterationtype-bc/disseminated_sulphide_altered_rock> rdf:type owl:Class ;
+                                                                                             rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/alterationtype-bc/introduced_sulphide_altered_rock> ;
+                                                                                             <http://purl.org/dc/terms/source> "British Columbia Geological Survey, 2008, Rock Properties Database"@en ,
+                                                                                                                               "SMR provisional 2020-06-15"@en ;
+                                                                                             rdfs:comment "Alteration characterized by introduction of various sulphide minerals as framework constituents in altered rock."@en ;
+                                                                                             rdfs:label "disseminated sulphide minerals alteration"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/alterationtype-bc/introduced_sulphide_altered_rock
+<http://loop3d.org/GSO/ontology/2020/1/alterationtype-bc/introduced_sulphide_altered_rock> rdf:type owl:Class ;
+                                                                                           rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/rockmaterial/altered_rock> ;
+                                                                                           <http://purl.org/dc/terms/source> "British Columbia Geological Survey, 2008, Rock Properties Database"@en ,
+                                                                                                                             "SMR provisional 2020-06-15"@en ;
+                                                                                           rdfs:comment "Alteration characterized by introduction of various sulphide minerals as framework constituents in altered rock."@en ,
+                                                                                                        "Alteration characterized by introduction of various sulphide minerals into a protolith rock as a product of hydrothermal alteration, includes veinlets, disseminated, replacement..."@en ;
+                                                                                           rdfs:label "disseminated sulphide minerals alteration"@en ,
+                                                                                                      "sulphide minerals present"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/alterationtype-bc/near_surface_oxidized_rock
+<http://loop3d.org/GSO/ontology/2020/1/alterationtype-bc/near_surface_oxidized_rock> rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/rockmaterial/altered_rock> ;
+                                                                                     <http://purl.org/dc/terms/source> "British Columbia Geological Survey, 2008, Rock Properties Database"@en ,
+                                                                                                                       "SMR provisional 2020-06-15"@en ;
+                                                                                     rdfs:comment "sulphides replaced by oxide minerals, acid leaching due to sulphide to acid reactions."@en ;
+                                                                                     rdfs:label "Near surface oxidation alteration"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/alterationtype-bc/sulphide_veinlet_altered_rock
+<http://loop3d.org/GSO/ontology/2020/1/alterationtype-bc/sulphide_veinlet_altered_rock> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/alterationtype-bc/introduced_sulphide_altered_rock> ;
+                                                                                        <http://purl.org/dc/terms/source> "British Columbia Geological Survey, 2008, Rock Properties Database"@en ,
+                                                                                                                          "SMR provisional 2020-06-15"@en ;
+                                                                                        rdfs:comment "Alteration characterized by introduction of various sulphide minerals as veinlets in rock body. Silica and other minerals may accompany sulphides in veinlets; alteration halos around veinlets are tricky to describe--TBD!."@en ;
+                                                                                        rdfs:label "sulphide minerals in veinlets"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/rockmaterial/altered_rock
+<http://loop3d.org/GSO/ontology/2020/1/rockmaterial/altered_rock> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/rockmaterial/pyritic_altered_rock
+<http://loop3d.org/GSO/ontology/2020/1/rockmaterial/pyritic_altered_rock> rdf:type owl:Class ;
+                                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/alterationtype-bc/introduced_sulphide_altered_rock> .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

@@ -1,0 +1,108 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/isPartOf
+<http://purl.org/dc/terms/isPartOf> rdf:type owl:AnnotationProperty .
+
+
+###  http://qudt.org/schema/qudt/units
+<http://qudt.org/schema/qudt/units> rdf:type owl:AnnotationProperty .
+
+
+###  http://qudt.org/schema/qudt/value
+<http://qudt.org/schema/qudt/value> rdf:type owl:AnnotationProperty .
+
+
+###  https://linked.data.gov.au/def/su/descriptionPurpose
+<https://linked.data.gov.au/def/su/descriptionPurpose> rdf:type owl:AnnotationProperty .
+
+
+###  https://linked.data.gov.au/def/su/eventProcess
+<https://linked.data.gov.au/def/su/eventProcess> rdf:type owl:AnnotationProperty .
+
+
+###  https://linked.data.gov.au/def/su/geologicHistory
+<https://linked.data.gov.au/def/su/geologicHistory> rdf:type owl:AnnotationProperty .
+
+
+###  https://linked.data.gov.au/def/su/geologicUnitType
+<https://linked.data.gov.au/def/su/geologicUnitType> rdf:type owl:AnnotationProperty .
+
+
+###  https://linked.data.gov.au/def/su/observationMethod
+<https://linked.data.gov.au/def/su/observationMethod> rdf:type owl:AnnotationProperty .
+
+
+###  https://linked.data.gov.au/def/su/olderBound
+<https://linked.data.gov.au/def/su/olderBound> rdf:type owl:AnnotationProperty .
+
+
+###  https://linked.data.gov.au/def/su/olderNamedAge
+<https://linked.data.gov.au/def/su/olderNamedAge> rdf:type owl:AnnotationProperty .
+
+
+###  https://linked.data.gov.au/def/su/stratigraphicRank
+<https://linked.data.gov.au/def/su/stratigraphicRank> rdf:type owl:AnnotationProperty .
+
+
+###  https://linked.data.gov.au/def/su/youngerBound
+<https://linked.data.gov.au/def/su/youngerBound> rdf:type owl:AnnotationProperty .
+
+
+###  https://linked.data.gov.au/def/su/youngerNamedAge
+<https://linked.data.gov.au/def/su/youngerNamedAge> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://qudt.org/schema/qudt/Quantity
+<http://qudt.org/schema/qudt/Quantity> rdf:type owl:Class .
+
+
+###  http://www.opengis.net/ont/geosparql#Feature
+<http://www.opengis.net/ont/geosparql#Feature> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://pid.geoscience.gov.au/feature/asc/gsml/geologicalunit/10505
+<http://pid.geoscience.gov.au/feature/asc/gsml/geologicalunit/10505> rdf:type owl:NamedIndividual ,
+                                                                              <http://www.opengis.net/ont/geosparql#Feature> ;
+                                                                     <http://purl.org/dc/terms/isPartOf> <http://example.com/dataset/auststrat/sus> ;
+                                                                     <https://linked.data.gov.au/def/su/descriptionPurpose> <http://resource.geosciml.org/classifier/cgi/descriptionpurpose/typical_norm> ;
+                                                                     <https://linked.data.gov.au/def/su/geologicHistory> _:genid2 ;
+                                                                     <https://linked.data.gov.au/def/su/geologicUnitType> <http://resource.geosciml.org/classifier/cgi/geologicunittype/lithostratigraphic_unit> ;
+                                                                     <https://linked.data.gov.au/def/su/observationMethod> <http://resource.geosciml.org/classifier/cgi/featureobservationmethod/synthesis_from_multiple_sources> ;
+                                                                     <https://linked.data.gov.au/def/su/stratigraphicRank> <http://resource.geosciml.org/classifier/cgi/stratigraphicrank/group> .
+
+_:genid2 <https://linked.data.gov.au/def/su/eventProcess> <http://resource.geosciml.org/classifier/cgi/eventprocess/eruption> ;
+          <https://linked.data.gov.au/def/su/olderBound> _:genid3 ;
+          <https://linked.data.gov.au/def/su/olderNamedAge> <http://resource.geosciml.org/classifier/ics/ischart/Eocene> ;
+          <https://linked.data.gov.au/def/su/youngerBound> _:genid4 ;
+          <https://linked.data.gov.au/def/su/youngerNamedAge> <http://resource.geosciml.org/classifier/ics/ischart/Oligocene> .
+
+_:genid3 rdf:type <http://qudt.org/schema/qudt/Quantity> ;
+          <http://qudt.org/schema/qudt/units> <http://qudt.org/vocab/unit/YR> ;
+          <http://qudt.org/schema/qudt/value> "4.0E7"^^xsd:float .
+
+_:genid4 rdf:type <http://qudt.org/schema/qudt/Quantity> ;
+          <http://qudt.org/schema/qudt/units> <http://qudt.org/vocab/unit/YR> ;
+          <http://qudt.org/schema/qudt/value> "3.23E7"^^xsd:float .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

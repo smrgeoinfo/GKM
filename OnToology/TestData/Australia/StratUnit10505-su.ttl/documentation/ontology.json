@@ -1,0 +1,107 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "_:genid2",
+  "https://linked.data.gov.au/def/su/eventProcess" : [ {
+    "@id" : "http://resource.geosciml.org/classifier/cgi/eventprocess/eruption"
+  } ],
+  "https://linked.data.gov.au/def/su/olderBound" : [ {
+    "@id" : "_:genid3"
+  } ],
+  "https://linked.data.gov.au/def/su/olderNamedAge" : [ {
+    "@id" : "http://resource.geosciml.org/classifier/ics/ischart/Eocene"
+  } ],
+  "https://linked.data.gov.au/def/su/youngerBound" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "https://linked.data.gov.au/def/su/youngerNamedAge" : [ {
+    "@id" : "http://resource.geosciml.org/classifier/ics/ischart/Oligocene"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://qudt.org/schema/qudt/Quantity" ],
+  "http://qudt.org/schema/qudt/units" : [ {
+    "@id" : "http://qudt.org/vocab/unit/YR"
+  } ],
+  "http://qudt.org/schema/qudt/value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "4.0E7"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://qudt.org/schema/qudt/Quantity" ],
+  "http://qudt.org/schema/qudt/units" : [ {
+    "@id" : "http://qudt.org/vocab/unit/YR"
+  } ],
+  "http://qudt.org/schema/qudt/value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "3.23E7"
+  } ]
+}, {
+  "@id" : "http://pid.geoscience.gov.au/feature/asc/gsml/geologicalunit/10505",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.opengis.net/ont/geosparql#Feature" ],
+  "http://purl.org/dc/terms/isPartOf" : [ {
+    "@id" : "http://example.com/dataset/auststrat/sus"
+  } ],
+  "https://linked.data.gov.au/def/su/descriptionPurpose" : [ {
+    "@id" : "http://resource.geosciml.org/classifier/cgi/descriptionpurpose/typical_norm"
+  } ],
+  "https://linked.data.gov.au/def/su/geologicHistory" : [ {
+    "@id" : "_:genid2"
+  } ],
+  "https://linked.data.gov.au/def/su/geologicUnitType" : [ {
+    "@id" : "http://resource.geosciml.org/classifier/cgi/geologicunittype/lithostratigraphic_unit"
+  } ],
+  "https://linked.data.gov.au/def/su/observationMethod" : [ {
+    "@id" : "http://resource.geosciml.org/classifier/cgi/featureobservationmethod/synthesis_from_multiple_sources"
+  } ],
+  "https://linked.data.gov.au/def/su/stratigraphicRank" : [ {
+    "@id" : "http://resource.geosciml.org/classifier/cgi/stratigraphicrank/group"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/isPartOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/Quantity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/units",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.opengis.net/ont/geosparql#Feature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://linked.data.gov.au/def/su/descriptionPurpose",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://linked.data.gov.au/def/su/eventProcess",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://linked.data.gov.au/def/su/geologicHistory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://linked.data.gov.au/def/su/geologicUnitType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://linked.data.gov.au/def/su/observationMethod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://linked.data.gov.au/def/su/olderBound",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://linked.data.gov.au/def/su/olderNamedAge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://linked.data.gov.au/def/su/stratigraphicRank",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://linked.data.gov.au/def/su/youngerBound",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://linked.data.gov.au/def/su/youngerNamedAge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

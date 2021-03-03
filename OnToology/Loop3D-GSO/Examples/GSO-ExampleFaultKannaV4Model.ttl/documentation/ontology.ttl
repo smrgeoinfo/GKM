@@ -1,0 +1,221 @@
+@prefix : <http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model/ontology> .
+
+<http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model/ontology> rdf:type owl:Ontology ;
+                                                                   owl:versionIRI <http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model> ;
+                                                                   owl:imports <http://loop3d.org/GSO/ontology/2020/1/master/ontology> ;
+                                                                   rdfs:comment "Data from Eric de Kemp, GSC, for Loop3D project. Owl encoding with Loop3D Geoscience Ontology by SM Richard 2020-11-16"@en ;
+                                                                   rdfs:label "Kanna V4 crosscutting fault realtionships"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent
+<http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> rdf:type owl:AnnotationProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn
+<http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn> rdf:type owl:AnnotationProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/timeIncomparableTo
+<http://loop3d.org/GSO/ontology/2020/1/common/timeIncomparableTo> rdf:type owl:AnnotationProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan
+<http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan> rdf:type owl:AnnotationProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicrelation/crosscuts
+<http://loop3d.org/GSO/ontology/2020/1/geologicrelation/crosscuts> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Faulting
+<http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Faulting> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicstructure/fault/Normal_Fault
+<http://loop3d.org/GSO/ontology/2020/1/geologicstructure/fault/Normal_Fault> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicstructure/fault/Thrust_Fault
+<http://loop3d.org/GSO/ontology/2020/1/geologicstructure/fault/Thrust_Fault> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#D02_fault
+<http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#D02_fault> rdf:type owl:NamedIndividual ,
+                                                                            <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/fault/Thrust_Fault> ;
+                                                                   <http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn> <http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#D02_fault_displacement> ;
+                                                                   rdfs:label "D02 Thrust fault"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#D02_fault_displacement
+<http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#D02_fault_displacement> rdf:type owl:NamedIndividual ,
+                                                                                         <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event> ;
+                                                                                <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid1 ;
+                                                                                rdfs:comment ""@en ;
+                                                                                rdfs:label "Displacment on D02 Fault"@en .
+
+_:genid1 rdf:type <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Faulting> ;
+          rdfs:label "D02 fault faulting process"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Fatigue_fault
+<http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Fatigue_fault> rdf:type owl:NamedIndividual ,
+                                                                                <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/fault/Thrust_Fault> ;
+                                                                       <http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn> <http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Fatigue_fault_displacement> ;
+                                                                       <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/crosscuts> <http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#D02_fault> ,
+                                                                                                                                          <http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#N01_fault> ,
+                                                                                                                                          <http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Simpson_fault> ;
+                                                                       rdfs:label "Fatigue Thrust fault"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Fatigue_fault_displacement
+<http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Fatigue_fault_displacement> rdf:type owl:NamedIndividual ,
+                                                                                             <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event> ;
+                                                                                    <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid2 ;
+                                                                                    <http://loop3d.org/GSO/ontology/2020/1/common/timeIncomparableTo> <http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#N15_fault_displacement> ;
+                                                                                    <http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan> <http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#D02_fault_displacement> ,
+                                                                                                                                                   <http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#N01_fault_displacement> ,
+                                                                                                                                                   <http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Simpson_fault_displacement> ;
+                                                                                    rdfs:comment ""@en ;
+                                                                                    rdfs:label "Displacment on Fatigue Fault"@en .
+
+_:genid2 rdf:type <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Faulting> ;
+          rdfs:label "Fatigue fault faulting process"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Mitchell_fault
+<http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Mitchell_fault> rdf:type owl:NamedIndividual ,
+                                                                                 <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/fault/Normal_Fault> ;
+                                                                        <http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn> <http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Mitchell_fault_displacement> ;
+                                                                        rdfs:label "Mitchell normal fault"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Mitchell_fault_displacement
+<http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Mitchell_fault_displacement> rdf:type owl:NamedIndividual ,
+                                                                                              <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event> ;
+                                                                                     <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid3 ;
+                                                                                     rdfs:comment ""@en ;
+                                                                                     rdfs:label "Displacment on Mitchell Fault"@en .
+
+_:genid3 rdf:type <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Faulting> ;
+          rdfs:label "Mitchell fault faulting process"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#N01_fault
+<http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#N01_fault> rdf:type owl:NamedIndividual ,
+                                                                            <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/fault/Normal_Fault> ;
+                                                                   <http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn> <http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#N01_fault_displacement> ;
+                                                                   <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/crosscuts> <http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#D02_fault> ;
+                                                                   rdfs:label "N01 normal fault"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#N01_fault_displacement
+<http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#N01_fault_displacement> rdf:type owl:NamedIndividual ,
+                                                                                         <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event> ;
+                                                                                <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid4 ;
+                                                                                rdfs:comment ""@en ;
+                                                                                rdfs:label "Displacment on N01 Fault"@en .
+
+_:genid4 rdf:type <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Faulting> ;
+          rdfs:label "N01 fault faulting process"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#N15_fault
+<http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#N15_fault> rdf:type owl:NamedIndividual ,
+                                                                            <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/fault/Normal_Fault> ;
+                                                                   <http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn> <http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#N15_fault_displacement> ;
+                                                                   rdfs:label "N15 normal fault"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#N15_fault_displacement
+<http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#N15_fault_displacement> rdf:type owl:NamedIndividual ,
+                                                                                         <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event> ;
+                                                                                <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid5 ;
+                                                                                rdfs:comment ""@en ;
+                                                                                rdfs:label "Displacment on N15 Fault"@en .
+
+_:genid5 rdf:type <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Faulting> ;
+          rdfs:label "N15 fault faulting process"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Nublet_fault
+<http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Nublet_fault> rdf:type owl:NamedIndividual ,
+                                                                               <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/fault/Thrust_Fault> ;
+                                                                      <http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn> <http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Nublet_fault_displacement> ;
+                                                                      rdfs:label "Nublet Thrust fault"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Nublet_fault_displacement
+<http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Nublet_fault_displacement> rdf:type owl:NamedIndividual ,
+                                                                                            <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event> ;
+                                                                                   <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid6 ;
+                                                                                   rdfs:comment ""@en ;
+                                                                                   rdfs:label "Displacment on Nublet Fault"@en .
+
+_:genid6 rdf:type <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Faulting> ;
+          rdfs:label "Nublet fault faulting process"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Simpson_fault
+<http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Simpson_fault> rdf:type owl:NamedIndividual ,
+                                                                                <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/fault/Thrust_Fault> ;
+                                                                       <http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn> <http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Simpson_fault_displacement> ;
+                                                                       <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/crosscuts> <http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#N15_fault> ,
+                                                                                                                                          <http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Nublet_fault> ;
+                                                                       rdfs:label "Simpson Thrust fault"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Simpson_fault_displacement
+<http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Simpson_fault_displacement> rdf:type owl:NamedIndividual ,
+                                                                                             <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event> ;
+                                                                                    <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid7 ;
+                                                                                    <http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan> <http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#N15_fault_displacement> ,
+                                                                                                                                                   <http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Nublet_fault_displacement> ;
+                                                                                    rdfs:comment ""@en ;
+                                                                                    rdfs:label "Displacment on Simpson Fault"@en .
+
+_:genid7 rdf:type <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Faulting> ;
+          rdfs:label "Simpson fault faulting process"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#T07_fault
+<http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#T07_fault> rdf:type owl:NamedIndividual ,
+                                                                            <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/fault/Thrust_Fault> ;
+                                                                   <http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn> <http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#T07_fault_displacement> ;
+                                                                   <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/crosscuts> <http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Nublet_fault> ;
+                                                                   rdfs:label "T07 Thrust fault"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#T07_fault_displacement
+<http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#T07_fault_displacement> rdf:type owl:NamedIndividual ,
+                                                                                         <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event> ;
+                                                                                <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid8 ;
+                                                                                <http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan> <http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Nublet_fault_displacement> ;
+                                                                                rdfs:comment ""@en ;
+                                                                                rdfs:label "Displacment on T07 Fault"@en .
+
+_:genid8 rdf:type <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Faulting> ;
+          rdfs:label "T07 faulting process"@en .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

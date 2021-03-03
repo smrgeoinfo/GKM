@@ -1,0 +1,49 @@
+{
+  "@context" : {
+    "youngerBound" : {
+      "@id" : "https://linked.data.gov.au/def/su/youngerBound"
+    },
+    "descriptionPurpose" : {
+      "@id" : "https://linked.data.gov.au/def/su/descriptionPurpose"
+    },
+    "geologicHistory" : {
+      "@id" : "https://linked.data.gov.au/def/su/geologicHistory"
+    },
+    "Feature" : {
+      "@id" : "http://www.opengis.net/ont/geosparql#Feature"
+    },
+    "isPartOf" : {
+      "@id" : "http://purl.org/dc/terms/isPartOf"
+    },
+    "stratigraphicRank" : {
+      "@id" : "https://linked.data.gov.au/def/su/stratigraphicRank"
+    },
+    "geologicUnitType" : {
+      "@id" : "https://linked.data.gov.au/def/su/geologicUnitType"
+    },
+    "value" : {
+      "@id" : "http://qudt.org/schema/qudt/value"
+    },
+    "Quantity" : {
+      "@id" : "http://qudt.org/schema/qudt/Quantity"
+    },
+    "olderNamedAge" : {
+      "@id" : "https://linked.data.gov.au/def/su/olderNamedAge"
+    },
+    "units" : {
+      "@id" : "http://qudt.org/schema/qudt/units"
+    },
+    "olderBound" : {
+      "@id" : "https://linked.data.gov.au/def/su/olderBound"
+    },
+    "youngerNamedAge" : {
+      "@id" : "https://linked.data.gov.au/def/su/youngerNamedAge"
+    },
+    "observationMethod" : {
+      "@id" : "https://linked.data.gov.au/def/su/observationMethod"
+    },
+    "eventProcess" : {
+      "@id" : "https://linked.data.gov.au/def/su/eventProcess"
+    }
+  }
+}

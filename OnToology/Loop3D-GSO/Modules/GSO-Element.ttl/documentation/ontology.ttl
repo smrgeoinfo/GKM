@@ -1,0 +1,1191 @@
+@prefix : <http://loop3d.org/GSO/ontology/2020/1/element/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://loop3d.org/GSO/ontology/2020/1/element/ontology> .
+
+<http://loop3d.org/GSO/ontology/2020/1/element/ontology> rdf:type owl:Ontology ;
+                                                          owl:imports <http://loop3d.org/GSO/ontology/2020/1/common/ontology> ;
+                                                          rdfs:comment "use wikidata URIs. Extracted via SPARQL query. Include atomic number, abbreviation (symbol), rdfs label, CHEBI URI, wikidata URI, and Encyclopedia Britannica link (in rdfs:seeAlso)"@en ;
+                                                          rdfs:label "Element"@en ;
+                                                          rdfs:seeAlso "https://robertdavidstevens.wordpress.com/2010/12/21/an-ontology-for-inferring-the-periodic-table-of-the-elements/ for future elaboration ...."@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/hasAnnotation
+<http://loop3d.org/GSO/ontology/2020/1/common/hasAnnotation> rdf:type owl:AnnotationProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber
+<http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> rdf:type owl:AnnotationProperty ;
+                                                             rdfs:label "atomicNumber"@en ;
+                                                             rdfs:subPropertyOf <http://loop3d.org/GSO/ontology/2020/1/common/hasAnnotation> .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/chebiid
+<http://loop3d.org/GSO/ontology/2020/1/element/chebiid> rdf:type owl:AnnotationProperty ;
+                                                        rdfs:label "chebiid"@en ;
+                                                        rdfs:subPropertyOf <http://loop3d.org/GSO/ontology/2020/1/common/hasAnnotation> .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/id
+<http://loop3d.org/GSO/ontology/2020/1/element/id> rdf:type owl:AnnotationProperty ;
+                                                   rdfs:label "id"@en ;
+                                                   rdfs:subPropertyOf <http://loop3d.org/GSO/ontology/2020/1/common/hasAnnotation> .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/itemLabel
+<http://loop3d.org/GSO/ontology/2020/1/element/itemLabel> rdf:type owl:AnnotationProperty ;
+                                                          rdfs:label "itemLabel"@en ;
+                                                          rdfs:subPropertyOf <http://loop3d.org/GSO/ontology/2020/1/common/hasAnnotation> .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/symbol
+<http://loop3d.org/GSO/ontology/2020/1/element/symbol> rdf:type owl:AnnotationProperty ;
+                                                       rdfs:label "symbol"@en ;
+                                                       rdfs:subPropertyOf <http://loop3d.org/GSO/ontology/2020/1/common/hasAnnotation> .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/wikidataid
+<http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> rdf:type owl:AnnotationProperty ;
+                                                           rdfs:label "wikidataid"@en ;
+                                                           rdfs:subPropertyOf <http://loop3d.org/GSO/ontology/2020/1/common/hasAnnotation> .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Element
+<http://loop3d.org/GSO/ontology/2020/1/common/Element> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/actinium
+<http://loop3d.org/GSO/ontology/2020/1/element/actinium> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 89 ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33337"^^xsd:anyURI ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Ac" ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "https://www.wikidata.org/wiki/Q1121" ;
+                                                         rdfs:label "actinium"@en ;
+                                                         rdfs:seeAlso "https://www.britannica.com/science/actinium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/aluminium
+<http://loop3d.org/GSO/ontology/2020/1/element/aluminium> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 13 ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_28984"^^xsd:anyURI ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Al" ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "https://www.wikidata.org/wiki/Q663" ;
+                                                          rdfs:label "aluminium"@en ;
+                                                          rdfs:seeAlso "https://www.britannica.com/science/aluminium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/americium
+<http://loop3d.org/GSO/ontology/2020/1/element/americium> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 95 ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33389"^^xsd:anyURI ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Am" ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "https://www.wikidata.org/wiki/Q663" ;
+                                                          rdfs:label "americium"@en ;
+                                                          rdfs:seeAlso "https://www.britannica.com/science/americium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/antimony
+<http://loop3d.org/GSO/ontology/2020/1/element/antimony> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 51 ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_30513"^^xsd:anyURI ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Sb" ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1099"^^xsd:anyURI ;
+                                                         rdfs:label "antimony"@en ;
+                                                         rdfs:seeAlso "https://www.britannica.com/science/antimony"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/argon
+<http://loop3d.org/GSO/ontology/2020/1/element/argon> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                      <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 18 ;
+                                                      <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_49475"^^xsd:anyURI ;
+                                                      <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "As" ;
+                                                      <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q871"^^xsd:anyURI ;
+                                                      rdfs:label "arsenic"@en ;
+                                                      rdfs:seeAlso "https://www.britannica.com/science/arsenic"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/astatine
+<http://loop3d.org/GSO/ontology/2020/1/element/astatine> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 85 ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_30415"^^xsd:anyURI ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "At" ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q999"^^xsd:anyURI ;
+                                                         rdfs:label "astatine"@en ;
+                                                         rdfs:seeAlso "https://www.britannica.com/science/astatine"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/barium
+<http://loop3d.org/GSO/ontology/2020/1/element/barium> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 56 ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_32595"^^xsd:anyURI ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Ba" ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1112"^^xsd:anyURI ;
+                                                       rdfs:label "barium"@en ;
+                                                       rdfs:seeAlso "https://www.britannica.com/science/barium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/berkelium
+<http://loop3d.org/GSO/ontology/2020/1/element/berkelium> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 97 ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33391"^^xsd:anyURI ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Bk" ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1882"^^xsd:anyURI ;
+                                                          rdfs:label "berkelium"@en ;
+                                                          rdfs:seeAlso "https://www.britannica.com/science/berkelium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/beryllium
+<http://loop3d.org/GSO/ontology/2020/1/element/beryllium> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 4 ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33783"^^xsd:anyURI ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Be" ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q569"^^xsd:anyURI ;
+                                                          rdfs:label "beryllium"@en ;
+                                                          rdfs:seeAlso "https://www.britannica.com/science/beryllium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/bismuth
+<http://loop3d.org/GSO/ontology/2020/1/element/bismuth> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 83 ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33301"^^xsd:anyURI ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Bi" ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q942" ;
+                                                        rdfs:label "bismuth"@en ;
+                                                        rdfs:seeAlso "https://www.britannica.com/science/bismuth"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/boron
+<http://loop3d.org/GSO/ontology/2020/1/element/boron> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                      <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 5 ;
+                                                      <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_27560"^^xsd:anyURI ;
+                                                      <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Cs" ;
+                                                      <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1108"^^xsd:anyURI ;
+                                                      rdfs:label "caesium"@en ;
+                                                      rdfs:seeAlso "https://www.britannica.com/science/cesium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/calcium
+<http://loop3d.org/GSO/ontology/2020/1/element/calcium> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 20 ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_22984"^^xsd:anyURI ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Ca" ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q706"^^xsd:anyURI ;
+                                                        rdfs:label "calcium"@en ;
+                                                        rdfs:seeAlso "https://www.britannica.com/science/calcium"^^xsd:anyURI ,
+                                                                     "https://www.britannica.com/science/calcium-ion"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/californium
+<http://loop3d.org/GSO/ontology/2020/1/element/californium> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                            <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 98 ;
+                                                            <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33392"^^xsd:anyURI ;
+                                                            <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Cf" ;
+                                                            <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1888"^^xsd:anyURI ;
+                                                            rdfs:label "californium"@en ;
+                                                            rdfs:seeAlso "https://www.britannica.com/science/californium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/carbon
+<http://loop3d.org/GSO/ontology/2020/1/element/carbon> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 6 ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33415"^^xsd:anyURI ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "C" ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q623"^^xsd:anyURI ;
+                                                       rdfs:label "carbon"@en ;
+                                                       rdfs:seeAlso "https://www.britannica.com/science/carbon-chemical-element"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/cerium
+<http://loop3d.org/GSO/ontology/2020/1/element/cerium> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 58 ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33369"^^xsd:anyURI ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Ce" ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1385"^^xsd:anyURI ;
+                                                       rdfs:label "cerium"@en ;
+                                                       rdfs:seeAlso "https://www.britannica.com/science/cerium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/chlorine
+<http://loop3d.org/GSO/ontology/2020/1/element/chlorine> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 17 ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_23116"^^xsd:anyURI ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Cl" ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q688"^^xsd:anyURI ;
+                                                         rdfs:label "chlorine"@en ;
+                                                         rdfs:seeAlso "https://www.britannica.com/science/chlorine"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/chromium
+<http://loop3d.org/GSO/ontology/2020/1/element/chromium> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 24 ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_28073"^^xsd:anyURI ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Cr" ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q725"^^xsd:anyURI ;
+                                                         rdfs:label "chromium"@en ;
+                                                         rdfs:seeAlso "https://www.britannica.com/science/chromium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/cobalt
+<http://loop3d.org/GSO/ontology/2020/1/element/cobalt> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 27 ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_27638"^^xsd:anyURI ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Co" ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q740"^^xsd:anyURI ;
+                                                       rdfs:label "cobalt"@en ;
+                                                       rdfs:seeAlso "https://www.britannica.com/science/cobalt-chemical-element"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/copper
+<http://loop3d.org/GSO/ontology/2020/1/element/copper> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 29 ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_30052"^^xsd:anyURI ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Cu" ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q753"^^xsd:anyURI ;
+                                                       rdfs:label "copper"@en ;
+                                                       rdfs:seeAlso "https://www.britannica.com/science/copper"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/curium
+<http://loop3d.org/GSO/ontology/2020/1/element/curium> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 96 ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33390"^^xsd:anyURI ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Cm" ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1876"^^xsd:anyURI ;
+                                                       rdfs:label "curium"@en ;
+                                                       rdfs:seeAlso "https://www.britannica.com/science/curium-chemical-element"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/dubnium
+<http://loop3d.org/GSO/ontology/2020/1/element/dubnium> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 105 ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33349"^^xsd:anyURI ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Db" ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1232"^^xsd:anyURI ;
+                                                        rdfs:label "dubnium"@en ;
+                                                        rdfs:seeAlso "https://www.britannica.com/science/dubnium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/dysprosium
+<http://loop3d.org/GSO/ontology/2020/1/element/dysprosium> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 66 ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33377"^^xsd:anyURI ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Dy" ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1843"^^xsd:anyURI ;
+                                                           rdfs:label "dysprosium"@en ;
+                                                           rdfs:seeAlso "https://www.britannica.com/science/dysprosium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/einsteinium
+<http://loop3d.org/GSO/ontology/2020/1/element/einsteinium> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                            <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 99 ;
+                                                            <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33393"^^xsd:anyURI ;
+                                                            <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Es" ;
+                                                            <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1892"^^xsd:anyURI ;
+                                                            rdfs:label "einsteinium"@en ;
+                                                            rdfs:seeAlso "https://www.britannica.com/science/einsteinium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/erbium
+<http://loop3d.org/GSO/ontology/2020/1/element/erbium> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 68 ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33379"^^xsd:anyURI ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Er" ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1849"^^xsd:anyURI ;
+                                                       rdfs:label "erbium"@en ;
+                                                       rdfs:seeAlso "https://www.britannica.com/science/erbium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/europium
+<http://loop3d.org/GSO/ontology/2020/1/element/europium> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 63 ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_32999"^^xsd:anyURI ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Eu" ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1396"^^xsd:anyURI ;
+                                                         rdfs:label "europium"@en ;
+                                                         rdfs:seeAlso "https://www.britannica.com/science/europium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/fermium
+<http://loop3d.org/GSO/ontology/2020/1/element/fermium> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 100 ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33394"^^xsd:anyURI ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Fm" ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1896"^^xsd:anyURI ;
+                                                        rdfs:label "fermium"@en ;
+                                                        rdfs:seeAlso "https://www.britannica.com/science/fermium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/fluorine
+<http://loop3d.org/GSO/ontology/2020/1/element/fluorine> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 9 ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_30239"^^xsd:anyURI ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "F" ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q650"^^xsd:anyURI ;
+                                                         rdfs:label "fluorine"@en ;
+                                                         rdfs:seeAlso "https://www.britannica.com/science/fluorine"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/francium
+<http://loop3d.org/GSO/ontology/2020/1/element/francium> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 87 ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33323"^^xsd:anyURI ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Fr" ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q671"^^xsd:anyURI ;
+                                                         rdfs:label "francium"@en ;
+                                                         rdfs:seeAlso "https://www.britannica.com/science/francium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/gadolinium
+<http://loop3d.org/GSO/ontology/2020/1/element/gadolinium> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 64 ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33375"^^xsd:anyURI ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Gd" ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1832"^^xsd:anyURI ;
+                                                           rdfs:label "gadolinium"@en ;
+                                                           rdfs:seeAlso "https://www.britannica.com/science/gadolinium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/gallium
+<http://loop3d.org/GSO/ontology/2020/1/element/gallium> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 31 ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_49631"^^xsd:anyURI ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Ga" ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q861"^^xsd:anyURI ;
+                                                        rdfs:label "gallium"@en ;
+                                                        rdfs:seeAlso "https://www.britannica.com/science/germanium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/germanium
+<http://loop3d.org/GSO/ontology/2020/1/element/germanium> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 32 ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_30441"^^xsd:anyURI ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Ge" ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q867"^^xsd:anyURI ;
+                                                          rdfs:label "germanium"@en ;
+                                                          rdfs:seeAlso "https://www.britannica.com/science/gallium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/gold
+<http://loop3d.org/GSO/ontology/2020/1/element/gold> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                     <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 79 ;
+                                                     <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_30050"^^xsd:anyURI ;
+                                                     <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Au" ;
+                                                     <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q897"^^xsd:anyURI ;
+                                                     rdfs:label "gold"@en ;
+                                                     rdfs:seeAlso "https://www.britannica.com/science/gold-chemical-element"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/hafnium
+<http://loop3d.org/GSO/ontology/2020/1/element/hafnium> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 72 ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33343"^^xsd:anyURI ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Hf" ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1119"^^xsd:anyURI ;
+                                                        rdfs:label "hafnium"@en ;
+                                                        rdfs:seeAlso "https://www.britannica.com/science/hafnium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/helium
+<http://loop3d.org/GSO/ontology/2020/1/element/helium> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 2 ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_30217"^^xsd:anyURI ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "He" ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q560"^^xsd:anyURI ;
+                                                       rdfs:label "helium"@en ;
+                                                       rdfs:seeAlso "https://www.britannica.com/science/helium-chemical-element"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/holmium
+<http://loop3d.org/GSO/ontology/2020/1/element/holmium> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 67 ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_49648"^^xsd:anyURI ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Ho" ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1846"^^xsd:anyURI ;
+                                                        rdfs:label "holmium"@en ;
+                                                        rdfs:seeAlso "https://www.britannica.com/science/holmium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/hydrogen
+<http://loop3d.org/GSO/ontology/2020/1/element/hydrogen> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 1 ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_49637"^^xsd:anyURI ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "H" ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q556"^^xsd:anyURI ;
+                                                         rdfs:label "hydrogen"@en ;
+                                                         rdfs:seeAlso "https://www.britannica.com/science/hydrogen"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/indium
+<http://loop3d.org/GSO/ontology/2020/1/element/indium> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 49 ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_30430"^^xsd:anyURI ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "In" ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1094"^^xsd:anyURI ;
+                                                       rdfs:label "indium"@en ;
+                                                       rdfs:seeAlso "https://www.britannica.com/science/indium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/iodine
+<http://loop3d.org/GSO/ontology/2020/1/element/iodine> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 53 ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_36897"^^xsd:anyURI ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "I" ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1103"^^xsd:anyURI ;
+                                                       rdfs:label "iodine"@en ;
+                                                       rdfs:seeAlso "https://www.britannica.com/science/iodine"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/iridium
+<http://loop3d.org/GSO/ontology/2020/1/element/iridium> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 77 ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_49666"^^xsd:anyURI ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Ir" ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q877"^^xsd:anyURI ;
+                                                        rdfs:label "iridium"@en ;
+                                                        rdfs:seeAlso "https://www.britannica.com/science/iridium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/iron
+<http://loop3d.org/GSO/ontology/2020/1/element/iron> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                     <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 26 ;
+                                                     <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_18248"^^xsd:anyURI ;
+                                                     <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Fe" ;
+                                                     <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q677"^^xsd:anyURI ;
+                                                     rdfs:label "iron"@en ;
+                                                     rdfs:seeAlso "https://www.britannica.com/science/iron-chemical-element"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/krypton
+<http://loop3d.org/GSO/ontology/2020/1/element/krypton> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 36 ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_49696"^^xsd:anyURI ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Kr" ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q888"^^xsd:anyURI ;
+                                                        rdfs:label "krypton"@en ;
+                                                        rdfs:seeAlso "https://www.britannica.com/science/krypton-chemical-element"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/lanthanum
+<http://loop3d.org/GSO/ontology/2020/1/element/lanthanum> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 57 ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33336"^^xsd:anyURI ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "La" ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1801"^^xsd:anyURI ;
+                                                          rdfs:label "lanthanum"@en ;
+                                                          rdfs:seeAlso "https://www.britannica.com/science/lanthanum"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/lawrencium
+<http://loop3d.org/GSO/ontology/2020/1/element/lawrencium> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 103 ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33397"^^xsd:anyURI ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Lr" ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1905"^^xsd:anyURI ;
+                                                           rdfs:label "lawrencium"@en ;
+                                                           rdfs:seeAlso "https://www.britannica.com/science/lawrencium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/lead
+<http://loop3d.org/GSO/ontology/2020/1/element/lead> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                     <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 82 ;
+                                                     <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_27889"^^xsd:anyURI ;
+                                                     <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Pb" ;
+                                                     <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q708"^^xsd:anyURI ;
+                                                     rdfs:label "lead"@en ;
+                                                     rdfs:seeAlso "https://www.britannica.com/science/lead-chemical-element"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/lithium
+<http://loop3d.org/GSO/ontology/2020/1/element/lithium> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 3 ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_30145"^^xsd:anyURI ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Li" ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q568"^^xsd:anyURI ;
+                                                        rdfs:label "lithium"@en ;
+                                                        rdfs:seeAlso "https://www.britannica.com/science/lithium-chemical-element"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/lutetium
+<http://loop3d.org/GSO/ontology/2020/1/element/lutetium> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 71 ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33382"^^xsd:anyURI ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Lu" ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1857"^^xsd:anyURI ;
+                                                         rdfs:label "lutetium"@en ;
+                                                         rdfs:seeAlso "https://www.britannica.com/science/lutetium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/magnesium
+<http://loop3d.org/GSO/ontology/2020/1/element/magnesium> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 12 ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_25107"^^xsd:anyURI ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Mg" ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q660"^^xsd:anyURI ;
+                                                          rdfs:label "magnesium"@en ;
+                                                          rdfs:seeAlso "https://www.britannica.com/science/magnesium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/manganese
+<http://loop3d.org/GSO/ontology/2020/1/element/manganese> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 25 ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_18291"^^xsd:anyURI ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Mn" ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q731"^^xsd:anyURI ;
+                                                          rdfs:label "manganese"@en ;
+                                                          rdfs:seeAlso "https://www.britannica.com/science/manganese"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/mendelevium
+<http://loop3d.org/GSO/ontology/2020/1/element/mendelevium> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                            <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 101 ;
+                                                            <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33395"^^xsd:anyURI ;
+                                                            <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Md" ;
+                                                            <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1898"^^xsd:anyURI ;
+                                                            rdfs:label "mendelevium"@en ;
+                                                            rdfs:seeAlso "https://www.britannica.com/science/mendelevium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/mercury
+<http://loop3d.org/GSO/ontology/2020/1/element/mercury> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 80 ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_16170"^^xsd:anyURI ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Hg" ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q925"^^xsd:anyURI ;
+                                                        rdfs:label "mercury"@en ;
+                                                        rdfs:seeAlso "https://www.britannica.com/science/mercury-chemical-element"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/molybdenum
+<http://loop3d.org/GSO/ontology/2020/1/element/molybdenum> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 42 ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_28685"^^xsd:anyURI ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Mo" ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1053"^^xsd:anyURI ;
+                                                           rdfs:label "molybdenum"@en ;
+                                                           rdfs:seeAlso "https://www.britannica.com/science/molybdenum"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/neodymium
+<http://loop3d.org/GSO/ontology/2020/1/element/neodymium> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 60 ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33372"^^xsd:anyURI ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Nd" ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1388"^^xsd:anyURI ;
+                                                          rdfs:label "neodymium"@en ;
+                                                          rdfs:seeAlso "https://www.britannica.com/science/neodymium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/neon
+<http://loop3d.org/GSO/ontology/2020/1/element/neon> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                     <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 10 ;
+                                                     <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33310"^^xsd:anyURI ;
+                                                     <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Ne" ;
+                                                     <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q654"^^xsd:anyURI ;
+                                                     rdfs:label "neon"@en ;
+                                                     rdfs:seeAlso "https://www.britannica.com/science/neon-chemical-element"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/neptunium
+<http://loop3d.org/GSO/ontology/2020/1/element/neptunium> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 93 ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33387"^^xsd:anyURI ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Np" ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1105"^^xsd:anyURI ;
+                                                          rdfs:label "neptunium"@en ;
+                                                          rdfs:seeAlso "https://www.britannica.com/science/neptunium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/nickel
+<http://loop3d.org/GSO/ontology/2020/1/element/nickel> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 28 ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_28112"^^xsd:anyURI ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Ni" ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q744"^^xsd:anyURI ;
+                                                       rdfs:label "nickel"@en ;
+                                                       rdfs:seeAlso "https://www.britannica.com/science/nickel-chemical-element"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/niobium
+<http://loop3d.org/GSO/ontology/2020/1/element/niobium> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 41 ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33344"^^xsd:anyURI ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Nb" ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1046"^^xsd:anyURI ;
+                                                        rdfs:label "niobium"@en ;
+                                                        rdfs:seeAlso "https://www.britannica.com/science/niobium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/nitrogen
+<http://loop3d.org/GSO/ontology/2020/1/element/nitrogen> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 7 ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_25555"^^xsd:anyURI ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "N" ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q627"^^xsd:anyURI ;
+                                                         rdfs:label "nitrogen"@en ;
+                                                         rdfs:seeAlso "https://www.britannica.com/science/nitrogen"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/nobelium
+<http://loop3d.org/GSO/ontology/2020/1/element/nobelium> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 102 ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33396"^^xsd:anyURI ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "No" ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1901"^^xsd:anyURI ;
+                                                         rdfs:label "nobelium"@en ;
+                                                         rdfs:seeAlso "https://www.britannica.com/science/nobelium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/osmium
+<http://loop3d.org/GSO/ontology/2020/1/element/osmium> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 76 ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_30687"^^xsd:anyURI ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Os" ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q751"^^xsd:anyURI ;
+                                                       rdfs:label "osmium"@en ;
+                                                       rdfs:seeAlso "https://www.britannica.com/science/osmium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/oxygen
+<http://loop3d.org/GSO/ontology/2020/1/element/oxygen> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 8 ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_25805"^^xsd:anyURI ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "O" ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q629"^^xsd:anyURI ;
+                                                       rdfs:label "oxygen"@en ;
+                                                       rdfs:seeAlso "https://www.britannica.com/science/oxygen"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/palladium
+<http://loop3d.org/GSO/ontology/2020/1/element/palladium> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 46 ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33363"^^xsd:anyURI ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Pd" ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1089"^^xsd:anyURI ;
+                                                          rdfs:label "palladium"@en ;
+                                                          rdfs:seeAlso "https://www.britannica.com/science/palladium-chemical-element"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/phosphorus
+<http://loop3d.org/GSO/ontology/2020/1/element/phosphorus> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 15 ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_28659"^^xsd:anyURI ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "P" ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q674"^^xsd:anyURI ;
+                                                           rdfs:label "phosphorus"@en ;
+                                                           rdfs:seeAlso "https://www.britannica.com/science/phosphor"^^xsd:anyURI ,
+                                                                        "https://www.britannica.com/science/phosphorus-chemical-element"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/platinum
+<http://loop3d.org/GSO/ontology/2020/1/element/platinum> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 78 ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33364"^^xsd:anyURI ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Pt" ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q880"^^xsd:anyURI ;
+                                                         rdfs:label "platinum"@en ;
+                                                         rdfs:seeAlso "https://www.britannica.com/science/platinum"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/plutonium
+<http://loop3d.org/GSO/ontology/2020/1/element/plutonium> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 94 ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33388"^^xsd:anyURI ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Pu" ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1102"^^xsd:anyURI ;
+                                                          rdfs:label "plutonium"@en ;
+                                                          rdfs:seeAlso "https://www.britannica.com/science/plutonium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/polonium
+<http://loop3d.org/GSO/ontology/2020/1/element/polonium> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 84 ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33313"^^xsd:anyURI ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Po" ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q979"^^xsd:anyURI ;
+                                                         rdfs:label "polonium"@en ;
+                                                         rdfs:seeAlso "https://www.britannica.com/science/polonium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/potassium
+<http://loop3d.org/GSO/ontology/2020/1/element/potassium> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 19 ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_26216"^^xsd:anyURI ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "K" ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q703"^^xsd:anyURI ;
+                                                          rdfs:label "potassium"@en ;
+                                                          rdfs:seeAlso "https://www.britannica.com/science/potassium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/praseodymium
+<http://loop3d.org/GSO/ontology/2020/1/element/praseodymium> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                             <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 59 ;
+                                                             <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_49828"^^xsd:anyURI ;
+                                                             <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Pr" ;
+                                                             <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1386"^^xsd:anyURI ;
+                                                             rdfs:label "praseodymium"@en ;
+                                                             rdfs:seeAlso "https://www.britannica.com/science/praseodymium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/promethium
+<http://loop3d.org/GSO/ontology/2020/1/element/promethium> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 61 ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33373"^^xsd:anyURI ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Pm" ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1809"^^xsd:anyURI ;
+                                                           rdfs:label "promethium"@en ;
+                                                           rdfs:seeAlso "https://www.britannica.com/science/promethium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/protactinium
+<http://loop3d.org/GSO/ontology/2020/1/element/protactinium> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                             <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 91 ;
+                                                             <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33386"^^xsd:anyURI ;
+                                                             <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Pa" ;
+                                                             <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1109"^^xsd:anyURI ;
+                                                             rdfs:label "protactinium"@en ;
+                                                             rdfs:seeAlso "https://www.britannica.com/science/protactinium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/radium
+<http://loop3d.org/GSO/ontology/2020/1/element/radium> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 88 ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33325"^^xsd:anyURI ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Ra" ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1128"^^xsd:anyURI ;
+                                                       rdfs:label "radium"@en ;
+                                                       rdfs:seeAlso "https://www.britannica.com/science/radium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/radon
+<http://loop3d.org/GSO/ontology/2020/1/element/radon> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                      <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 86 ;
+                                                      <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33314"^^xsd:anyURI ;
+                                                      <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Rn" ;
+                                                      <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1133"^^xsd:anyURI ;
+                                                      rdfs:label "radon"@en ;
+                                                      rdfs:seeAlso "https://www.britannica.com/science/radon"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/rhenium
+<http://loop3d.org/GSO/ontology/2020/1/element/rhenium> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 75 ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_49882"^^xsd:anyURI ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Re" ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q737"^^xsd:anyURI ;
+                                                        rdfs:label "rhenium"@en ;
+                                                        rdfs:seeAlso "https://www.britannica.com/science/rhenium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/rhodium
+<http://loop3d.org/GSO/ontology/2020/1/element/rhodium> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 45 ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33359"^^xsd:anyURI ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Rh" ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1087"^^xsd:anyURI ;
+                                                        rdfs:label "rhodium"@en ;
+                                                        rdfs:seeAlso "https://www.britannica.com/science/rhodium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/rubidium
+<http://loop3d.org/GSO/ontology/2020/1/element/rubidium> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 37 ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33322"^^xsd:anyURI ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Rb" ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q895"^^xsd:anyURI ;
+                                                         rdfs:label "rubidium"@en ;
+                                                         rdfs:seeAlso "https://www.britannica.com/science/rubidium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/ruthenium
+<http://loop3d.org/GSO/ontology/2020/1/element/ruthenium> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 44 ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_30682"^^xsd:anyURI ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Ru" ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1086"^^xsd:anyURI ;
+                                                          rdfs:label "ruthenium"@en ;
+                                                          rdfs:seeAlso "https://www.britannica.com/science/ruthenium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/rutherfordium
+<http://loop3d.org/GSO/ontology/2020/1/element/rutherfordium> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                              <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 104 ;
+                                                              <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33346"^^xsd:anyURI ;
+                                                              <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Rf" ;
+                                                              <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1226"^^xsd:anyURI ;
+                                                              rdfs:label "rutherfordium"@en ;
+                                                              rdfs:seeAlso "https://www.britannica.com/science/rutherfordium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/samarium
+<http://loop3d.org/GSO/ontology/2020/1/element/samarium> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 62 ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33374"^^xsd:anyURI ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Sm" ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1819"^^xsd:anyURI ;
+                                                         rdfs:label "samarium"@en ;
+                                                         rdfs:seeAlso "https://www.britannica.com/science/samarium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/scandium
+<http://loop3d.org/GSO/ontology/2020/1/element/scandium> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 21 ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33330"^^xsd:anyURI ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Sc" ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q713"^^xsd:anyURI ;
+                                                         rdfs:label "scandium"@en ;
+                                                         rdfs:seeAlso "https://www.britannica.com/science/scandium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/seaborgium
+<http://loop3d.org/GSO/ontology/2020/1/element/seaborgium> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 106 ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33351"^^xsd:anyURI ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Sg" ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1234"^^xsd:anyURI ;
+                                                           rdfs:label "seaborgium"@en ;
+                                                           rdfs:seeAlso "https://www.britannica.com/science/selenium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/selenium
+<http://loop3d.org/GSO/ontology/2020/1/element/selenium> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 34 ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_27568"^^xsd:anyURI ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Se" ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q876"^^xsd:anyURI ;
+                                                         rdfs:label "selenium"@en ;
+                                                         rdfs:seeAlso "https://www.britannica.com/science/seaborgium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/silicon
+<http://loop3d.org/GSO/ontology/2020/1/element/silicon> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 14 ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_27573"^^xsd:anyURI ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Si" ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q670"^^xsd:anyURI ;
+                                                        rdfs:label "silicon"@en ;
+                                                        rdfs:seeAlso "https://www.britannica.com/science/silicon"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/silver
+<http://loop3d.org/GSO/ontology/2020/1/element/silver> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 47 ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_9141"^^xsd:anyURI ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Ag" ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1090"^^xsd:anyURI ;
+                                                       rdfs:label "silver"@en ;
+                                                       rdfs:seeAlso "https://www.britannica.com/science/silver"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/sodium
+<http://loop3d.org/GSO/ontology/2020/1/element/sodium> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 11 ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_26708"^^xsd:anyURI ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Na" ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q658"^^xsd:anyURI ;
+                                                       rdfs:label "sodium"@en ;
+                                                       rdfs:seeAlso "https://www.britannica.com/science/sodium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/strontium
+<http://loop3d.org/GSO/ontology/2020/1/element/strontium> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 38 ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33324"^^xsd:anyURI ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Sr" ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q938"^^xsd:anyURI ;
+                                                          rdfs:label "strontium"@en ;
+                                                          rdfs:seeAlso "https://www.britannica.com/science/strontium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/sulfur
+<http://loop3d.org/GSO/ontology/2020/1/element/sulfur> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 16 ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33403"^^xsd:anyURI ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "S" ;
+                                                       <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q682"^^xsd:anyURI ;
+                                                       rdfs:label "sulfur"@en ;
+                                                       rdfs:seeAlso "https://www.britannica.com/science/sulfur"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/tantalum
+<http://loop3d.org/GSO/ontology/2020/1/element/tantalum> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 73 ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33348"^^xsd:anyURI ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Ta" ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1123"^^xsd:anyURI ;
+                                                         rdfs:label "tantalum"@en ;
+                                                         rdfs:seeAlso "https://www.britannica.com/science/tantalum"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/technetium
+<http://loop3d.org/GSO/ontology/2020/1/element/technetium> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 43 ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33353"^^xsd:anyURI ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Tc" ;
+                                                           <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1054"^^xsd:anyURI ;
+                                                           rdfs:label "technetium"@en ;
+                                                           rdfs:seeAlso "https://www.britannica.com/science/technetium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/tellurium
+<http://loop3d.org/GSO/ontology/2020/1/element/tellurium> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 52 ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_30452"^^xsd:anyURI ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Te" ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1100"^^xsd:anyURI ;
+                                                          rdfs:label "tellurium"@en ;
+                                                          rdfs:seeAlso "https://www.britannica.com/science/tellurium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/terbium
+<http://loop3d.org/GSO/ontology/2020/1/element/terbium> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 65 ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33376"^^xsd:anyURI ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Tb" ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1838"^^xsd:anyURI ;
+                                                        rdfs:label "terbium"@en ;
+                                                        rdfs:seeAlso "https://www.britannica.com/science/terbium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/thallium
+<http://loop3d.org/GSO/ontology/2020/1/element/thallium> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 81 ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_30440"^^xsd:anyURI ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Tl" ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q932"^^xsd:anyURI ;
+                                                         rdfs:label "thallium"@en ;
+                                                         rdfs:seeAlso "https://www.britannica.com/science/thallium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/thorium
+<http://loop3d.org/GSO/ontology/2020/1/element/thorium> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 90 ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33385"^^xsd:anyURI ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Th" ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1115"^^xsd:anyURI ;
+                                                        rdfs:label "thorium"@en ;
+                                                        rdfs:seeAlso "https://www.britannica.com/science/thorium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/thulium
+<http://loop3d.org/GSO/ontology/2020/1/element/thulium> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 69 ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33380"^^xsd:anyURI ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Tm" ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1853"^^xsd:anyURI ;
+                                                        rdfs:label "thulium"@en ;
+                                                        rdfs:seeAlso "https://www.britannica.com/science/thulium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/tin
+<http://loop3d.org/GSO/ontology/2020/1/element/tin> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                    <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 50 ;
+                                                    <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_27007"^^xsd:anyURI ;
+                                                    <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Sn" ;
+                                                    <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1096"^^xsd:anyURI ;
+                                                    rdfs:label "tin"@en ;
+                                                    rdfs:seeAlso "https://www.britannica.com/science/tin"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/titanium
+<http://loop3d.org/GSO/ontology/2020/1/element/titanium> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 22 ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33341"^^xsd:anyURI ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Ti" ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q716"^^xsd:anyURI ;
+                                                         rdfs:label "titanium"@en ;
+                                                         rdfs:seeAlso "https://www.britannica.com/science/titanium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/tungsten
+<http://loop3d.org/GSO/ontology/2020/1/element/tungsten> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 74 ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_27998"^^xsd:anyURI ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "W" ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q743"^^xsd:anyURI ;
+                                                         rdfs:label "tungsten"@en ;
+                                                         rdfs:seeAlso "https://www.britannica.com/science/tungsten-chemical-element"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/uranium
+<http://loop3d.org/GSO/ontology/2020/1/element/uranium> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 92 ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_49936"^^xsd:anyURI ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "U" ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1098"^^xsd:anyURI ;
+                                                        rdfs:label "uranium"@en ;
+                                                        rdfs:seeAlso "https://www.britannica.com/science/uranium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/vanadium
+<http://loop3d.org/GSO/ontology/2020/1/element/vanadium> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 23 ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_27698"^^xsd:anyURI ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "V" ;
+                                                         <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q722"^^xsd:anyURI ;
+                                                         rdfs:label "vanadium"@en ;
+                                                         rdfs:seeAlso "https://www.britannica.com/science/vanadium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/xenon
+<http://loop3d.org/GSO/ontology/2020/1/element/xenon> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                      <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 54 ;
+                                                      <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_49957"^^xsd:anyURI ;
+                                                      <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Xe" ;
+                                                      <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1106"^^xsd:anyURI ;
+                                                      rdfs:label "xenon"@en ;
+                                                      rdfs:seeAlso "https://www.britannica.com/science/xenon"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/ytterbium
+<http://loop3d.org/GSO/ontology/2020/1/element/ytterbium> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 70 ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33381"^^xsd:anyURI ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Yb" ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1855"^^xsd:anyURI ;
+                                                          rdfs:label "ytterbium"@en ;
+                                                          rdfs:seeAlso "https://www.britannica.com/science/ytterbium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/yttrium
+<http://loop3d.org/GSO/ontology/2020/1/element/yttrium> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 39 ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33331"^^xsd:anyURI ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Y" ;
+                                                        <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q941"^^xsd:anyURI ;
+                                                        rdfs:label "yttrium"@en ;
+                                                        rdfs:seeAlso "https://www.britannica.com/science/yttrium"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/zinc
+<http://loop3d.org/GSO/ontology/2020/1/element/zinc> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                     <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 30 ;
+                                                     <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_30185"^^xsd:anyURI ;
+                                                     <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Zn" ;
+                                                     <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q758"^^xsd:anyURI ;
+                                                     rdfs:label "zinc"@en ;
+                                                     rdfs:seeAlso "https://www.britannica.com/science/zinc"^^xsd:anyURI .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/element/zirconium
+<http://loop3d.org/GSO/ontology/2020/1/element/zirconium> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Element> ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber> 40 ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/chebiid> "http://purl.obolibrary.org/obo/CHEBI_33342"^^xsd:anyURI ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/symbol> "Zr" ;
+                                                          <http://loop3d.org/GSO/ontology/2020/1/element/wikidataid> "http://www.wikidata.org/entity/Q1038"^^xsd:anyURI ;
+                                                          rdfs:label "zirconium"@en ;
+                                                          rdfs:seeAlso "https://www.britannica.com/science/zirconium"^^xsd:anyURI .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

@@ -1,0 +1,1115 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact/ontology#"
+     xml:base="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact/ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:common="http://loop3d.org/GSO/ontology/2020/1/common/"
+     xmlns:geology="http://loop3d.org/GSO/ontology/2020/1/geology/">
+    <owl:Ontology rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact/ontology">
+        <owl:imports rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-formationJs/ontology"/>
+        <owl:imports rdf:resource="http://loop3d.org/GSO/ontology/2020/1/master/ontology"/>
+        <rdfs:comment xml:lang="en">Focus is Js, a Jurassic age sedimentary unit that has a lower clastic part with an internal tuff marker bed, and an upper limestone part. The unit unconformably overlies tilted Paleozoic strata that overly Early Proterozoic metamorphic rocks; it is intruded by a Cretaceous granite, and the granite and Js are intruded by a Cretaceous diorite dike. After the igneous activity a period of exumation and erosion removed the cover on the Jurassic sediment and Cretaceous igneous rocks, and Late Miocene sediment covered this unconformity.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Xm, Cb, Os, and Ss and their boundary surfaces not elucidated here</rdfs:comment>
+        <rdfs:comment xml:lang="en">this example references the GeologyScenarioForTesting diagram</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/determinedBy -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/determinedBy"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasOlderHost -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasOlderHost"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasPart -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasPart"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasQuality -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasQuality"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasSetting -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasSetting"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasUOM -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasUOM"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasValue -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasValue"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasYoungerHost -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasYoungerHost"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hostedBy -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hostedBy"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/indirectTemporalOcccupies -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/indirectTemporalOcccupies"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeIndirectly -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeIndirectly"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/intrudes -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/intrudes"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Angular_Unconformable_Contact -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Angular_Unconformable_Contact"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Contact -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Contact"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Igneous_Intrusive_Contact -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Igneous_Intrusive_Contact"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Nonconformable_Contact -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Nonconformable_Contact"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Top -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Top"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Erosion -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Erosion"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Intrusion_Process -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Intrusion_Process"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Traction_Saltation_or_Suspension_Deposition -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Traction_Saltation_or_Suspension_Deposition"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicquality/Medium_Metamorphic_Grade -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicquality/Medium_Metamorphic_Grade"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphic_Grade -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphic_Grade"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicunit/Complex -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicunit/Complex"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicunit/Intrusion -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicunit/Intrusion"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicunit/Rock_Body_Shape -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicunit/Rock_Body_Shape"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Size -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Size"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/perdurant/Mean_Value_Calculation -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/perdurant/Mean_Value_Calculation"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Carbonate_Mud -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Carbonate_Mud"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Clastic_Sandstone -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Clastic_Sandstone"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Diorite -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Diorite"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Gneiss -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Gneiss"/>
+    
+
+
+    <!-- http://qudt.org/vocab/unit/MilliM -->
+
+
+    <owl:Class rdf:about="http://qudt.org/vocab/unit/MilliM"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#CbFormation -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#CbFormation">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation"/>
+        <common:isParticipantIn rdf:nodeID="genid1"/>
+        <common:occupiesTimeIndirectly rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ischart/Cambrian2017"/>
+        <rdfs:label xml:lang="en">Bolsa Quartzite (Cambrian)</rdfs:label>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid1">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Traction_Saltation_or_Suspension_Deposition"/>
+        <common:hasSetting rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicsetting/Inner_Neritic_Setting"/>
+        <common:hasSetting rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicsetting/Shoreline_Setting"/>
+        <common:occupiesTimeDirectly rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ischart/Cambrian2017"/>
+        <rdfs:label xml:lang="en">Cambrian Depositional Age</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#JsDeposition -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#JsDeposition">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition"/>
+        <rdfs:label xml:lang="en">Deposition of Unit Js</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryDownSide-3_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryDownSide-3_1">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryDownSide-3_1_1"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryDownSide-3_1_2"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryDownSide-3_1_3"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryDownSide-3_1_4"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"/>
+        <common:isParticipantIn rdf:nodeID="genid2"/>
+        <rdfs:comment xml:lang="en">lower side of dike</rdfs:comment>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid2">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Intrusion_Process"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryDownSide-3_1_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryDownSide-3_1_1">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"/>
+        <rdfs:comment xml:lang="en">could have more properties describing contact effectw sith Xm here</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryDownSide-3_1_2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryDownSide-3_1_2">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryDownSide-3_1_3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryDownSide-3_1_3">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryDownSide-3_1_4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryDownSide-3_1_4">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"/>
+        <rdfs:comment xml:lang="en">dike intrudes Js</rdfs:comment>
+        <rdfs:comment xml:lang="en">surface separating dike from rocks beneath it</rdfs:comment>
+        <rdfs:label xml:lang="en">dike intrudes Js, lower</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryInJs-3_1_4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryInJs-3_1_4">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryInJs-3_2_4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryInJs-3_2_4">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUnderMs -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUnderMs">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"/>
+        <common:isParticipantIn rdf:nodeID="genid3"/>
+        <rdfs:comment xml:lang="en">Eroded surface under Ms</rdfs:comment>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid3">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Erosion"/>
+        <rdfs:comment xml:lang="en">pre-Miocene erosion event</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUpSide-3_2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUpSide-3_2">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUpSide-3_2_1"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUpSide-3_2_2"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUpSide-3_2_3"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUpSide-3_2_4"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"/>
+        <common:isParticipantIn rdf:nodeID="genid4"/>
+        <rdfs:comment xml:lang="en">upper side of dike</rdfs:comment>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid4">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Intrusion_Process"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUpSide-3_2_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUpSide-3_2_1">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"/>
+        <rdfs:comment xml:lang="en">dike intrudes Xm</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUpSide-3_2_2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUpSide-3_2_2">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"/>
+        <rdfs:comment xml:lang="en">dike intrudes Cb</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUpSide-3_2_3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUpSide-3_2_3">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"/>
+        <rdfs:comment xml:lang="en">dike intrudes Kg</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUpSide-3_2_4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUpSide-3_2_4">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"/>
+        <rdfs:comment xml:lang="en">dike intrudes Js</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicunit/Intrusion"/>
+        <common:hasConstituent rdf:nodeID="genid5"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryDownSide-3_1"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUnderMs"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUpSide-3_2"/>
+        <common:hasQuality rdf:nodeID="genid10"/>
+        <geology:intrudes rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#CbFormation"/>
+        <geology:intrudes rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgGranite"/>
+        <geology:intrudes rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#XmRockBody"/>
+        <geology:intrudes rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"/>
+        <rdfs:comment xml:lang="en">dike has lots of intrusive contacts, on the hanging wall (up) and footwall (down) side of the dike, each contact is with a different unit.</rdfs:comment>
+        <rdfs:comment xml:lang="en">intrudes is subproperty of relatedTo</rdfs:comment>
+        <rdfs:label xml:lang="en">Mafic Dike (Cretaceous)</rdfs:label>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid5">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Diorite"/>
+        <common:hasQuality rdf:nodeID="genid6"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid10">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicunit/Rock_Body_Shape"/>
+        <common:hasDataValue>Dike</common:hasDataValue>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid6">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Size"/>
+        <common:hasValue rdf:nodeID="genid7"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid7">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value"/>
+        <common:determinedBy rdf:nodeID="genid8"/>
+        <common:hasDataValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.05</common:hasDataValue>
+        <common:hasUOM rdf:nodeID="genid9"/>
+        <rdfs:label>average grain size 0.05 mm</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid8">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/perdurant/Mean_Value_Calculation"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid9">
+        <rdf:type rdf:resource="http://qudt.org/vocab/unit/MilliM"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgBoundaryErosionSurface-2_3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgBoundaryErosionSurface-2_3">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgGranite"/>
+        <common:isParticipantIn rdf:nodeID="genid11"/>
+        <rdfs:comment xml:lang="en">Kg erosion surface overlain by Ms</rdfs:comment>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid11">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Erosion"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgBoundaryIntrudesJs-4_2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgBoundaryIntrudesJs-4_2">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgGranite"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgGranite -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgGranite">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicunit/Intrusion"/>
+        <common:hasConstituent rdf:nodeID="genid12"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgBoundaryErosionSurface-2_3"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-3_1_3"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-3_2_3"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-4_1"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-4_2"/>
+        <geology:intrudes rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#CbFormation"/>
+        <geology:intrudes rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#OsFormation"/>
+        <geology:intrudes rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#XmRockBody"/>
+        <geology:intrudes rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"/>
+        <rdfs:comment xml:lang="en">contacts are complicated! Here are the parts:</rdfs:comment>
+        <rdfs:comment xml:lang="en">intrudes is subproperty of relatedTo</rdfs:comment>
+        <rdfs:comment xml:lang="en">intrusion has lots of intrusive contacts, each contact is with a different unit, also an erosion surface at the top, overlain by Ms.</rdfs:comment>
+        <rdfs:label xml:lang="en">Granite (Cretaceous)</rdfs:label>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid12">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Size"/>
+        <common:hasQuality rdf:nodeID="genid13"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid13">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Size"/>
+        <common:hasQuality rdf:nodeID="genid14"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid14">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value"/>
+        <common:determinedBy rdf:nodeID="genid15"/>
+        <common:hasDataValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</common:hasDataValue>
+        <common:hasUOM rdf:nodeID="genid16"/>
+        <rdfs:label>average grain size 5 mm</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid15">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/perdurant/Mean_Value_Calculation"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid16">
+        <rdf:type rdf:resource="http://qudt.org/vocab/unit/MilliM"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-3_1_3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-3_1_3">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgGranite"/>
+        <common:isParticipantIn rdf:nodeID="genid17"/>
+        <rdfs:comment xml:lang="en">Kg in footwall wall of Kd contacts</rdfs:comment>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid17">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Intrusion_Process"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-3_2_3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-3_2_3">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgGranite"/>
+        <common:isParticipantIn rdf:nodeID="genid18"/>
+        <rdfs:comment xml:lang="en">Kg in Hanging wall of Kd</rdfs:comment>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid18">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Intrusion_Process"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-4_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-4_1">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-4_1_1"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-4_1_2"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-4_1_3"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgGranite"/>
+        <common:isParticipantIn rdf:nodeID="genid19"/>
+        <rdfs:comment xml:lang="en">Kg intruding the tilted Xm-Cb-Os-Ss sequence</rdfs:comment>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid19">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Intrusion_Process"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-4_1_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-4_1_1">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgGranite"/>
+        <rdfs:comment xml:lang="en">Kg intruding the tilted Xm</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-4_1_2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-4_1_2">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgGranite"/>
+        <rdfs:comment xml:lang="en">Kg intruding tilted Cb</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-4_1_3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-4_1_3">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgGranite"/>
+        <rdfs:comment xml:lang="en">Kg intruding tilted Os</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-4_2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-4_2">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgGranite"/>
+        <common:isParticipantIn rdf:nodeID="genid20"/>
+        <rdfs:comment xml:lang="en">Kg intruding Js</rdfs:comment>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid20">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Intrusion_Process"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryBottom-2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryBottom-2">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryBottom-2_1"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryBottom-2_2"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryBottom-2_3"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsFormation"/>
+        <common:isParticipantIn rdf:nodeID="genid21"/>
+        <rdfs:comment xml:lang="en">This is an unconformity; Ms overlies Jurassic sediment, Cretaceous dike and granite</rdfs:comment>
+        <rdfs:comment xml:lang="en">base of Ms formation</rdfs:comment>
+        <rdfs:label xml:lang="en">Base Ms</rdfs:label>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid21">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryBottom-2_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryBottom-2_1">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsFormation"/>
+        <rdfs:comment xml:lang="en">surface separating Ms on top of Js</rdfs:comment>
+        <rdfs:label xml:lang="en">Ms overlies Js</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryBottom-2_2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryBottom-2_2">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsFormation"/>
+        <rdfs:comment xml:lang="en">surface separating Ms on top of Kd</rdfs:comment>
+        <rdfs:label xml:lang="en">Ms overlies Kd dike</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryBottom-2_3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryBottom-2_3">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsFormation"/>
+        <rdfs:comment xml:lang="en">surface separating Ms on top of Kg</rdfs:comment>
+        <rdfs:label xml:lang="en">Ms overlies Kg</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryTop-1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryTop-1">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Top"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsFormation"/>
+        <rdfs:comment xml:lang="en">This is a simple disconformable contact</rdfs:comment>
+        <rdfs:comment xml:lang="en">top of Ms formation</rdfs:comment>
+        <rdfs:label xml:lang="en">Top Ms</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsFormation -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsFormation">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation"/>
+        <common:hasConstituent rdf:nodeID="genid22"/>
+        <common:hasConstituent rdf:nodeID="genid23"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryBottom-2"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryTop-1"/>
+        <rdfs:comment xml:lang="en">fine-grained sandstone, minor marl, some coquina</rdfs:comment>
+        <rdfs:label xml:lang="en">Ms Formation</rdfs:label>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid22">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Carbonate_Mud"/>
+        <rdfs:comment xml:lang="en">marl</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid23">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Clastic_Sandstone"/>
+        <rdfs:comment xml:lang="en">fine-grained sandstone</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#OsBoundary-6_2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#OsBoundary-6_2">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#OsFormation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#OsFormation -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#OsFormation">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation"/>
+        <common:occupiesTimeIndirectly rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ischart/Ordovician2017"/>
+        <rdfs:label xml:lang="en">Sedimentary Rocks (Ordovician)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#SsBoundary-6_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#SsBoundary-6_1">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#SsFormation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#SsFormation -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#SsFormation">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation"/>
+        <common:occupiesTimeIndirectly rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ischart/Silurian2017"/>
+        <rdfs:label xml:lang="en">Sedimentary Rocks (Silurian)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#XmBoundary-6_3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#XmBoundary-6_3">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#XmRockBody"/>
+        <common:isParticipantIn rdf:nodeID="genid24"/>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid24">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Erosion"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#XmRockBody -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#XmRockBody">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicunit/Complex"/>
+        <common:hasConstituent rdf:nodeID="genid25"/>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid25">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Gneiss"/>
+        <common:hasQuality rdf:nodeID="genid26"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid26">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphic_Grade"/>
+        <common:hasValue rdf:nodeID="genid27"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid27">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicquality/Medium_Metamorphic_Grade"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#baseJs-6 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#baseJs-6">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#baseJs-6_1"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#baseJs-6_2"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#baseJs-6_3"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#baseJs-6_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#baseJs-6_1">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"/>
+        <common:isParticipantIn rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#JsDeposition"/>
+        <rdfs:comment xml:lang="en">Js on Ss surface</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#baseJs-6_2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#baseJs-6_2">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"/>
+        <common:isParticipantIn rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#JsDeposition"/>
+        <rdfs:comment xml:lang="en">Js on Os surface</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#baseJs-6_3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#baseJs-6_3">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"/>
+        <common:isParticipantIn rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#JsDeposition"/>
+        <rdfs:comment xml:lang="en">Js on Xm surface</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#contact_Js_on_Os -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#contact_Js_on_Os">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Angular_Unconformable_Contact"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#OsBoundary-6_2"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#OsFormation"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#baseJs-6_2"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"/>
+        <rdfs:comment xml:lang="en">OsBoundary-6_2 is Erosional Surface</rdfs:comment>
+        <rdfs:label xml:lang="en">relational feature, Js formation overlies Os Formation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#contact_Js_on_Ss -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#contact_Js_on_Ss">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Angular_Unconformable_Contact"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#SsBoundary-6_1"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#SsFormation"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#baseJs-6_1"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"/>
+        <rdfs:comment xml:lang="en">SsBoundary-6_1 is Erosional Surface</rdfs:comment>
+        <rdfs:label xml:lang="en">relational feature, Js formation overlies Ss Formation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#contact_Js_on_Xm -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#contact_Js_on_Xm">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Nonconformable_Contact"/>
+        <common:hasOlderHost rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#XmRockBody"/>
+        <common:hasYoungerHost rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#XmBoundary-6_3"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#baseJs-6_3"/>
+        <rdfs:label xml:lang="en">relational feature, Js formation overlies Xm Rock Body</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#contact_Kd_in_Js -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#contact_Kd_in_Js">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Contact"/>
+        <common:hasOlderHost rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"/>
+        <common:hasYoungerHost rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryInJs-3_1_4"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryInJs-3_2_4"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUpSide-3_2_4"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#downSide-3_1_4"/>
+        <rdfs:label xml:lang="en">relational feature, Kd dike intrudes Js formation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#contact_Kg_in_Js -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#contact_Kg_in_Js">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Igneous_Intrusive_Contact"/>
+        <common:hasOlderHost rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"/>
+        <common:hasYoungerHost rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgGranite"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgBoundaryIntrudesJs-4_2"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-4_2"/>
+        <rdfs:label xml:lang="en">relational feature, Kg granite intrudes Js formation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#contact_Ms_on_Js -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#contact_Ms_on_Js">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Contact"/>
+        <common:hasOlderHost rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#topJs-2_1"/>
+        <common:hasOlderHost rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"/>
+        <common:hasYoungerHost rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryBottom-2_1"/>
+        <common:hasYoungerHost rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsFormation"/>
+        <rdfs:label xml:lang="en">relational feature, Miocene Ms formation overlies Jurassic Js formation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#contact_Ms_on_Kg -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#contact_Ms_on_Kg">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Contact"/>
+        <common:hasOlderHost rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgBoundaryErosionSurface-2_3"/>
+        <common:hasOlderHost rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgGranite"/>
+        <common:hasYoungerHost rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryBottom-2_3"/>
+        <common:hasYoungerHost rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsFormation"/>
+        <rdfs:label xml:lang="en">relational feature, Ms formation overlies Kg Granite on erosion surface</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#topJs-2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#topJs-2">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Top"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#topJs-2_1"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"/>
+        <common:isParticipantIn rdf:nodeID="genid28"/>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid28">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Erosion"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#topJs-2_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#topJs-2_1">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Top"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"/>
+        <common:isParticipantIn rdf:nodeID="genid29"/>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid29">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Erosion"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryInJs-3_1_4"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryInJs-3_2_4"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgBoundaryIntrudesJs-4_2"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#baseJs-6"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#topJs-2"/>
+        <common:indirectTemporalOcccupies rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ischart/Jurassic2017"/>
+        <rdfs:comment xml:lang="en">details of unit description are in a separate Example: GSO-ExampleFormationJs.txt</rdfs:comment>
+        <rdfs:label xml:lang="en">Js Formation, Jurassic age</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+

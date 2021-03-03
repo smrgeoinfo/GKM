@@ -1,0 +1,1036 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Traction_Saltation_or_Suspension_Deposition" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasSetting" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicsetting/Inner_Neritic_Setting"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicsetting/Shoreline_Setting"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/Cambrian2017"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cambrian Depositional Age"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Rock_Body_Shape" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@value" : "Dike"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Erosion" ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Size" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid13"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Size" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid14"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/determinedBy" : [ {
+    "@id" : "_:genid15"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "5"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid16"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "average grain size 5 mm"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/perdurant/Mean_Value_Calculation" ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://qudt.org/vocab/unit/MilliM" ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Intrusion_Process" ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Intrusion_Process" ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Intrusion_Process" ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Intrusion_Process" ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Intrusion_Process" ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition" ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Carbonate_Mud" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "marl"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Clastic_Sandstone" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "fine-grained sandstone"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Erosion" ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Gneiss" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid26"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphic_Grade" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid27"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicquality/Medium_Metamorphic_Grade" ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Erosion" ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Erosion" ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Erosion" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "pre-Miocene erosion event"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Intrusion_Process" ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Diorite" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid6"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Size" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid7"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/determinedBy" : [ {
+    "@id" : "_:genid8"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "0.05"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid9"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "average grain size 0.05 mm"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/perdurant/Mean_Value_Calculation" ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://qudt.org/vocab/unit/MilliM" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/determinedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasOlderHost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasPart",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasSetting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasYoungerHost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/indirectTemporalOcccupies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeIndirectly",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#CbFormation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeIndirectly" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/Cambrian2017"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bolsa Quartzite (Cambrian)"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#JsDeposition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Deposition of Unit Js"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryDownSide-3_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasPart" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryDownSide-3_1_1"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryDownSide-3_1_2"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryDownSide-3_1_3"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryDownSide-3_1_4"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "_:genid2"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "lower side of dike"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryDownSide-3_1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "could have more properties describing contact effectw sith Xm here"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryDownSide-3_1_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryDownSide-3_1_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryDownSide-3_1_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "dike intrudes Js"
+  }, {
+    "@language" : "en",
+    "@value" : "surface separating dike from rocks beneath it"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "dike intrudes Js, lower"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryInJs-3_1_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryInJs-3_2_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUnderMs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "_:genid3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Eroded surface under Ms"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUpSide-3_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasPart" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUpSide-3_2_1"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUpSide-3_2_2"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUpSide-3_2_3"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUpSide-3_2_4"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "upper side of dike"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUpSide-3_2_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "dike intrudes Xm"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUpSide-3_2_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "dike intrudes Cb"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUpSide-3_2_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "dike intrudes Kg"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUpSide-3_2_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "dike intrudes Js"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Intrusion" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid5"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasPart" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryDownSide-3_1"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUnderMs"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUpSide-3_2"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid10"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geology/intrudes" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#CbFormation"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgGranite"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#XmRockBody"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "dike has lots of intrusive contacts, on the hanging wall (up) and footwall (down) side of the dike, each contact is with a different unit."
+  }, {
+    "@language" : "en",
+    "@value" : "intrudes is subproperty of relatedTo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mafic Dike (Cretaceous)"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgBoundaryErosionSurface-2_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgGranite"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "_:genid11"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Kg erosion surface overlain by Ms"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgBoundaryIntrudesJs-4_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgGranite"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgGranite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Intrusion" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid12"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasPart" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgBoundaryErosionSurface-2_3"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-3_1_3"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-3_2_3"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-4_1"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-4_2"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geology/intrudes" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#CbFormation"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#OsFormation"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#XmRockBody"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "contacts are complicated! Here are the parts:"
+  }, {
+    "@language" : "en",
+    "@value" : "intrudes is subproperty of relatedTo"
+  }, {
+    "@language" : "en",
+    "@value" : "intrusion has lots of intrusive contacts, each contact is with a different unit, also an erosion surface at the top, overlain by Ms."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Granite (Cretaceous)"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-3_1_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgGranite"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "_:genid17"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Kg in footwall wall of Kd contacts"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-3_2_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgGranite"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "_:genid18"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Kg in Hanging wall of Kd"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-4_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasPart" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-4_1_1"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-4_1_2"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-4_1_3"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgGranite"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "_:genid19"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Kg intruding the tilted Xm-Cb-Os-Ss sequence"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-4_1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgGranite"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Kg intruding the tilted Xm"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-4_1_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgGranite"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Kg intruding tilted Cb"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-4_1_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgGranite"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Kg intruding tilted Os"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-4_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgGranite"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "_:genid20"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Kg intruding Js"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryBottom-2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasPart" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryBottom-2_1"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryBottom-2_2"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryBottom-2_3"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsFormation"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "_:genid21"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is an unconformity; Ms overlies Jurassic sediment, Cretaceous dike and granite"
+  }, {
+    "@language" : "en",
+    "@value" : "base of Ms formation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Base Ms"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryBottom-2_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsFormation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "surface separating Ms on top of Js"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ms overlies Js"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryBottom-2_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsFormation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "surface separating Ms on top of Kd"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ms overlies Kd dike"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryBottom-2_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsFormation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "surface separating Ms on top of Kg"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ms overlies Kg"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryTop-1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Top" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsFormation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is a simple disconformable contact"
+  }, {
+    "@language" : "en",
+    "@value" : "top of Ms formation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Top Ms"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsFormation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid22"
+  }, {
+    "@id" : "_:genid23"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasPart" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryBottom-2"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryTop-1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "fine-grained sandstone, minor marl, some coquina"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ms Formation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#OsBoundary-6_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#OsFormation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#OsFormation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeIndirectly" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/Ordovician2017"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sedimentary Rocks (Ordovician)"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#SsBoundary-6_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#SsFormation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#SsFormation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeIndirectly" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/Silurian2017"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sedimentary Rocks (Silurian)"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#XmBoundary-6_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#XmRockBody"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "_:genid24"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#XmRockBody",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Complex" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid25"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#baseJs-6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasPart" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#baseJs-6_1"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#baseJs-6_2"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#baseJs-6_3"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#baseJs-6_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#JsDeposition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Js on Ss surface"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#baseJs-6_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#JsDeposition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Js on Os surface"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#baseJs-6_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#JsDeposition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Js on Xm surface"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#contact_Js_on_Os",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Angular_Unconformable_Contact" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#OsBoundary-6_2"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#OsFormation"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#baseJs-6_2"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "OsBoundary-6_2 is Erosional Surface"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "relational feature, Js formation overlies Os Formation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#contact_Js_on_Ss",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Angular_Unconformable_Contact" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#SsBoundary-6_1"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#SsFormation"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#baseJs-6_1"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "SsBoundary-6_1 is Erosional Surface"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "relational feature, Js formation overlies Ss Formation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#contact_Js_on_Xm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Nonconformable_Contact" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasOlderHost" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#XmRockBody"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasYoungerHost" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#XmBoundary-6_3"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#baseJs-6_3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "relational feature, Js formation overlies Xm Rock Body"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#contact_Kd_in_Js",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Contact" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasOlderHost" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasYoungerHost" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdDike"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryInJs-3_1_4"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryInJs-3_2_4"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryUpSide-3_2_4"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#downSide-3_1_4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "relational feature, Kd dike intrudes Js formation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#contact_Kg_in_Js",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Igneous_Intrusive_Contact" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasOlderHost" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasYoungerHost" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgGranite"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgBoundaryIntrudesJs-4_2"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgIntrusiveBoundary-4_2"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "relational feature, Kg granite intrudes Js formation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#contact_Ms_on_Js",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Contact" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasOlderHost" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#topJs-2_1"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasYoungerHost" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryBottom-2_1"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsFormation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "relational feature, Miocene Ms formation overlies Jurassic Js formation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#contact_Ms_on_Kg",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Contact" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasOlderHost" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgBoundaryErosionSurface-2_3"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgGranite"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasYoungerHost" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsBoundaryBottom-2_3"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#MsFormation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "relational feature, Ms formation overlies Kg Granite on erosion surface"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#topJs-2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Top" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasPart" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#topJs-2_1"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "_:genid28"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#topJs-2_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Top" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "_:genid29"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact/ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Focus is Js, a Jurassic age sedimentary unit that has a lower clastic part with an internal tuff marker bed, and an upper limestone part. The unit unconformably overlies tilted Paleozoic strata that overly Early Proterozoic metamorphic rocks; it is intruded by a Cretaceous granite, and the granite and Js are intruded by a Cretaceous diorite dike. After the igneous activity a period of exumation and erosion removed the cover on the Jurassic sediment and Cretaceous igneous rocks, and Late Miocene sediment covered this unconformity."
+  }, {
+    "@language" : "en",
+    "@value" : "Xm, Cb, Os, and Ss and their boundary surfaces not elucidated here"
+  }, {
+    "@language" : "en",
+    "@value" : "this example references the GeologyScenarioForTesting diagram"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/master/ontology"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasPart" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryInJs-3_1_4"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KdBoundaryInJs-3_2_4"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#KgBoundaryIntrudesJs-4_2"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#baseJs-6"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#topJs-2"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/indirectTemporalOcccupies" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/Jurassic2017"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "details of unit description are in a separate Example: GSO-ExampleFormationJs.txt"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Js Formation, Jurassic age"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Angular_Unconformable_Contact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Contact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Igneous_Intrusive_Contact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Nonconformable_Contact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Top",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Erosion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Intrusion_Process",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Traction_Saltation_or_Suspension_Deposition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicquality/Medium_Metamorphic_Grade",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphic_Grade",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Complex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Intrusion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Rock_Body_Shape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/intrudes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Size",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/perdurant/Mean_Value_Calculation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Carbonate_Mud",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Clastic_Sandstone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Diorite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Gneiss",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://qudt.org/vocab/unit/MilliM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]

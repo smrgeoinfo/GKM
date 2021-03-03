@@ -1,0 +1,1875 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/Quartzite" ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://qudt.org/vocab/unit/MegaYR" ]
+}, {
+  "@id" : "_:genid100",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/alkali_feldspar" ]
+}, {
+  "@id" : "_:genid101",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Size" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid102"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "1 to 5 mm diameter crystals"
+  } ]
+}, {
+  "@id" : "_:genid102",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Range_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue" : [ {
+    "@id" : "_:genid103"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue" : [ {
+    "@id" : "_:genid105"
+  } ]
+}, {
+  "@id" : "_:genid103",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "5"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid104"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "5 mm maximum"
+  } ]
+}, {
+  "@id" : "_:genid104",
+  "@type" : [ "http://qudt.org/vocab/unit/MilliM" ]
+}, {
+  "@id" : "_:genid105",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid106"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "1 mm minimum"
+  } ]
+}, {
+  "@id" : "_:genid106",
+  "@type" : [ "http://qudt.org/vocab/unit/MilliM" ]
+}, {
+  "@id" : "_:genid107",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Groundmass" ]
+}, {
+  "@id" : "_:genid108",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid109"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid110"
+  } ]
+}, {
+  "@id" : "_:genid109",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/apatite" ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://qudt.org/vocab/unit/MegaYR" ]
+}, {
+  "@id" : "_:genid110",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals" ]
+}, {
+  "@id" : "_:genid111",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid112"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid113"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid119"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "biotite in groundmass"
+  } ]
+}, {
+  "@id" : "_:genid112",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/biotite" ]
+}, {
+  "@id" : "_:genid113",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Size" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid114"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "1 to 3 mm diameter crystals"
+  } ]
+}, {
+  "@id" : "_:genid114",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Range_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue" : [ {
+    "@id" : "_:genid115"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue" : [ {
+    "@id" : "_:genid117"
+  } ]
+}, {
+  "@id" : "_:genid115",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid116"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "3 mm maximum"
+  } ]
+}, {
+  "@id" : "_:genid116",
+  "@type" : [ "http://qudt.org/vocab/unit/MilliM" ]
+}, {
+  "@id" : "_:genid117",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid118"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "1 mm minimum"
+  } ]
+}, {
+  "@id" : "_:genid118",
+  "@type" : [ "http://qudt.org/vocab/unit/MilliM" ]
+}, {
+  "@id" : "_:genid119",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Groundmass" ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/Granite" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid13"
+  }, {
+    "@id" : "_:genid16"
+  }, {
+    "@id" : "_:genid19"
+  }, {
+    "@id" : "_:genid22"
+  }, {
+    "@id" : "_:genid25"
+  }, {
+    "@id" : "_:genid28"
+  }, {
+    "@id" : "_:genid31"
+  }, {
+    "@id" : "_:genid34"
+  }, {
+    "@id" : "_:genid39"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid42"
+  }, {
+    "@id" : "_:genid48"
+  } ]
+}, {
+  "@id" : "_:genid120",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid121"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid122"
+  } ]
+}, {
+  "@id" : "_:genid121",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/garnetgroup" ]
+}, {
+  "@id" : "_:genid122",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals" ]
+}, {
+  "@id" : "_:genid123",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid124"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid125"
+  } ]
+}, {
+  "@id" : "_:genid124",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/ilmenite" ]
+}, {
+  "@id" : "_:genid125",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals" ]
+}, {
+  "@id" : "_:genid126",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid127"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid128"
+  } ]
+}, {
+  "@id" : "_:genid127",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/muscovite" ]
+}, {
+  "@id" : "_:genid128",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals" ]
+}, {
+  "@id" : "_:genid129",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid130"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid131"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid137"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "plagioclase in groundmass"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid14"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid15"
+  } ]
+}, {
+  "@id" : "_:genid130",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/plagioclase" ]
+}, {
+  "@id" : "_:genid131",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Size" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid132"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "3 to 8 mm diameter crystals"
+  } ]
+}, {
+  "@id" : "_:genid132",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Range_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue" : [ {
+    "@id" : "_:genid133"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue" : [ {
+    "@id" : "_:genid135"
+  } ]
+}, {
+  "@id" : "_:genid133",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "8"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid134"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "8 mm maximum"
+  } ]
+}, {
+  "@id" : "_:genid134",
+  "@type" : [ "http://qudt.org/vocab/unit/MilliM" ]
+}, {
+  "@id" : "_:genid135",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid136"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "3 mm minimum"
+  } ]
+}, {
+  "@id" : "_:genid136",
+  "@type" : [ "http://qudt.org/vocab/unit/MilliM" ]
+}, {
+  "@id" : "_:genid137",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Groundmass" ]
+}, {
+  "@id" : "_:genid138",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid139"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid140"
+  }, {
+    "@id" : "_:genid142"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid148"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Quartz in groundmass"
+  } ]
+}, {
+  "@id" : "_:genid139",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/quartz" ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/alkali_feldspar" ]
+}, {
+  "@id" : "_:genid140",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/Grain_Roundness" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid141"
+  } ]
+}, {
+  "@id" : "_:genid141",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/rounded" ]
+}, {
+  "@id" : "_:genid142",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Size" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid143"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "5-8 mm diameter crystals"
+  } ]
+}, {
+  "@id" : "_:genid143",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Range_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue" : [ {
+    "@id" : "_:genid144"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue" : [ {
+    "@id" : "_:genid146"
+  } ]
+}, {
+  "@id" : "_:genid144",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "8"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid145"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "8 mm maximum"
+  } ]
+}, {
+  "@id" : "_:genid145",
+  "@type" : [ "http://qudt.org/vocab/unit/MilliM" ]
+}, {
+  "@id" : "_:genid146",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "5"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid147"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "5 mm minimum"
+  } ]
+}, {
+  "@id" : "_:genid147",
+  "@type" : [ "http://qudt.org/vocab/unit/MilliM" ]
+}, {
+  "@id" : "_:genid148",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Groundmass" ]
+}, {
+  "@id" : "_:genid149",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid150"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid151"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Crystals" ]
+}, {
+  "@id" : "_:genid150",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/zircon" ]
+}, {
+  "@id" : "_:genid151",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals" ]
+}, {
+  "@id" : "_:genid152",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/alkali_feldspar" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid153"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid159"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "K-feldspar phenocrysts"
+  } ]
+}, {
+  "@id" : "_:genid153",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Size" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid154"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "1 to 5 cm diameter phenocrysts"
+  } ]
+}, {
+  "@id" : "_:genid154",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Range_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue" : [ {
+    "@id" : "_:genid155"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue" : [ {
+    "@id" : "_:genid157"
+  } ]
+}, {
+  "@id" : "_:genid155",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "50"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid156"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "5 cm maximum"
+  } ]
+}, {
+  "@id" : "_:genid156",
+  "@type" : [ "http://qudt.org/vocab/unit/MilliM" ]
+}, {
+  "@id" : "_:genid157",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "10"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid158"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "1 cm minimum"
+  } ]
+}, {
+  "@id" : "_:genid158",
+  "@type" : [ "http://qudt.org/vocab/unit/MilliM" ]
+}, {
+  "@id" : "_:genid159",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Phenocryst" ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid17"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid18"
+  } ]
+}, {
+  "@id" : "_:genid160",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/Particle_Sorting" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@value" : "Porphyritic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "porphyritic texture"
+  } ]
+}, {
+  "@id" : "_:genid161",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/Slate" ]
+}, {
+  "@id" : "_:genid162",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphic_Grade" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid163"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "low grade"
+  } ]
+}, {
+  "@id" : "_:genid163",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicquality/Low_Metamorphic_Grade" ]
+}, {
+  "@id" : "_:genid164",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/perdurant/Observation" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@value" : "An example of low-Th/U zircon overgrowths of magmatic origin in a late orogenic Variscan intrusion: the San Ciprián massif (NW Spain) Lopez-Sanchez,Marco A. et al. Journal of the Geological Society(2016),173(2):282  http://dx.doi.org/10.1144/jgs2015-071"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "TBD -- adopt conventions for better representation of data provenance"
+  }, {
+    "@value" : "U-Pb interpreted date from zircon mantles, interpreted as age of magmatic crystallization. NOTE that this age is younger that the reported age for La Tojiza granite (295 Ma) which is reported to intrude San Ciprian Granite "
+  } ]
+}, {
+  "@id" : "_:genid165",
+  "@type" : [ "http://qudt.org/vocab/unit/MegaYR" ]
+}, {
+  "@id" : "_:genid166",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/Granite" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid167"
+  }, {
+    "@id" : "_:genid168"
+  } ]
+}, {
+  "@id" : "_:genid167",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/biotite" ]
+}, {
+  "@id" : "_:genid168",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/muscovite" ]
+}, {
+  "@id" : "_:genid169",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Magmatic_Cystallisation" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly" : [ {
+    "@id" : "_:genid170"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/apatite" ]
+}, {
+  "@id" : "_:genid170",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant_Location" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#sancipriancrystallization"
+  } ]
+}, {
+  "@id" : "_:genid171",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant_Location" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#sancipriancrystallization"
+  } ]
+}, {
+  "@id" : "_:genid172",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/perdurant/Inference" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@value" : "https://eprints.ucm.es/59104/1/0656.pdf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "TBD -- adopt conventions for better representation of data provenance"
+  }, {
+    "@language" : "en",
+    "@value" : "youngest single crystal detrital zircons in Lower Villalba unit, sub concordant 206Pb/238U date from single crystals. (Fernandez-Suarez et al. 2000a)"
+  } ]
+}, {
+  "@id" : "_:genid173",
+  "@type" : [ "http://qudt.org/vocab/unit/MegaYR" ]
+}, {
+  "@id" : "_:genid174",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/Schist" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "metagraywacke"
+  } ]
+}, {
+  "@id" : "_:genid175",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphic_Grade" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid176"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "low grade metamorphism"
+  } ]
+}, {
+  "@id" : "_:genid176",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicquality/Low_Metamorphic_Grade" ]
+}, {
+  "@id" : "_:genid177",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly" : [ {
+    "@id" : "_:genid178"
+  } ]
+}, {
+  "@id" : "_:genid178",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval_Location" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid179"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Neoproterozoic, approximately 700-600 Ma"
+  } ]
+}, {
+  "@id" : "_:genid179",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Range" ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasEndValue" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#intrusionintineo"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasStartValue" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbadetritalzircon"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals" ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid20"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid21"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/Slate" ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/biotite" ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Crystals" ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid23"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid24"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/garnetgroup" ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals" ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid26"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid27"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/ilmenite" ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals" ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid29"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid30"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/muscovite" ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphic_Grade" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "low grade"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals" ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid32"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid33"
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/plagioclase" ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Crystals" ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid35"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid36"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid38"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/quartz" ]
+}, {
+  "@id" : "_:genid36",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/Grain_Roundness" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid37"
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/rounded" ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Crystals" ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid40"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid41"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicquality/Low_Metamorphic_Grade" ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/zircon" ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals" ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Size" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid43"
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Range_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue" : [ {
+    "@id" : "_:genid44"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue" : [ {
+    "@id" : "_:genid46"
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid45"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fine grain size: 3 mm maximum"
+  } ]
+}, {
+  "@id" : "_:genid45",
+  "@type" : [ "http://qudt.org/vocab/unit/MilliM" ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "0.05"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid47"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fine grain size: .05 mm minimum"
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://qudt.org/vocab/unit/MilliM" ]
+}, {
+  "@id" : "_:genid48",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/Particle_Sorting" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@value" : "Equigranular"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "equigranular texture"
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/Granite" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid50"
+  }, {
+    "@id" : "_:genid53"
+  }, {
+    "@id" : "_:genid56"
+  }, {
+    "@id" : "_:genid59"
+  }, {
+    "@id" : "_:genid62"
+  }, {
+    "@id" : "_:genid65"
+  }, {
+    "@id" : "_:genid68"
+  }, {
+    "@id" : "_:genid71"
+  }, {
+    "@id" : "_:genid76"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid79"
+  }, {
+    "@id" : "_:genid81"
+  }, {
+    "@id" : "_:genid83"
+  }, {
+    "@id" : "_:genid89"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/Cambrian2017"
+  } ]
+}, {
+  "@id" : "_:genid50",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid51"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid52"
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/alkali_feldspar" ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Crystals" ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid54"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid55"
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/apatite" ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals" ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid57"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid58"
+  } ]
+}, {
+  "@id" : "_:genid57",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/biotite" ]
+}, {
+  "@id" : "_:genid58",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Crystals" ]
+}, {
+  "@id" : "_:genid59",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid60"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid61"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/perdurant/Inference" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@value" : "https://eprints.ucm.es/59104/1/0656.pdf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "TBD -- adopt conventions for better representation of data provenance"
+  }, {
+    "@language" : "en",
+    "@value" : "approximate age of plutons intruding correlative Tineo Series (Fernandez-Suarez et al. 2000a)"
+  } ]
+}, {
+  "@id" : "_:genid60",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/garnetgroup" ]
+}, {
+  "@id" : "_:genid61",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals" ]
+}, {
+  "@id" : "_:genid62",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid63"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid64"
+  } ]
+}, {
+  "@id" : "_:genid63",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/ilmenite" ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals" ]
+}, {
+  "@id" : "_:genid65",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid66"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid67"
+  } ]
+}, {
+  "@id" : "_:genid66",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/muscovite" ]
+}, {
+  "@id" : "_:genid67",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals" ]
+}, {
+  "@id" : "_:genid68",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid69"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid70"
+  } ]
+}, {
+  "@id" : "_:genid69",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/plagioclase" ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://qudt.org/vocab/unit/MegaYR" ]
+}, {
+  "@id" : "_:genid70",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Crystals" ]
+}, {
+  "@id" : "_:genid71",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid72"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid73"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid75"
+  } ]
+}, {
+  "@id" : "_:genid72",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/quartz" ]
+}, {
+  "@id" : "_:genid73",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/Grain_Roundness" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid74"
+  } ]
+}, {
+  "@id" : "_:genid74",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/rounded" ]
+}, {
+  "@id" : "_:genid75",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Crystals" ]
+}, {
+  "@id" : "_:genid76",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid77"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid78"
+  } ]
+}, {
+  "@id" : "_:genid77",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/zircon" ]
+}, {
+  "@id" : "_:genid78",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals" ]
+}, {
+  "@id" : "_:genid79",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/Grain_Roundness" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid80"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "anhedral grains"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/perdurant/Observation" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@value" : "DOI: 10.1144/jgs.157.3.565"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "TBD -- adopt conventions for better representation of data provenance"
+  }, {
+    "@language" : "en",
+    "@value" : "U-Pb zircon (Fernandez-Suarez et al. 2000)"
+  } ]
+}, {
+  "@id" : "_:genid80",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/anhedral" ]
+}, {
+  "@id" : "_:genid81",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/Grain_Roundness" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid82"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "subhedral grains"
+  } ]
+}, {
+  "@id" : "_:genid82",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/subhedral" ]
+}, {
+  "@id" : "_:genid83",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Size" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid84"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Medium to coarse-grained"
+  } ]
+}, {
+  "@id" : "_:genid84",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Range_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue" : [ {
+    "@id" : "_:genid85"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue" : [ {
+    "@id" : "_:genid87"
+  } ]
+}, {
+  "@id" : "_:genid85",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "10"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid86"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "coarse grain size: 10 mm maximum"
+  } ]
+}, {
+  "@id" : "_:genid86",
+  "@type" : [ "http://qudt.org/vocab/unit/MilliM" ]
+}, {
+  "@id" : "_:genid87",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid88"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "medium grain size: 3 mm minimum"
+  } ]
+}, {
+  "@id" : "_:genid88",
+  "@type" : [ "http://qudt.org/vocab/unit/MilliM" ]
+}, {
+  "@id" : "_:genid89",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/Particle_Sorting" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@value" : "Equigranular"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "equigranular texture"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Simple_Uncertainty" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "2"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid10"
+  } ]
+}, {
+  "@id" : "_:genid90",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/Schist" ]
+}, {
+  "@id" : "_:genid91",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Pendant" ]
+}, {
+  "@id" : "_:genid92",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Crystallographic_Preferred_Orientation" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid93"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "considered to have developed exclusively in the magmatic state"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "weak preferred orientation of feldspar and biotite;"
+  } ]
+}, {
+  "@id" : "_:genid93",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Intensity" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid94"
+  } ]
+}, {
+  "@id" : "_:genid94",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Weak_Intensity" ]
+}, {
+  "@id" : "_:genid95",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Magmatic_Cystallisation" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly" : [ {
+    "@id" : "_:genid96"
+  } ]
+}, {
+  "@id" : "_:genid96",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant_Location" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizacrystallization"
+  } ]
+}, {
+  "@id" : "_:genid97",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant_Location" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizacrystallization"
+  } ]
+}, {
+  "@id" : "_:genid98",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/Granite" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid99"
+  }, {
+    "@id" : "_:genid108"
+  }, {
+    "@id" : "_:genid111"
+  }, {
+    "@id" : "_:genid120"
+  }, {
+    "@id" : "_:genid123"
+  }, {
+    "@id" : "_:genid126"
+  }, {
+    "@id" : "_:genid129"
+  }, {
+    "@id" : "_:genid138"
+  }, {
+    "@id" : "_:genid149"
+  }, {
+    "@id" : "_:genid152"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid160"
+  } ]
+}, {
+  "@id" : "_:genid99",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid100"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid101"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid107"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "K-feldspar in groundmass"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Intensity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Range_Value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Simple_Uncertainty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Range",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant_Location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval_Location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Weak_Intensity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/determinedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasPart",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasRole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hosts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeIndirectly",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasPart" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza_2_1"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza_2_2"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza_2_3"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza_2_4"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianformation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "boundary has 4 distinct segments"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza_2_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianformation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza_2_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianformation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza_2_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianformation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza_2_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianformation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryOrdovician",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Top" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianformation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryVillalbaSeries",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianformation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianformation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid1"
+  }, {
+    "@id" : "_:genid2"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasPart" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryOrdovician"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryVillalbaSeries"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid3"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "_:genid5"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeIndirectly" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/Cambrian2017"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cambrian Age sediments, slightly metamorphosed"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#intrusionintineo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/determinedBy" : [ {
+    "@id" : "_:genid6"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "600"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid7"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "approximately 600 Ma"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaBoundaryCambrian_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaBoundaryOrdovician_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaBoundarySanCiprian_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaBoundaryVillalba_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaCambrianContact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/contact/Igneous_Intrusive_Contact" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza_2"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaBoundaryCambrian_2"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasOlderHost" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianformation"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasYoungerHost" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizapluton"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contact between Cambrian Formation and La Tojiza Pluton. Contact has 4 segments"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaOrdovicianContact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/contact/Igneous_Intrusive_Contact" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaBoundaryOrdovician_3"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#ordovicianBoundaryLaTojiza_3"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasOlderHost" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#ordovicianformation"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasYoungerHost" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizapluton"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contact between Ordovician Formation and La Tojiza Pluton. Contact has one segment"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaVillalbaContact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/contact/Igneous_Intrusive_Contact" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaBoundaryVillalba_1"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaBoundaryLaTojiza_1"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasOlderHost" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaseries"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasYoungerHost" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizapluton"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contact between Villalba Series and La Tojiza Pluton. Contact has 2 segments"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizacrystallization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/determinedBy" : [ {
+    "@id" : "_:genid8"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "295"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid9"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid11"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "295 +|- 2 Ma, Variscan, Post tectonic, Permian"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizafinegrained",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Igneous_Facies" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid12"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The amount of muscovite and garnet increases, and grain size decreases, towards the eastern and southern pluton borders. contain rounded grains of quartz visible to the naked eye. Most samples are equigranular. Phases are not mapped separately"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizamain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Igneous_Facies" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid49"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "medium- to coarse-grained granite consists of quartz, K-feldspar, plagioclase and biotite. Apatite, ilmenite, zircon, muscovite and, locally, garnet are accessory minerals; contains rounded grains of quartz visible to the naked eye. Most samples are equigranular"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizapendants",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithologic_Unit" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid90"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid91"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Large xenoliths and roof pendants of country rocks occur mainly in the central part of the intrusion"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizapluton",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pluton" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasPart" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaBoundaryCambrian_2"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaBoundaryOrdovician_3"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaBoundarySanCiprian_4"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaBoundaryVillalba_1"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizafinegrained"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizamain"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizapendants"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaporphyritic"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hosts" : [ {
+    "@id" : "_:genid92"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "_:genid95"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeIndirectly" : [ {
+    "@id" : "_:genid97"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/intrudes" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianformation"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#ordovicianformation"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#sancipriangranitoid"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaseries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "medium- to coarse-grained granite, consists of quartz, K-feldspar, plagioclase and biotite. Apatite, ilmenite, zircon, muscovite and, locally, garnet are accessory minerals. The amount of muscovite and garnet increases, and grain size decreases, towards the eastern and southern pluton borders.  but most samples are equigranular. Both textural types contain rounded grains of quartz visible to the naked eye, pointing to the lack of solid-state deformation. Large xenoliths and roofpendants of country rocks occur mainly in the central part of the intrusion and enclaves of basic igneous rocks in its eastern part."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "La Tojiza Pluton"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaporphyritic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Igneous_Facies" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid98"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Some outcrops show porphyritic textures with euhedral, 1–5 cm, K-feldspar phenocrysts within a medium- to coarse-grained matrix; contains rounded grains of quartz visible to the naked eye"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#ordovicianBoundaryCambrian",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#ordovicianformation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#ordovicianBoundaryLaTojiza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#ordovicianBoundaryLaTojiza_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#ordovicianformation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#ordovicianformation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid161"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasPart" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#ordovicianBoundaryCambrian"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#ordovicianBoundaryLaTojiza"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid162"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/Ordovician2017"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ordovician Age"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#sanciprianBoundaryLaTojiza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#sancipriangranitoid"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#sancipriancrystallization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/determinedBy" : [ {
+    "@id" : "_:genid164"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "287"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid165"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "287 Ma, Variscan, Permian, syn-tectonic"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#sancipriangranitoid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pluton" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid166"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasPart" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#sanciprianBoundaryLaTojiza"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "_:genid169"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeIndirectly" : [ {
+    "@id" : "_:genid171"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "San Ciprian massif"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaBoundaryCambrian",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Top" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaseries"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaBoundaryLaTojiza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaBoundaryLaTojiza_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasPart" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaBoundaryLaTojiza_1_1"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaBoundaryLaTojiza_1_2"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaseries"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaBoundaryLaTojiza_1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaseries"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaBoundaryLaTojiza_1_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaseries"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbadetritalzircon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/determinedBy" : [ {
+    "@id" : "_:genid172"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "700"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid173"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "700 Ma, single crystal detrital zircon, Lower Villalba"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaseries",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid174"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasPart" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaBoundaryCambrian"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaBoundaryLaTojiza"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid175"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "_:genid177"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeIndirectly" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/Neoproterozoic2017"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Villalba Series"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza/ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Example description of pluton with pendants, enclaves, composition variations"
+  }, {
+    "@language" : "en",
+    "@value" : "Stephen M. Richard 2020-04-10"
+  }, {
+    "@language" : "en",
+    "@value" : "based on descriptions in A. ARANGUREN, J. CUEVAS, J. M. TUBI´A, T. ROMA´ N-BERDIEL, A. CASAS-SAINZ, & A. CASAS-PONSATI, 2003, Granite laccolith emplacement in the Iberian arc: AMS and gravity study of the La Tojiza pluton (NW Spain): Journal of the Geological Society, London, Vol. 160, 2003, pp. 435–445. DOI: 10.1144/0016-764902-079"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/master/ontology"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Crystallographic_Preferred_Orientation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Pendant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Top",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasEndValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasOlderHost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasStartValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasYoungerHost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/intrudes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Magmatic_Cystallisation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicquality/Low_Metamorphic_Grade",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphic_Grade",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Crystals",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Groundmass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Phenocryst",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/contact/Igneous_Intrusive_Contact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Igneous_Facies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithologic_Unit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pluton",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/lithology/Grain_Roundness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/lithology/Granite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/lithology/Particle_Sorting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/lithology/Quartzite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/lithology/Schist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/lithology/Slate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Size",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/anhedral",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/rounded",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/subhedral",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/mineral/alkali_feldspar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/mineral/apatite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/mineral/biotite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/mineral/garnetgroup",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/mineral/ilmenite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/mineral/muscovite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/mineral/plagioclase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/mineral/quartz",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/mineral/zircon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/perdurant/Inference",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/perdurant/Observation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://qudt.org/vocab/unit/MegaYR",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://qudt.org/vocab/unit/MilliM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]

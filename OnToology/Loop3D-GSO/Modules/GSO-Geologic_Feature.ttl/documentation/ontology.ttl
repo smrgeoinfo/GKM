@@ -1,0 +1,314 @@
+@prefix : <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/ontology> .
+
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/ontology> rdf:type owl:Ontology ;
+                                                                  owl:imports <http://loop3d.org/GSO/ontology/2020/1/common/ontology> ,
+                                                                              <http://loop3d.org/GSO/ontology/2020/1/geology/ontology> ;
+                                                                  rdfs:comment "Geological features that are not structures"@en ;
+                                                                  rdfs:label "Geologic Feature"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/contains
+<http://loop3d.org/GSO/ontology/2020/1/common/contains> rdf:type owl:ObjectProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/hasEssentialPart
+<http://loop3d.org/GSO/ontology/2020/1/common/hasEssentialPart> rdf:type owl:ObjectProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/hasRolePlayer
+<http://loop3d.org/GSO/ontology/2020/1/common/hasRolePlayer> rdf:type owl:ObjectProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/hostedBy
+<http://loop3d.org/GSO/ontology/2020/1/common/hostedBy> rdf:type owl:ObjectProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/isExampleOf
+<http://loop3d.org/GSO/ontology/2020/1/common/isExampleOf> rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Example
+<http://loop3d.org/GSO/ontology/2020/1/common/Example> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Hole
+<http://loop3d.org/GSO/ontology/2020/1/common/Hole> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Material_Feature
+<http://loop3d.org/GSO/ontology/2020/1/common/Material_Feature> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Physical_Gap
+<http://loop3d.org/GSO/ontology/2020/1/common/Physical_Gap> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Amygdule
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Amygdule> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Vesicle> ,
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/contains> ;
+                                                                                   owl:someValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geology/Mineral>
+                                                                                 ] ;
+                                                                 <http://purl.org/dc/terms/source> "based on Neuendorf et al 2005"@en ;
+                                                                 rdfs:comment "Cavity filled with secondary minerals, denotes that cavities are filled vesicles, thus restricted to volcanic rock. Have to model as a cavity/with material.  Rock hosts cavity"@en ;
+                                                                 rdfs:label "amygdule"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Bed_Lithosome
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Bed_Lithosome> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Lithosome> ;
+                                                                      <http://purl.org/dc/terms/source> "CGI rockbodypart vocabulary 2016-11-21 "@en ;
+                                                                      rdfs:comment "Lithosome in lithostratigraphic unit that occurs as individual beds interleaved with other constituents on the outcrop (m) scale or larger."@en ;
+                                                                      rdfs:label "bed lithosome"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Bedding_Package
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Bedding_Package> rdf:type owl:Class ;
+                                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Lithosome> ;
+                                                                        rdfs:comment "A sub-map scale sequence of strata, e.g. bouma sequence, fining-upward sequence, interbedded sandstone and mudstone...  Repeated multiple times in a stratigraphic unit."@en ;
+                                                                        rdfs:label "Bedding Package "@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Boundary_Stratotype
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Boundary_Stratotype> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Example> ,
+                                                                                            [ rdf:type owl:Restriction ;
+                                                                                              owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/hasRolePlayer> ;
+                                                                                              owl:allValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Stratigraphic_Section>
+                                                                                            ] ;
+                                                                            rdfs:comment "A stratigraphic section that contains a designated point in a stratigraphic sequence of essentially continuous deposition, preferably marine, chosen for its correlation potential. http://www.stratigraphy.org/upload/bak/chron.htm"@en ;
+                                                                            rdfs:label "Boundary Stratotype"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Cyclic_Bedding_Package
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Cyclic_Bedding_Package> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Bedding_Package> ;
+                                                                               <http://purl.org/dc/terms/source> "CGI rockbodypart vocabulary 2016-11-21 "@en ;
+                                                                               rdfs:comment "Lithosome characterized by an internal sequence of units, which is repeated in a stacked sequence, e.g. fining-upward sequence, thickening upward sequence, bouma sequence."@en ;
+                                                                               rdfs:label "cyclic bedding package"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Drill_Hole
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Drill_Hole> rdf:type owl:Class ;
+                                                                   rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Hole> ,
+                                                                                   [ rdf:type owl:Restriction ;
+                                                                                     owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/hostedBy> ;
+                                                                                     owl:someValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body>
+                                                                                   ] ;
+                                                                   rdfs:comment "Drill hole."@en ;
+                                                                   rdfs:label "drill hole"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Fenestra
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Fenestra> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Vug> ;
+                                                                 <http://purl.org/dc/terms/source> "based on Neuendorf et al 2005"@en ;
+                                                                 rdfs:comment "Primary or penecontemporaneous gap or cavity in the framework of a sedimentary rock, larger than grain-supported intersticies. May be open space or have partial to complete fill with secondary cement or introduced sediment."@en ;
+                                                                 rdfs:label "fenestra"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Irregular_Lithosome
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Irregular_Lithosome> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Lithosome> ;
+                                                                            <http://purl.org/dc/terms/source> "CGI rockbodypart vocabulary 2016-11-21 "@en ;
+                                                                            rdfs:comment "Lithosome in a mixed/heterogeneous lithodemic unit that occurs in irregular bodies within unit"@en ;
+                                                                            rdfs:label "irregular lithosome"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Layer_Lithosome
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Layer_Lithosome> rdf:type owl:Class ;
+                                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Lithosome> ;
+                                                                        <http://purl.org/dc/terms/source> "CGI rockbodypart vocabulary 2016-11-21 "@en ;
+                                                                        rdfs:comment "Lithosome in igneous or metamorphic geologic unit that occurs as layers alternating with other constituents."@en ;
+                                                                        rdfs:label "layer lithosome"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Lenticular_Lithosome
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Lenticular_Lithosome> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Lithosome> ;
+                                                                             <http://purl.org/dc/terms/source> "CGI rockbodypart vocabulary 2016-11-21 "@en ;
+                                                                             rdfs:comment "Lithosome occurs as discrete lense-shaped bodies, not connected with other bodies."@en ;
+                                                                             rdfs:label "lenticular lithosome"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Lithophysae
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Lithophysae> rdf:type owl:Class ;
+                                                                    rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Hole> ,
+                                                                                    [ rdf:type owl:Restriction ;
+                                                                                      owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/hostedBy> ;
+                                                                                      owl:someValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body>
+                                                                                    ] ;
+                                                                    <http://purl.org/dc/terms/source> "Neuendorf et al 2005"@en ;
+                                                                    rdfs:comment "Bubble-like cavity with concentric shells of finely crystalline minerals, open space remains in core of structure. Radiating fibrous structure may be present in secondary mineral fill. Typically in silicic volcanic rock."@en ;
+                                                                    rdfs:label "lithophysae"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Lithosome
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Lithosome> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Material_Feature> ,
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/hasEssentialPart> ;
+                                                                                    owl:someValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Object>
+                                                                                  ] ,
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/hostedBy> ;
+                                                                                    owl:someValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Object>
+                                                                                  ] ,
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/hostedBy> ;
+                                                                                    owl:allValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Object>
+                                                                                  ] ;
+                                                                  <http://purl.org/dc/terms/source> "CGI rockbodypart vocabulary 2016-11-21 "@en ;
+                                                                  rdfs:comment "A kind of rock body that has multiple occurrences in a single geologic unit. A mass of rock of uniform character, characterized by geometry, composition, and internal structure. (http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/lithosome)"@en ,
+                                                                               "Generally denotes rock mass that is the product of a particular rock forming process or related sequence of processes in the containing unit. Example--bouma sequence, point bar sequence. A particular lithosome may be characterized by the presence of blocks, but blocks are not treated as kinds of lithosome because the internal character of the blocks is determined by a separate genetic sequence from the described unit."@en ,
+                                                                               "In the AGI glossary (Neuendorf et al 2005) and usage found on the World Wide Web, lithosome typically denotes relatively uniform and distinctive bodies of sediment that intertongue with one another. (e.g. https://geoinfo.nmt.edu/resources/water/amp/brochures/Koning_lithS_lithA_PP_presentation.pdf; http://www.kgs.ku.edu/Publications/Bulletins/169/Dott/).   This vocabulary generalizes the concept defined in Neuendorf et al 2005 to include bodies of igneous or metamorphic rock as well as sedimentary rock. NADM SLTTs (2004) used the term 'lithotope' with similar meaning for sedimentary rocks."@en ,
+                                                                               "Lithosome is considered a kind of Integral feature, where the host is a geologic unit, and the focal is the defining lithologic characteristics of the lithosome."@en ;
+                                                                  rdfs:label "Lithosome "@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Miarolitic_Cavity
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Miarolitic_Cavity> rdf:type owl:Class ;
+                                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Vug> ;
+                                                                          <http://purl.org/dc/terms/source> "Neuendorf et al 2005"@en ;
+                                                                          rdfs:comment "An irregular cavity in a phaneritic igneous rock into which small crystals of the rock-forming minerals protrude."@en ;
+                                                                          rdfs:label "miarolitic cavity"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Outcrop
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Outcrop> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary> ;
+                                                                rdfs:comment "A boundary between a rock body and the Earth's atmosphere or a water body."@en ;
+                                                                rdfs:label "Outcrop"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Pore_Space
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Pore_Space> rdf:type owl:Class ;
+                                                                   rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Physical_Gap> ,
+                                                                                   [ rdf:type owl:Restriction ;
+                                                                                     owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/hostedBy> ;
+                                                                                     owl:someValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body>
+                                                                                   ] ;
+                                                                   <http://purl.org/dc/terms/source> "Neuendorf et al 2005, CGI GTWG vocabulary"@en ;
+                                                                   rdfs:comment "Open space between particles in a granular aggregate."@en ;
+                                                                   rdfs:label "pore space"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom> rdf:type owl:Class ;
+                                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary> ;
+                                                                         rdfs:comment "Constraint: rock body must be a stratigraphic unit for which 'top' and 'bottom' are meaningful."@en ;
+                                                                         rdfs:label "Rock Body Bottom"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Section
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Section> rdf:type owl:Class ;
+                                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary> ;
+                                                                          rdfs:comment "A rock object that represents a continuous strip of rock material that includes (has parts) a sequence of stratified layers."@en ;
+                                                                          rdfs:label "Rock Body Section"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Top
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Top> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary> ;
+                                                                      rdfs:comment "Constraint: rock body must be a stratigraphic unit for which 'top' and 'bottom' are meaningful."@en ;
+                                                                      rdfs:label "Rock Body Top"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Stratigraphic_Section
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Stratigraphic_Section> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Section> ;
+                                                                              rdfs:comment "A rock object that represents a continuous strip of rock material that includes (samples) a sequence of stratified layers."@en ;
+                                                                              rdfs:label "Stratigraphic Section"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Stratotype
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Stratotype> rdf:type owl:Class ;
+                                                                   rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Example> ,
+                                                                                   [ rdf:type owl:Restriction ;
+                                                                                     owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/isExampleOf> ;
+                                                                                     owl:someValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit>
+                                                                                   ] ,
+                                                                                   [ rdf:type owl:Restriction ;
+                                                                                     owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/hasRolePlayer> ;
+                                                                                     owl:allValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Stratigraphic_Section>
+                                                                                   ] ;
+                                                                   rdfs:comment "a specific interval or point in a specific sequence of rock stata that constitues the reference standard  defining a stratigrphic unit or boundary"@en ,
+                                                                                "rdfs:source -- based on Salvador 1994 (International Stratigraphic Guide: Int. Union Geo. Sciences and Geol. Soc. Am.), p.26, as repored in Neuendorf et al., 2005."@en ;
+                                                                   rdfs:label "Stratotype"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Vein_Dike_Lithosome
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Vein_Dike_Lithosome> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Lithosome> ;
+                                                                            <http://purl.org/dc/terms/source> "CGI rockbodypart vocabulary 2016-11-21 "@en ;
+                                                                            rdfs:comment "Lithosome occurs as intrusive, sheet-like bodies within the unit as an essential part of the unit."@en ;
+                                                                            rdfs:label "vein or dike lithosome"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Vesicle
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Vesicle> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Hole> ,
+                                                                                [ rdf:type owl:Restriction ;
+                                                                                  owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/hostedBy> ;
+                                                                                  owl:someValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body>
+                                                                                ] ;
+                                                                <http://purl.org/dc/terms/source> "Neuendorf et al 2005"@en ;
+                                                                rdfs:comment "Cavity in volcanic rock formed by trapped gas. Use amygdule if filled with secondary mineral."@en ;
+                                                                rdfs:label "vesicle"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Vug
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Vug> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Hole> ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/hostedBy> ;
+                                                                              owl:someValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body>
+                                                                            ] ;
+                                                            <http://purl.org/dc/terms/source> "Neuendorf et al 2005"@en ;
+                                                            rdfs:comment "Irregular cavity in rock, generic term with no connotation of origin of cavity. May be lined with crystals of different mineral compostion to the host rock"@en ;
+                                                            rdfs:label "vug"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geology/Mineral
+<http://loop3d.org/GSO/ontology/2020/1/geology/Mineral> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body
+<http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary
+<http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Object
+<http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Object> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

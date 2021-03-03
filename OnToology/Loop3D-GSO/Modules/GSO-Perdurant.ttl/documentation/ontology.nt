@@ -1,0 +1,111 @@
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/common/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/ontology> <http://www.w3.org/2000/01/rdf-schema#label> "Perdurant"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent
+<http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasQuality
+<http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Event
+<http://loop3d.org/GSO/ontology/2020/1/common/Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Process
+<http://loop3d.org/GSO/ontology/2020/1/common/Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Unit_Of_Measure
+<http://loop3d.org/GSO/ontology/2020/1/common/Unit_Of_Measure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/perdurant/Assertion
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Assertion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Assertion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/perdurant/Determining_Event> .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Assertion> <http://www.w3.org/2000/01/rdf-schema#comment> "Determination by agreeement or convention. No evidence required, but there should be an identified authority making the assertion." .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Assertion> <http://www.w3.org/2000/01/rdf-schema#label> "Assertion "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/perdurant/Calculation
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Calculation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Calculation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/perdurant/Determining_Event> .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Calculation> <http://www.w3.org/2000/01/rdf-schema#comment> "A determination of the value of some property using analytical methods and other data input "@en .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Calculation> <http://www.w3.org/2000/01/rdf-schema#label> "Calculation "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/perdurant/Determining_Event
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Determining_Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Determining_Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Event> .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Determining_Event> <http://www.w3.org/2000/01/rdf-schema#comment> "An event responsible for the origing of some particular.  For qualities, an observation, calculation, or inference event used to determine the value of one or more qualities. The suggested hook here is to use PROV and or SOSA vocabulary to populate Determining_Event subclasses."@en .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Determining_Event> <http://www.w3.org/2000/01/rdf-schema#label> "Determining Event "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/perdurant/First_Standard_Deviation_Calculation
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/First_Standard_Deviation_Calculation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/First_Standard_Deviation_Calculation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/perdurant/Statistical_Calculation> .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/First_Standard_Deviation_Calculation> <http://www.w3.org/2000/01/rdf-schema#comment> "report a standard deviation value for a value range "@en .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/First_Standard_Deviation_Calculation> <http://www.w3.org/2000/01/rdf-schema#label> "First Standard Deviation Calculation"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/perdurant/Inference
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Inference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Inference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/perdurant/Determining_Event> .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Inference> <http://www.w3.org/2000/01/rdf-schema#comment> "An indirect determination of the value of some property based on logical reasoning from other data "@en .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Inference> <http://www.w3.org/2000/01/rdf-schema#label> "Inference "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/perdurant/Maximum_Value_Calculation
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Maximum_Value_Calculation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Maximum_Value_Calculation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/perdurant/Statistical_Calculation> .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Maximum_Value_Calculation> <http://www.w3.org/2000/01/rdf-schema#comment> "report a maximum value for a value range"@en .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Maximum_Value_Calculation> <http://www.w3.org/2000/01/rdf-schema#label> "Maximum Value Calculation"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/perdurant/Mean_Value_Calculation
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Mean_Value_Calculation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Mean_Value_Calculation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/perdurant/Statistical_Calculation> .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Mean_Value_Calculation> <http://www.w3.org/2000/01/rdf-schema#comment> "report a mean value for a value range"@en .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Mean_Value_Calculation> <http://www.w3.org/2000/01/rdf-schema#label> "Mean Value Calculation"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/perdurant/Minimum_Value_Calculation
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Minimum_Value_Calculation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Minimum_Value_Calculation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/perdurant/Statistical_Calculation> .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Minimum_Value_Calculation> <http://www.w3.org/2000/01/rdf-schema#comment> "report a minimum value for a value range"@en .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Minimum_Value_Calculation> <http://www.w3.org/2000/01/rdf-schema#label> "Minimum Value Calculation"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/perdurant/Observation
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Observation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Observation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/perdurant/Determining_Event> .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Observation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/perdurant/Observation_Process> .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Observation> <http://www.w3.org/2000/01/rdf-schema#comment> "An event that results in the direct determination of the value of some property; typically will haveConstituent relation so a Measurement_Activity that describes the observation process."@en .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Observation> <http://www.w3.org/2000/01/rdf-schema#label> "Observation "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/perdurant/Observation_Process
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Observation_Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Observation_Process> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Process> .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Observation_Process> <http://www.w3.org/2000/01/rdf-schema#comment> "A process by which the value of some property or quality of an entity is determined.  Conceptually a subclass of prov:Activity."@en .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Observation_Process> <http://www.w3.org/2000/01/rdf-schema#label> "Observation_Process"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/perdurant/Statistical_Calculation
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Statistical_Calculation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Statistical_Calculation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/perdurant/Calculation> .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Statistical_Calculation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/common/Unit_Of_Measure> .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Statistical_Calculation> <http://www.w3.org/2000/01/rdf-schema#comment> "Determination of statistics associated with a measured value, e.g. minimum, maximum, mean, mode, standard deviation."@en .
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Statistical_Calculation> <http://www.w3.org/2000/01/rdf-schema#label> "Statistical Calculation"@en .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

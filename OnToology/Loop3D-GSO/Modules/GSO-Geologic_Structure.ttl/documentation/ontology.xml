@@ -1,0 +1,436 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/ontology#"
+     xml:base="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/ontology">
+        <owl:imports rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/ontology"/>
+        <owl:imports rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicquality/ontology"/>
+        <owl:imports rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/ontology"/>
+        <owl:imports rdf:resource="http://loop3d.org/GSO/ontology/2020/1/quality/ontology"/>
+        <rdfs:comment xml:lang="en">Geological structures</rdfs:comment>
+        <rdfs:label xml:lang="en">Structure</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#minQualifiedCardinality -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#minQualifiedCardinality"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasQuality -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasQuality"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hostedBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hostedBy"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Low_Dimension_Feature -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Low_Dimension_Feature"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Pattern_Feature -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Pattern_Feature"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicquality/Line_Orientation -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicquality/Line_Orientation"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plane_Orientation -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plane_Orientation"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Bedding -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Bedding">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Sedimentary_Fabric"/>
+        <rdfs:comment xml:lang="en">Bedding as a fabric representing the average orientation of paleodepositional surface should be encoded through the foliationType; might apply to bedding that is layering or a foliation without layering (e.g. clast alignment in amalgamated beds).</rdfs:comment>
+        <rdfs:label xml:lang="en">Bedding  </rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Bedding_Pattern -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Bedding_Pattern">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf"/>
+                <owl:allValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Bedding"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Term(s) specifying patterns of bedding thickness or relationships between bedding packages. (eg; thinning upward, thickening upward). A disposition.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">GeoSciML v4</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Bedding Pattern</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Bedding_Style -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Bedding_Style">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf"/>
+                <owl:allValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Bedding"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Term(s) specifying the style of bedding in a stratified geologic unit, e.g. lenticular, irregular, planar, vague, massive</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">GeoSciML v4</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Bedding Style</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Clast_Imbrication_Fabric -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Clast_Imbrication_Fabric">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Sedimentary_Fabric"/>
+        <rdfs:comment xml:lang="en">A sedimentary fabric characterized by disk-shaped or elongate fragments dipping in a preferred direcation at an angle to bedding.</rdfs:comment>
+        <rdfs:comment>rdfs:source -- Neuendorf et al., 2005, p. 322.</rdfs:comment>
+        <rdfs:label xml:lang="en">Clast Imbrication Fabric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Clast_Supported_Fabric -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Clast_Supported_Fabric">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Sedimentary_Fabric"/>
+        <rdfs:comment xml:lang="en">A sedimentary fabric in which a framework of rock fragments in contact with each other forms the body of a clastic rock, typically with finer-grained matrix or cement in the intersticies between fragments</rdfs:comment>
+        <rdfs:label xml:lang="en">Clast Supported Fabric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Cross_Stratification -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Cross_Stratification">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Bedding"/>
+        <rdfs:comment xml:lang="en">bedding in which bedding surfaces are arranged at an angle to the main (originally horizontal) stratification</rdfs:comment>
+        <rdfs:label xml:lang="en">Cross Stratification </rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Crystallographic_Preferred_Orientation_Fabric -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Crystallographic_Preferred_Orientation_Fabric">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Particle_Preferred_Orientation_Fabric"/>
+        <rdfs:comment xml:lang="en">fabric defined by a preferred orientation of the crystallographic axes of mineral particles in a rock.</rdfs:comment>
+        <rdfs:label xml:lang="en">Crystallographic Preferred Orientation Fabric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Fabric -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Fabric">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Pattern_Feature"/>
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Structure"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hostedBy"/>
+                <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:source xml:lang="en">Hobbs BE, Means WD, &amp; Williams PF. (1976). An outline of structural geology. John Wiley &amp; sons, p.73. ;  Twiss RJ and Moores EM. (2007). Structural Geology, 2nd Edition, WH Freeman and Co., p.497; Wikipedia https://en.wikipedia.org/wiki/Fabric_(geology); Neuendorf et al., 2005, AGI Glossary of Geology; Sander, 1930.</terms:source>
+        <rdfs:comment xml:lang="en">A pattern in a rock body. Emerges from the relation between parts (including constituents) of the rock.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The spatial and geometric configuration of all the elements that make it up. Describes the shape and characteristics of individual parts of a rock and the manner in which the parts are distributed and oriented. In sedimentary rocks, the fabric developed depends on the depositional environment and can provide information on current directions at the time of deposition. In structural geology, fabrics may provide information on both the orientation and magnitude of the strains that have affected a particular piece of deformed rock.</rdfs:comment>
+        <rdfs:label xml:lang="en">Fabric </rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Foliation -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Foliation">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Fabric"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasQuality"/>
+                <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plane_Orientation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Lineation"/>
+        <terms:source xml:lang="en">Jackson 1997</terms:source>
+        <rdfs:comment xml:lang="en">Fabric defined by the planar arrangement of textural or structural features (fabric elements).</rdfs:comment>
+        <rdfs:label xml:lang="en">Foliation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Fracture -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Fracture">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Low_Dimension_Feature"/>
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Structure"/>
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error1"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn"/>
+                <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Deformation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hostedBy"/>
+                <owl:allValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A surface within a material across which there is no cohesion. (Neuendorf et al., 2005)</rdfs:comment>
+        <rdfs:comment xml:lang="en">Axiom for  gsoc:participantIn is place holders for more specific properties in gsop and gspr. Trying to avoid imports here.</rdfs:comment>
+        <rdfs:label xml:lang="en">Fracture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Graded_Bedding -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Graded_Bedding">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Sedimentary_Fabric"/>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label xml:lang="en">Graded Bedding </rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Joint -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Joint">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Fracture"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasQuality"/>
+                        <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/quality/Displacement"/>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Joint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Lineation -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Lineation">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Fabric"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasQuality"/>
+                <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicquality/Line_Orientation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:source xml:lang="en">Neuendorf et al 2005, CGI lineationtype SKOS vocabulary 2016-11-21</terms:source>
+        <rdfs:comment xml:lang="en">Nongenetic term for a penetrative linear structure.</rdfs:comment>
+        <rdfs:label xml:lang="en">Lineation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Matrix_Supported_Fabric -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Matrix_Supported_Fabric">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Sedimentary_Fabric"/>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label xml:lang="en">Matrix Supported Fabric </rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Particle_Preferred_Orientation_Fabric -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Particle_Preferred_Orientation_Fabric">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Fabric"/>
+        <rdfs:comment xml:lang="en">Fabric defined by preferred crystallographic or grain shape orientation in a rock material.</rdfs:comment>
+        <rdfs:label xml:lang="en">Particle Preferred Orientation Fabric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Particle_Shape_Fabric -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Particle_Shape_Fabric">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Particle_Preferred_Orientation_Fabric"/>
+        <rdfs:comment xml:lang="en">Fabric defined by alignment of the dimensional axes of prolate or oblate particles in a rock. The fabric might result from primary depositional or crystallization process, or from subsequent deformation</rdfs:comment>
+        <rdfs:label xml:lang="en">Particle Shape Fabric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Sedimentary_Fabric -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Sedimentary_Fabric">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Fabric"/>
+        <rdfs:comment xml:lang="en">Fabrics in sedimentary rock like &quot;clast-supported&quot;,  &quot;matrix-supported&quot;, &quot;cross-bedding&quot;, and &quot;graded bed&quot; are considered kinds of Integral Feature/GeologicStructure because they depend on the configuration of parts of a rock body. Sedimentary_Fabric is used to represent penetrative feature in a rock body;  Sedimentary_Structure is used to describe discrete features in a sedimentary rock;</rdfs:comment>
+        <rdfs:label xml:lang="en">Sedimentary Fabric  </rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Sedimentary_Structure -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Sedimentary_Structure">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Structure"/>
+        <rdfs:comment xml:lang="en">Structures formed in sedimentary rocks related to depositional or diagenetic processes.   Includes trace fossils. Sedimentary structure is used to describe discrete features in a sedimentary rock; penetrative structures (like bedding, cross bedding) are Sedimentary_Fabrics</rdfs:comment>
+        <rdfs:label xml:lang="en">Sedimentary Structure  </rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Deformation -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Deformation"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Structure -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Structure"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/quality/Displacement -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/quality/Displacement"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error1 -->
+
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error1"/>
+    <rdf:Description>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+

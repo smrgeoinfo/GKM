@@ -1,0 +1,333 @@
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/master/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb> <http://www.w3.org/2000/01/rdf-schema#comment> "Example encoding of a lithology description for a formation"@en .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb> <http://www.w3.org/2000/01/rdf-schema#comment> "Stephen M. Richard 2019-05-03; update 2020-07-31 for refactored qualities"@en .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb> <http://www.w3.org/2000/01/rdf-schema#comment> "description of rock material constituents of Bolsa Quartzite Formation"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/determinedBy
+<http://loop3d.org/GSO/ontology/2020/1/common/determinedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent
+<http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue
+<http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue
+<http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasQuality
+<http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasRole
+<http://loop3d.org/GSO/ontology/2020/1/common/hasRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue
+<http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasUOM
+<http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasValue
+<http://loop3d.org/GSO/ontology/2020/1/common/hasValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/isConstituentOf
+<http://loop3d.org/GSO/ontology/2020/1/common/isConstituentOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn
+<http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/lithology/Particle_Shape
+<http://loop3d.org/GSO/ontology/2020/1/lithology/Particle_Shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Colour
+<http://loop3d.org/GSO/ontology/2020/1/common/Colour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/First_Standard_Deviation_Calculation
+<http://loop3d.org/GSO/ontology/2020/1/common/First_Standard_Deviation_Calculation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Maximum_Value_Calculation
+<http://loop3d.org/GSO/ontology/2020/1/common/Maximum_Value_Calculation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value
+<http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Proportion
+<http://loop3d.org/GSO/ontology/2020/1/common/Proportion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Range_Value
+<http://loop3d.org/GSO/ontology/2020/1/common/Range_Value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Simple_Uncertainty
+<http://loop3d.org/GSO/ontology/2020/1/common/Simple_Uncertainty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/element/calcium
+<http://loop3d.org/GSO/ontology/2020/1/element/calcium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/element/oxygen
+<http://loop3d.org/GSO/ontology/2020/1/element/oxygen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/element/potassium
+<http://loop3d.org/GSO/ontology/2020/1/element/potassium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/element/silicon
+<http://loop3d.org/GSO/ontology/2020/1/element/silicon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/element/sodium
+<http://loop3d.org/GSO/ontology/2020/1/element/sodium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Clast
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Clast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Consolidation_Degree
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Consolidation_Degree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Granular_Material
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Granular_Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Matrix
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Matrix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Material
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Traction_Saltation_or_Suspension_Deposition
+<http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Traction_Saltation_or_Suspension_Deposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/lithology/Arenite
+<http://loop3d.org/GSO/ontology/2020/1/lithology/Arenite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/lithology/Grain_Roundness
+<http://loop3d.org/GSO/ontology/2020/1/lithology/Grain_Roundness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/lithology/Particle_Shape
+<http://loop3d.org/GSO/ontology/2020/1/lithology/Particle_Shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/lithology/consolidationdegree/well_consolidated
+<http://loop3d.org/GSO/ontology/2020/1/lithology/consolidationdegree/well_consolidated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Epiclastic_Particle_Material
+<http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Epiclastic_Particle_Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Size
+<http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Syngenetic_Particle_Material
+<http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Syngenetic_Particle_Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/rounded
+<http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/rounded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/sub_angular
+<http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/sub_angular> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/sub_rounded
+<http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/sub_rounded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/mineral/claymineral
+<http://loop3d.org/GSO/ontology/2020/1/mineral/claymineral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/mineral/feldspar
+<http://loop3d.org/GSO/ontology/2020/1/mineral/feldspar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/mineral/quartz
+<http://loop3d.org/GSO/ontology/2020/1/mineral/quartz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/perdurant/Mean_Value_Calculation
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Mean_Value_Calculation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://qudt.org/vocab/unit/MilliM
+<http://qudt.org/vocab/unit/MilliM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://qudt.org/vocab/unit/PERCENT
+<http://qudt.org/vocab/unit/PERCENT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Bolsa_Quartzite_Material
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Bolsa_Quartzite_Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Bolsa_Quartzite_Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Material> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Bolsa_Quartzite_Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/lithology/Arenite> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Bolsa_Quartzite_Material> <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> <http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Clay_matrix> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Bolsa_Quartzite_Material> <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> <http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Quartz_grains> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Bolsa_Quartzite_Material> <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Epiclastic_Particle_Material> .
+_:genid1 <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/mineral/feldspar> .
+_:genid2 <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/element/calcium> .
+_:genid2 <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/element/oxygen> .
+_:genid2 <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/element/potassium> .
+_:genid2 <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/element/silicon> .
+_:genid2 <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/element/sodium> .
+_:genid2 <http://www.w3.org/2000/01/rdf-schema#label> "specific feldspar in this material"@en .
+_:genid1 <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Proportion> .
+_:genid8 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "40"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid8 <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/vocab/unit/PERCENT> .
+_:genid8 <http://www.w3.org/2000/01/rdf-schema#label> "proportion of feldspar grains"@en .
+_:genid1 <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Size> .
+_:genid10 <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Range_Value> .
+_:genid11 <http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value> .
+_:genid12 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid12 <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/vocab/unit/MilliM> .
+_:genid12 <http://www.w3.org/2000/01/rdf-schema#label> "5 mm maximum"@en .
+_:genid11 <http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value> .
+_:genid14 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "0.2"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid14 <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/vocab/unit/MilliM> .
+_:genid14 <http://www.w3.org/2000/01/rdf-schema#label> "0.2 mm minimum"@en .
+_:genid10 <http://www.w3.org/2000/01/rdf-schema#label> "0.2 to 5 mm diameter clasts" .
+_:genid1 <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid16 .
+_:genid16 <http://loop3d.org/GSO/ontology/2020/1/lithology/Particle_Shape> _:genid17 .
+_:genid17 <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/lithology/Grain_Roundness> .
+_:genid18 <http://loop3d.org/GSO/ontology/2020/1/common/hasValue> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/sub_angular> .
+_:genid18 <http://www.w3.org/2000/01/rdf-schema#label> "subangular grains"@en .
+_:genid17 <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/lithology/Grain_Roundness> .
+_:genid20 <http://loop3d.org/GSO/ontology/2020/1/common/hasValue> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/sub_rounded> .
+_:genid20 <http://www.w3.org/2000/01/rdf-schema#label> "subrounded grains"@en .
+_:genid1 <http://loop3d.org/GSO/ontology/2020/1/common/hasRole> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Clast> .
+_:genid1 <http://www.w3.org/2000/01/rdf-schema#comment> "inline description of feldspar grains in the sandstone" .
+_:genid1 <http://www.w3.org/2000/01/rdf-schema#label> "feldspar grains, inline blank node example" .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Bolsa_Quartzite_Material> <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Colour> .
+_:genid23 <http://loop3d.org/GSO/ontology/2020/1/common/hasValue> <http://colors.org/maroonbrown> .
+_:genid23 <http://www.w3.org/2000/01/rdf-schema#label> "Maroon-brown outcrop color" .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Bolsa_Quartzite_Material> <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Consolidation_Degree> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/lithology/consolidationdegree/well_consolidated> .
+_:genid24 <http://www.w3.org/2000/01/rdf-schema#label> "well consolidated" .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Bolsa_Quartzite_Material> <http://loop3d.org/GSO/ontology/2020/1/common/isConstituentOf> <http://loop3d.org/GSO/ontology/2020/1/ex-complexcontact#CbFormation> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Bolsa_Quartzite_Material> <http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Traction_Saltation_or_Suspension_Deposition> .
+_:genid25 <http://www.w3.org/2000/01/rdf-schema#label> "clastic sedimentary genesis" .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Bolsa_Quartzite_Material> <http://www.w3.org/2000/01/rdf-schema#comment> "describe proportions of constituents, feldspar with blank node, quartz and matrix with label nodes to test variations"@en .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Bolsa_Quartzite_Material> <http://www.w3.org/2000/01/rdf-schema#label> "Bolsa Quartzite, basal arkose"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Clay_matrix
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Clay_matrix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Clay_matrix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Granular_Material> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Clay_matrix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Syngenetic_Particle_Material> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Clay_matrix> <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/mineral/claymineral> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Clay_matrix> <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Proportion> .
+_:genid27 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid27 <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/vocab/unit/PERCENT> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Clay_matrix> <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Size> .
+_:genid29 <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value> .
+_:genid30 <http://loop3d.org/GSO/ontology/2020/1/common/determinedBy> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Maximum_Value_Calculation> .
+_:genid30 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "0.005"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid30 <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/vocab/unit/MilliM> .
+_:genid30 <http://www.w3.org/2000/01/rdf-schema#label> "maximum grain size 0.005 mm" .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Clay_matrix> <http://loop3d.org/GSO/ontology/2020/1/common/hasRole> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Matrix> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Clay_matrix> <http://www.w3.org/2000/01/rdf-schema#comment> "Detrital clay-size fraction modified during diagensis"@en .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Clay_matrix> <http://www.w3.org/2000/01/rdf-schema#label> "Clay matrix constituent"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Quartz_grains
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Quartz_grains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Quartz_grains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Epiclastic_Particle_Material> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Quartz_grains> <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> <http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Quartz_mineral> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Quartz_grains> <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Proportion> .
+_:genid34 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "45"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid34 <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/vocab/unit/PERCENT> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Quartz_grains> <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Size> .
+_:genid36 <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value> .
+_:genid37 <http://loop3d.org/GSO/ontology/2020/1/common/determinedBy> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/perdurant/Mean_Value_Calculation> .
+_:genid37 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "3"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid37 <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Simple_Uncertainty> .
+_:genid39 <http://loop3d.org/GSO/ontology/2020/1/common/determinedBy> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/First_Standard_Deviation_Calculation> .
+_:genid39 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "0.06"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid39 <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/vocab/unit/MilliM> .
+_:genid37 <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/vocab/unit/MilliM> .
+_:genid37 <http://www.w3.org/2000/01/rdf-schema#label> "average grain size 3 +/- 0.06 mm" .
+_:genid36 <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Range_Value> .
+_:genid43 <http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value> .
+_:genid44 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "8"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid44 <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/vocab/unit/MilliM> .
+_:genid43 <http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value> .
+_:genid46 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "0.05"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid46 <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/vocab/unit/MilliM> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Quartz_grains> <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/lithology/Particle_Shape> .
+_:genid48 <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/lithology/Grain_Roundness> .
+_:genid49 <http://loop3d.org/GSO/ontology/2020/1/common/hasValue> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/rounded> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/sub_rounded> .
+_:genid49 <http://www.w3.org/2000/01/rdf-schema#label> "subrounded to rounded grains"@en .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Quartz_grains> <http://loop3d.org/GSO/ontology/2020/1/common/hasRole> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Clast> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Quartz_grains> <http://www.w3.org/2000/01/rdf-schema#label> "Quartz grains in Bolsa_Quartzite_Material" .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Quartz_mineral
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Quartz_mineral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Quartz_mineral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/mineral/quartz> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Quartz_mineral> <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/element/oxygen> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Quartz_mineral> <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid53 .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/element/silicon> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Quartz_mineral> <http://www.w3.org/2000/01/rdf-schema#comment> "include instance of mineral to describe particular physical character and composition of mineral in this material"@en .
+<http://loop3d.org/GSO/ontology/2020/1/ex-materialCb#Quartz_mineral> <http://www.w3.org/2000/01/rdf-schema#label> "specific quartz in this material"@en .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

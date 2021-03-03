@@ -1,0 +1,127 @@
+[ {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/alterationtype-bc/disseminated_sulphide_altered_rock",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "British Columbia Geological Survey, 2008, Rock Properties Database"
+  }, {
+    "@language" : "en",
+    "@value" : "SMR provisional 2020-06-15"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Alteration characterized by introduction of various sulphide minerals as framework constituents in altered rock."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "disseminated sulphide minerals alteration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/alterationtype-bc/introduced_sulphide_altered_rock"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/alterationtype-bc/introduced_sulphide_altered_rock",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "British Columbia Geological Survey, 2008, Rock Properties Database"
+  }, {
+    "@language" : "en",
+    "@value" : "SMR provisional 2020-06-15"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Alteration characterized by introduction of various sulphide minerals as framework constituents in altered rock."
+  }, {
+    "@language" : "en",
+    "@value" : "Alteration characterized by introduction of various sulphide minerals into a protolith rock as a product of hydrothermal alteration, includes veinlets, disseminated, replacement..."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "disseminated sulphide minerals alteration"
+  }, {
+    "@language" : "en",
+    "@value" : "sulphide minerals present"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/altered_rock"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/alterationtype-bc/near_surface_oxidized_rock",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "British Columbia Geological Survey, 2008, Rock Properties Database"
+  }, {
+    "@language" : "en",
+    "@value" : "SMR provisional 2020-06-15"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "sulphides replaced by oxide minerals, acid leaching due to sulphide to acid reactions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Near surface oxidation alteration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/altered_rock"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/alterationtype-bc/ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "British Columbia Geological Survey, 2008, Rock Properties Database:  Ministry of Energy, Mines and Petroleum Resources, BC Geological Survey, access online at https://catalogue.data.gov.bc.ca/dataset/2dc8a4f1-c8f8-4603-813e-855af99b7ba5/resource/51f0620a-42cf-458f-821c-bdd895f24fdc/download/of2008-4rpd.xls; see accompanying report http://www.geosciencebc.com/i/pdf/FinalReports/GBCReport_2008-9.pdf"
+  }, {
+    "@language" : "en",
+    "@value" : "SMR provisional 2020-06-15"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Extend CGI alteration type vocabulary to account for alteration reported in British Columbia Geological Survey, 2008, Rock Properties Database"
+  }, {
+    "@language" : "en",
+    "@value" : "dct:date-- 2020-06-15 "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "British Columbia Alteration Type"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/ontology"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/alterationtype-bc/sulphide_veinlet_altered_rock",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "British Columbia Geological Survey, 2008, Rock Properties Database"
+  }, {
+    "@language" : "en",
+    "@value" : "SMR provisional 2020-06-15"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Alteration characterized by introduction of various sulphide minerals as veinlets in rock body. Silica and other minerals may accompany sulphides in veinlets; alteration halos around veinlets are tricky to describe--TBD!."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sulphide minerals in veinlets"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/alterationtype-bc/introduced_sulphide_altered_rock"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/altered_rock",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/pyritic_altered_rock",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/alterationtype-bc/introduced_sulphide_altered_rock"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

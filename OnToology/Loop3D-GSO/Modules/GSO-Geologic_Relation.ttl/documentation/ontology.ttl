@@ -1,0 +1,203 @@
+@prefix : <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/ontology> .
+
+<http://loop3d.org/GSO/ontology/2020/1/geologicrelation/ontology> rdf:type owl:Ontology ;
+                                                                   owl:imports <http://loop3d.org/GSO/ontology/2020/1/common/ontology> ,
+                                                                               <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/ontology> ,
+                                                                               <http://loop3d.org/GSO/ontology/2020/1/geology/ontology> ;
+                                                                   rdfs:comment "dct:date--  2016-06-15"@en ,
+                                                                                "dct:modified-- 2019-12-04"@en ;
+                                                                   rdfs:label "Geologic Relation"@en .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/spatiallyIntersects
+<http://loop3d.org/GSO/ontology/2020/1/common/spatiallyIntersects> rdf:type owl:ObjectProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/spatiallyTouches
+<http://loop3d.org/GSO/ontology/2020/1/common/spatiallyTouches> rdf:type owl:ObjectProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/timeOlderThan
+<http://loop3d.org/GSO/ontology/2020/1/common/timeOlderThan> rdf:type owl:ObjectProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan
+<http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan> rdf:type owl:ObjectProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicrelation/crosscutBy
+<http://loop3d.org/GSO/ontology/2020/1/geologicrelation/crosscutBy> rdf:type owl:ObjectProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicrelation/crosscuts
+<http://loop3d.org/GSO/ontology/2020/1/geologicrelation/crosscuts> rdf:type owl:ObjectProperty ;
+                                                                   rdfs:subPropertyOf <http://loop3d.org/GSO/ontology/2020/1/common/spatiallyIntersects> ,
+                                                                                      <http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan> ,
+                                                                                      <http://loop3d.org/GSO/ontology/2020/1/geology/isGeologicallyRelatedTo> ;
+                                                                   rdfs:domain [ rdf:type owl:Class ;
+                                                                                 owl:unionOf ( <http://loop3d.org/GSO/ontology/2020/1/common/Feature>
+                                                                                               <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body>
+                                                                                             )
+                                                                               ] ;
+                                                                   rdfs:range [ rdf:type owl:Class ;
+                                                                                owl:unionOf ( <http://loop3d.org/GSO/ontology/2020/1/common/Feature>
+                                                                                              <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body>
+                                                                                            )
+                                                                              ] ;
+                                                                   rdfs:comment "relationship in with the subject Rock_Body or Physical_Feature exhibits field relations demonstrating that it is younger that the object Rock_Body or Physical_Feature and there is a spatial intersection"@en ;
+                                                                   rdfs:label "cross-cuts or truncates"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicrelation/intrudedBy
+<http://loop3d.org/GSO/ontology/2020/1/geologicrelation/intrudedBy> rdf:type owl:ObjectProperty ;
+                                                                    rdfs:subPropertyOf <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/crosscutBy> ;
+                                                                    rdfs:comment "subject rock body intrudes object rock body. Implies that subject rock body is igneous rock, and that object rock body is older than subject rock body"@en ;
+                                                                    rdfs:label "intrudes"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicrelation/intrudes
+<http://loop3d.org/GSO/ontology/2020/1/geologicrelation/intrudes> rdf:type owl:ObjectProperty ;
+                                                                  rdfs:subPropertyOf <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/crosscuts> ;
+                                                                  owl:inverseOf <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/intrudedBy> ;
+                                                                  rdfs:comment "subject rock body intrudes object rock body. Implies that subject rock body is igneous rock, and that object rock body is older than subject rock body"@en ;
+                                                                  rdfs:label "intrudes"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicrelation/isConcordantTo
+<http://loop3d.org/GSO/ontology/2020/1/geologicrelation/isConcordantTo> rdf:type owl:ObjectProperty ;
+                                                                        rdfs:subPropertyOf <http://loop3d.org/GSO/ontology/2020/1/geology/isGeologicallyRelatedTo> ;
+                                                                        rdfs:domain <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Foliation> ;
+                                                                        rdfs:comment "relationship between a foliation and some other planar feature (fault, contact, Ductile Shear zone, another foliation) in which the foliation orientation is broadly parallel to the planar feature."@en ;
+                                                                        rdfs:label "is concordant"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicrelation/litparlitintrudes
+<http://loop3d.org/GSO/ontology/2020/1/geologicrelation/litparlitintrudes> rdf:type owl:ObjectProperty ;
+                                                                           rdfs:subPropertyOf <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/intrudes> ;
+                                                                           rdfs:comment "Intruded rock is penetrated by numerous sheets of intruded igneous rock, usually granitic. "@en ;
+                                                                           rdfs:label "lit-par-lit intrudes"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicrelation/overlies
+<http://loop3d.org/GSO/ontology/2020/1/geologicrelation/overlies> rdf:type owl:ObjectProperty ;
+                                                                  rdfs:subPropertyOf <http://loop3d.org/GSO/ontology/2020/1/common/spatiallyTouches> ,
+                                                                                     <http://loop3d.org/GSO/ontology/2020/1/geology/isGeologicallyRelatedTo> ;
+                                                                  owl:inverseOf <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/underlies> ;
+                                                                  rdfs:domain <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> ;
+                                                                  rdfs:range <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> ;
+                                                                  rdfs:comment "Relationship between rock bodies in which subject body is above and in contact with the object body in geographic reference system (the object might or might not be younger than the subject). Generally applied to stratified rock bodies.   subclass from meets"@en ;
+                                                                  rdfs:label "overlies "@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicrelation/overprintedBy
+<http://loop3d.org/GSO/ontology/2020/1/geologicrelation/overprintedBy> rdf:type owl:ObjectProperty ;
+                                                                       rdfs:subPropertyOf <http://loop3d.org/GSO/ontology/2020/1/common/timeOlderThan> ,
+                                                                                          <http://loop3d.org/GSO/ontology/2020/1/geology/isGeologicallyRelatedTo> ;
+                                                                       owl:inverseOf <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/overprints> ;
+                                                                       rdfs:domain [ rdf:type owl:Class ;
+                                                                                     owl:unionOf ( <http://loop3d.org/GSO/ontology/2020/1/common/Feature>
+                                                                                                   <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body>
+                                                                                                 )
+                                                                                   ] ;
+                                                                       rdfs:range [ rdf:type owl:Class ;
+                                                                                    owl:unionOf ( <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Foliation>
+                                                                                                  <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Lineation>
+                                                                                                )
+                                                                                  ] ;
+                                                                       rdfs:comment "relationship in which a subject  Rock_Body or Physical_Feature is interpreted to have a subject fabric (foliation or lineation) imposed on it"@en ;
+                                                                       rdfs:label "overprinted by"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicrelation/overprints
+<http://loop3d.org/GSO/ontology/2020/1/geologicrelation/overprints> rdf:type owl:ObjectProperty ;
+                                                                    rdfs:subPropertyOf <http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan> ,
+                                                                                       <http://loop3d.org/GSO/ontology/2020/1/geology/isGeologicallyRelatedTo> ;
+                                                                    rdfs:domain [ rdf:type owl:Class ;
+                                                                                  owl:unionOf ( <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Foliation>
+                                                                                                <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Lineation>
+                                                                                              )
+                                                                                ] ;
+                                                                    rdfs:range [ rdf:type owl:Class ;
+                                                                                 owl:unionOf ( <http://loop3d.org/GSO/ontology/2020/1/common/Feature>
+                                                                                               <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body>
+                                                                                             )
+                                                                               ] ;
+                                                                    rdfs:comment "relationship in which a subject fabric (foliation or lineation) is interpreted to have formed after the object Rock_Body or Physical_Feature"@en ;
+                                                                    rdfs:label "overprints"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicrelation/stratOverlies
+<http://loop3d.org/GSO/ontology/2020/1/geologicrelation/stratOverlies> rdf:type owl:ObjectProperty ;
+                                                                       rdfs:subPropertyOf <http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan> ,
+                                                                                          <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/overlies> ;
+                                                                       owl:inverseOf <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/stratUnderlies> ;
+                                                                       rdfs:domain <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> ;
+                                                                       rdfs:range <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> ;
+                                                                       rdfs:comment "Relationship between rock bodies in which subject body is above and in contact with the object body in geographic reference system (the object might or might not be younger than the subject). Generally applied to stratified rock bodies.   subclass from meets"@en ;
+                                                                       rdfs:label "overlies "@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicrelation/stratUnderlies
+<http://loop3d.org/GSO/ontology/2020/1/geologicrelation/stratUnderlies> rdf:type owl:ObjectProperty ;
+                                                                        rdfs:subPropertyOf <http://loop3d.org/GSO/ontology/2020/1/common/timeOlderThan> ,
+                                                                                           <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/underlies> ;
+                                                                        rdfs:domain <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> ;
+                                                                        rdfs:range <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> ;
+                                                                        rdfs:comment "Relationship between rock bodies in which subject body is below and in contact with the object body in geographic refernce system (the object might or might not be younger than the subject). Generally applied to stratified rock bodies"@en ;
+                                                                        rdfs:label "underlies "@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicrelation/underlies
+<http://loop3d.org/GSO/ontology/2020/1/geologicrelation/underlies> rdf:type owl:ObjectProperty ;
+                                                                   rdfs:subPropertyOf <http://loop3d.org/GSO/ontology/2020/1/common/spatiallyTouches> ,
+                                                                                      <http://loop3d.org/GSO/ontology/2020/1/geology/isGeologicallyRelatedTo> ;
+                                                                   rdfs:domain <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> ;
+                                                                   rdfs:range <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> ;
+                                                                   rdfs:comment "Relationship between rock bodies in which subject body is below and in contact with the object body in geographic refernce system (the object might or might not be younger than the subject). Generally applied to stratified rock bodies"@en ;
+                                                                   rdfs:label "underlies"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geology/crosscutBy
+<http://loop3d.org/GSO/ontology/2020/1/geology/crosscutBy> rdf:type owl:ObjectProperty ;
+                                                           rdfs:subPropertyOf <http://loop3d.org/GSO/ontology/2020/1/common/spatiallyIntersects> ,
+                                                                              <http://loop3d.org/GSO/ontology/2020/1/common/timeOlderThan> ,
+                                                                              <http://loop3d.org/GSO/ontology/2020/1/geology/isGeologicallyRelatedTo> ;
+                                                           owl:inverseOf <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/crosscuts> ;
+                                                           rdfs:comment "relationship in with the object Rock_Body or Physical_Feature exhibits field relations demonstrating that it is younger that the subject Rock_Body or Physical_Feature"@en ;
+                                                           rdfs:label "is cross-cut or truncated by"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geology/isGeologicallyRelatedTo
+<http://loop3d.org/GSO/ontology/2020/1/geology/isGeologicallyRelatedTo> rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Feature
+<http://loop3d.org/GSO/ontology/2020/1/common/Feature> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Foliation
+<http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Foliation> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Lineation
+<http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Lineation> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body
+<http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

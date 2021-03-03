@@ -1,0 +1,768 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Shale" ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Clastic_Conglomerate" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid11"
+  }, {
+    "@id" : "_:genid26"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid41"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "clast-supported conglomerate, 80 percent clasts"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Marker bed X conglomerate"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Lithic_Epiclastic_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid12"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid13"
+  }, {
+    "@id" : "_:genid19"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid22"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "60 percent of clasts are sub-rounded diorite, 6-15 cm diameter"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Diorite" ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Size" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid14"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "60-150 mm diameter clasts"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Range_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue" : [ {
+    "@id" : "_:genid15"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue" : [ {
+    "@id" : "_:genid17"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "150"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid16"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "150 mm maximum"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://qudt.org/vocab/unit/MilliM" ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "60"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid18"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "60 mm minimum"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://qudt.org/vocab/unit/MilliM" ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Particle_Shape" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid20"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/quality/Diameter" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid3"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Roundness" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid21"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/sub_rounded" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sub-rounded"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Clast" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid23"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Proportion" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid24"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "60"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid25"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://qudt.org/vocab/unit/PERCENT" ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Lithic_Epiclastic_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid27"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid28"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "40 percent of clasts are well rounded granite, 3-8 cm diameter"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Granite" ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Clast" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid29"
+  }, {
+    "@id" : "_:genid32"
+  }, {
+    "@id" : "_:genid38"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Proportion" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid30"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "100.0"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid4"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "40"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid31"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://qudt.org/vocab/unit/PERCENT" ]
+}, {
+  "@id" : "_:genid32",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Size" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid33"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "30-80 mm diameter crystals"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Range_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue" : [ {
+    "@id" : "_:genid34"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue" : [ {
+    "@id" : "_:genid36"
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "80"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid35"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "80 mm maximum"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://qudt.org/vocab/unit/MilliM" ]
+}, {
+  "@id" : "_:genid36",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "30"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid37"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "30 mm minimum"
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://qudt.org/vocab/unit/MilliM" ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Particle_Shape" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid39"
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Roundness" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid40"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "shape is a composite property, with components roundness, aspect ratio"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://qudt.org/vocab/unit/MilliM" ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/well_rounded" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Well rounded"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Main_Body" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid42"
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Proportion" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid43"
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "80"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid44"
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "@type" : [ "http://qudt.org/vocab/unit/PERCENT" ]
+}, {
+  "@id" : "_:genid45",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Clastic_Sandstone" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid46"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sandstone matrix between clasts"
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Matrix" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid47"
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Proportion" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid48"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "proportion of matrix is 20%"
+  } ]
+}, {
+  "@id" : "_:genid48",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "20"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid49"
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://qudt.org/vocab/unit/PERCENT" ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Rock_Sample" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/determinedBy" : [ {
+    "@id" : "_:genid6"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isSampleOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-roles/formationx"
+  } ]
+}, {
+  "@id" : "_:genid50",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Object", "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Metasedimentary_Rock" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid51"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "_:genid52"
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Pendant" ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Metamorphic_Process" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasParticipant" : [ {
+    "@id" : "_:genid53"
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid54"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/partOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-roles/formationx"
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Protolith" ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Granite" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid56"
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Main_Body" ]
+}, {
+  "@id" : "_:genid57",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid58"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid59"
+  }, {
+    "@id" : "_:genid61"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid67"
+  } ]
+}, {
+  "@id" : "_:genid58",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/sanidine" ]
+}, {
+  "@id" : "_:genid59",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Shape" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid60"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/perdurant/Determining_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesSpaceIndirectly" : [ {
+    "@id" : "_:genid7"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "constituent processes could be used to document the sampling procedure. Consider importing SOSA or PROV vocabularies for better sample description."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "event of obtaining the sample in the field."
+  }, {
+    "@value" : "Sampling event"
+  } ]
+}, {
+  "@id" : "_:genid60",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Measure_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@value" : "euhedral"
+  } ]
+}, {
+  "@id" : "_:genid61",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Size" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid62"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "1-3 mm diameter crystals"
+  } ]
+}, {
+  "@id" : "_:genid62",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Range_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue" : [ {
+    "@id" : "_:genid63"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue" : [ {
+    "@id" : "_:genid65"
+  } ]
+}, {
+  "@id" : "_:genid63",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid64"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "3 mm maximum"
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://qudt.org/vocab/unit/MilliM" ]
+}, {
+  "@id" : "_:genid65",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid66"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "1 mm minimum"
+  } ]
+}, {
+  "@id" : "_:genid66",
+  "@type" : [ "http://qudt.org/vocab/unit/MilliM" ]
+}, {
+  "@id" : "_:genid67",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Phenocryst" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid68"
+  } ]
+}, {
+  "@id" : "_:genid68",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Proportion" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid69"
+  } ]
+}, {
+  "@id" : "_:genid69",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "15"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid70"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Spatial_Region" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid8"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "location of sampling event is indirect, anchored in the location of the sampling site"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Sampling location"
+  } ]
+}, {
+  "@id" : "_:genid70",
+  "@type" : [ "http://qudt.org/vocab/unit/PERCENT" ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Spatial_Location" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid9"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/WKT_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@value" : "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (144.359002125 -38.167672488)"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Measure_Value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Proportion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Protolith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Range_Value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Shape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Spatial_Location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Spatial_Region",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/WKT_Value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/determinedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasPart",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasParticipant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasRole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isSampleOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/occupiesSpaceIndirectly",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/partOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-roles/SMR2011-12-16-01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Object" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid2"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid5"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Sample SMR2011-12-16-01"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-roles/formationx",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Formation X"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-roles/markerbedx",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Marker_Bed" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid10"
+  }, {
+    "@id" : "_:genid45"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Marker bed X"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-roles/ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/master/ontology"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-roles/plutonz",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pluton" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasPart" : [ {
+    "@id" : "_:genid50"
+  }, {
+    "@id" : "_:genid55"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Pluton Z"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-roles/rhyoliteoftubac",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Rhyolite" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid57"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains 15% 1-3 mm euhedral sanidine phenocrysts "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rhyolite of Tubac"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Main_Body",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Matrix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Pendant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Metamorphic_Process",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Clast",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Phenocryst",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Rock_Sample",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Marker_Bed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pluton",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Roundness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Size",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Lithic_Epiclastic_Particle_Material",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Particle_Shape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/sub_rounded",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/well_rounded",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/mineral/sanidine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/perdurant/Determining_Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/quality/Diameter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Clastic_Conglomerate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Clastic_Sandstone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Diorite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Granite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Metasedimentary_Rock",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Rhyolite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/Shale",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://qudt.org/vocab/unit/MilliM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://qudt.org/vocab/unit/PERCENT",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]

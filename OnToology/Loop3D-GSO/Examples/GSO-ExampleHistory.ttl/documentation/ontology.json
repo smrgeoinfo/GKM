@@ -1,0 +1,916 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Ductile_Flow" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Shear along basement-cover contact"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1690"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid11"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid13"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Simple_Uncertainty" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "18"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid12"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://qudt.org/vocab/unit/MegaYR" ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://qudt.org/vocab/unit/MegaYR" ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1780"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid15"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid17"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Simple_Uncertainty" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid16"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://qudt.org/vocab/unit/MegaYR" ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://qudt.org/vocab/unit/MegaYR" ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval_Location" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid19"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Range" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue" : [ {
+    "@id" : "_:genid20"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasEndValue" : [ {
+    "@id" : "_:genid24"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Hinterland_Setting" ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "45"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid21"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid23"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Simple_Uncertainty" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1.0"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid22"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://qudt.org/vocab/unit/MegaYR" ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://qudt.org/vocab/unit/MegaYR" ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/determinedBy" : [ {
+    "@id" : "_:genid25"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "61"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid26"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid28"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/perdurant/Observation" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "youngest deformed intrusion, U-Pb zircon (Gehrels et al, 2015)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "61.0 +/- .04 Ma, U-Pb Zircon, concordant, youngest deformed intrusion"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Simple_Uncertainty" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "0.04"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid27"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://qudt.org/vocab/unit/MegaYR" ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://qudt.org/vocab/unit/MegaYR" ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Ductile_Flow" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mid-crustal remobilization"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Middle_Continental_Crust_Setting" ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Hinterland_Setting" ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Middle_Continental_Crust_Setting" ]
+}, {
+  "@id" : "_:genid32",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Foreland_Setting" ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Upper_Continental_Crust_Setting" ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeFinishedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/Danian2017"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeStartedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/Campanian2017"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Faulting" ]
+}, {
+  "@id" : "_:genid36",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Traction_Saltation_or_Suspension_Deposition" ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Faulting" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Intra or back arc basin formation"
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Back_Arc_Setting" ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Extended_Terrane" ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Faulting" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Normal faults bounding fault blocks"
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Intra and back arc sediment accumulation"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Alluvial_Fan_Setting" ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Alluvial_Plain_Setting" ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Floodplain_Setting" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mesozoic sediment allvial setting"
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Passive margin sediment accumulation"
+  } ]
+}, {
+  "@id" : "_:genid45",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Passive_Continental_Margin_Setting" ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Intrusion_Process" ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Earth_Interior_Setting", "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Middle_Continental_Crust_Setting" ]
+}, {
+  "@id" : "_:genid48",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval_Location" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid49"
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Range" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue" : [ {
+    "@id" : "_:genid50"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue" : [ {
+    "@id" : "_:genid54"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Extended_Terrane" ]
+}, {
+  "@id" : "_:genid50",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "42"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid51"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid53"
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Simple_Uncertainty" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1.7"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid52"
+  } ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://qudt.org/vocab/unit/MegaYR" ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://qudt.org/vocab/unit/MegaYR" ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "55"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid55"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid57"
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Simple_Uncertainty" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "0.3"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid56"
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://qudt.org/vocab/unit/MegaYR" ]
+}, {
+  "@id" : "_:genid57",
+  "@type" : [ "http://qudt.org/vocab/unit/MegaYR" ]
+}, {
+  "@id" : "_:genid58",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Intrusion_Process" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "granitoid intrusion"
+  } ]
+}, {
+  "@id" : "_:genid59",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Hinterland_Setting", "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Middle_Continental_Crust_Setting" ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Debris_Flow_Deposition" ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Mass_Wasting_Deposition" ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval_Location" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid9"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Range" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue" : [ {
+    "@id" : "_:genid10"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue" : [ {
+    "@id" : "_:genid14"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Simple_Uncertainty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Range",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval_Location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/determinedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasSetting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isPartOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeFinishedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeOlderThan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeStartedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/time_during",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/time_finishes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/time_interval_contains",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/time_started_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/time_starts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Alluvial_Fan_Setting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Alluvial_Plain_Setting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Back_Arc_Setting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Earth_Interior_Setting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Extended_Terrane",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Floodplain_Setting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Foreland_Setting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Hinterland_Setting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Middle_Continental_Crust_Setting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Passive_Continental_Margin_Setting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Upper_Continental_Crust_Setting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Basement_Cover_Shear_Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isPartOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Laramide_Ductile_deformation"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#LaramideDuctileBasementInterval"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasSetting" : [ {
+    "@id" : "_:genid2"
+  }, {
+    "@id" : "_:genid3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "F2.1 in figure"
+  }, {
+    "@language" : "en",
+    "@value" : "Strain localization at the boundary between Proterozoic crytalline rock and overlying Paleozoic sediments, apparently coeval with intrusion of two-mica granitoid (Wilderness Suite)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Late Laramide Shear along basement-cover contact"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Basin_Fill_Tilting_Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#TertiaryExtensionBasinFillInterval"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasSetting" : [ {
+    "@id" : "_:genid5"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Array of normal faults with tilting of blocks between faults, along with syn-deformation deposition in the basins formed. Faulting generally continued after sedimentation stopped. Manifest by fanning dips in the tan unit in the cross section figure."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Oligocene-Mid-Miocene faulting and tilting"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Detachment_Faulting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/time_during" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Middle_Tertiary_Extension"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Development of a large, low-angle normal fault that unroofs the Rincon Mountains, SE AZ"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "San Pedro Detachment Faulting (F3)"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#EarlyMioceneSedimentation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid6"
+  }, {
+    "@id" : "_:genid7"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#TertiaryExtensionBasinFillInterval"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/time_finishes" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Detachment_Faulting"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/time_starts" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Basin_Fill_Tilting_Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Deposition of conglomerate, sandstone, with minor interbedded tuff and volcanic rocks in basins formed in hanging wall of detachment system"
+  }, {
+    "@language" : "en",
+    "@value" : "Tan unit in the cross section figure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Oligocene to Mid Miocene Sediment accumulation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#EarlyProterozoic1780-1690",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid8"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Early Proterozoic 1780-1690 Ma"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#LaramideDuctileBasementInterval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid18"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Laramide 61-45 Ma"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#LaramideFaultingInterval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Time_Interval" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeFinishedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/Danian2017"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeStartedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/Campanian2017"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Early Laramide"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Laramide_Ductile_deformation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid29"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#LaramideDuctileBasementInterval"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Mesozoic_Sediment_Deposition"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/time_interval_contains" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Basement_Cover_Shear_Event"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Wilderness_Granite_Intrusion_Event"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasSetting" : [ {
+    "@id" : "_:genid30"
+  }, {
+    "@id" : "_:genid31"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "event manifested by fabrics in Proterozoic basement and overlying tectonites derived from Palezoic and Mesozoic sediments (gray and blue units, left side of cross section diagram."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Late Laramide ductile flow in basement"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Laramide_Orogeny",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/time_interval_contains" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Laramide_Ductile_deformation"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Laramide_Thrust_Faulting"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Wilderness_Granite_Intrusion_Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Late Cretaceous to Early Tertiary Deformation event in western North America, generally considered to have occurred between 80 Ma and 40 Ma.  Manifestations vary in different parts of the western North American Cordillera, but eastward migration of magmatism and deformation, particularly in the western USA are characteristic."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Laramide Orogeny "
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Laramide_Thrust_Faulting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasSetting" : [ {
+    "@id" : "_:genid32"
+  }, {
+    "@id" : "_:genid33"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly" : [ {
+    "@id" : "_:genid34"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/time_started_by" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Laramide_Ductile_deformation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Development of thrust faults in upper crust. F1 in the cross section diagram"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Laramide Thrust Faulting (F1)"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#LateMioceneBasinFormation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid35"
+  }, {
+    "@id" : "_:genid36"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/time_finishes" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Middle_Tertiary_Extension"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "High angle faulting forming current physiographic mountain ranges and basins, with deposition of conglomerate, sandstone and mudstone in basins. F4, F5 in the cross section diagram."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Late Miocene Basin Formation (F5)"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#MesozoicDepositionInterval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeFinishedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/Campanian2017"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeStartedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/MiddleTriassic2017"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Middle Triassic to Campanian"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#MesozoicFaultingInterval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeFinishedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/UpperJurassic2017"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeStartedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/MiddleTriassic2017"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Middle Triassic to LateJurassic"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Mesozoic_Basin_Formation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid37"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#MesozoicFaultingInterval"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasSetting" : [ {
+    "@id" : "_:genid38"
+  }, {
+    "@id" : "_:genid39"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mesozoic basin formation faulting"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Mesozoic_Sediment_Deposition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid40"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#MesozoicDepositionInterval"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/time_started_by" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Mesozoic_Basin_Formation"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasSetting" : [ {
+    "@id" : "_:genid41"
+  }, {
+    "@id" : "_:genid42"
+  }, {
+    "@id" : "_:genid43"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "manifested by green stippled unit under thrust fault in the cross section diagram."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mesozoic basin sediment deposition"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Middle_Tertiary_Extension",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Laramide_Thrust_Faulting"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/time_interval_contains" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Basin_Fill_Tilting_Event"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#EarlyMioceneSedimentation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Crustal extension between late Oligocene and Late Miocene"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Middle Tertiary Extension "
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#PaleozoicDepositionInterval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeFinishedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/Permian2017"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeStartedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/Cambrian2017"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Paleozoic"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Paleozoic_Sediment_Deposition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid44"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#PaleozoicDepositionInterval"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeOlderThan" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Mesozoic_Basin_Formation"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasSetting" : [ {
+    "@id" : "_:genid45"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Paleozoic passive margin sediment deposition"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Proterozoic_igneous_intrusion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid46"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#EarlyProterozoic1780-1690"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeOlderThan" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Paleozoic_Sediment_Deposition"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasSetting" : [ {
+    "@id" : "_:genid47"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Early Proterozoic granitoid intrusion"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#TertiaryExtensionBasinFillInterval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeFinishedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/Burdigalian2017"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeStartedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/Chattian2017"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mid-Tertiary extensional basin formation interval"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#WildernessGraniteIntrusionInterval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid48"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Laramide 55-42 Ma"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Wilderness_Granite_Intrusion_Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid58"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isPartOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#Laramide_Ductile_deformation"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history#WildernessGraniteIntrusionInterval"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasSetting" : [ {
+    "@id" : "_:genid59"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "granitoid intrudes gray unit in lower left of cross section diagram, intrusions not shown in diagram"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Two-mica granite intrusion"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-history/ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Example history representation, based on geology shown in EasternRinconMountainsXSec.png figure in the Loop3D-GSO.TestInstances directory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Example complex geologic histry"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/master/ontology"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Time_Interval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasEndValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasSetting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Debris_Flow_Deposition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Ductile_Flow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Faulting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Intrusion_Process",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Mass_Wasting_Deposition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Traction_Saltation_or_Suspension_Deposition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/perdurant/Observation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://qudt.org/vocab/unit/MegaYR",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]

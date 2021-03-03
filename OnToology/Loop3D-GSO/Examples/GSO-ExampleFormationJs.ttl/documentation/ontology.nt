@@ -1,0 +1,312 @@
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs/ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/master/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "Stephen M. Richard 2019-05-02"@en .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "details of description of Js unit in GeologyScenarioForTesting.pptx"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent
+<http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue
+<http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue
+<http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasPart
+<http://loop3d.org/GSO/ontology/2020/1/common/hasPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasQuality
+<http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasRole
+<http://loop3d.org/GSO/ontology/2020/1/common/hasRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue
+<http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasUOM
+<http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasValue
+<http://loop3d.org/GSO/ontology/2020/1/common/hasValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn
+<http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/isProducedFrom
+<http://loop3d.org/GSO/ontology/2020/1/common/isProducedFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeIndirectly
+<http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeIndirectly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasHost
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasHost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfeature/within
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/within> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrelation/overlies
+<http://loop3d.org/GSO/ontology/2020/1/geologicrelation/overlies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrelation/underlies
+<http://loop3d.org/GSO/ontology/2020/1/geologicrelation/underlies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Measure_Value
+<http://loop3d.org/GSO/ontology/2020/1/common/Measure_Value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Range_Value
+<http://loop3d.org/GSO/ontology/2020/1/common/Range_Value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Gradational_Contact_Zone
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Gradational_Contact_Zone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Top
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Top> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition
+<http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicquality/Bedding_Thickness
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Bedding_Thickness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphic_Grade
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphic_Grade> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicquality/Not_Metamorphosed
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Not_Metamorphosed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Floating_Clast
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Floating_Clast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Sedimentary_Matrix
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Sedimentary_Matrix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithostratigraphic_Unit
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithostratigraphic_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Marker_Bed
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Marker_Bed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Part
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/lithology/Clastic_Sandstone
+<http://loop3d.org/GSO/ontology/2020/1/lithology/Clastic_Sandstone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/lithology/Limestone
+<http://loop3d.org/GSO/ontology/2020/1/lithology/Limestone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Material_Fossil_Particle_Material
+<http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Material_Fossil_Particle_Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Micrite
+<http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Micrite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/mineral/calcite
+<http://loop3d.org/GSO/ontology/2020/1/mineral/calcite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/quality/Thickness
+<http://loop3d.org/GSO/ontology/2020/1/quality/Thickness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://qudt.org/vocab/unit/M
+<http://qudt.org/vocab/unit/M> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://en.wikipedia.org/wiki/Ammonitida
+<https://en.wikipedia.org/wiki/Ammonitida> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> <http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation-lower> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> <http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation-upper> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> <http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> <http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#topJs-2> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation> <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphic_Grade> .
+_:genid1 <http://loop3d.org/GSO/ontology/2020/1/common/hasValue> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Not_Metamorphosed> .
+_:genid1 <http://www.w3.org/2000/01/rdf-schema#label> "not metamorphosed"@en .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation> <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Bedding_Thickness> .
+_:genid3 <http://loop3d.org/GSO/ontology/2020/1/common/hasValue> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Range_Value> .
+_:genid4 <http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Measure_Value> .
+_:genid5 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "Medium Bedded"@en .
+_:genid4 <http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Measure_Value> .
+_:genid6 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "Thin bedded"@en .
+_:genid3 <http://www.w3.org/2000/01/rdf-schema#label> "thin to medium bedded"@en .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation> <http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeIndirectly> <http://loop3d.org/GSO/ontology/2020/1/geologictime/LowerJurassicEpoch> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation> <http://www.w3.org/2000/01/rdf-schema#comment> "Several surfaces are not elucidated as parts in this example, but are referenced in the Contact instances below. These surfaces would participate in intrusion and also ?contact metamorphism? processes"@en .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation> <http://www.w3.org/2000/01/rdf-schema#comment> "clasts of Cb Quartzite are abundant in the lower part of the unit. The lower part is a fining-upward sequence from conglomeratic sandstone to fine-grained sandstone. There is a marker bed that is a tuff in the upper part of the lower clastic interval. Upper part is massive limestone with abundant ammonites"@en .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation> <http://www.w3.org/2000/01/rdf-schema#label> "Js Formation"@en .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation> <http://www.w3.org/2000/01/rdf-schema#label> "Lower Jurassic Age sedimentary rocks"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation-lower
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation-lower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation-lower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Part> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation-lower> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> <http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormationMarker-6_4> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation-lower> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> <http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation-lower> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> <http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_1> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation-lower> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> <http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_2> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation-lower> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> <http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_3> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation-lower> <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/underlies> <http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation-upper> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation-lower> <http://www.w3.org/2000/01/rdf-schema#comment> "underlies, overlies, within are subproperty of relatedTo"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation-upper
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation-upper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation-upper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithostratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation-upper> <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/lithology/Limestone> .
+_:genid7 <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Material_Fossil_Particle_Material> .
+_:genid8 <http://loop3d.org/GSO/ontology/2020/1/common/hasRole> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Floating_Clast> .
+_:genid8 <http://loop3d.org/GSO/ontology/2020/1/common/isProducedFrom> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://en.wikipedia.org/wiki/Ammonitida> .
+_:genid7 <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Micrite> .
+_:genid11 <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/mineral/calcite> .
+_:genid11 <http://loop3d.org/GSO/ontology/2020/1/common/hasRole> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Sedimentary_Matrix> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation-upper> <http://loop3d.org/GSO/ontology/2020/1/common/hasRole> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Part> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation-upper> <http://www.w3.org/2000/01/rdf-schema#comment> "massive limestone with abundant ammonites in a micrite matrix" .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormationMarker-6_4
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormationMarker-6_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormationMarker-6_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Marker_Bed> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormationMarker-6_4> <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> <http://uri.org/Ballyloghlin_tuff> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormationMarker-6_4> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom> .
+_:genid15 <http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormationMarker-6_4> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Top> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormationMarker-6_4> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/within> <http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_3> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormationMarker-6_4> <http://www.w3.org/2000/01/rdf-schema#comment> "Bed is viewed as a degenerate volume, considered a surface that has a hasConstiuent property, and hasPart that represents contacts of the bed"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> <http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6_1> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> <http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6_2> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> <http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6_3> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6_1
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6_1> <http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6_1> <http://www.w3.org/2000/01/rdf-schema#comment> "Js on Ss surface"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6_2
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6_2> <http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6_2> <http://www.w3.org/2000/01/rdf-schema#comment> "Js on Os surface"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6_3
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6_3> <http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6_3> <http://www.w3.org/2000/01/rdf-schema#comment> "Js on Xm surface"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#contactJs-stratPart_1-stratPart_2
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#contactJs-stratPart_1-stratPart_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#contactJs-stratPart_1-stratPart_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Gradational_Contact_Zone> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#contactJs-stratPart_1-stratPart_2> <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/quality/Thickness> .
+_:genid21 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid21 <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/vocab/unit/M> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#contactJs-stratPart_1-stratPart_2> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasHost> <http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_1> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#contactJs-stratPart_1-stratPart_2> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasHost> <http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_2> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#contactJs-stratPart_1-stratPart_2> <http://www.w3.org/2000/01/rdf-schema#label> "internal gradational contact "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#contactJs-stratPart_2-stratPart_3
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#contactJs-stratPart_2-stratPart_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#contactJs-stratPart_2-stratPart_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Gradational_Contact_Zone> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#contactJs-stratPart_2-stratPart_3> <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/quality/Thickness> .
+_:genid23 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "4"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid23 <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/vocab/unit/M> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#contactJs-stratPart_2-stratPart_3> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasHost> <http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_2> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#contactJs-stratPart_2-stratPart_3> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasHost> <http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_3> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#contactJs-stratPart_2-stratPart_3> <http://www.w3.org/2000/01/rdf-schema#label> "internal gradational contact "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_1
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Part> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_1> <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> <http://loop3d.org/GSO/ontology/2020/1/lithology/Arenite> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_1> <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> <http://loop3d.org/GSO/ontology/2020/1/lithology/Clastic_Conglomerate> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_1> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> <http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_1> <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/underlies> <http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_2> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_1> <http://www.w3.org/2000/01/rdf-schema#comment> "need to capture gradational fining upward relationship"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_2
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Part> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_2> <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/lithology/Clastic_Sandstone> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_2> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom> .
+_:genid26 <http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_2> <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/overlies> <http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_1> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_2> <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/underlies> <http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_3> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_3
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Part> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_3> <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/lithology/Clastic_Sandstone> .
+_:genid28 <http://www.w3.org/2000/01/rdf-schema#label> "fine-Grained sandstone"@en .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_3> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom> .
+_:genid29 <http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_3> <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/overlies> <http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_2> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#topJs-2
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#topJs-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#topJs-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Top> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

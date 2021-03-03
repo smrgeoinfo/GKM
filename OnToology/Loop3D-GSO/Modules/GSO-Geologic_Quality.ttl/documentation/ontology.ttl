@@ -1,0 +1,464 @@
+@prefix : <http://loop3d.org/GSO/ontology/2020/1/geologicquality/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://loop3d.org/GSO/ontology/2020/1/geologicquality/ontology> .
+
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/ontology> rdf:type owl:Ontology ;
+                                                                  owl:imports <http://loop3d.org/GSO/ontology/2020/1/common/ontology> ,
+                                                                              <http://loop3d.org/GSO/ontology/2020/1/geology/ontology> ,
+                                                                              <http://loop3d.org/GSO/ontology/2020/1/quality/ontology> ;
+                                                                  rdfs:comment "Vocabulary of physical qualities used in multiple GSO modules."@en ;
+                                                                  rdfs:label "Geologic quality"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#qualifiedCardinality
+owl:qualifiedCardinality rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/hasQuality
+<http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> rdf:type owl:ObjectProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/hasValue
+<http://loop3d.org/GSO/ontology/2020/1/common/hasValue> rdf:type owl:ObjectProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf
+<http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf> rdf:type owl:ObjectProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/isValueOf
+<http://loop3d.org/GSO/ontology/2020/1/common/isValueOf> rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Amount_Of_Matter
+<http://loop3d.org/GSO/ontology/2020/1/common/Amount_Of_Matter> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Named_Value
+<http://loop3d.org/GSO/ontology/2020/1/common/Named_Value> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value
+<http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality
+<http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Range_Value
+<http://loop3d.org/GSO/ontology/2020/1/common/Range_Value> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Alteration_Degree
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Alteration_Degree> rdf:type owl:Class ;
+                                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> ,
+                                                                                          [ rdf:type owl:Restriction ;
+                                                                                            owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf> ;
+                                                                                            owl:allValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body>
+                                                                                          ] ;
+                                                                          rdfs:comment "Specification of the strength of observed alteration. Can be used on Geologic_Unit or Rock_Material"@en ;
+                                                                          rdfs:isDefinedBy "GeoSciML v4"@en ;
+                                                                          rdfs:label "Alteration degree"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Azimuth
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Azimuth> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/quality/Orientation> ,
+                                                                                [ rdf:type owl:Restriction ;
+                                                                                  owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/hasValue> ;
+                                                                                  owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                       owl:unionOf ( <http://loop3d.org/GSO/ontology/2020/1/common/Named_Value>
+                                                                                                                     <http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value>
+                                                                                                                     <http://loop3d.org/GSO/ontology/2020/1/common/Range_Value>
+                                                                                                                   )
+                                                                                                     ]
+                                                                                ] ;
+                                                                rdfs:comment "Bearing of a horizontal line relative to north. Use for specifying the orientation of planar or linear features."@en ;
+                                                                rdfs:label "Azimuth"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Bedding_Pattern
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Bedding_Pattern> rdf:type owl:Class ;
+                                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> ,
+                                                                                        [ rdf:type owl:Restriction ;
+                                                                                          owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf> ;
+                                                                                          owl:allValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body>
+                                                                                        ] .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Bedding_Style
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Bedding_Style> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> ,
+                                                                                      [ rdf:type owl:Restriction ;
+                                                                                        owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf> ;
+                                                                                        owl:allValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body>
+                                                                                      ] .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Bedding_Thickness
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Bedding_Thickness> rdf:type owl:Class ;
+                                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/quality/Thickness> ,
+                                                                                          [ rdf:type owl:Restriction ;
+                                                                                            owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf> ;
+                                                                                            owl:allValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body>
+                                                                                          ] .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Consolidation_Degree
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Consolidation_Degree> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> ,
+                                                                                             [ rdf:type owl:Restriction ;
+                                                                                               owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf> ;
+                                                                                               owl:someValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Material>
+                                                                                             ] ;
+                                                                             rdfs:comment "A property that specifies the degree to which an aggregation of EarthMaterial particles is a distinct solid material. Consolidation and induration are related concepts specified by this property. They define a continuum from unconsolidated material to very hard rock. Induration is the degree to which a consolidated material is made hard, operationally determined by how difficult it is to break a piece of the material. Consolidated materials may have varying degrees of induration (NADMSC, 2004)"@en ;
+                                                                             rdfs:isDefinedBy "GeoSciML v4"@en ;
+                                                                             rdfs:label "Consolidation degree"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Dip
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Dip> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/quality/Orientation> ,
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> ;
+                                                                              owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                   owl:unionOf ( <http://loop3d.org/GSO/ontology/2020/1/common/Named_Value>
+                                                                                                                 <http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value>
+                                                                                                                 <http://loop3d.org/GSO/ontology/2020/1/common/Range_Value>
+                                                                                                               )
+                                                                                                 ]
+                                                                            ] ;
+                                                            rdfs:comment "the maximum angle between a horizontal surface and a planar feature"@en ;
+                                                            rdfs:label "Dip"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Dip_Value
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Dip_Value> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/quality/Orientation_Value> ,
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/isValueOf> ;
+                                                                                    owl:allValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Dip>
+                                                                                  ] .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Facing
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Facing> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/quality/Orientation> ;
+                                                               rdfs:comment "property to specify if a surface is directed, i.e. has a top and bottom. Values: {upright, overturned, unknown}"@en ;
+                                                               rdfs:label "Facing direction"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Facing_Value
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Facing_Value> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/quality/Orientation_Value> ,
+                                                                                     [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/isValueOf> ;
+                                                                                       owl:allValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Facing>
+                                                                                     ] .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Gently_Inclined
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Gently_Inclined> rdf:type owl:Class ;
+                                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Inclined> ;
+                                                                        <http://purl.org/dc/terms/source> "Fleuty (1964) Folds classification." ;
+                                                                        rdfs:comment "Surface dips between 10 and 30 degrees; typically used to describe orientation of fold hinge surface or axial surface, but could be applied to any geologic surface."@en ;
+                                                                        rdfs:label "Gently Inclinded "@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Gently_Plunging_Line
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Gently_Plunging_Line> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plunging_Line> ;
+                                                                             <http://purl.org/dc/terms/source> "Fleuty (1964) Folds classification." ;
+                                                                             rdfs:comment "line plunges between 10 and 30 degrees."@en ;
+                                                                             rdfs:label "Gently plunging line"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/High_Metamorphic_Grade
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/High_Metamorphic_Grade> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphosed> ;
+                                                                               <http://purl.org/dc/terms/source> "Smulikowski et al, 2003; Fry, 1984"@en ;
+                                                                               rdfs:comment "Protolith structures almost always obliterated, evidence of partial melting common. Includes rocks metamorphosed in high-temperature amphibolite, pyroxene hornfels, and medium to high-temperature eclogite facies. Mineral assemblages according to Fry (1984) Table 10-1: ultramafic-olivine, anthophyllite, cummingtonite, enstatite, mafic-hornblende, (diopside, garnet), calc-aluminous basic-plagioclase, pelite, semi-pelite -- K-feldspar, biotite, quartz, Al-minerals (garnet), migmatite."@en ;
+                                                                               rdfs:label "high metamorphic grade"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Horizonatal_Inclination
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Horizonatal_Inclination> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Dip_Value> ;
+                                                                                rdfs:comment "Surface dips between 0 and 10 degrees. Equivalent term 'recumbent' used to describe orientation of fold hing surface or axial surface"@en ;
+                                                                                rdfs:label "Horizontal inclination "@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Horizontal_Line
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Horizontal_Line> rdf:type owl:Class ;
+                                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plunge_Value> ;
+                                                                        <http://purl.org/dc/terms/source> "Fleuty (1964) Folds classification." ;
+                                                                        rdfs:comment "line plunges between 0 and 10 degrees."@en ;
+                                                                        rdfs:label "Horizontal line "@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Inclined
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Inclined> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Dip_Value> ;
+                                                                 <http://purl.org/dc/terms/source> "Fleuty (1964) Folds classification." ;
+                                                                 rdfs:comment "Surface dips between 10 and 80 degrees; typically used to describe orientation of fold hinge surface or axial surface, but could be applied to any geologic surface."@en ;
+                                                                 rdfs:label "Inclined"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Line_Orientation
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Line_Orientation> rdf:type owl:Class ;
+                                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/quality/Orientation> ,
+                                                                                         [ rdf:type owl:Restriction ;
+                                                                                           owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> ;
+                                                                                           owl:allValuesFrom [ rdf:type owl:Class ;
+                                                                                                               owl:unionOf ( <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Azimuth>
+                                                                                                                             <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plunge>
+                                                                                                                           )
+                                                                                                             ]
+                                                                                         ] ;
+                                                                         rdfs:comment "specification of the orientation of a line in space, using a trend (bearing of horizontal projection of line relative to geographic north) and plunge (inclination of line measured positive downward in degrees from local horizontal).  TBD:  add 'isdirected property to indicate if the line is directed (e.g. sense of shear), values should be Boolean,"@en ;
+                                                                         rdfs:label "Line orientation"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Low_Metamorphic_Grade
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Low_Metamorphic_Grade> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphosed> ;
+                                                                              <http://purl.org/dc/terms/source> "Smulikowski et al, 2003; Fry, 1984"@en ;
+                                                                              rdfs:comment "Metamorphic effects clearly visible, protolith structures typically still observable, includes rocks metamorphosed in greenschisthigh-temperature blueschist, very low temperature eclogite facies. Mineral assemblages according to Fry (1984) Table 10-1: ultramafic-serpentine (talc, magnesite),  mafic-chlorite, actinolite (garnet), calc-aluminous basic-albite, epidote, pelite, semi-pelite -- white mica, chlorite, quartz, biotite (garnet, Al-minerals)."@en ;
+                                                                              rdfs:label "low metamorphic grade"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Magnetic_Susceptibility
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Magnetic_Susceptibility> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> ,
+                                                                                                [ rdf:type owl:Restriction ;
+                                                                                                  owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf> ;
+                                                                                                  owl:allValuesFrom <http://loop3d.org/GSO/ontology/2020/1/common/Amount_Of_Matter>
+                                                                                                ] ;
+                                                                                <http://purl.org/dc/terms/source> "https://en.wikipedia.org/wiki/Magnetic_susceptibility" ;
+                                                                                rdfs:comment "a measure of how much a material will become magnetized in an applied magnetic field. It is the ratio of magnetization M (magnetic moment per unit volume) to the applied magnetizing field intensity H. This allows a simple classification, into two categories, of most materials' responses to an applied magnetic field: an alignment with the magnetic field, χ > 0, called paramagnetism, or an alignment against the field, χ < 0, called diamagnetism."@en ;
+                                                                                rdfs:label "Magnetic susceptibility "@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Medium_Metamorphic_Grade
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Medium_Metamorphic_Grade> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphosed> ;
+                                                                                 <http://purl.org/dc/terms/source> "Smulikowski et al, 2003; Fry, 1984"@en ;
+                                                                                 rdfs:comment "Protolith structure typically obliterated. Includes rocks metamorphosed in high-temperature epidote-amphibolite, low-temperature amphibolite, and low temperature eclogite facies. Mineral assemblages according to Fry (1984) Table 10-1: ultramafic-olivine, talc (magnesite, anthophyllite), mafic-hornblende, (diopside, garnet), calc-aluminous basic-plagioclase, pelite, semi-pelite -- white mica, biotite, quartz (garnet, Al-minerals)."@en ;
+                                                                                 rdfs:label "medium metamorphic grade"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphic_Grade
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphic_Grade> rdf:type owl:Class ;
+                                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> ;
+                                                                          rdfs:comment "A term to indicate the intensity or rank of metamorphism applied to an EarthMaterial (eg: high metamorphic grade, low metamorphic grade). Indicates in a general way the P-T environment in which the metamorphism took place. Determination of metamorphic grade is based on mineral assemblages (ie, facies) present in a rock that are interpreted to have crystallized in equilibrium during a particular metamorphic event."@en ,
+                                                                                       "applies to Earth_Material or Geologic_Unit"@en ;
+                                                                          rdfs:isDefinedBy "GeoSciML v4"@en ;
+                                                                          rdfs:label "Metamorphic grade"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphosed
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphosed> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Named_Value> ,
+                                                                                      <http://org.semanticweb.owlapi/error#Error1> ,
+                                                                                      [ rdf:type owl:Restriction ;
+                                                                                        owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/isValueOf> ;
+                                                                                        owl:allValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphic_Grade>
+                                                                                      ] ;
+                                                                      <http://purl.org/dc/terms/source> "CGI metamorphicgrade SKOS vocabulary 2016-11-22"@en ;
+                                                                      rdfs:comment "Rock is metamorphosed, may have any value for metamorphic grade except 'not metamorphosed'."@en ;
+                                                                      rdfs:label "metamorphosed grade not specified"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Moderately_Inclined
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Moderately_Inclined> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Inclined> ;
+                                                                            <http://purl.org/dc/terms/source> "Fleuty (1964) Folds classification." ;
+                                                                            rdfs:comment "Surface dips between 30 and 60 degrees; typically used to describe orientation of fold hing surface or axial surface, but could be applied to any geologic surface."@en ;
+                                                                            rdfs:label "Moderately Inclinded "@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Moderately_Plunging_Line
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Moderately_Plunging_Line> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plunging_Line> ;
+                                                                                 <http://purl.org/dc/terms/source> "Fleuty (1964) Folds classification." ;
+                                                                                 rdfs:comment "line plunges between 30 and 60 degrees."@en ;
+                                                                                 rdfs:label "Moderately plunging line"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Not_Metamorphosed
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Not_Metamorphosed> rdf:type owl:Class ;
+                                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Named_Value> ,
+                                                                                          <http://org.semanticweb.owlapi/error#Error2> ,
+                                                                                          [ rdf:type owl:Restriction ;
+                                                                                            owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/isValueOf> ;
+                                                                                            owl:allValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphic_Grade>
+                                                                                          ] ;
+                                                                          <http://purl.org/dc/terms/source> "CGI metamorphicgrade SKOS vocabulary 2016-11-22"@en ;
+                                                                          rdfs:comment "Rock is not metamorphose'."@en ;
+                                                                          rdfs:label "not metamorphosed"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Overturned
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Overturned> rdf:type owl:Class ;
+                                                                   rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Facing_Value> ;
+                                                                   rdfs:comment "top of surface is facing downward, toward Earth interior."@en ;
+                                                                   rdfs:label "Overturned facing"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plane_Orientation
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plane_Orientation> rdf:type owl:Class ;
+                                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/quality/Orientation> ;
+                                                                          rdfs:comment "Quality to specify the orientation of a surface in a geogaphic reference system"@en ;
+                                                                          rdfs:label "Plane orientation "@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plunge
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plunge> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/quality/Orientation> ,
+                                                                               [ rdf:type owl:Restriction ;
+                                                                                 owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> ;
+                                                                                 owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                      owl:unionOf ( <http://loop3d.org/GSO/ontology/2020/1/common/Named_Value>
+                                                                                                                    <http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value>
+                                                                                                                    <http://loop3d.org/GSO/ontology/2020/1/common/Range_Value>
+                                                                                                                  )
+                                                                                                    ]
+                                                                               ] ;
+                                                               rdfs:comment "Numeric value should be between +90 and -90.   Negative values only valid if the linear feature is directed."@en ;
+                                                               rdfs:label "Plunge"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plunge_Value
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plunge_Value> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/quality/Orientation_Value> ,
+                                                                                     [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/isValueOf> ;
+                                                                                       owl:allValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plunge>
+                                                                                     ] .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plunging_Line
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plunging_Line> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plunge_Value> ;
+                                                                      <http://purl.org/dc/terms/source> "Fleuty (1964) Folds classification." ;
+                                                                      rdfs:comment "line plunges between 10 and 80 degrees."@en ;
+                                                                      rdfs:label "Plunging line "@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Steeply_Inclined
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Steeply_Inclined> rdf:type owl:Class ;
+                                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Inclined> ;
+                                                                         <http://purl.org/dc/terms/source> "Fleuty (1964) Folds classification." ;
+                                                                         rdfs:comment "Surface dips between 60 and 80 degrees; typically used to describe orientation of fold hing surface or axial surface, but could be applied to any geologic surface."@en ;
+                                                                         rdfs:label "Steeply Inclinded "@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Steeply_Plunging_Line
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Steeply_Plunging_Line> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plunging_Line> ;
+                                                                              <http://purl.org/dc/terms/source> "Fleuty (1964) Folds classification." ;
+                                                                              rdfs:comment "line plunges between 60 and 80 degrees."@en ;
+                                                                              rdfs:label "Steeply plunging line"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Unknown_Facing
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Unknown_Facing> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Facing_Value> ;
+                                                                       rdfs:comment "Facing direction is unknown {@en}	"@en ;
+                                                                       rdfs:label "Unknown Facing Direction"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Upright_Facing
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Upright_Facing> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Facing_Value> ;
+                                                                       <http://purl.org/dc/terms/source> "Fleuty (1964) Folds classification." ;
+                                                                       rdfs:comment "top of surface is away from center of earth."@en ;
+                                                                       rdfs:label "Upright facing"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Vertical_Inclination
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Vertical_Inclination> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Dip_Value> ;
+                                                                             rdfs:comment "Surface dips between 80 and 90 degrees. Equivalent term 'upright' is used to describe orientation of fold hing surface or axial surface"@en ;
+                                                                             rdfs:label "Vertical inclination "@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Vertical_Line
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Vertical_Line> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plunge_Value> ;
+                                                                      <http://purl.org/dc/terms/source> "Fleuty (1964) Folds classification." ;
+                                                                      rdfs:comment "line plunges between 80 and 90 degrees."@en ;
+                                                                      rdfs:label "Vertical line"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Very_High_Metamorphic_Grade
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Very_High_Metamorphic_Grade> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphosed> ;
+                                                                                    <http://purl.org/dc/terms/source> "Smulikowski et al, 2003; Fry, 1984"@en ;
+                                                                                    rdfs:comment "Protolith structures almost always obliterated. Includes rocks metamorphosed in granulite (or sanidinite), and high-temperature eclogite facies. Mineral assemblages according to Fry (1984) Table 10-1: ultramafic-olivine, enstatite, mafic-hypersthene, diopside (hornblende), calc-aluminous basic-plagioclase, pelite, semi-pelite -- hypersthene + Al-minerals (K-feldspar, quartz), or sapphirine."@en ;
+                                                                                    rdfs:label "very high metamorphic grade"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Very_Low_Metamorphic_Grade
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Very_Low_Metamorphic_Grade> rdf:type owl:Class ;
+                                                                                   rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphosed> ;
+                                                                                   <http://purl.org/dc/terms/source> "Smulikowski et al, 2003; Fry, 1984"@en ;
+                                                                                   rdfs:comment "Rock very slightly metamorphosed, protolith structure ubiquitous, mineral assemblage of zeolite facies, subgreenschist facies, or low temperature part of blueschist facies. Mineral assemblages according to Fry (1984) Table 10-1: ultramafic-serpentine (quartz, magnesite), mafic-clay, chlorite, relict igneous minerals, calc-aluminous basic-zeolite, pumpellite, epidote, albite, pelite, semi-pelite -- clays, chlorite, sericite, quartz."@en ;
+                                                                                   rdfs:label "very low metamorphic grade"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body
+<http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Material
+<http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Material> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Orientation
+<http://loop3d.org/GSO/ontology/2020/1/quality/Orientation> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Orientation_Value
+<http://loop3d.org/GSO/ontology/2020/1/quality/Orientation_Value> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Thickness
+<http://loop3d.org/GSO/ontology/2020/1/quality/Thickness> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error1
+<http://org.semanticweb.owlapi/error#Error1> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error2
+<http://org.semanticweb.owlapi/error#Error2> rdf:type owl:Class .
+
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

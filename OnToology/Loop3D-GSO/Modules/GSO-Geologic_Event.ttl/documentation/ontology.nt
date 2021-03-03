@@ -1,0 +1,59 @@
+<http://loop3d.org/GSO/ontology/2020/1/geologicevent/ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicevent/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/common/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicevent/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geology/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicevent/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "dct:date--  2016-06-15"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicevent/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "dct:modified-- 2019-12-04"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicevent/ontology> <http://www.w3.org/2000/01/rdf-schema#label> "Geologic Event"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicevent/Bolide_Impact
+<http://loop3d.org/GSO/ontology/2020/1/geologicevent/Bolide_Impact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicevent/Bolide_Impact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Event> .
+<http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicevent/Bolide_Impact> <http://purl.org/dc/terms/source> "CGI GTWG process vocabulary"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicevent/Bolide_Impact> <http://www.w3.org/2000/01/rdf-schema#comment> "The impact of an extraterrestrial body on the surface of the earth"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicevent/Bolide_Impact> <http://www.w3.org/2000/01/rdf-schema#label> "bolide impact"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicevent/Cometary_Impact
+<http://loop3d.org/GSO/ontology/2020/1/geologicevent/Cometary_Impact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicevent/Cometary_Impact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicevent/Bolide_Impact> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicevent/Cometary_Impact> <http://purl.org/dc/terms/source> "CGI GTWG process vocabulary"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicevent/Cometary_Impact> <http://www.w3.org/2000/01/rdf-schema#comment> "The impact of a comet on the surface of the earth"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicevent/Cometary_Impact> <http://www.w3.org/2000/01/rdf-schema#label> "cometary impact"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicevent/Magnetic_Field_Reversal
+<http://loop3d.org/GSO/ontology/2020/1/geologicevent/Magnetic_Field_Reversal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicevent/Magnetic_Field_Reversal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Event> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicevent/Magnetic_Field_Reversal> <http://purl.org/dc/terms/source> "CGI GTWG process vocabulary"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicevent/Magnetic_Field_Reversal> <http://www.w3.org/2000/01/rdf-schema#comment> "A geomagnetic event in which the Earth's magnetic field reverses direction."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicevent/Magnetic_Field_Reversal> <http://www.w3.org/2000/01/rdf-schema#label> "magnetic field reversal"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicevent/Meteorite_Impact
+<http://loop3d.org/GSO/ontology/2020/1/geologicevent/Meteorite_Impact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicevent/Meteorite_Impact> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicevent/Bolide_Impact> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicevent/Meteorite_Impact> <http://purl.org/dc/terms/source> "CGI GTWG process vocabulary"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicevent/Meteorite_Impact> <http://www.w3.org/2000/01/rdf-schema#comment> "The impact of a meteorite on the surface of the earth"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicevent/Meteorite_Impact> <http://www.w3.org/2000/01/rdf-schema#label> "meteorite impact"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Event
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
