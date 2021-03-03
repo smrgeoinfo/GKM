@@ -41,7 +41,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-rdfs:comment "use to generate documentation and test";
+rdfs:comment "use to generate documentation and test. add github.io";
 
 gsmaster:ontology
   rdf:type owl:Ontology ;
