@@ -1,0 +1,135 @@
+@prefix : <http://loop3d.org/GSO/ontology/2020/1/feature/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://loop3d.org/GSO/ontology/2020/1/feature/ontology> .
+
+<http://loop3d.org/GSO/ontology/2020/1/feature/ontology> rdf:type owl:Ontology ;
+                                                          owl:imports <http://loop3d.org/GSO/ontology/2020/1/common/ontology> ;
+                                                          rdfs:comment "Feature mappings to Endurant, Perdrant, or Situation"@en ;
+                                                          rdfs:label "Feature"@en .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Endurant
+<http://loop3d.org/GSO/ontology/2020/1/common/Endurant> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Endurant_Feature
+<http://loop3d.org/GSO/ontology/2020/1/common/Endurant_Feature> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Endurant> .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Event
+<http://loop3d.org/GSO/ontology/2020/1/common/Event> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Event_Feature
+<http://loop3d.org/GSO/ontology/2020/1/common/Event_Feature> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Event> .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Immaterial_Feature
+<http://loop3d.org/GSO/ontology/2020/1/common/Immaterial_Feature> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Spatial_Region> .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Material_Endurant
+<http://loop3d.org/GSO/ontology/2020/1/common/Material_Endurant> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Material_Feature
+<http://loop3d.org/GSO/ontology/2020/1/common/Material_Feature> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Material_Endurant> .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Nonphysical_Endurant
+<http://loop3d.org/GSO/ontology/2020/1/common/Nonphysical_Endurant> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Nonphysical_Feature
+<http://loop3d.org/GSO/ontology/2020/1/common/Nonphysical_Feature> rdf:type owl:Class ;
+                                                                   rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Nonphysical_Endurant> .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Perdurant
+<http://loop3d.org/GSO/ontology/2020/1/common/Perdurant> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Perdurant_Feature
+<http://loop3d.org/GSO/ontology/2020/1/common/Perdurant_Feature> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Perdurant> .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Physical_Endurant
+<http://loop3d.org/GSO/ontology/2020/1/common/Physical_Endurant> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Physical_Feature
+<http://loop3d.org/GSO/ontology/2020/1/common/Physical_Feature> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Physical_Endurant> .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Place_Feature
+<http://loop3d.org/GSO/ontology/2020/1/common/Place_Feature> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Spatial_Region_3D> .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Process
+<http://loop3d.org/GSO/ontology/2020/1/common/Process> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Process_Feature
+<http://loop3d.org/GSO/ontology/2020/1/common/Process_Feature> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Process> .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Situation
+<http://loop3d.org/GSO/ontology/2020/1/common/Situation> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Situation_Feature
+<http://loop3d.org/GSO/ontology/2020/1/common/Situation_Feature> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Situation> .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Spatial_Region
+<http://loop3d.org/GSO/ontology/2020/1/common/Spatial_Region> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Spatial_Region_3D
+<http://loop3d.org/GSO/ontology/2020/1/common/Spatial_Region_3D> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Feature
+<http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Feature> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Time_Region> .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant
+<http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant_Feature
+<http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant_Feature> rdf:type owl:Class ;
+                                                                    rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant> .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval
+<http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval_Feature
+<http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval_Feature> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval> .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Time_Region
+<http://loop3d.org/GSO/ontology/2020/1/common/Time_Region> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

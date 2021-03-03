@@ -1,0 +1,374 @@
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2/ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2/ontology> <http://www.w3.org/2002/07/owl#versionIRI> <http://loop3d.org/GSO/ontology/2020/1/faultexample2> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/master/ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/determinedBy
+<http://loop3d.org/GSO/ontology/2020/1/common/determinedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent
+<http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue
+<http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue
+<http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasQuality
+<http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue
+<http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasUOM
+<http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasValue
+<http://loop3d.org/GSO/ontology/2020/1/common/hasValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/isPartOf
+<http://loop3d.org/GSO/ontology/2020/1/common/isPartOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly
+<http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/timeFinishedBy
+<http://loop3d.org/GSO/ontology/2020/1/common/timeFinishedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/timeStartedBy
+<http://loop3d.org/GSO/ontology/2020/1/common/timeStartedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasSetting
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasSetting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Duration
+<http://loop3d.org/GSO/ontology/2020/1/common/Duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value
+<http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Simple_Uncertainty
+<http://loop3d.org/GSO/ontology/2020/1/common/Simple_Uncertainty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Range
+<http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval
+<http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval_Location
+<http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval_Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value
+<http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Alluvial_Fan_Setting
+<http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Alluvial_Fan_Setting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Alluvial_Plain_Setting
+<http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Alluvial_Plain_Setting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Back_Arc_Setting
+<http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Back_Arc_Setting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Earth_Interior_Setting
+<http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Earth_Interior_Setting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Extended_Terrane
+<http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Extended_Terrane> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Floodplain_Setting
+<http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Floodplain_Setting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Hinterland_Setting
+<http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Hinterland_Setting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Middle_Continental_Crust_Setting
+<http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Middle_Continental_Crust_Setting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Time_Interval
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Time_Interval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition
+<http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Ductile_Flow
+<http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Ductile_Flow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Faulting
+<http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Faulting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Intrusion_Process
+<http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Intrusion_Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/perdurant/Observation
+<http://loop3d.org/GSO/ontology/2020/1/perdurant/Observation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://qudt.org/vocab/unit/MegaYR
+<http://qudt.org/vocab/unit/MegaYR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://loop3d.org/GSO/ontology/2020/1/faultexample2#Basement_Cover_Shear_Event
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Basement_Cover_Shear_Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Basement_Cover_Shear_Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Basement_Cover_Shear_Event> <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Ductile_Flow> .
+_:genid1 <http://www.w3.org/2000/01/rdf-schema#label> "Shear along basement-cover contact"@en .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Basement_Cover_Shear_Event> <http://loop3d.org/GSO/ontology/2020/1/common/isPartOf> <http://loop3d.org/GSO/ontology/2020/1/faultexample2#Laramide_Ductile_deformation> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Basement_Cover_Shear_Event> <http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly> <http://loop3d.org/GSO/ontology/2020/1/faultexample2#LaramideDuctileBasementInterval> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Basement_Cover_Shear_Event> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasSetting> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Hinterland_Setting> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Middle_Continental_Crust_Setting> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Basement_Cover_Shear_Event> <http://www.w3.org/2000/01/rdf-schema#comment> "Strain localization at the boundary between Proterozoic crytalline rock and overlying Paleozoic sediments, apparently coeval with intrusion of two-mica granitoid (Wilderness Suite)"@en .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Basement_Cover_Shear_Event> <http://www.w3.org/2000/01/rdf-schema#label> "Late Laramide Shear along basement-cover contact"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/faultexample2#Basin_Fill_Tilting_Event
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Basin_Fill_Tilting_Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Basin_Fill_Tilting_Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Basin_Fill_Tilting_Event> <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Faulting> .
+_:genid3 <http://www.w3.org/2000/01/rdf-schema#label> "Normal faults bounding fault blocks"@en .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Basin_Fill_Tilting_Event> <http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly> <http://loop3d.org/GSO/ontology/2020/1/faultexample2#TertiaryExtensionBasinFillInterval> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Basin_Fill_Tilting_Event> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasSetting> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Extended_Terrane> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Basin_Fill_Tilting_Event> <http://www.w3.org/2000/01/rdf-schema#comment> "Array of normal faults with tilting of blocks between faults, along with syn-deformation deposition in the basins formed."@en .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Basin_Fill_Tilting_Event> <http://www.w3.org/2000/01/rdf-schema#label> "Oligocene-Miocene faulting and tilting"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/faultexample2#EarlyProterozoic1780-1690
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#EarlyProterozoic1780-1690> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#EarlyProterozoic1780-1690> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#EarlyProterozoic1780-1690> <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval_Location> .
+_:genid5 <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Duration> .
+_:genid6 <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Simple_Uncertainty> .
+_:genid7 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid7 <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/vocab/unit/MegaYR> .
+_:genid6 <http://loop3d.org/GSO/ontology/2020/1/common/hasValue> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value> .
+_:genid9 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "90"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid9 <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/vocab/unit/MegaYR> .
+_:genid5 <http://loop3d.org/GSO/ontology/2020/1/common/hasValue> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Range> .
+_:genid11 <http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value> .
+_:genid12 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "1690"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid12 <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Simple_Uncertainty> .
+_:genid13 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "18"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid13 <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/vocab/unit/MegaYR> .
+_:genid12 <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/vocab/unit/MegaYR> .
+_:genid11 <http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value> .
+_:genid16 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "1780"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid16 <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Simple_Uncertainty> .
+_:genid17 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "12"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid17 <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/vocab/unit/MegaYR> .
+_:genid16 <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/vocab/unit/MegaYR> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#EarlyProterozoic1780-1690> <http://www.w3.org/2000/01/rdf-schema#label> "Early Proterozoic 1780-1690 Ma"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/faultexample2#LaramideDuctileBasementInterval
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#LaramideDuctileBasementInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#LaramideDuctileBasementInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#LaramideDuctileBasementInterval> <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval_Location> .
+_:genid20 <http://loop3d.org/GSO/ontology/2020/1/common/hasValue> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Range> .
+_:genid21 <http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value> .
+_:genid22 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "45"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid22 <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Simple_Uncertainty> .
+_:genid23 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "1.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid23 <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/vocab/unit/MegaYR> .
+_:genid22 <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/vocab/unit/MegaYR> .
+_:genid21 <http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value> .
+_:genid26 <http://loop3d.org/GSO/ontology/2020/1/common/determinedBy> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/perdurant/Observation> .
+_:genid27 <http://www.w3.org/2000/01/rdf-schema#comment> "youngest deformed intrusion, U-Pb zircon (Gehrels et al, 2015)" .
+_:genid26 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "61"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid26 <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Simple_Uncertainty> .
+_:genid28 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "0.04"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid28 <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/vocab/unit/MegaYR> .
+_:genid26 <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/vocab/unit/MegaYR> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#LaramideDuctileBasementInterval> <http://www.w3.org/2000/01/rdf-schema#label> "Laramide 61-45 Ma"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/faultexample2#LaramideFaultingInterval
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#LaramideFaultingInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#LaramideFaultingInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#LaramideFaultingInterval> <http://loop3d.org/GSO/ontology/2020/1/common/timeFinishedBy> <http://loop3d.org/GSO/ontology/2020/1/ischart/Danian2017> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#LaramideFaultingInterval> <http://loop3d.org/GSO/ontology/2020/1/common/timeStartedBy> <http://loop3d.org/GSO/ontology/2020/1/ischart/Campanian2017> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#LaramideFaultingInterval> <http://www.w3.org/2000/01/rdf-schema#label> "Early Laramide"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/faultexample2#Laramide_Ductile_deformation
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Laramide_Ductile_deformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Laramide_Ductile_deformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Laramide_Ductile_deformation> <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Ductile_Flow> .
+_:genid31 <http://www.w3.org/2000/01/rdf-schema#label> "Mid-crustal remobilization"@en .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Laramide_Ductile_deformation> <http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly> <http://loop3d.org/GSO/ontology/2020/1/faultexample2#LaramideDuctileBasementInterval> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Laramide_Ductile_deformation> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasSetting> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Hinterland_Setting> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Middle_Continental_Crust_Setting> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Laramide_Ductile_deformation> <http://www.w3.org/2000/01/rdf-schema#label> "Late Laramide ductile flow in basement"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/faultexample2#MesozoicDepositionInterval
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#MesozoicDepositionInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#MesozoicDepositionInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#MesozoicDepositionInterval> <http://loop3d.org/GSO/ontology/2020/1/common/timeFinishedBy> <http://loop3d.org/GSO/ontology/2020/1/ischart/Campanian2017> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#MesozoicDepositionInterval> <http://loop3d.org/GSO/ontology/2020/1/common/timeStartedBy> <http://loop3d.org/GSO/ontology/2020/1/ischart/MiddleTriassic2017> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#MesozoicDepositionInterval> <http://www.w3.org/2000/01/rdf-schema#label> "Middle Triassic to Campanian"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/faultexample2#MesozoicFaultingInterval
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#MesozoicFaultingInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#MesozoicFaultingInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#MesozoicFaultingInterval> <http://loop3d.org/GSO/ontology/2020/1/common/timeFinishedBy> <http://loop3d.org/GSO/ontology/2020/1/ischart/LateJurassic> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#MesozoicFaultingInterval> <http://loop3d.org/GSO/ontology/2020/1/common/timeStartedBy> <http://loop3d.org/GSO/ontology/2020/1/ischart/MiddleTriassic2017> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#MesozoicFaultingInterval> <http://www.w3.org/2000/01/rdf-schema#label> "Middle Triassic to LateJurassic"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/faultexample2#Mesozoic_Basin_Formation
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Mesozoic_Basin_Formation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Mesozoic_Basin_Formation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Mesozoic_Basin_Formation> <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Faulting> .
+_:genid33 <http://www.w3.org/2000/01/rdf-schema#label> "Intra or back arc basin formation"@en .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Mesozoic_Basin_Formation> <http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly> <http://loop3d.org/GSO/ontology/2020/1/faultexample2#MesozoicFaultingInterval> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Mesozoic_Basin_Formation> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasSetting> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Back_Arc_Setting> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Extended_Terrane> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Mesozoic_Basin_Formation> <http://www.w3.org/2000/01/rdf-schema#label> "Mesozoic basin formation faulting"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/faultexample2#Mesozoic_Sediment_Deposition
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Mesozoic_Sediment_Deposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Mesozoic_Sediment_Deposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Mesozoic_Sediment_Deposition> <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition> .
+_:genid35 <http://www.w3.org/2000/01/rdf-schema#label> "Intra and back arc sediment accumulation"@en .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Mesozoic_Sediment_Deposition> <http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly> <http://loop3d.org/GSO/ontology/2020/1/faultexample2#MesozoicDepositionInterval> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Mesozoic_Sediment_Deposition> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasSetting> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Alluvial_Fan_Setting> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Alluvial_Plain_Setting> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Floodplain_Setting> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Mesozoic_Sediment_Deposition> <http://www.w3.org/2000/01/rdf-schema#label> "Mesozoic basin sediment deposition"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/faultexample2#PaleozoicDepositionInterval
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#PaleozoicDepositionInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#PaleozoicDepositionInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#PaleozoicDepositionInterval> <http://loop3d.org/GSO/ontology/2020/1/common/timeFinishedBy> <http://loop3d.org/GSO/ontology/2020/1/ischart/Permian2017> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#PaleozoicDepositionInterval> <http://loop3d.org/GSO/ontology/2020/1/common/timeStartedBy> <http://loop3d.org/GSO/ontology/2020/1/ischart/Cambrian2017> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#PaleozoicDepositionInterval> <http://www.w3.org/2000/01/rdf-schema#label> "Paleozoic"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/faultexample2#Paleozoic_Sediment_Deposition
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Paleozoic_Sediment_Deposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Paleozoic_Sediment_Deposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Paleozoic_Sediment_Deposition> <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition> .
+_:genid37 <http://www.w3.org/2000/01/rdf-schema#label> "Passive margin sediment accumulation"@en .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Paleozoic_Sediment_Deposition> <http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly> <http://loop3d.org/GSO/ontology/2020/1/faultexample2#PaleozoicDepositionInterval> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Paleozoic_Sediment_Deposition> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasSetting> <http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Passive_Continental_Margin_Setting> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Paleozoic_Sediment_Deposition> <http://www.w3.org/2000/01/rdf-schema#label> "Paleozoic passive margin sediment deposition"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/faultexample2#Proterozoic_igneous_intrusion
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Proterozoic_igneous_intrusion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Proterozoic_igneous_intrusion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Proterozoic_igneous_intrusion> <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Intrusion_Process> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Proterozoic_igneous_intrusion> <http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly> <http://loop3d.org/GSO/ontology/2020/1/faultexample2#EarlyProterozoic1780-1690> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Proterozoic_igneous_intrusion> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasSetting> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Earth_Interior_Setting> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Proterozoic_igneous_intrusion> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasSetting> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Middle_Continental_Crust_Setting> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Proterozoic_igneous_intrusion> <http://www.w3.org/2000/01/rdf-schema#label> "Early Proterozoic granitoid intrusion"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/faultexample2#TertiaryExtensionBasinFillInterval
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#TertiaryExtensionBasinFillInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#TertiaryExtensionBasinFillInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#TertiaryExtensionBasinFillInterval> <http://loop3d.org/GSO/ontology/2020/1/common/timeFinishedBy> <http://loop3d.org/GSO/ontology/2020/1/ischart/Burdigalian2017> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#TertiaryExtensionBasinFillInterval> <http://loop3d.org/GSO/ontology/2020/1/common/timeStartedBy> <http://loop3d.org/GSO/ontology/2020/1/ischart/Chattian2017> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#TertiaryExtensionBasinFillInterval> <http://www.w3.org/2000/01/rdf-schema#label> "Mid-Tertiary extensional basin formation interval"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/faultexample2#WildernessGraniteIntrusionInterval
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#WildernessGraniteIntrusionInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#WildernessGraniteIntrusionInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Time_Interval> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#WildernessGraniteIntrusionInterval> <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval_Location> .
+_:genid41 <http://loop3d.org/GSO/ontology/2020/1/common/hasValue> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Range> .
+_:genid42 <http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value> .
+_:genid43 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "42"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid43 <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Simple_Uncertainty> .
+_:genid44 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "1.7"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid44 <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/vocab/unit/MegaYR> .
+_:genid43 <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/vocab/unit/MegaYR> .
+_:genid42 <http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value> .
+_:genid47 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "55"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid47 <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Simple_Uncertainty> .
+_:genid48 <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> "0.3"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid48 <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/vocab/unit/MegaYR> .
+_:genid47 <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/vocab/unit/MegaYR> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#WildernessGraniteIntrusionInterval> <http://www.w3.org/2000/01/rdf-schema#label> "Laramide 55-42 Ma"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/faultexample2#Wilderness_Granite_Intrusion_Event
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Wilderness_Granite_Intrusion_Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Wilderness_Granite_Intrusion_Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Wilderness_Granite_Intrusion_Event> <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Intrusion_Process> .
+_:genid51 <http://www.w3.org/2000/01/rdf-schema#label> "granitoid intrusion"@en .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Wilderness_Granite_Intrusion_Event> <http://loop3d.org/GSO/ontology/2020/1/common/isPartOf> <http://loop3d.org/GSO/ontology/2020/1/faultexample2#Laramide_Ductile_deformation> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Wilderness_Granite_Intrusion_Event> <http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly> <http://loop3d.org/GSO/ontology/2020/1/faultexample2#WildernessGraniteIntrusionInterval> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Wilderness_Granite_Intrusion_Event> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasSetting> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Hinterland_Setting> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Middle_Continental_Crust_Setting> .
+<http://loop3d.org/GSO/ontology/2020/1/faultexample2#Wilderness_Granite_Intrusion_Event> <http://www.w3.org/2000/01/rdf-schema#label> "Two-mica granite intrusion"@en .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

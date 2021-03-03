@@ -1,0 +1,496 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphic_Grade" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid2"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "not metamorphosed"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "https://en.wikipedia.org/wiki/Ammonitida" ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Micrite" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid12"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid13"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/mineral/calcite" ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Sedimentary_Matrix" ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Part" ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "_:genid16"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition" ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Top" ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition" ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition" ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicquality/Not_Metamorphosed" ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition" ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/quality/Thickness" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "10"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid22"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://qudt.org/vocab/unit/M" ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/quality/Thickness" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid24"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://qudt.org/vocab/unit/M" ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/Clastic_Sandstone" ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "_:genid27"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition" ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/Clastic_Sandstone" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fine-Grained sandstone"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "_:genid30"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicquality/Bedding_Thickness" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "thin to medium bedded"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition" ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Range_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue" : [ {
+    "@id" : "_:genid5"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue" : [ {
+    "@id" : "_:genid6"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Measure_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@language" : "en",
+    "@value" : "Medium Bedded"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Measure_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@language" : "en",
+    "@value" : "Thin bedded"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/Limestone" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid8"
+  }, {
+    "@id" : "_:genid11"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Material_Fossil_Particle_Material" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid9"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isProducedFrom" : [ {
+    "@id" : "_:genid10"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Floating_Clast" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Measure_Value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Range_Value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasPart",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasRole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isProducedFrom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeIndirectly",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasPart" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation-lower"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation-upper"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#topJs-2"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid1"
+  }, {
+    "@id" : "_:genid3"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeIndirectly" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologictime/LowerJurassicEpoch"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Several surfaces are not elucidated as parts in this example, but are referenced in the Contact instances below. These surfaces would participate in intrusion and also ?contact metamorphism? processes"
+  }, {
+    "@language" : "en",
+    "@value" : "clasts of Cb Quartzite are abundant in the lower part of the unit. The lower part is a fining-upward sequence from conglomeratic sandstone to fine-grained sandstone. There is a marker bed that is a tuff in the upper part of the lower clastic interval. Upper part is massive limestone with abundant ammonites"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Js Formation"
+  }, {
+    "@language" : "en",
+    "@value" : "Lower Jurassic Age sedimentary rocks"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation-lower",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Part" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasPart" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormationMarker-6_4"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_1"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_2"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_3"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/underlies" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation-upper"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "underlies, overlies, within are subproperty of relatedTo"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormation-upper",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithostratigraphic_Unit" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid7"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasRole" : [ {
+    "@id" : "_:genid14"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "massive limestone with abundant ammonites in a micrite matrix"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#JsFormationMarker-6_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Marker_Bed" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "http://uri.org/Ballyloghlin_tuff"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasPart" : [ {
+    "@id" : "_:genid15"
+  }, {
+    "@id" : "_:genid17"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/within" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Bed is viewed as a degenerate volume, considered a surface that has a hasConstiuent property, and hasPart that represents contacts of the bed"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasPart" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6_1"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6_2"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6_3"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "_:genid18"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Js on Ss surface"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "_:genid19"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Js on Os surface"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "_:genid20"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Js on Xm surface"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#contactJs-stratPart_1-stratPart_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Gradational_Contact_Zone" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid21"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasHost" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_1"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_2"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "internal gradational contact "
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#contactJs-stratPart_2-stratPart_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Gradational_Contact_Zone" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid23"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasHost" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_2"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "internal gradational contact "
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Part" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/lithology/Arenite"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/lithology/Clastic_Conglomerate"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasPart" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#baseJs-6"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/underlies" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_2"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "need to capture gradational fining upward relationship"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Part" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid25"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasPart" : [ {
+    "@id" : "_:genid26"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/overlies" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_1"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/underlies" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_3"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Part" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid28"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasPart" : [ {
+    "@id" : "_:genid29"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/overlies" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#stratPart_2"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs#topJs-2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Top" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-formationJs/ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Stephen M. Richard 2019-05-02"
+  }, {
+    "@language" : "en",
+    "@value" : "details of description of Js unit in GeologyScenarioForTesting.pptx"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/master/ontology"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Gradational_Contact_Zone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Top",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasHost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/within",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicquality/Bedding_Thickness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphic_Grade",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicquality/Not_Metamorphosed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/overlies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/underlies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Floating_Clast",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrole/Sedimentary_Matrix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithostratigraphic_Unit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Marker_Bed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Part",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/lithology/Clastic_Sandstone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/lithology/Limestone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Material_Fossil_Particle_Material",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Micrite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/mineral/calcite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/quality/Thickness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://qudt.org/vocab/unit/M",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://en.wikipedia.org/wiki/Ammonitida",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]

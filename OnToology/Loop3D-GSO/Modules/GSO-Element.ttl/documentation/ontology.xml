@@ -1,0 +1,1653 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://loop3d.org/GSO/ontology/2020/1/element/ontology#"
+     xml:base="http://loop3d.org/GSO/ontology/2020/1/element/ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:common="http://loop3d.org/GSO/ontology/2020/1/common/"
+     xmlns:element="http://loop3d.org/GSO/ontology/2020/1/element/">
+    <owl:Ontology rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/ontology">
+        <owl:imports rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/ontology"/>
+        <rdfs:comment xml:lang="en">use wikidata URIs. Extracted via SPARQL query. Include atomic number, abbreviation (symbol), rdfs label, CHEBI URI, wikidata URI, and Encyclopedia Britannica link (in rdfs:seeAlso)</rdfs:comment>
+        <rdfs:label xml:lang="en">Element</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">https://robertdavidstevens.wordpress.com/2010/12/21/an-ontology-for-inferring-the-periodic-table-of-the-elements/ for future elaboration ....</rdfs:seeAlso>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasAnnotation -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasAnnotation"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber">
+        <rdfs:label xml:lang="en">atomicNumber</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasAnnotation"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/chebiid -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/chebiid">
+        <rdfs:label xml:lang="en">chebiid</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasAnnotation"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/id -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/id">
+        <rdfs:label xml:lang="en">id</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasAnnotation"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/itemLabel -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/itemLabel">
+        <rdfs:label xml:lang="en">itemLabel</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasAnnotation"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/symbol -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/symbol">
+        <rdfs:label xml:lang="en">symbol</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasAnnotation"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/wikidataid -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/wikidataid">
+        <rdfs:label xml:lang="en">wikidataid</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasAnnotation"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Element -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/actinium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/actinium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33337</element:chebiid>
+        <element:symbol>Ac</element:symbol>
+        <element:wikidataid>https://www.wikidata.org/wiki/Q1121</element:wikidataid>
+        <rdfs:label xml:lang="en">actinium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/actinium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/aluminium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/aluminium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_28984</element:chebiid>
+        <element:symbol>Al</element:symbol>
+        <element:wikidataid>https://www.wikidata.org/wiki/Q663</element:wikidataid>
+        <rdfs:label xml:lang="en">aluminium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/aluminium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/americium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/americium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33389</element:chebiid>
+        <element:symbol>Am</element:symbol>
+        <element:wikidataid>https://www.wikidata.org/wiki/Q663</element:wikidataid>
+        <rdfs:label xml:lang="en">americium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/americium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/antimony -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/antimony">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_30513</element:chebiid>
+        <element:symbol>Sb</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1099</element:wikidataid>
+        <rdfs:label xml:lang="en">antimony</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/antimony</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/argon -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/argon">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_49475</element:chebiid>
+        <element:symbol>As</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q871</element:wikidataid>
+        <rdfs:label xml:lang="en">arsenic</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/arsenic</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/astatine -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/astatine">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_30415</element:chebiid>
+        <element:symbol>At</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q999</element:wikidataid>
+        <rdfs:label xml:lang="en">astatine</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/astatine</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/barium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/barium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_32595</element:chebiid>
+        <element:symbol>Ba</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1112</element:wikidataid>
+        <rdfs:label xml:lang="en">barium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/barium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/berkelium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/berkelium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">97</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33391</element:chebiid>
+        <element:symbol>Bk</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1882</element:wikidataid>
+        <rdfs:label xml:lang="en">berkelium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/berkelium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/beryllium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/beryllium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33783</element:chebiid>
+        <element:symbol>Be</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q569</element:wikidataid>
+        <rdfs:label xml:lang="en">beryllium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/beryllium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/bismuth -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/bismuth">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33301</element:chebiid>
+        <element:symbol>Bi</element:symbol>
+        <element:wikidataid>http://www.wikidata.org/entity/Q942</element:wikidataid>
+        <rdfs:label xml:lang="en">bismuth</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/bismuth</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/boron -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/boron">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_27560</element:chebiid>
+        <element:symbol>Cs</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1108</element:wikidataid>
+        <rdfs:label xml:lang="en">caesium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/cesium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/calcium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/calcium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_22984</element:chebiid>
+        <element:symbol>Ca</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q706</element:wikidataid>
+        <rdfs:label xml:lang="en">calcium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/calcium</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/calcium-ion</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/californium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/californium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33392</element:chebiid>
+        <element:symbol>Cf</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1888</element:wikidataid>
+        <rdfs:label xml:lang="en">californium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/californium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/carbon -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/carbon">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33415</element:chebiid>
+        <element:symbol>C</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q623</element:wikidataid>
+        <rdfs:label xml:lang="en">carbon</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/carbon-chemical-element</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/cerium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/cerium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33369</element:chebiid>
+        <element:symbol>Ce</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1385</element:wikidataid>
+        <rdfs:label xml:lang="en">cerium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/cerium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/chlorine -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/chlorine">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_23116</element:chebiid>
+        <element:symbol>Cl</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q688</element:wikidataid>
+        <rdfs:label xml:lang="en">chlorine</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/chlorine</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/chromium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/chromium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_28073</element:chebiid>
+        <element:symbol>Cr</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q725</element:wikidataid>
+        <rdfs:label xml:lang="en">chromium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/chromium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/cobalt -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/cobalt">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_27638</element:chebiid>
+        <element:symbol>Co</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q740</element:wikidataid>
+        <rdfs:label xml:lang="en">cobalt</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/cobalt-chemical-element</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/copper -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/copper">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_30052</element:chebiid>
+        <element:symbol>Cu</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q753</element:wikidataid>
+        <rdfs:label xml:lang="en">copper</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/copper</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/curium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/curium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33390</element:chebiid>
+        <element:symbol>Cm</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1876</element:wikidataid>
+        <rdfs:label xml:lang="en">curium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/curium-chemical-element</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/dubnium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/dubnium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33349</element:chebiid>
+        <element:symbol>Db</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1232</element:wikidataid>
+        <rdfs:label xml:lang="en">dubnium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/dubnium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/dysprosium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/dysprosium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33377</element:chebiid>
+        <element:symbol>Dy</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1843</element:wikidataid>
+        <rdfs:label xml:lang="en">dysprosium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/dysprosium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/einsteinium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/einsteinium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33393</element:chebiid>
+        <element:symbol>Es</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1892</element:wikidataid>
+        <rdfs:label xml:lang="en">einsteinium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/einsteinium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/erbium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/erbium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33379</element:chebiid>
+        <element:symbol>Er</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1849</element:wikidataid>
+        <rdfs:label xml:lang="en">erbium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/erbium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/europium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/europium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_32999</element:chebiid>
+        <element:symbol>Eu</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1396</element:wikidataid>
+        <rdfs:label xml:lang="en">europium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/europium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/fermium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/fermium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33394</element:chebiid>
+        <element:symbol>Fm</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1896</element:wikidataid>
+        <rdfs:label xml:lang="en">fermium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/fermium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/fluorine -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/fluorine">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_30239</element:chebiid>
+        <element:symbol>F</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q650</element:wikidataid>
+        <rdfs:label xml:lang="en">fluorine</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/fluorine</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/francium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/francium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33323</element:chebiid>
+        <element:symbol>Fr</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q671</element:wikidataid>
+        <rdfs:label xml:lang="en">francium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/francium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/gadolinium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/gadolinium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33375</element:chebiid>
+        <element:symbol>Gd</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1832</element:wikidataid>
+        <rdfs:label xml:lang="en">gadolinium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/gadolinium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/gallium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/gallium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_49631</element:chebiid>
+        <element:symbol>Ga</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q861</element:wikidataid>
+        <rdfs:label xml:lang="en">gallium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/germanium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/germanium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/germanium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_30441</element:chebiid>
+        <element:symbol>Ge</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q867</element:wikidataid>
+        <rdfs:label xml:lang="en">germanium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/gallium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/gold -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/gold">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_30050</element:chebiid>
+        <element:symbol>Au</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q897</element:wikidataid>
+        <rdfs:label xml:lang="en">gold</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/gold-chemical-element</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/hafnium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/hafnium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33343</element:chebiid>
+        <element:symbol>Hf</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1119</element:wikidataid>
+        <rdfs:label xml:lang="en">hafnium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/hafnium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/helium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/helium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_30217</element:chebiid>
+        <element:symbol>He</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q560</element:wikidataid>
+        <rdfs:label xml:lang="en">helium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/helium-chemical-element</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/holmium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/holmium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">67</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_49648</element:chebiid>
+        <element:symbol>Ho</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1846</element:wikidataid>
+        <rdfs:label xml:lang="en">holmium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/holmium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/hydrogen -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/hydrogen">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_49637</element:chebiid>
+        <element:symbol>H</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q556</element:wikidataid>
+        <rdfs:label xml:lang="en">hydrogen</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/hydrogen</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/indium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/indium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_30430</element:chebiid>
+        <element:symbol>In</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1094</element:wikidataid>
+        <rdfs:label xml:lang="en">indium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/indium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/iodine -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/iodine">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_36897</element:chebiid>
+        <element:symbol>I</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1103</element:wikidataid>
+        <rdfs:label xml:lang="en">iodine</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/iodine</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/iridium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/iridium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_49666</element:chebiid>
+        <element:symbol>Ir</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q877</element:wikidataid>
+        <rdfs:label xml:lang="en">iridium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/iridium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/iron -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/iron">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_18248</element:chebiid>
+        <element:symbol>Fe</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q677</element:wikidataid>
+        <rdfs:label xml:lang="en">iron</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/iron-chemical-element</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/krypton -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/krypton">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_49696</element:chebiid>
+        <element:symbol>Kr</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q888</element:wikidataid>
+        <rdfs:label xml:lang="en">krypton</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/krypton-chemical-element</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/lanthanum -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/lanthanum">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33336</element:chebiid>
+        <element:symbol>La</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1801</element:wikidataid>
+        <rdfs:label xml:lang="en">lanthanum</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/lanthanum</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/lawrencium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/lawrencium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33397</element:chebiid>
+        <element:symbol>Lr</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1905</element:wikidataid>
+        <rdfs:label xml:lang="en">lawrencium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/lawrencium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/lead -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/lead">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_27889</element:chebiid>
+        <element:symbol>Pb</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q708</element:wikidataid>
+        <rdfs:label xml:lang="en">lead</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/lead-chemical-element</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/lithium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/lithium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_30145</element:chebiid>
+        <element:symbol>Li</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q568</element:wikidataid>
+        <rdfs:label xml:lang="en">lithium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/lithium-chemical-element</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/lutetium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/lutetium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33382</element:chebiid>
+        <element:symbol>Lu</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1857</element:wikidataid>
+        <rdfs:label xml:lang="en">lutetium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/lutetium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/magnesium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/magnesium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_25107</element:chebiid>
+        <element:symbol>Mg</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q660</element:wikidataid>
+        <rdfs:label xml:lang="en">magnesium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/magnesium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/manganese -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/manganese">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_18291</element:chebiid>
+        <element:symbol>Mn</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q731</element:wikidataid>
+        <rdfs:label xml:lang="en">manganese</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/manganese</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/mendelevium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/mendelevium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33395</element:chebiid>
+        <element:symbol>Md</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1898</element:wikidataid>
+        <rdfs:label xml:lang="en">mendelevium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/mendelevium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/mercury -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/mercury">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_16170</element:chebiid>
+        <element:symbol>Hg</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q925</element:wikidataid>
+        <rdfs:label xml:lang="en">mercury</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/mercury-chemical-element</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/molybdenum -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/molybdenum">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_28685</element:chebiid>
+        <element:symbol>Mo</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1053</element:wikidataid>
+        <rdfs:label xml:lang="en">molybdenum</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/molybdenum</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/neodymium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/neodymium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33372</element:chebiid>
+        <element:symbol>Nd</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1388</element:wikidataid>
+        <rdfs:label xml:lang="en">neodymium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/neodymium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/neon -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/neon">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33310</element:chebiid>
+        <element:symbol>Ne</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q654</element:wikidataid>
+        <rdfs:label xml:lang="en">neon</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/neon-chemical-element</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/neptunium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/neptunium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33387</element:chebiid>
+        <element:symbol>Np</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1105</element:wikidataid>
+        <rdfs:label xml:lang="en">neptunium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/neptunium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/nickel -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/nickel">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_28112</element:chebiid>
+        <element:symbol>Ni</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q744</element:wikidataid>
+        <rdfs:label xml:lang="en">nickel</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/nickel-chemical-element</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/niobium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/niobium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33344</element:chebiid>
+        <element:symbol>Nb</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1046</element:wikidataid>
+        <rdfs:label xml:lang="en">niobium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/niobium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/nitrogen -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/nitrogen">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_25555</element:chebiid>
+        <element:symbol>N</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q627</element:wikidataid>
+        <rdfs:label xml:lang="en">nitrogen</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/nitrogen</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/nobelium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/nobelium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33396</element:chebiid>
+        <element:symbol>No</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1901</element:wikidataid>
+        <rdfs:label xml:lang="en">nobelium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/nobelium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/osmium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/osmium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_30687</element:chebiid>
+        <element:symbol>Os</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q751</element:wikidataid>
+        <rdfs:label xml:lang="en">osmium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/osmium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/oxygen -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/oxygen">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_25805</element:chebiid>
+        <element:symbol>O</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q629</element:wikidataid>
+        <rdfs:label xml:lang="en">oxygen</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/oxygen</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/palladium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/palladium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33363</element:chebiid>
+        <element:symbol>Pd</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1089</element:wikidataid>
+        <rdfs:label xml:lang="en">palladium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/palladium-chemical-element</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/phosphorus -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/phosphorus">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_28659</element:chebiid>
+        <element:symbol>P</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q674</element:wikidataid>
+        <rdfs:label xml:lang="en">phosphorus</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/phosphor</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/phosphorus-chemical-element</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/platinum -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/platinum">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33364</element:chebiid>
+        <element:symbol>Pt</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q880</element:wikidataid>
+        <rdfs:label xml:lang="en">platinum</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/platinum</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/plutonium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/plutonium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33388</element:chebiid>
+        <element:symbol>Pu</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1102</element:wikidataid>
+        <rdfs:label xml:lang="en">plutonium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/plutonium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/polonium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/polonium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33313</element:chebiid>
+        <element:symbol>Po</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q979</element:wikidataid>
+        <rdfs:label xml:lang="en">polonium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/polonium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/potassium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/potassium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_26216</element:chebiid>
+        <element:symbol>K</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q703</element:wikidataid>
+        <rdfs:label xml:lang="en">potassium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/potassium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/praseodymium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/praseodymium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_49828</element:chebiid>
+        <element:symbol>Pr</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1386</element:wikidataid>
+        <rdfs:label xml:lang="en">praseodymium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/praseodymium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/promethium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/promethium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33373</element:chebiid>
+        <element:symbol>Pm</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1809</element:wikidataid>
+        <rdfs:label xml:lang="en">promethium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/promethium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/protactinium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/protactinium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33386</element:chebiid>
+        <element:symbol>Pa</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1109</element:wikidataid>
+        <rdfs:label xml:lang="en">protactinium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/protactinium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/radium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/radium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33325</element:chebiid>
+        <element:symbol>Ra</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1128</element:wikidataid>
+        <rdfs:label xml:lang="en">radium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/radium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/radon -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/radon">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33314</element:chebiid>
+        <element:symbol>Rn</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1133</element:wikidataid>
+        <rdfs:label xml:lang="en">radon</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/radon</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/rhenium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/rhenium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_49882</element:chebiid>
+        <element:symbol>Re</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q737</element:wikidataid>
+        <rdfs:label xml:lang="en">rhenium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/rhenium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/rhodium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/rhodium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33359</element:chebiid>
+        <element:symbol>Rh</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1087</element:wikidataid>
+        <rdfs:label xml:lang="en">rhodium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/rhodium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/rubidium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/rubidium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33322</element:chebiid>
+        <element:symbol>Rb</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q895</element:wikidataid>
+        <rdfs:label xml:lang="en">rubidium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/rubidium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/ruthenium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/ruthenium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_30682</element:chebiid>
+        <element:symbol>Ru</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1086</element:wikidataid>
+        <rdfs:label xml:lang="en">ruthenium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/ruthenium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/rutherfordium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/rutherfordium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33346</element:chebiid>
+        <element:symbol>Rf</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1226</element:wikidataid>
+        <rdfs:label xml:lang="en">rutherfordium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/rutherfordium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/samarium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/samarium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33374</element:chebiid>
+        <element:symbol>Sm</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1819</element:wikidataid>
+        <rdfs:label xml:lang="en">samarium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/samarium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/scandium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/scandium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33330</element:chebiid>
+        <element:symbol>Sc</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q713</element:wikidataid>
+        <rdfs:label xml:lang="en">scandium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/scandium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/seaborgium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/seaborgium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33351</element:chebiid>
+        <element:symbol>Sg</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1234</element:wikidataid>
+        <rdfs:label xml:lang="en">seaborgium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/selenium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/selenium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/selenium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_27568</element:chebiid>
+        <element:symbol>Se</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q876</element:wikidataid>
+        <rdfs:label xml:lang="en">selenium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/seaborgium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/silicon -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/silicon">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_27573</element:chebiid>
+        <element:symbol>Si</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q670</element:wikidataid>
+        <rdfs:label xml:lang="en">silicon</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/silicon</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/silver -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/silver">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_9141</element:chebiid>
+        <element:symbol>Ag</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1090</element:wikidataid>
+        <rdfs:label xml:lang="en">silver</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/silver</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/sodium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/sodium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_26708</element:chebiid>
+        <element:symbol>Na</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q658</element:wikidataid>
+        <rdfs:label xml:lang="en">sodium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/sodium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/strontium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/strontium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33324</element:chebiid>
+        <element:symbol>Sr</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q938</element:wikidataid>
+        <rdfs:label xml:lang="en">strontium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/strontium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/sulfur -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/sulfur">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33403</element:chebiid>
+        <element:symbol>S</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q682</element:wikidataid>
+        <rdfs:label xml:lang="en">sulfur</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/sulfur</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/tantalum -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/tantalum">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33348</element:chebiid>
+        <element:symbol>Ta</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1123</element:wikidataid>
+        <rdfs:label xml:lang="en">tantalum</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/tantalum</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/technetium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/technetium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33353</element:chebiid>
+        <element:symbol>Tc</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1054</element:wikidataid>
+        <rdfs:label xml:lang="en">technetium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/technetium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/tellurium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/tellurium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_30452</element:chebiid>
+        <element:symbol>Te</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1100</element:wikidataid>
+        <rdfs:label xml:lang="en">tellurium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/tellurium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/terbium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/terbium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33376</element:chebiid>
+        <element:symbol>Tb</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1838</element:wikidataid>
+        <rdfs:label xml:lang="en">terbium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/terbium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/thallium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/thallium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_30440</element:chebiid>
+        <element:symbol>Tl</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q932</element:wikidataid>
+        <rdfs:label xml:lang="en">thallium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/thallium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/thorium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/thorium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33385</element:chebiid>
+        <element:symbol>Th</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1115</element:wikidataid>
+        <rdfs:label xml:lang="en">thorium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/thorium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/thulium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/thulium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33380</element:chebiid>
+        <element:symbol>Tm</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1853</element:wikidataid>
+        <rdfs:label xml:lang="en">thulium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/thulium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/tin -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/tin">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_27007</element:chebiid>
+        <element:symbol>Sn</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1096</element:wikidataid>
+        <rdfs:label xml:lang="en">tin</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/tin</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/titanium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/titanium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33341</element:chebiid>
+        <element:symbol>Ti</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q716</element:wikidataid>
+        <rdfs:label xml:lang="en">titanium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/titanium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/tungsten -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/tungsten">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_27998</element:chebiid>
+        <element:symbol>W</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q743</element:wikidataid>
+        <rdfs:label xml:lang="en">tungsten</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/tungsten-chemical-element</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/uranium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/uranium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_49936</element:chebiid>
+        <element:symbol>U</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1098</element:wikidataid>
+        <rdfs:label xml:lang="en">uranium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/uranium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/vanadium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/vanadium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_27698</element:chebiid>
+        <element:symbol>V</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q722</element:wikidataid>
+        <rdfs:label xml:lang="en">vanadium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/vanadium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/xenon -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/xenon">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_49957</element:chebiid>
+        <element:symbol>Xe</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1106</element:wikidataid>
+        <rdfs:label xml:lang="en">xenon</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/xenon</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/ytterbium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/ytterbium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33381</element:chebiid>
+        <element:symbol>Yb</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1855</element:wikidataid>
+        <rdfs:label xml:lang="en">ytterbium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/ytterbium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/yttrium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/yttrium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33331</element:chebiid>
+        <element:symbol>Y</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q941</element:wikidataid>
+        <rdfs:label xml:lang="en">yttrium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/yttrium</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/zinc -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/zinc">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_30185</element:chebiid>
+        <element:symbol>Zn</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q758</element:wikidataid>
+        <rdfs:label xml:lang="en">zinc</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/zinc</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/element/zirconium -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/element/zirconium">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+        <element:atomicNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</element:atomicNumber>
+        <element:chebiid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/CHEBI_33342</element:chebiid>
+        <element:symbol>Zr</element:symbol>
+        <element:wikidataid rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.wikidata.org/entity/Q1038</element:wikidataid>
+        <rdfs:label xml:lang="en">zirconium</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.britannica.com/science/zirconium</rdfs:seeAlso>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+

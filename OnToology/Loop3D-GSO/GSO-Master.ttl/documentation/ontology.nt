@@ -1,0 +1,33 @@
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/2004/02/skos/annotation/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/2021/2/qudt/voc/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/common/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/element/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geologicevent/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geologicfault/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geologicfold/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geologiclineation/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geologicquality/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geologicreferencesystem/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geologicsetting/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geologictime/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geology/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/granularmaterial/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/hydrology/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/ischart/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/mineral/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/perdurant/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/quality/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/rockmaterial/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/rockobject/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "This is a shell to load all GSO files."@en .
+<http://loop3d.org/GSO/ontology/2020/1/master/ontology> <http://www.w3.org/2000/01/rdf-schema#label> "GSO Master"@en .
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

@@ -1,0 +1,92 @@
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/common/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geology/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "This file contains Rock Object vocabulary. Based on the CGI Geologic Unit Part role vocabulary, as defined by the IUGS Commission for Geoscience Information (CGI) Geoscience Terminology Working Group. Refactored to separate objects (Rock_Object.ttl) and roles more consistently."@en .
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "dct:creator--  CGI Geoscience Terminology Working Group, Stephen M Richard"@en .
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "dct:date--  2020-08-04"@en .
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/ontology> <http://www.w3.org/2000/01/rdf-schema#label> "Rock Object"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent
+<http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Object
+<http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geology/Mineral
+<http://loop3d.org/GSO/ontology/2020/1/geology/Mineral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geology/Specific_Rock_Object
+<http://loop3d.org/GSO/ontology/2020/1/geology/Specific_Rock_Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/rockobject/Concretion
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/Concretion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/Concretion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geology/Specific_Rock_Object> .
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/Concretion> <http://purl.org/dc/terms/source> "Neuendorf et al. 2005"@en .
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/Concretion> <http://www.w3.org/2000/01/rdf-schema#comment> "A hard, compact mass or aggregate of mineral matter, normally subspherical but commonly oblate, disc-shaped or irregular. Formed from precipitation from solution about a nucleus or centre."@en .
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/Concretion> <http://www.w3.org/2000/01/rdf-schema#label> "Concretion"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/rockobject/Core
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/Core> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/Core> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Object> .
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/Core> <http://www.w3.org/2000/01/rdf-schema#comment> "A planet's core, e.g. the Earth's core. Is a geologic object, because it is constituted by a mixture of geologic solid and fluid material. "@en .
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/Core> <http://www.w3.org/2000/01/rdf-schema#label> "Core"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/rockobject/Crust
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/Crust> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/Crust> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Object> .
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/Crust> <http://www.w3.org/2000/01/rdf-schema#comment> "A planet's crust, e.g. the Earth's crust. Is a rock object as it is constituted only by solid geologic material. Surprisingly, is a stratigraphic unit, because dependent spatially and temporally on the upper mantle rock object. This means it cannot be moved (e.g. to another planet) and retain identity, and it must always be younger and over the upper mantle."@en .
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/Crust> <http://www.w3.org/2000/01/rdf-schema#label> "Crust"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/rockobject/Crystal
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/Crystal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/Crystal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geology/Specific_Rock_Object> .
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/Crystal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> .
+_:genid1 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Mineral> .
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/Crystal> <http://www.w3.org/2000/01/rdf-schema#comment> "An object composed of a single mineral species, with a characteristic geometrical shape, bounded by flat faces with specific, characteristic orientations reflecting a consistent, highly ordered internal arrangement of constituent atoms."@en .
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/Crystal> <http://www.w3.org/2000/01/rdf-schema#label> "Crystal"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/rockobject/Fossil_Object
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/Fossil_Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/Fossil_Object> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geology/Specific_Rock_Object> .
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/Fossil_Object> <http://www.w3.org/2000/01/rdf-schema#comment> "NOTE--this class is intended to represent individual fossil objects. If some kind of material fossils are granular constituents in a sedimentary rock, they should be represented using 'Biogenic_Granular_Material, with sub classes for different kinds of fossils, e.g. in crinoid grainstone, radiolarian chert, diatomite."@en .
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/Fossil_Object> <http://www.w3.org/2000/01/rdf-schema#label> "Fossil object"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/rockobject/Mantle
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/Mantle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/Mantle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Object> .
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/Mantle> <http://www.w3.org/2000/01/rdf-schema#comment> "A planet's mantle, e.g. the Earth's mantle. Is a geologic object, because it is constituted by a mixture of geologic solid and fluid material. "@en .
+<http://loop3d.org/GSO/ontology/2020/1/rockobject/Mantle> <http://www.w3.org/2000/01/rdf-schema#label> "Mantle"@en .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

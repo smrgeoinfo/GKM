@@ -1,0 +1,284 @@
+@prefix : <http://loop3d.org/GSO/ontology/2020/1/quality/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://loop3d.org/GSO/ontology/2020/1/quality/ontology> .
+
+<http://loop3d.org/GSO/ontology/2020/1/quality/ontology> rdf:type owl:Ontology ;
+                                                          owl:imports <http://loop3d.org/GSO/ontology/2020/1/common/ontology> ;
+                                                          rdfs:comment "Vocabulary of physical qualities used in multiple GSO modules."@en ;
+                                                          rdfs:label "Physical qualities"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2002/07/owl#qualifiedCardinality
+owl:qualifiedCardinality rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf
+<http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf> rdf:type owl:ObjectProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/isValueOf
+<http://loop3d.org/GSO/ontology/2020/1/common/isValueOf> rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Material_Endurant
+<http://loop3d.org/GSO/ontology/2020/1/common/Material_Endurant> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Named_Value
+<http://loop3d.org/GSO/ontology/2020/1/common/Named_Value> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Nonphysical_Quality
+<http://loop3d.org/GSO/ontology/2020/1/common/Nonphysical_Quality> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality
+<http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Quality
+<http://loop3d.org/GSO/ontology/2020/1/common/Quality> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Colour
+<http://loop3d.org/GSO/ontology/2020/1/quality/Colour> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf> ;
+                                                                         owl:allValuesFrom <http://loop3d.org/GSO/ontology/2020/1/common/Material_Endurant>
+                                                                       ] ;
+                                                       rdfs:comment "upper level class that represents any conceptual space for quantifying colour, e.g. RGB, Munsell, CMYK, US NBS Color (NBS Special Pub 440)"@en ;
+                                                       rdfs:label "Colour"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Density
+<http://loop3d.org/GSO/ontology/2020/1/quality/Density> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> ;
+                                                        rdfs:comment "The mass per unit volume of an Amount of Matter"@en ;
+                                                        rdfs:label "Density "@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Diameter
+<http://loop3d.org/GSO/ontology/2020/1/quality/Diameter> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> ;
+                                                         rdfs:comment "The (approximate) average length of line segments that pass through the center of an object and whose endpoints lie on the outside boundary of the object. Use to characterize the size of a broadly spheroidal object like a pluton or a rock sample."@en ;
+                                                         rdfs:label "Diameter "@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Displacement
+<http://loop3d.org/GSO/ontology/2020/1/quality/Displacement> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> ;
+                                                             rdfs:comment "A measure of change of location"@en ;
+                                                             rdfs:label "Displacement"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Disseminated
+<http://loop3d.org/GSO/ontology/2020/1/quality/Disseminated> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/quality/Distribution_Value> ;
+                                                             rdfs:comment "Quality is scattered relatively uniformly through the quality carrier."@en ;
+                                                             rdfs:label "Disseminated "@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Distance
+<http://loop3d.org/GSO/ontology/2020/1/quality/Distance> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> ;
+                                                         rdfs:comment "A measure of distance between locations"@en ;
+                                                         rdfs:label "Distance"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Distribution
+<http://loop3d.org/GSO/ontology/2020/1/quality/Distribution> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Nonphysical_Quality> ,
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf> ;
+                                                                               owl:allValuesFrom <http://loop3d.org/GSO/ontology/2020/1/common/Quality>
+                                                                             ] ;
+                                                             rdfs:comment "spcification of how much of the quality carrier displays the quality. Use to indicate variability of development of the quality "@en ;
+                                                             rdfs:label "Quality distribution"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Distribution_Value
+<http://loop3d.org/GSO/ontology/2020/1/quality/Distribution_Value> rdf:type owl:Class ;
+                                                                   rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Named_Value> ,
+                                                                                   <http://org.semanticweb.owlapi/error#Error2> ,
+                                                                                   [ rdf:type owl:Restriction ;
+                                                                                     owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/isValueOf> ;
+                                                                                     owl:allValuesFrom <http://loop3d.org/GSO/ontology/2020/1/quality/Distribution>
+                                                                                   ] ;
+                                                                   rdfs:comment "spcification of how much of the quality carrier displays the quality. Use to indicate variability of development of the quality "@en ;
+                                                                   rdfs:label "Distribution Value"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Intensity
+<http://loop3d.org/GSO/ontology/2020/1/quality/Intensity> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Nonphysical_Quality> ,
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf> ;
+                                                                            owl:allValuesFrom <http://loop3d.org/GSO/ontology/2020/1/common/Quality>
+                                                                          ] ;
+                                                          rdfs:comment "Intensity of quality "@en ;
+                                                          rdfs:label "Intensity Value"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Intensity_Value
+<http://loop3d.org/GSO/ontology/2020/1/quality/Intensity_Value> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Named_Value> ,
+                                                                                <http://org.semanticweb.owlapi/error#Error3> ,
+                                                                                [ rdf:type owl:Restriction ;
+                                                                                  owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/isValueOf> ;
+                                                                                  owl:allValuesFrom <http://loop3d.org/GSO/ontology/2020/1/quality/Intensity>
+                                                                                ] ;
+                                                                rdfs:comment "Value of Intensity quality "@en ;
+                                                                rdfs:label "Value of Intensity quality "@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Layered_Distribution
+<http://loop3d.org/GSO/ontology/2020/1/quality/Layered_Distribution> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/quality/Distribution_Value> ;
+                                                                     rdfs:comment "quality is exhibited in sheet like zones, e.g. along veins or fractures."@en ;
+                                                                     rdfs:label "Layered distribution "@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Moderate_Intensity
+<http://loop3d.org/GSO/ontology/2020/1/quality/Moderate_Intensity> rdf:type owl:Class ;
+                                                                   rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/quality/Intensity_Value> ;
+                                                                   rdfs:comment "Quality is present and can be discerned by any observer"@en ;
+                                                                   rdfs:label "moderate development" .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Orientation
+<http://loop3d.org/GSO/ontology/2020/1/quality/Orientation> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> ;
+                                                            rdfs:comment "quality used to specify the disposition of a line or plane in space"@en ;
+                                                            rdfs:label "Orientation"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Orientation_Value
+<http://loop3d.org/GSO/ontology/2020/1/quality/Orientation_Value> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Named_Value> ,
+                                                                                  <http://org.semanticweb.owlapi/error#Error1> ,
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/isValueOf> ;
+                                                                                    owl:allValuesFrom <http://loop3d.org/GSO/ontology/2020/1/quality/Orientation>
+                                                                                  ] .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Patchy_Distribution
+<http://loop3d.org/GSO/ontology/2020/1/quality/Patchy_Distribution> rdf:type owl:Class ;
+                                                                    rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/quality/Distribution_Value> ;
+                                                                    rdfs:comment "Quality is exhibited in local concentrations separated by regions without the quality. Typically used to describe alteration distribution."@en ;
+                                                                    rdfs:isDefinedBy "GeoSciML v4"@en ;
+                                                                    rdfs:label "Patchy distribution"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Pressure
+<http://loop3d.org/GSO/ontology/2020/1/quality/Pressure> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> ;
+                                                         rdfs:comment "applies to Earth_Material or Geologic_Unit"@en ,
+                                                                      "peak metamorphic pressure"@en ;
+                                                         rdfs:isDefinedBy "GeoSciML v3"@en ;
+                                                         rdfs:label "Pressure"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Sparse_Distribution
+<http://loop3d.org/GSO/ontology/2020/1/quality/Sparse_Distribution> rdf:type owl:Class ;
+                                                                    rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/quality/Distribution_Value> ;
+                                                                    rdfs:comment "Quality is occasionally present in instances of the host particular "@en ;
+                                                                    rdfs:label "sparse distribution" .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Strong_Intensity
+<http://loop3d.org/GSO/ontology/2020/1/quality/Strong_Intensity> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/quality/Intensity_Value> ;
+                                                                 rdfs:comment "Quality is present and is dominate feature of the quality host." ;
+                                                                 rdfs:label "strong development" .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Temperature
+<http://loop3d.org/GSO/ontology/2020/1/quality/Temperature> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> ;
+                                                            rdfs:comment "Temperature"@en ,
+                                                                         "applies to Earth_Material or Geologic_Unit"@en ;
+                                                            rdfs:isDefinedBy "GeoSciML v3"@en ;
+                                                            rdfs:label "Peak temperature"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Thickness
+<http://loop3d.org/GSO/ontology/2020/1/quality/Thickness> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> ;
+                                                          rdfs:comment "Quality of a tabular or sheet like body that is its linear dimension normal to its long dimensions. Could be quantified numerically or categorically (e.g. thin, thick, very thick)"@en ;
+                                                          rdfs:label "Thickness"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Ubiquitous_Distribution
+<http://loop3d.org/GSO/ontology/2020/1/quality/Ubiquitous_Distribution> rdf:type owl:Class ;
+                                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/quality/Distribution_Value> ;
+                                                                        rdfs:comment "Quality is everywhere present in the host."@en ;
+                                                                        rdfs:label "ubiquitous distribution"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Variable_Distribution
+<http://loop3d.org/GSO/ontology/2020/1/quality/Variable_Distribution> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/quality/Distribution_Value> ;
+                                                                      rdfs:comment "Quality is not present to the same degree in all instances of the host particular"@en ;
+                                                                      rdfs:label "variable distribution"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Variable_Intensity
+<http://loop3d.org/GSO/ontology/2020/1/quality/Variable_Intensity> rdf:type owl:Class ;
+                                                                   rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/quality/Intensity_Value> ;
+                                                                   rdfs:comment "Intensity varies spatially "@en ;
+                                                                   rdfs:label "Variable intensity "@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Volume
+<http://loop3d.org/GSO/ontology/2020/1/quality/Volume> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> ;
+                                                       rdfs:comment "Volume of something occupying space"@en ;
+                                                       rdfs:label "Volume"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Weak_Intensity
+<http://loop3d.org/GSO/ontology/2020/1/quality/Weak_Intensity> rdf:type owl:Class ;
+                                                               rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/quality/Intensity_Value> ;
+                                                               rdfs:comment "Quality is present but difficult to discern "@en ;
+                                                               rdfs:label "weak development"@en .
+
+
+###  http://org.semanticweb.owlapi/error#Error1
+<http://org.semanticweb.owlapi/error#Error1> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error2
+<http://org.semanticweb.owlapi/error#Error2> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error3
+<http://org.semanticweb.owlapi/error#Error3> rdf:type owl:Class .
+
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

@@ -1,0 +1,38 @@
+[ {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hosts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-timelowerjurassic#Lower_Jurassic_Series",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Series" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hosts" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/LowerJurassic2017"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "ISC2017 time scale does not define stratotypes for the Geochronologic Eras it defines"
+  }, {
+    "@language" : "en",
+    "@value" : "see Table 3 in http://www.stratigraphy.org/upload/bak/chron.htm for hierarchy of chronostrat and geochron unit names"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Lower Jurassic rocks"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-timelowerjurassic/ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Trivial example encoding of a Chronostratigraphic unit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "define Lower Jurassic Series"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/master/ontology"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicunit/Series",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]

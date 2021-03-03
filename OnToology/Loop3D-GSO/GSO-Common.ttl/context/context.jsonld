@@ -1,0 +1,840 @@
+{
+  "@context" : {
+    "crosses" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/crosses",
+      "@type" : "@id"
+    },
+    "Solid_Matter" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Solid_Matter"
+    },
+    "Time_Instant_Location" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant_Location"
+    },
+    "partialEnvelope" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/partialEnvelope",
+      "@type" : "@id"
+    },
+    "isPersistentPartOf" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isPersistentPartOf",
+      "@type" : "@id"
+    },
+    "Situation" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Situation"
+    },
+    "timeMetBy" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeMetBy",
+      "@type" : "@id"
+    },
+    "Exemplification" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Exemplification"
+    },
+    "Parthood" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Parthood"
+    },
+    "Geographic_Coordinate_System" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Geographic_Coordinate_System"
+    },
+    "Physical_Gap" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Physical_Gap"
+    },
+    "hasYoungerHost" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasYoungerHost",
+      "@type" : "@id"
+    },
+    "Setting" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Setting"
+    },
+    "hasConstituent" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent",
+      "@type" : "@id"
+    },
+    "previousTimeInterval" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/previousTimeInterval",
+      "@type" : "@id"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "Time_Numeric_Value" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value"
+    },
+    "timeIncludedBy" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeIncludedBy",
+      "@type" : "@id"
+    },
+    "timeEquivalentTo" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeEquivalentTo",
+      "@type" : "@id"
+    },
+    "timeOlderThan" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeOlderThan",
+      "@type" : "@id"
+    },
+    "Plasma" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Plasma"
+    },
+    "Amount_Of_Matter" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Amount_Of_Matter"
+    },
+    "specificallyDependsOn" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/specificallyDependsOn",
+      "@type" : "@id"
+    },
+    "timeIncludes" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeIncludes",
+      "@type" : "@id"
+    },
+    "Physical_Void" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Physical_Void"
+    },
+    "production" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/production",
+      "@type" : "@id"
+    },
+    "Notional_Endurant" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Notional_Endurant"
+    },
+    "hasEndValue" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue",
+      "@type" : "@id"
+    },
+    "Example" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Example"
+    },
+    "isSettingFor" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isSettingFor",
+      "@type" : "@id"
+    },
+    "timeIntersects" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeIntersects",
+      "@type" : "@id"
+    },
+    "Range_Value" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Range_Value"
+    },
+    "isInputOf" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isInputOf",
+      "@type" : "@id"
+    },
+    "mutuallySpecDependsOn" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/mutuallySpecDependsOn",
+      "@type" : "@id"
+    },
+    "isReferenceSystemFor" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isReferenceSystemFor",
+      "@type" : "@id"
+    },
+    "hasSpatialValue" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasSpatialValue",
+      "@type" : "@id"
+    },
+    "Rare_Proportion" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Rare_Proportion"
+    },
+    "containedBy" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/containedBy",
+      "@type" : "@id"
+    },
+    "Uncertainty" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Uncertainty"
+    },
+    "hosts" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hosts",
+      "@type" : "@id"
+    },
+    "hasOutput" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasOutput",
+      "@type" : "@id"
+    },
+    "Temporal_Boundary" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Boundary"
+    },
+    "hostedBy" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy",
+      "@type" : "@id"
+    },
+    "occupiesTimeDirectly" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly",
+      "@type" : "@id"
+    },
+    "spaceOccupiedIndirectlyBy" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/spaceOccupiedIndirectlyBy",
+      "@type" : "@id"
+    },
+    "spatiallyTouches" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/spatiallyTouches",
+      "@type" : "@id"
+    },
+    "hasExample" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasExample",
+      "@type" : "@id"
+    },
+    "timeDisjoint" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeDisjoint",
+      "@type" : "@id"
+    },
+    "hasValue" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasValue",
+      "@type" : "@id"
+    },
+    "hasEssentialPart" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasEssentialPart",
+      "@type" : "@id"
+    },
+    "staticHostedBy" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/staticHostedBy",
+      "@type" : "@id"
+    },
+    "timeDuring" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeDuring",
+      "@type" : "@id"
+    },
+    "Physical_Endurant" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Physical_Endurant"
+    },
+    "Fluid_Matter" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Fluid_Matter"
+    },
+    "Inherant_Feature" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Inherant_Feature"
+    },
+    "Material_Endurant" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Material_Endurant"
+    },
+    "hasRole" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasRole",
+      "@type" : "@id"
+    },
+    "Nonphysical_Morphologic_Feature" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Nonphysical_Morphologic_Feature"
+    },
+    "isSampleOf" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isSampleOf",
+      "@type" : "@id"
+    },
+    "Perdurant" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Perdurant"
+    },
+    "hasUOM" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM",
+      "@type" : "@id"
+    },
+    "hasDataValue" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anySimpleType"
+    },
+    "Feature" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Feature"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Temporal_Range" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Range"
+    },
+    "contains" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/contains",
+      "@type" : "@id"
+    },
+    "isPartOf" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isPartOf",
+      "@type" : "@id"
+    },
+    "Spatial_Region_3D" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Spatial_Region_3D"
+    },
+    "Occurrence_Feature" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Occurrence_Feature"
+    },
+    "hasPart" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasPart",
+      "@type" : "@id"
+    },
+    "spatiallyEquals" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/spatiallyEquals",
+      "@type" : "@id"
+    },
+    "timeFinishedBy" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeFinishedBy",
+      "@type" : "@id"
+    },
+    "Numeric_Value" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value"
+    },
+    "occupies" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/occupies",
+      "@type" : "@id"
+    },
+    "Material_Feature" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Material_Feature"
+    },
+    "isConstituentOf" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isConstituentOf",
+      "@type" : "@id"
+    },
+    "constantlyGenDependsOn" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/constantlyGenDependsOn",
+      "@type" : "@id"
+    },
+    "parthood" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/parthood",
+      "@type" : "@id"
+    },
+    "isExemplifiedBy" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isExemplifiedBy",
+      "@type" : "@id"
+    },
+    "Temporal_Reference_System" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Reference_System"
+    },
+    "Perdurant_Feature" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Perdurant_Feature"
+    },
+    "exemplifies" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/exemplifies",
+      "@type" : "@id"
+    },
+    "Gas" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Gas"
+    },
+    "isRelatedTo" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isRelatedTo"
+    },
+    "timeYoungerThan" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan",
+      "@type" : "@id"
+    },
+    "Material_Morphological_Feature" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Material_Morphological_Feature"
+    },
+    "Event" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Event"
+    },
+    "hasRolePlayer" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasRolePlayer",
+      "@type" : "@id"
+    },
+    "Immaterial_Boundary" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Immaterial_Boundary"
+    },
+    "determination" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/determination",
+      "@type" : "@id"
+    },
+    "Material_Boundary" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Material_Boundary"
+    },
+    "hasDependent" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasDependent",
+      "@type" : "@id"
+    },
+    "isTemporallyRelatedTo" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isTemporallyRelatedTo",
+      "@type" : "@id"
+    },
+    "Time_Date_Value" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Time_Date_Value"
+    },
+    "occupiesSpaceDirectly" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/occupiesSpaceDirectly",
+      "@type" : "@id"
+    },
+    "Place_Feature" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Place_Feature"
+    },
+    "occupiesSpaceIndirectly" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/occupiesSpaceIndirectly",
+      "@type" : "@id"
+    },
+    "emergesFrom" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/emergesFrom",
+      "@type" : "@id"
+    },
+    "constantlySpecDependsOn" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/constantlySpecDependsOn",
+      "@type" : "@id"
+    },
+    "determinedBy" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/determinedBy",
+      "@type" : "@id"
+    },
+    "hasDate" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasDate"
+    },
+    "Process_Feature" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Process_Feature"
+    },
+    "Unit_Of_Measure" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Unit_Of_Measure"
+    },
+    "Quality" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Quality"
+    },
+    "Endurant" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Endurant"
+    },
+    "timeOccupiedIndirectlyBy" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeOccupiedIndirectlyBy",
+      "@type" : "@id"
+    },
+    "Physical_Quality" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality"
+    },
+    "spaceOccupiedBy" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/spaceOccupiedBy",
+      "@type" : "@id"
+    },
+    "timeOverlaps" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeOverlaps",
+      "@type" : "@id"
+    },
+    "Nonphysical_Feature" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Nonphysical_Feature"
+    },
+    "timeOccupiedDirectlyBy" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeOccupiedDirectlyBy",
+      "@type" : "@id"
+    },
+    "timeIncomparableTo" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeIncomparableTo",
+      "@type" : "@id"
+    },
+    "Reference_System" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Reference_System"
+    },
+    "timeFinishes" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeFinishes",
+      "@type" : "@id"
+    },
+    "Role" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Role"
+    },
+    "isFundamentallyRelatedTo" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isFundamentallyRelatedTo",
+      "@type" : "@id"
+    },
+    "isProducedFrom" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isProducedFrom",
+      "@type" : "@id"
+    },
+    "Temporal_Gap" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Gap"
+    },
+    "Spatial_Region_2D" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Spatial_Region_2D"
+    },
+    "Event_Feature" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Event_Feature"
+    },
+    "Shape_Value" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Shape_Value"
+    },
+    "timeStarts" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeStarts",
+      "@type" : "@id"
+    },
+    "hasInput" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasInput",
+      "@type" : "@id"
+    },
+    "isOutputOf" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf",
+      "@type" : "@id"
+    },
+    "Constituent" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Constituent"
+    },
+    "spaceOccupiedDirectlyBy" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/spaceOccupiedDirectlyBy",
+      "@type" : "@id"
+    },
+    "hasRoleObject" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasRoleObject",
+      "@type" : "@id"
+    },
+    "Proportion_Value" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Proportion_Value"
+    },
+    "location" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/location",
+      "@type" : "@id"
+    },
+    "Time_Instant_Feature" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant_Feature"
+    },
+    "State_Of_Matter" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/State_Of_Matter"
+    },
+    "isValueOf" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isValueOf",
+      "@type" : "@id"
+    },
+    "Temporal_Feature" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Feature"
+    },
+    "covers" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/covers",
+      "@type" : "@id"
+    },
+    "Physical_Feature" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Physical_Feature"
+    },
+    "Minor_Proportion" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Minor_Proportion"
+    },
+    "Spatial_Value" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Spatial_Value"
+    },
+    "timeInclusion" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeInclusion",
+      "@type" : "@id"
+    },
+    "Particular" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Particular"
+    },
+    "Temporal_Void" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Void"
+    },
+    "Immaterial_Feature" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Immaterial_Feature"
+    },
+    "Unit_Of_Measure_Value" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Unit_Of_Measure_Value"
+    },
+    "Nonphysical_Reference_System" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Nonphysical_Reference_System"
+    },
+    "isParticipantIn" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn",
+      "@type" : "@id"
+    },
+    "WKT_Value" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/WKT_Value"
+    },
+    "Pattern_Feature" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Pattern_Feature"
+    },
+    "hasOlderHost" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasOlderHost",
+      "@type" : "@id"
+    },
+    "Spatial_Location" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Spatial_Location"
+    },
+    "Fluid" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Fluid"
+    },
+    "hasQuality" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality",
+      "@type" : "@id"
+    },
+    "Duration" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Duration"
+    },
+    "Spatial_Region_1D" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Spatial_Region_1D"
+    },
+    "Low_Dimension_Feature" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Low_Dimension_Feature"
+    },
+    "isExampleOf" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isExampleOf",
+      "@type" : "@id"
+    },
+    "timeMeets" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeMeets",
+      "@type" : "@id"
+    },
+    "Pause" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Pause"
+    },
+    "spatio-temporallyDependsOn" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/spatio-temporallyDependsOn",
+      "@type" : "@id"
+    },
+    "Subordinate_Proportion" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Subordinate_Proportion"
+    },
+    "Part" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Part"
+    },
+    "hasSample" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasSample",
+      "@type" : "@id"
+    },
+    "coveredBy" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/coveredBy",
+      "@type" : "@id"
+    },
+    "isSpatiallyRelatedTo" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isSpatiallyRelatedTo",
+      "@type" : "@id"
+    },
+    "Temporal_Location" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Location"
+    },
+    "timePrecededBy" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timePrecededBy",
+      "@type" : "@id"
+    },
+    "timeOccupiedBy" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeOccupiedBy",
+      "@type" : "@id"
+    },
+    "Dominant_Proportion" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Dominant_Proportion"
+    },
+    "Inherant" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Inherant"
+    },
+    "hasInherant" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasInherant",
+      "@type" : "@id"
+    },
+    "Temporal_Value" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Value"
+    },
+    "reference" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/reference",
+      "@type" : "@id"
+    },
+    "Hole" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Hole"
+    },
+    "hasParticipant" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasParticipant",
+      "@type" : "@id"
+    },
+    "Situation_Feature" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Situation_Feature"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/terms/source"
+    },
+    "Proportion" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Proportion"
+    },
+    "occupiedBy" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/occupiedBy",
+      "@type" : "@id"
+    },
+    "Nonphysical_Endurant" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Nonphysical_Endurant"
+    },
+    "isStaticPartOf" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isStaticPartOf",
+      "@type" : "@id"
+    },
+    "Spatial_Region" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Spatial_Region"
+    },
+    "Relator" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Relator"
+    },
+    "Measure_Value" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Measure_Value"
+    },
+    "hasStaticPart" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasStaticPart",
+      "@type" : "@id"
+    },
+    "timeOverlappedBy" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeOverlappedBy",
+      "@type" : "@id"
+    },
+    "timeStartedBy" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeStartedBy",
+      "@type" : "@id"
+    },
+    "spatiallyDisjoint" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/spatiallyDisjoint",
+      "@type" : "@id"
+    },
+    "inheresIn" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/inheresIn",
+      "@type" : "@id"
+    },
+    "genericallyDependsOn" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/genericallyDependsOn",
+      "@type" : "@id"
+    },
+    "isEssentialPartOf" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isEssentialPartOf",
+      "@type" : "@id"
+    },
+    "occupiesTime" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTime",
+      "@type" : "@id"
+    },
+    "staticHosts" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/staticHosts",
+      "@type" : "@id"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "Time_Interval_Location" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval_Location"
+    },
+    "hasStartValue" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue",
+      "@type" : "@id"
+    },
+    "exemplification" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/exemplification",
+      "@type" : "@id"
+    },
+    "Time_Interval" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval"
+    },
+    "Process" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Process"
+    },
+    "isQualityOf" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf",
+      "@type" : "@id"
+    },
+    "Solid" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Solid"
+    },
+    "externallyGenDependsOn" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/externallyGenDependsOn",
+      "@type" : "@id"
+    },
+    "Dynamic_Feature" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Dynamic_Feature"
+    },
+    "nextTimeInterval" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/nextTimeInterval",
+      "@type" : "@id"
+    },
+    "Sample" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Sample"
+    },
+    "Spatial_Region_0D" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Spatial_Region_0D"
+    },
+    "Whole" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Whole"
+    },
+    "dependsOn" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/dependsOn",
+      "@type" : "@id"
+    },
+    "Quality_Value" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Quality_Value"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Physical_Reference_System" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Physical_Reference_System"
+    },
+    "spatialOverlaps" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/spatialOverlaps",
+      "@type" : "@id"
+    },
+    "hasAnnotation" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasAnnotation"
+    },
+    "Temporal_Quality" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Quality"
+    },
+    "Time_Interval_Feature" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval_Feature"
+    },
+    "Time_Instant" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant"
+    },
+    "hasSetting" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasSetting",
+      "@type" : "@id"
+    },
+    "isProductionInput" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isProductionInput",
+      "@type" : "@id"
+    },
+    "isRoleObjectFor" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isRoleObjectFor",
+      "@type" : "@id"
+    },
+    "timeContains" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeContains",
+      "@type" : "@id"
+    },
+    "Shape" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Shape"
+    },
+    "State_Of_Matter_Value" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/State_Of_Matter_Value"
+    },
+    "externallySpecDependsOn" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/externallySpecDependsOn",
+      "@type" : "@id"
+    },
+    "Nonphysical_Quality" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Nonphysical_Quality"
+    },
+    "determines" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/determines",
+      "@type" : "@id"
+    },
+    "occupiesTimeIndirectly" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeIndirectly",
+      "@type" : "@id"
+    },
+    "Material_Object" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Material_Object"
+    },
+    "hasReferenceSystem" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasReferenceSystem",
+      "@type" : "@id"
+    },
+    "materiallyDependsOn" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/materiallyDependsOn",
+      "@type" : "@id"
+    },
+    "Time_Region" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Time_Region"
+    },
+    "hasPersistentPart" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasPersistentPart",
+      "@type" : "@id"
+    },
+    "Abstract_Endurant" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Abstract_Endurant"
+    },
+    "emerges" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/emerges",
+      "@type" : "@id"
+    },
+    "Element" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+    },
+    "Liquid" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Liquid"
+    },
+    "occupiesSpace" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/occupiesSpace",
+      "@type" : "@id"
+    },
+    "adjacentlyDependsOn" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/adjacentlyDependsOn",
+      "@type" : "@id"
+    },
+    "timePrecedes" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timePrecedes",
+      "@type" : "@id"
+    },
+    "Named_Value" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Named_Value"
+    },
+    "Endurant_Feature" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Endurant_Feature"
+    },
+    "dependance" : {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/dependance",
+      "@type" : "@id"
+    }
+  }
+}

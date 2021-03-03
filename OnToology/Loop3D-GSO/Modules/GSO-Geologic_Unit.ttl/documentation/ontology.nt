@@ -1,0 +1,1055 @@
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/common/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geologictime/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geology/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "This file based on the CGI Geologic Unit type vocabulary. Compilation and review in MS Excel spreadsheet, converted to MS Excel for SKOS generation using GSML_SKOS_fromXLS_2016.02.xslt."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "This ontology specifies concepts for description of Geologic Unit, as defined by the IUGS Commission for Geoscience Information (CGI) Geoscience Terminology Working Group. These classes and properties extend the base GSO-Geology ontology for more detailed descriptions. Unit types are differentiated based on their defining lithological, stratigraphic, or other physical properties."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "dct:creator--  CGI Geoscience Terminology Working Group, OWL conversion by Stephen Richard"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "dct:date--  2012-11-24"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "dct:modified-- 2020-01-30"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/ontology> <http://www.w3.org/2000/01/rdf-schema#label> "Geologic Unit"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/adjacentlyDependsOn
+<http://loop3d.org/GSO/ontology/2020/1/common/adjacentlyDependsOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/externallyGenDependsOn
+<http://loop3d.org/GSO/ontology/2020/1/common/externallyGenDependsOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/externallySpecDependsOn
+<http://loop3d.org/GSO/ontology/2020/1/common/externallySpecDependsOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent
+<http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasExample
+<http://loop3d.org/GSO/ontology/2020/1/common/hasExample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasPart
+<http://loop3d.org/GSO/ontology/2020/1/common/hasPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasRoleObject
+<http://loop3d.org/GSO/ontology/2020/1/common/hasRoleObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasRolePlayer
+<http://loop3d.org/GSO/ontology/2020/1/common/hasRolePlayer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hosts
+<http://loop3d.org/GSO/ontology/2020/1/common/hosts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf
+<http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/isPartOf
+<http://loop3d.org/GSO/ontology/2020/1/common/isPartOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf
+<http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/staticHostedBy
+<http://loop3d.org/GSO/ontology/2020/1/common/staticHostedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Part
+<http://loop3d.org/GSO/ontology/2020/1/common/Part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality
+<http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Lithosome
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Lithosome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Stratigraphic_Section
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Stratigraphic_Section> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Stratigraphic_Section> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/staticHostedBy> .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Stratotype
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Stratotype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Excavation
+<http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Excavation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Human_Activity
+<http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Human_Activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Magmatic_Process
+<http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Magmatic_Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Material_Transport
+<http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Material_Transport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Metamorphic_Process
+<http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Metamorphic_Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Sedimentary_Process
+<http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Sedimentary_Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Tectonic_Process
+<http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Tectonic_Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologictime/Age
+<http://loop3d.org/GSO/ontology/2020/1/geologictime/Age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologictime/Eon
+<http://loop3d.org/GSO/ontology/2020/1/geologictime/Eon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologictime/Epoch
+<http://loop3d.org/GSO/ontology/2020/1/geologictime/Epoch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologictime/Era
+<http://loop3d.org/GSO/ontology/2020/1/geologictime/Era> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologictime/Period
+<http://loop3d.org/GSO/ontology/2020/1/geologictime/Period> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Allostratigraphic_Unit
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Allostratigraphic_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Allostratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Allostratigraphic_Unit> <http://purl.org/dc/terms/source> "This vocabulary, Salvador, 1994, Donovon 2004 IUGS abstract."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Allostratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#comment> "Geologic unit defined by bounding surfaces. Not necessarily stratified. Donovon (2004, IUGS abstract Florence) makes good case for use of a noncommittal term for the bounding surface. While there may be no agreement that a given stratal boundary is a discontinuity, there is consensus that all the identified boundaries are stratal surfaces. Includes: 1. Unconformity bounded units (Salvador 1994), defined by bounding stratigraphic discontinuities ('significant unconformities', unconformity is defined as surface of erosion in Salvador 1994). 2. Sequence stratigraphic unit, an allostratigraphic unit that is used to interpret the depositional origin of sedimentary strata and assumes, though this is not always stated, an implicit connection to base level change. It does this by establishing how the sequence of strata accumulated in order in the sedimentary section over a subdividing framework of surfaces."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Allostratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#label> "allostratigraphic unit"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Alteration_Unit
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Alteration_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Alteration_Unit> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithogenetic_Unit> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/externallySpecDependsOn> .
+_:genid6 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Metamorphic_Process> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf> .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Metamorphic_Process> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Alteration_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithogenetic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Alteration_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/externallyGenDependsOn> .
+_:genid8 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Metamorphic_Process> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Alteration_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf> .
+_:genid9 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Metamorphic_Process> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Alteration_Unit> <http://purl.org/dc/terms/source> "CGI geologicunittype SKOS vocabulary 2012-11-24"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Alteration_Unit> <http://www.w3.org/2000/01/rdf-schema#comment> "Geologic unit defined by alteration process."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Alteration_Unit> <http://www.w3.org/2000/01/rdf-schema#label> "alteration unit"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Amphibolite_Metamorphic_Facies
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Amphibolite_Metamorphic_Facies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Amphibolite_Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Metamorphic_Facies> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Amphibolite_Metamorphic_Facies> <http://purl.org/dc/terms/source> "Smulikowski et al. 2003; Fettes and Desmons, 2007"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Amphibolite_Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#comment> "Metamorphic facies characterized in rocks of basaltic composition by hornblende-plagioclase (plagioclase more calcic than An17)."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Amphibolite_Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#label> "amphibolite metamorphic facies"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Artificial_Ground
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Artificial_Ground> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Artificial_Ground> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithogenetic_Unit> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/externallyGenDependsOn> .
+_:genid14 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Human_Activity> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf> .
+_:genid12 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Human_Activity> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Artificial_Ground> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithogenetic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Artificial_Ground> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/externallyGenDependsOn> .
+_:genid16 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Human_Activity> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Artificial_Ground> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf> .
+_:genid17 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Human_Activity> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Artificial_Ground> <http://purl.org/dc/terms/source> "CGI geologicunittype SKOS vocabulary 2012-11-24"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Artificial_Ground> <http://www.w3.org/2000/01/rdf-schema#comment> "Geologic unit defined by genesis involving direct human action to deposit or modify material."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Artificial_Ground> <http://www.w3.org/2000/01/rdf-schema#label> "artificial ground"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Bed
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Bed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Bed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithostratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Bed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isPartOf> .
+_:genid18 <http://www.w3.org/2002/07/owl#allValuesFrom> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid19 <http://www.w3.org/2002/07/owl#unionOf> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Member> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Biostratigraphic_Unit
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Biostratigraphic_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Biostratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Biostratigraphic_Unit> <http://purl.org/dc/terms/source> "Lenz et al., 2000, Note 64 (see AAPG Bulletin, v. 89, no. 11, November 2005), North American Stratigraphic Code, 1983"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Biostratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#comment> "Geologic unit defined based on fossil content. Five kinds of biozones are recognized by the revised NACSN (Lenz et al., 2000, Note 64, a recommended complete replacement of Articles 48 through 54 of the North American Stratigraphic Code (NACSN, 1983) accepted for publication 2000.): range biozone, interval biozone, lineage biozone, assemblage biozone, and abundance biozone. These represent different approaches to defining and recognizing biozones."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Biostratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#label> "biostratigraphic unit"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Chronostratigraphic_Unit
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Chronostratigraphic_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Chronostratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Chronostratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hosts> .
+_:genid22 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Interval> .
+<http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Interval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Chronostratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> .
+_:genid23 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Chronostratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Chronostratigraphic_Unit> <http://purl.org/dc/terms/source> "Salvador, A., 1994, International Stratigraphic Guide, Second Edition"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Chronostratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#comment> "A body of rocks that includes all rocks, layered or unlayered, formed during a specific interval of geologic time, and only those rocks formed during that time span. Chronostratigraphic units are bounded by synchronous horizons. The rank and relative magnitude of the units in the chronostratigraphic hierarchy are a function of the length of the time interval that their rocks subtend, rather than of their physical thickness. (http://www.stratigraphy.org/upload/bak/chron.htm)"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Chronostratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#label> "Chronostratigraphic unit"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Complex
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Complex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Complex> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithodemic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Complex> <http://purl.org/dc/terms/source> "NACSN-North American Commission on Stratigraphic Nomenclature, 2005, The American Association of Petroleum Geologists Bulletin, V. 89, No. 11, p. 1547-1591 . https://ngmdb.usgs.gov/Info/NACSN/Code2/code2.html#Article31Remarksa"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Complex> <http://www.w3.org/2000/01/rdf-schema#comment> "An assemblage or mixture of rocks of two or more genetic classes, i.e., igneous, sedimentary, or metamorphic, with or without highly complicated structure, may be named a complex. The term \"complex\" takes the place of the lithic or rank term (for example, Boil Mountain Complex, Franciscan Complex) and, although unranked, commonly is comparable to suite or supersuite and is named in the same manner.  Identification of an assemblage of diverse rocks as a complex is useful where the mapping of each separate lithic component is impractical at ordinary mapping scales.  The term may be retained if subsequent, detailed mapping distinguishes some or all of the component lithodemes or lithostratigraphic units."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Complex> <http://www.w3.org/2000/01/rdf-schema#label> "Complex "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Deformation_Unit
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Deformation_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Deformation_Unit> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid24 .
+_:genid24 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithogenetic_Unit> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/externallyGenDependsOn> .
+_:genid28 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Deformation> .
+<http://loop3d.org/GSO/ontology/2020/1/geology/Deformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf> .
+_:genid26 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Deformation> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Deformation_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithogenetic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Deformation_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid30 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/externallyGenDependsOn> .
+_:genid30 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Deformation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Deformation_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf> .
+_:genid31 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Deformation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Deformation_Unit> <http://purl.org/dc/terms/source> "CGI geologicunittype SKOS vocabulary 2012-11-24"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Deformation_Unit> <http://www.w3.org/2000/01/rdf-schema#comment> "Lithotectonic unit defined by deformation style or characteristic geologic structure observable in outcrop."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Deformation_Unit> <http://www.w3.org/2000/01/rdf-schema#label> "deformation unit"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Eclogite_Metamorphic_Facies
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Eclogite_Metamorphic_Facies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Eclogite_Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Metamorphic_Facies> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Eclogite_Metamorphic_Facies> <http://purl.org/dc/terms/source> "Fettes and Desmons, 2007"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Eclogite_Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#comment> "Omphacite-garnet-quartz (no plagioclase, olivine stable with garnet), assemblage for rocks of basaltic composition"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Eclogite_Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#label> "eclogite metamorphic facies"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Eonothem
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Eonothem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Eonothem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Chronostratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Eonothem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid32 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hosts> .
+_:genid32 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologictime/Eon> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Epidote_Amphibolite_Metamorphic_Facies
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Epidote_Amphibolite_Metamorphic_Facies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Epidote_Amphibolite_Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Metamorphic_Facies> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Epidote_Amphibolite_Metamorphic_Facies> <http://purl.org/dc/terms/source> "Fettes and Desmons, 2007"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Epidote_Amphibolite_Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#comment> "Hornblende-albite-epidote(-chlorite), assemblage for rocks of basaltic composition"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Epidote_Amphibolite_Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#label> "epidote amphibolite metamorphic facies"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Erathem
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Erathem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Erathem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Chronostratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Erathem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid33 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hosts> .
+_:genid33 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologictime/Era> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Excavation_Unit
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Excavation_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Excavation_Unit> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid34 .
+_:genid34 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithogenetic_Unit> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid38 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/externallyGenDependsOn> .
+_:genid38 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Human_Activity> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid36 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf> .
+_:genid36 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Excavation> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Excavation_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithogenetic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Excavation_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid40 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/externallyGenDependsOn> .
+_:genid40 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Human_Activity> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Excavation_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid41 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf> .
+_:genid41 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Excavation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Excavation_Unit> <http://purl.org/dc/terms/source> "CGI geologicunittype SKOS vocabulary 2012-11-24"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Excavation_Unit> <http://www.w3.org/2000/01/rdf-schema#comment> "Geologic unit defined by human-made genesis involving excavation. Not necessarily defined by landform (a hole...), as they could have been subsequently filled/landscaped etc. If the excavation is filled becomes an excavation with artificial ground wholly or partly superimposed on it. This sort of thing can become quite important in urban geology where an excavation can be filled and landscaped."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Excavation_Unit> <http://www.w3.org/2000/01/rdf-schema#label> "excavation unit"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Exposure
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Exposure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Exposure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Exposure> <http://www.w3.org/2000/01/rdf-schema#comment> "how material is exposed at Earth surface, e.g. poorly exposed, well exposed."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Exposure> <http://www.w3.org/2000/01/rdf-schema#label> "Exposure"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Facies
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Facies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Facies> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid42 .
+_:genid42 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Nonstratigraphic_Unit> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid44 <http://www.w3.org/2002/07/owl#complementOf> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid45 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/externallySpecDependsOn> .
+_:genid45 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid46 <http://www.w3.org/2002/07/owl#unionOf> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Event> .
+<http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Process> .
+<http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Facies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Nonstratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Facies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid50 <http://www.w3.org/2002/07/owl#complementOf> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid51 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/externallySpecDependsOn> .
+_:genid51 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid52 <http://www.w3.org/2002/07/owl#unionOf> _:genid54 .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Event> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid53 .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Process> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Facies> <http://www.w3.org/2002/07/owl#disjointWith> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithogenetic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Facies> <http://purl.org/dc/terms/source> "CGI rockbodypart vocabulary 2016-11-21 "@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Facies> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents a particular body of rock that is a lateral variant of a lithostratigraphic unit, or a variant of a lithodemic unit. Contrast with lithosome in being a particular, connected body of rock, as opposed to a kind of rock body that is repeated in many places in a unit."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Facies> <http://www.w3.org/2000/01/rdf-schema#label> "Facies"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithostratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid55 .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid55 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> .
+_:genid55 <http://www.w3.org/2002/07/owl#allValuesFrom> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid56 <http://www.w3.org/2002/07/owl#unionOf> _:genid60 .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Lithosome> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Bed> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Facies> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Member> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Geophysical_Unit
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Geophysical_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Geophysical_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Nonstratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Geophysical_Unit> <http://purl.org/dc/terms/source> "CGI geologicunittype SKOS vocabulary 2012-11-24"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Geophysical_Unit> <http://www.w3.org/2000/01/rdf-schema#comment> "Geologic unit defined by its geophysical characteristics. Denotes that the properties used to define the unit are measured by intrumental techniques, not directly observable by humans, e.g. density, magnetic susceptibility, magnetization, electrical conductivity."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Geophysical_Unit> <http://www.w3.org/2000/01/rdf-schema#label> "geophysical unit"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Glaucophane_Schist_Facies
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Glaucophane_Schist_Facies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Glaucophane_Schist_Facies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Metamorphic_Facies> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Glaucophane_Schist_Facies> <http://purl.org/dc/terms/source> "Smulikowski et al. 2003; Fettes and Desmons, 2007"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Glaucophane_Schist_Facies> <http://www.w3.org/2000/01/rdf-schema#comment> "Metamorphic facies characterized in rocks of basaltic composition by glaucophane-epidote (-garnet), glaucophane-lawsonite, or glaucophane-lawsonite-jadeite."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Glaucophane_Schist_Facies> <http://www.w3.org/2000/01/rdf-schema#label> "glaucophane schist facies"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Granulite_Facies
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Granulite_Facies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Granulite_Facies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Metamorphic_Facies> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Granulite_Facies> <http://purl.org/dc/terms/source> "Smulikowski et al. 2003; Fettes and Desmons, 2007"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Granulite_Facies> <http://www.w3.org/2000/01/rdf-schema#comment> "Metamorphic facies characterized in rocks of basaltic composition by the mineral assemblage clinopyroxene-orthopyroxene-plagioclase (olivine not stable with plagioclase or with garnet), or especially high-temperature varieties or polymorphs of minerals"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Granulite_Facies> <http://www.w3.org/2000/01/rdf-schema#label> "granulite facies"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Greenschist_Metamorphic_Facies
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Greenschist_Metamorphic_Facies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Greenschist_Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Metamorphic_Facies> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Greenschist_Metamorphic_Facies> <http://purl.org/dc/terms/source> "Smulikowski et al. 2003; Fettes and Desmons, 2007"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Greenschist_Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#comment> "Metamorphic facies characterized in rocks of basaltic composition by actinolite-albite-epidote-chlorite (an epidote group mineral is the diagnostic Ca-Al silicate rather than prehnite or pumpellyite)."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Greenschist_Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#label> "greenschist metamorphic facies"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Group
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Group> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithostratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Group> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid61 .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid61 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> .
+_:genid61 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Igneous_Facies
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Igneous_Facies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Igneous_Facies> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid62 .
+_:genid62 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid67 .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Facies> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid65 .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid66 .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid66 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/externallyGenDependsOn> .
+_:genid66 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Magmatic_Process> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid63 .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64 .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf> .
+_:genid64 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Magmatic_Process> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Igneous_Facies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Facies> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Igneous_Facies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid68 .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid68 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/externallyGenDependsOn> .
+_:genid68 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Magmatic_Process> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Igneous_Facies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid69 .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid69 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf> .
+_:genid69 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Magmatic_Process> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Igneous_Facies> <http://www.w3.org/2002/07/owl#disjointWith> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Metamorphic_Facies> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Igneous_Facies> <http://www.w3.org/2002/07/owl#disjointWith> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Sedimentary_Facies> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Igneous_Facies> <http://www.w3.org/2000/01/rdf-schema#comment> "a lithologic facies within an igneous rock body. Sometimes called 'phase', e.g. porphyritic facies, fine-grained facies."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Igneous_Facies> <http://www.w3.org/2000/01/rdf-schema#label> "Igneous Facies "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Igneous_Swarm
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Igneous_Swarm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Igneous_Swarm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithodemic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Igneous_Swarm> <http://www.w3.org/2000/01/rdf-schema#comment> "a group intrusions that are associated spatially,  inferred to be related genetically and typically have similar morphology, e.g. dike, sill, plug.  In the BGS vocabulary, swarm is not defined as a formal type of lithodemic unit, however it is used to group cluster of related intrusion and adopted here."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Igneous_Swarm> <http://www.w3.org/2000/01/rdf-schema#comment> "dct:Source -- based on Gillespie, M R, Stephenson, D, and Millward, D. 2008. BGS classification of lithodemic units: Proposals for classifying units of intrusive rock. British Geological Survey Research Report, RR/08/05. 31pp."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Igneous_Swarm> <http://www.w3.org/2000/01/rdf-schema#label> "Igneous Swarm "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Interbedded_Part
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Interbedded_Part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Interbedded_Part> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Part> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Interbedded_Part> <http://www.w3.org/2000/01/rdf-schema#comment> "a part that occurs as beds distributed within a stratigraphic unit."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Interbedded_Part> <http://www.w3.org/2000/01/rdf-schema#label> "Interbedded part "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Intrusion
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Intrusion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Intrusion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithodemic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Intrusion> <http://www.w3.org/2000/01/rdf-schema#comment> "A body of rock produced by an intrusive process and bounded by observed or inferred intrusive margins; usually used to refer to any unit of rock or magma formed by emplacement of magma and/or pyroclastic material into the subsurface, however units of nonigneous material can also result from an intrusive process, e.g. salt ‘domes’."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Intrusion> <http://www.w3.org/2000/01/rdf-schema#comment> "dct:Source -- based on Gillespie, M R, Stephenson, D, and Millward, D. 2008. BGS classification of lithodemic units: Proposals for classifying units of intrusive rock. British Geological Survey Research Report, RR/08/05. 31pp."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Intrusion> <http://www.w3.org/2000/01/rdf-schema#label> "Intrusion "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Landform_Disposition
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Landform_Disposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Landform_Disposition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Landform_Disposition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid70 .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid70 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf> .
+_:genid70 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> .
+<http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Landform_Disposition> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the nature of outcrops formed by a Rock Body. Examples: bouldery, cliff-forming, ledge-forming, slope-forming. Assign free text string value for now, controlled vocabulary is the goal."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Landform_Disposition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "GeoSciML v4"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Landform_Disposition> <http://www.w3.org/2000/01/rdf-schema#label> "Outcrop character"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithodeme
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithodeme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithodeme> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithodemic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithodeme> <http://purl.org/dc/terms/source> "NACSN-North American Commission on Stratigraphic Nomenclature, 2005, The American Association of Petroleum Geologists Bulletin, V. 89, No. 11, p. 1547-1591 . https://ngmdb.usgs.gov/Info/NACSN/Code2/code2.html#Article31Remarksa"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithodeme> <http://www.w3.org/2000/01/rdf-schema#comment> "A body of intrusive, pervasively deformed, or highly metamorphosed rock, generally non-tabular and lacking primary depositional structures, and characterized by lithic homogeneity. It is mappable at the Earth's surface and traceable in the subsurface. For cartographic and hierarchical purposes, it is comparable to a formation"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithodeme> <http://www.w3.org/2000/01/rdf-schema#label> "Lithodeme "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithodemic_Unit
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithodemic_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithodemic_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithodemic_Unit> <http://purl.org/dc/terms/source> "NACSN-North American Commission on Stratigraphic Nomenclature, 2005, The American Association of Petroleum Geologists Bulletin, V. 89, No. 11, p. 1547-1591 . https://ngmdb.usgs.gov/Info/NACSN/Code2/code2.html#Article31Remarksa"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithodemic_Unit> <http://www.w3.org/2000/01/rdf-schema#comment> "Lithodemic unit is not recognized by the international Stratigraphic code (Salvador, 1994) {@en} The 'Guide for geological nomenclature in Sweden', RA Kumpulainen, 2017 adopts the NACSN 2005 terminology.  The British Geological survey defines a vocabulary of subdivisions of the 'lithodeme' defined by NACSN to reflect common geologic field usage (Gillespie, M R, Stephenson, D, and Millward, D. 2008. BGS classification of lithodemic units: Proposals for classifying units of intrusive rock. British Geological Survey Research Report, RR/08/05. 31pp.).  The BGS terminology is partially adopted here."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithodemic_Unit> <http://www.w3.org/2000/01/rdf-schema#comment> "a defined body of predominantly intrusive, highly deformed, and (or) highly metamorphosed rock, distinguished and delimited on the basis of rock characteristics (NACSN, 2005)"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithodemic_Unit> <http://www.w3.org/2000/01/rdf-schema#label> "lithodemic unit"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithogenetic_Unit
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithogenetic_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithogenetic_Unit> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid71 .
+_:genid71 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid77 .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Nonstratigraphic_Unit> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid72 .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid73 .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid73 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/externallySpecDependsOn> .
+_:genid73 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid74 .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid74 <http://www.w3.org/2002/07/owl#unionOf> _:genid76 .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Event> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid75 .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Process> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithogenetic_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Nonstratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithogenetic_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid78 .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid78 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/externallySpecDependsOn> .
+_:genid78 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid79 .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid79 <http://www.w3.org/2002/07/owl#unionOf> _:genid81 .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Event> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid80 .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Process> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithogenetic_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid82 .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid82 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf> .
+_:genid82 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid83 .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid83 <http://www.w3.org/2002/07/owl#unionOf> _:genid85 .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Event> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid84 .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Process> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithogenetic_Unit> <http://www.w3.org/2000/01/rdf-schema#comment> "Rock object defined by a specific genesis AND surrounding rocks, e.g. Metamorphic Unit, Sedimentary Unit. This differs from a unit such as 'Metamorphic Unit created by Event X', which is not defined by bounding rocks, but only by a specific genesis (Event X) and which is not a Geologic Unit, but is a Situated Rock Object. It also differs from a unit such as 'Metamorphic Rock' (a Generic Rock Object), which includes metamorphic rocks regardless of originating process or event, and without regard to surrounding rocks: i.e. all rocks (possibly in an area) created by any metmorphic event or process"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithogenetic_Unit> <http://www.w3.org/2000/01/rdf-schema#label> "Lithogenetic Unit"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithologic_Unit
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithologic_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithologic_Unit> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid86 .
+_:genid86 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid89 .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Nonstratigraphic_Unit> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid87 .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid88 .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid88 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> .
+_:genid88 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Material> .
+<http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithologic_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Nonstratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithologic_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid90 .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid90 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent> .
+_:genid90 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Material> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithologic_Unit> <http://purl.org/dc/terms/source> "CGI geologicunittype SKOS vocabulary 2012-11-24"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithologic_Unit> <http://www.w3.org/2000/01/rdf-schema#comment> "A rock body defined by lithology independent of relationships to other units. Denotes a 'kind' of rock body characterized by lithology, e.g. basaltic rocks. Does not necessarily represent a single genetically related or connected package of material."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithologic_Unit> <http://www.w3.org/2000/01/rdf-schema#label> "Lithologic unit"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithostratigraphic_Unit
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithostratigraphic_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithostratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithostratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid91 .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid91 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> .
+_:genid91 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithostratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithostratigraphic_Unit> <http://purl.org/dc/terms/source> "Salvador, A., 1994, International Stratigraphic Guide, Second Edition"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithostratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#comment> "Geologic unit defined on the basis of observable and distinctive lithologic properties or combination of lithologic properties and stratigraphic relationships. Denotes a particular body of rock."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithostratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#label> "Lithostratigraphic Unit"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Magnetostratigraphic_Unit
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Magnetostratigraphic_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Magnetostratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Magnetostratigraphic_Unit> <http://purl.org/dc/terms/source> "Salvador, A., 1994, International Stratigraphic Guide, Second Edition"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Magnetostratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#comment> "Geologic unit defined by magnetic characteristics."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Magnetostratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#label> "magnetostratigraphic unit"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Marker_Bed
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Marker_Bed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Marker_Bed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Bed> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Marker_Bed> <http://purl.org/dc/terms/source> "CGI rockbodypart vocabulary 2016-11-21 "@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Marker_Bed> <http://www.w3.org/2000/01/rdf-schema#comment> "Stratigraphic part that is a thin laterally continuous bed within another unit."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Marker_Bed> <http://www.w3.org/2000/01/rdf-schema#label> "marker bed"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Mass_Movement_Unit
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Mass_Movement_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Mass_Movement_Unit> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid92 .
+_:genid92 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid97 .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithogenetic_Unit> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid95 .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid96 .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid96 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/externallyGenDependsOn> .
+_:genid96 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Material_Transport> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid93 .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid94 .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid94 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf> .
+_:genid94 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Material_Transport> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Mass_Movement_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithogenetic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Mass_Movement_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid98 .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid98 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/externallyGenDependsOn> .
+_:genid98 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Material_Transport> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Mass_Movement_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid99 .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid99 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf> .
+_:genid99 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Material_Transport> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Mass_Movement_Unit> <http://purl.org/dc/terms/source> "CGI geologicunittype SKOS vocabulary 2012-11-24"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Mass_Movement_Unit> <http://www.w3.org/2000/01/rdf-schema#comment> "Geologic unit produced by gravity driven, down-slope displacemnt of material, and characterized by the type of movement giving rise to the deposit, and by how the individual movement types present in the deposit are related in time and space."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Mass_Movement_Unit> <http://www.w3.org/2000/01/rdf-schema#label> "mass movement unit"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Member
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Member> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Member> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithostratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Member> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid100 .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid100 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> .
+_:genid100 <http://www.w3.org/2002/07/owl#allValuesFrom> _:genid101 .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid101 <http://www.w3.org/2002/07/owl#unionOf> _:genid104 .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Lithosome> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid103 .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Bed> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid102 .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Facies> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Metamorphic_Facies
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Metamorphic_Facies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Metamorphic_Facies> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid105 .
+_:genid105 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid110 .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Facies> .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid108 .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid109 .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid109 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/externallyGenDependsOn> .
+_:genid109 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Metamorphic_Process> .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid106 .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid107 .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid107 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf> .
+_:genid107 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Metamorphic_Process> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Facies> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid111 .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid111 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/externallyGenDependsOn> .
+_:genid111 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Metamorphic_Process> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid112 .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid112 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf> .
+_:genid112 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Metamorphic_Process> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Metamorphic_Facies> <http://www.w3.org/2002/07/owl#disjointWith> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Sedimentary_Facies> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#comment> "Categories that characterize mineral assemblages indicative of certain metamorphic P-T conditions. Examples include Barrovian metasedimentary zones (eg: biotite facies, kyanite facies) or assemblages developed in rocks of more mafic composition (eg: greenschist facies, amphibolite facies)."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#comment> "applies to Rock_Material or Geologic_Unit"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "GeoSciML v4"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#label> "Metamorphic facies"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/No_Metamorphic_Minerals
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/No_Metamorphic_Minerals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/No_Metamorphic_Minerals> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Metamorphic_Facies> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/No_Metamorphic_Minerals> <http://www.w3.org/2000/01/rdf-schema#comment> "explicit statement that is not metamorphosed"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/No_Metamorphic_Minerals> <http://www.w3.org/2000/01/rdf-schema#label> "Not Metamorphosed "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Nonstratigraphic_Unit
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Nonstratigraphic_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Nonstratigraphic_Unit> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid113 .
+_:genid113 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid116 .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid114 .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid115 .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid115 <http://www.w3.org/2002/07/owl#complementOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Nonstratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Nonstratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid117 .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid117 <http://www.w3.org/2002/07/owl#complementOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Nonstratigraphic_Unit> <http://www.w3.org/2002/07/owl#disjointWith> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pedostratigraphic_Unit
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pedostratigraphic_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pedostratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pedostratigraphic_Unit> <http://purl.org/dc/terms/source> "North American Commission on Stratigraphic Nomenclature, 1983, Morrison, 1995, INQUA/ISSS newsletter, Nov. 1995http://fadr.msu.ru/inqua/nl-archive/nl-8-11/howcan.html, ISSN 0256-2340."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pedostratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#comment> "Geologic unit that represents a single pedologic horizon in a sequence of strata (consolidated or non-consolidated). The presence of an overlying geologic unit is required, but locally the soil horizon may be at the Earth surface (in which case is may be coincident with a Pedoderm). See discussion at https://www.seegrid.csiro.au/twiki/bin/view/CGIModel/PedostratigraphicUnit"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pedostratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#label> "pedostratigraphic unit"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pluton
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pluton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pluton> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Intrusion> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pluton> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid118 .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid118 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> .
+_:genid118 <http://www.w3.org/2002/07/owl#allValuesFrom> _:genid119 .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid119 <http://www.w3.org/2002/07/owl#unionOf> _:genid121 .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Facies> .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid120 .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Intrusion> .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pluton> <http://www.w3.org/2000/01/rdf-schema#comment> "A pluton is any large igneous body that has congealed from magma underground. There are many sorts of pluton – including the lens-like and subhorizontal laccoliths and lopoliths, and the vertical or near-vertical sided stocks and batholiths. All these categories of pluton are defined on their overall apparent shape and relationship to the country rock. A batholith is the largest of the pluton types and by definition cover at least 100 square kilometres. A stock is a small discordant pluton, shaped like a batholith but falling below the necessary 100 square km in extent. (Dr Ted Nield, https://www.geolsoc.org.uk/Education-and-Careers/Ask-a-Geologist/Earth-Materials/Batholiths-and-Plutons "@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pluton> <http://www.w3.org/2000/01/rdf-schema#comment> "a body of intrusive rock, generally with a simple, regular margin, the whole being kilometre-scale or larger and with a cylindrical, lenticular or tabular shape; a pluton might consist of essentially one intrusion, or be a composite  of two or more spatially associated intrusions that are inferred to be related genetically."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pluton> <http://www.w3.org/2000/01/rdf-schema#comment> "dct:Source -- based on Gillespie, M R, Stephenson, D, and Millward, D. 2008. BGS classification of lithodemic units: Proposals for classifying units of intrusive rock. British Geological Survey Research Report, RR/08/05. 31pp."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pluton> <http://www.w3.org/2000/01/rdf-schema#label> "Pluton "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Polarity_Chronostratigraphic_Unit
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Polarity_Chronostratigraphic_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Polarity_Chronostratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Polarity_Chronostratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid122 .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid122 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hosts> .
+_:genid122 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Interval> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Polarity_Chronostratigraphic_Unit> <http://purl.org/dc/terms/source> "North American Commission on Stratigraphic Nomenclature, 1983"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Polarity_Chronostratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#comment> "Geologic unit defined by primary magnetic-polarity record imposed whien the rock was deposited or crystallized during a specific interval of geologic time. Kind of chronostratigraphic unit and kind of geophysical unit."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Polarity_Chronostratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#label> "polarity chronostratigraphic unit"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pyroxene_Hornfels_Metamorphic_Facies
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pyroxene_Hornfels_Metamorphic_Facies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pyroxene_Hornfels_Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Metamorphic_Facies> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pyroxene_Hornfels_Metamorphic_Facies> <http://purl.org/dc/terms/source> "Smulikowski et al. 2003; Fettes and Desmons, 2007"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pyroxene_Hornfels_Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#comment> "Metamorphic facies characterized in rocks of basaltic composition by clinopyroxene-orthopyroxene-plagioclase (olivine stable with plagioclase)."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pyroxene_Hornfels_Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#label> "pyroxene hornfels metamorphic facies"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Sanidinite_Metamorphic_Facies
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Sanidinite_Metamorphic_Facies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Sanidinite_Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Metamorphic_Facies> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Sanidinite_Metamorphic_Facies> <http://purl.org/dc/terms/source> "Fettes and Desmons, 2007"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Sanidinite_Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#comment> "distinguished from the pyroxene hornfels facies by the occurrence of especially high-temperature varieties and polymorphs of minerals (eg. pigeonite, K-rich labradorite), assemblage for rocks of basaltic composition"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Sanidinite_Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#label> "sanidinite metamorphic facies"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Sedimentary_Facies
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Sedimentary_Facies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Sedimentary_Facies> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid123 .
+_:genid123 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid128 .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Facies> .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126 .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid127 .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid127 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/externallyGenDependsOn> .
+_:genid127 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Sedimentary_Process> .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid124 .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid125 .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid125 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf> .
+_:genid125 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Sedimentary_Process> .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Sedimentary_Facies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Facies> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Sedimentary_Facies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid129 .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid129 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/externallyGenDependsOn> .
+_:genid129 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Sedimentary_Process> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Sedimentary_Facies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid130 .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid130 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf> .
+_:genid130 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Sedimentary_Process> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Sedimentary_Facies> <http://www.w3.org/2000/01/rdf-schema#comment> "a lithologic variant in a sedimentary unit, typically related to spatial variation in the original depositional environment or subsequent diagenetic environment."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Sedimentary_Facies> <http://www.w3.org/2000/01/rdf-schema#label> "Sedimentary Facies "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Series
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Series> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Series> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Chronostratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Series> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid131 .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid131 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hosts> .
+_:genid131 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologictime/Epoch> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stage
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Chronostratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid132 .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid132 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hosts> .
+_:genid132 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologictime/Age> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stage> <http://www.w3.org/2000/01/rdf-schema#comment> "The stage includes all rocks formed during an age. A stage is normally the lowest ranking unit in the chronostratigraphic hierarchy that can be recognized on a global scale. The stage has been called the basic working unit of chronostratigraphy because it is suited in scope and rank to the practical needs and purposes of intraregional chronostratigraphic classification. It is a subdivision of a series."@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Part
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Part> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Part> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Part> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid133 .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid133 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRoleObject> .
+_:genid133 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Part> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid134 .
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid134 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRolePlayer> .
+_:genid134 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Part> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid135 .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid135 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRoleObject> .
+_:genid135 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Part> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid136 .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid136 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRolePlayer> .
+_:genid136 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Part> <http://purl.org/dc/terms/source> "based on CGI rockbodypart vocabulary 2016-11-21; hierarchy position modified in GSO."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Part> <http://www.w3.org/2000/01/rdf-schema#comment> "A geologic unit that occupies a particular stratigraphic position as part of a stratigraphic unit."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Part> <http://www.w3.org/2000/01/rdf-schema#label> "stratigraphic part"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid137 .
+_:genid137 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid140 .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Unit> .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid138 .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid139 .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid139 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/adjacentlyDependsOn> .
+_:genid139 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Object> .
+<http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid141 .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid141 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/adjacentlyDependsOn> .
+_:genid141 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Object> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid142 .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid142 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasExample> .
+_:genid142 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Stratotype> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid143 .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid143 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf> .
+_:genid143 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid144 .
+_:genid144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid144 <http://www.w3.org/2002/07/owl#unionOf> _:genid146 .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Event> .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid145 .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Process> .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#comment> "A body of material in the Earth whose complete and precise extent is inferred to exist (NADM GeologicUnit, Stratigraphic unit in sense of NACSN or International Stratigraphic Code), or a classifier used to characterize parts of the Earth (e.g. lithologic map unit like 'granitic rock' or 'alluvial deposit', surficial units like 'till' or 'old alluvium'). (GeoSciML v3.2)"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#comment> "A geologic unit and (the amount of) its rock material are co-located, but different entities. They can share properties, e.g. porosity, thickness, density, but also have differences:\n- different persistence conditions: the material can exist without the unit; e.g. a unit can be cease to exist due to natural (seismic) or artificial (explosion) means, but the material can persist\n- different parthood conditions:  \n-- a unit can be part of a stratigraphic lexicon, but its material cannot be part of the lexicon. \n-- parts of the unit are not parts of the material, e.g. the western arm of formation X is not a part of its sandstone - the sandstone making up the western part of X is a part of the sandstone \n-- different identity conditions: a unit can have some material added or removed and retain identity, but the material changes identity with the addition or removal of some material"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#comment> "A spatio-temporally contextualized rock object: is dependent in space and time on immediately adjacent rocks."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Stratigraphic_Unit> <http://www.w3.org/2000/01/rdf-schema#label> "Stratigraphic Unit"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Subgreenschist_Metamorphic_Facies
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Subgreenschist_Metamorphic_Facies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Subgreenschist_Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Metamorphic_Facies> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Subgreenschist_Metamorphic_Facies> <http://purl.org/dc/terms/source> "Smulikowski et al. 2003; Fettes and Desmons, 2007"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Subgreenschist_Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#comment> "Metamorphic facies characterized in rocks of basaltic composition by prehnite-pumpellyite, pumpellyite-actinolite, prehnite-actinolite (prehnite and pumpellyite are the diagnostic Ca-Al silicates rather than minerals of the epidote or zeolite groups)."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Subgreenschist_Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#label> "subgreenschist metamorphic facies"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Substage
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Substage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Substage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Chronostratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Substage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid147 .
+_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid147 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hosts> .
+_:genid147 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologictime/Age> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Suite
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Suite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Suite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithodemic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Suite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid148 .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid148 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> .
+_:genid148 <http://www.w3.org/2002/07/owl#allValuesFrom> _:genid149 .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid149 <http://www.w3.org/2002/07/owl#unionOf> _:genid153 .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Igneous_Swarm> .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid152 .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Intrusion> .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid151 .
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithodeme> .
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid150 .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pluton> .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Suite> <http://purl.org/dc/terms/source> "Based on NACSN-North American Commission on Stratigraphic Nomenclature, 2005, The American Association of Petroleum Geologists Bulletin, V. 89, No. 11, p. 1547-1591 . https://ngmdb.usgs.gov/Info/NACSN/Code2/code2.html#Article31Remarksa"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Suite> <http://www.w3.org/2000/01/rdf-schema#comment> "A geologic unit that comprises two or more associated Lithodemes, Plutons, Intrusions, or Igneous_Swarms of the same class (e.g., plutonic, metamorphic) that are interpreted to be genetically related. For cartographic and hierarchical purposes, suite is comparable to group"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Suite> <http://www.w3.org/2000/01/rdf-schema#label> "Suite"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Supergroup
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Supergroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Supergroup> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithostratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Supergroup> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid154 .
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid154 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> .
+_:genid154 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid155 .
+_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid155 <http://www.w3.org/2002/07/owl#unionOf> _:genid157 .
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation> .
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid156 .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Group> .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Supersuite
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Supersuite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Supersuite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithodemic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Supersuite> <http://purl.org/dc/terms/source> "NACSN-North American Commission on Stratigraphic Nomenclature, 2005, The American Association of Petroleum Geologists Bulletin, V. 89, No. 11, p. 1547-1591 . https://ngmdb.usgs.gov/Info/NACSN/Code2/code2.html#Article31Remarksa"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Supersuite> <http://www.w3.org/2000/01/rdf-schema#comment> "A geologic unit that comprises two or more Suites or Complexes having a degree of natural relationship to one another, either in the vertical or the lateral sense. For cartographic and hierarchical purposes, supersuite is similar in rank to supergroup"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Supersuite> <http://www.w3.org/2000/01/rdf-schema#label> "Supersuite "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/System
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Chronostratigraphic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid158 .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid158 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hosts> .
+_:genid158 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologictime/Period> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Tectonic_Unit
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Tectonic_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Tectonic_Unit> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid159 .
+_:genid159 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid164 .
+_:genid164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithogenetic_Unit> .
+_:genid164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid162 .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid163 .
+_:genid163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid163 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/externallyGenDependsOn> .
+_:genid163 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Tectonic_Process> .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid160 .
+_:genid160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid161 .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid161 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf> .
+_:genid161 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Tectonic_Process> .
+_:genid160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Tectonic_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithogenetic_Unit> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Tectonic_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid165 .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid165 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/externallyGenDependsOn> .
+_:genid165 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Tectonic_Process> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Tectonic_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid166 .
+_:genid166 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid166 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf> .
+_:genid166 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Tectonic_Process> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Tectonic_Unit> <http://purl.org/dc/terms/source> "Neuendorf, K.K.E., Mehl Jr., J.P. & Jackson, J.A., 2011: Glossary of Geology, 5th ed., revised. Alexandria, VA, American Geological Institute, 800 pp."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Tectonic_Unit> <http://www.w3.org/2000/01/rdf-schema#comment> "Geologic unit defined defined on basis of structural or deformation features, mutual relations, origin or historical evolution. Contained material may be igneous, sedimentary, or metamorphic."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Tectonic_Unit> <http://www.w3.org/2000/01/rdf-schema#label> "lithotectonic unit"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Zeolite_Metamorphic_Facies
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Zeolite_Metamorphic_Facies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Zeolite_Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Metamorphic_Facies> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Zeolite_Metamorphic_Facies> <http://purl.org/dc/terms/source> "Smulikowski et al. 2003; Fettes and Desmons, 2007"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Zeolite_Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#comment> "Metamorphic facies characterized in rocks of basaltic composition by zeolite minerals such as laumontite and heulandites (in place of other Ca-Al silicates such as prehnite, pumpellyite and epidote)."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Zeolite_Metamorphic_Facies> <http://www.w3.org/2000/01/rdf-schema#label> "zeolite metamorphic facies"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geology/Deformation
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Event
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Process
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Interval
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Unit
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Material
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Object
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

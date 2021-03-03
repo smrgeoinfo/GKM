@@ -1,0 +1,203 @@
+@prefix : <http://loop3d.org/GSO/ontology/2020/1/foldexample#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://loop3d.org/GSO/ontology/2020/1/foldexample> .
+
+<http://loop3d.org/GSO/ontology/2020/1/foldexample> rdf:type owl:Ontology ;
+                                                     owl:versionIRI <http://loop3d.org/GSO/ontology/2020/1/foldexample> ;
+                                                     owl:imports <http://loop3d.org/GSO/ontology/2020/1/master/ontology> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue
+<http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> rdf:type owl:AnnotationProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/hasPart
+<http://loop3d.org/GSO/ontology/2020/1/common/hasPart> rdf:type owl:AnnotationProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/hasQuality
+<http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> rdf:type owl:AnnotationProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/hasReferenceSystem
+<http://loop3d.org/GSO/ontology/2020/1/common/hasReferenceSystem> rdf:type owl:AnnotationProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/hasUOM
+<http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> rdf:type owl:AnnotationProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/hasValue
+<http://loop3d.org/GSO/ontology/2020/1/common/hasValue> rdf:type owl:AnnotationProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/hosts
+<http://loop3d.org/GSO/ontology/2020/1/common/hosts> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value
+<http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Plane_Dip_Dip_Direction
+<http://loop3d.org/GSO/ontology/2020/1/common/Plane_Dip_Dip_Direction> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfold/Antiform
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Antiform> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Amplitude
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Amplitude> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Hinge
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Hinge> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Hinge_Surface
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Hinge_Surface> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Azimuth
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Azimuth> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Dip
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Dip> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Line_Orientation
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Line_Orientation> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plane_Orientation
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plane_Orientation> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plunge
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plunge> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Orientation_Value
+<http://loop3d.org/GSO/ontology/2020/1/quality/Orientation_Value> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Steeply_Inclined
+<http://loop3d.org/GSO/ontology/2020/1/quality/Steeply_Inclined> rdf:type owl:Class .
+
+
+###  http://qudt.org/vocab/unit/DEG
+<http://qudt.org/vocab/unit/DEG> rdf:type owl:Class .
+
+
+###  http://qudt.org/vocab/unit/M
+<http://qudt.org/vocab/unit/M> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://loop3d.org/GSO/ontology/2020/1/foldexample#Fold_1
+:Fold_1 rdf:type owl:NamedIndividual ,
+                 <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Antiform> ;
+        <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> :HingeSurface_1 ,
+                                                               _:genid1 ;
+        <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid9 ;
+        rdfs:comment "test fold properties"@en ;
+        rdfs:label "is test fold"@en .
+
+_:genid1 rdf:type <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Hinge> ;
+          <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid2 ;
+          <http://loop3d.org/GSO/ontology/2020/1/common/hosts> :HingeSurface_1 ;
+          rdfs:label "Fold hinge: 33 to 330"@en .
+
+_:genid9 rdf:type <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Amplitude> ;
+          <http://loop3d.org/GSO/ontology/2020/1/common/hasValue> _:genid10 .
+
+_:genid2 rdf:type <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Line_Orientation> ;
+          <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid3 ,
+                                                                    _:genid6 .
+
+_:genid10 rdf:type <http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value> ;
+           <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> 10 ;
+           <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid11 .
+
+_:genid3 rdf:type <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Azimuth> ;
+          <http://loop3d.org/GSO/ontology/2020/1/common/hasValue> _:genid4 .
+
+_:genid6 rdf:type <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plunge> ;
+          <http://loop3d.org/GSO/ontology/2020/1/common/hasValue> _:genid7 .
+
+_:genid11 rdf:type <http://qudt.org/vocab/unit/M> .
+
+_:genid4 rdf:type <http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value> ;
+          <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> 330 ;
+          <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid5 .
+
+_:genid7 rdf:type <http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value> ;
+          <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> 33 ;
+          <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid8 .
+
+_:genid5 rdf:type <http://qudt.org/vocab/unit/DEG> .
+
+_:genid8 rdf:type <http://qudt.org/vocab/unit/DEG> .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/foldexample#HingeSurface_1
+:HingeSurface_1 rdf:type owl:NamedIndividual ,
+                         <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Hinge_Surface> ;
+                <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid12 ,
+                                                                          _:genid15 .
+
+_:genid12 rdf:type <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plane_Orientation> ;
+           <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid13 ;
+           rdfs:label "qualitative statement of dip" .
+
+_:genid15 rdf:type <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plane_Orientation> ;
+           <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> _:genid16 ,
+                                                                     _:genid19 ;
+           <http://loop3d.org/GSO/ontology/2020/1/common/hasValue> _:genid22 .
+
+_:genid13 rdf:type <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Dip> ;
+           <http://loop3d.org/GSO/ontology/2020/1/common/hasValue> _:genid14 .
+
+_:genid16 rdf:type <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Azimuth> ;
+           <http://loop3d.org/GSO/ontology/2020/1/common/hasValue> _:genid17 .
+
+_:genid19 rdf:type <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Dip> ;
+           <http://loop3d.org/GSO/ontology/2020/1/common/hasValue> _:genid20 .
+
+_:genid22 rdf:type <http://loop3d.org/GSO/ontology/2020/1/quality/Orientation_Value> ;
+           <http://loop3d.org/GSO/ontology/2020/1/common/hasReferenceSystem> _:genid23 .
+
+_:genid14 rdf:type <http://loop3d.org/GSO/ontology/2020/1/quality/Steeply_Inclined> .
+
+_:genid17 rdf:type <http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value> ;
+           <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> 310 ;
+           <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid18 .
+
+_:genid20 rdf:type <http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value> ;
+           <http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue> 78 ;
+           <http://loop3d.org/GSO/ontology/2020/1/common/hasUOM> _:genid21 .
+
+_:genid23 rdf:type <http://loop3d.org/GSO/ontology/2020/1/common/Plane_Dip_Dip_Direction> .
+
+_:genid18 rdf:type <http://qudt.org/vocab/unit/DEG> .
+
+_:genid21 rdf:type <http://qudt.org/vocab/unit/DEG> .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

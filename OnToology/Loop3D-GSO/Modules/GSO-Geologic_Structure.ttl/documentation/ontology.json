@@ -1,0 +1,452 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Bedding"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "2"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Bedding"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plane_Orientation"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Deformation"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "_:genid8"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/quality/Displacement"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicquality/Line_Orientation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Low_Dimension_Feature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Pattern_Feature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicquality/Line_Orientation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plane_Orientation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Bedding",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Bedding as a fabric representing the average orientation of paleodepositional surface should be encoded through the foliationType; might apply to bedding that is layering or a foliation without layering (e.g. clast alignment in amalgamated beds)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bedding  "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Sedimentary_Fabric"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Bedding_Pattern",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Term(s) specifying patterns of bedding thickness or relationships between bedding packages. (eg; thinning upward, thickening upward). A disposition."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "GeoSciML v4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bedding Pattern"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality"
+  }, {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Bedding_Style",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Term(s) specifying the style of bedding in a stratified geologic unit, e.g. lenticular, irregular, planar, vague, massive"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "GeoSciML v4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bedding Style"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality"
+  }, {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Clast_Imbrication_Fabric",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A sedimentary fabric characterized by disk-shaped or elongate fragments dipping in a preferred direcation at an angle to bedding."
+  }, {
+    "@value" : "rdfs:source -- Neuendorf et al., 2005, p. 322."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Clast Imbrication Fabric"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Sedimentary_Fabric"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Clast_Supported_Fabric",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A sedimentary fabric in which a framework of rock fragments in contact with each other forms the body of a clastic rock, typically with finer-grained matrix or cement in the intersticies between fragments"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Clast Supported Fabric"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Sedimentary_Fabric"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Cross_Stratification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "bedding in which bedding surfaces are arranged at an angle to the main (originally horizontal) stratification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cross Stratification "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Bedding"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Crystallographic_Preferred_Orientation_Fabric",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "fabric defined by a preferred orientation of the crystallographic axes of mineral particles in a rock."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Crystallographic Preferred Orientation Fabric"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Particle_Preferred_Orientation_Fabric"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Fabric",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "Hobbs BE, Means WD, & Williams PF. (1976). An outline of structural geology. John Wiley & sons, p.73. ;  Twiss RJ and Moores EM. (2007). Structural Geology, 2nd Edition, WH Freeman and Co., p.497; Wikipedia https://en.wikipedia.org/wiki/Fabric_(geology); Neuendorf et al., 2005, AGI Glossary of Geology; Sander, 1930."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A pattern in a rock body. Emerges from the relation between parts (including constituents) of the rock."
+  }, {
+    "@language" : "en",
+    "@value" : "The spatial and geometric configuration of all the elements that make it up. Describes the shape and characteristics of individual parts of a rock and the manner in which the parts are distributed and oriented. In sedimentary rocks, the fabric developed depends on the depositional environment and can provide information on current directions at the time of deposition. In structural geology, fabrics may provide information on both the orientation and magnitude of the strains that have affected a particular piece of deformed rock."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Fabric "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Pattern_Feature"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Structure"
+  }, {
+    "@id" : "_:genid3"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Foliation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "Jackson 1997"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Fabric defined by the planar arrangement of textural or structural features (fabric elements)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Foliation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Fabric"
+  }, {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Lineation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Fracture",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A surface within a material across which there is no cohesion. (Neuendorf et al., 2005)"
+  }, {
+    "@language" : "en",
+    "@value" : "Axiom for  gsoc:participantIn is place holders for more specific properties in gsop and gspr. Trying to avoid imports here."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Fracture"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Low_Dimension_Feature"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Structure"
+  }, {
+    "@id" : "http://org.semanticweb.owlapi/error#Error1"
+  }, {
+    "@id" : "_:genid5"
+  }, {
+    "@id" : "_:genid6"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Graded_Bedding",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Graded Bedding "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Sedimentary_Fabric"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Joint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Joint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Fracture"
+  }, {
+    "@id" : "_:genid7"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Lineation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "Neuendorf et al 2005, CGI lineationtype SKOS vocabulary 2016-11-21"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Nongenetic term for a penetrative linear structure."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Lineation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Fabric"
+  }, {
+    "@id" : "_:genid9"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Matrix_Supported_Fabric",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Matrix Supported Fabric "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Sedimentary_Fabric"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Particle_Preferred_Orientation_Fabric",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Fabric defined by preferred crystallographic or grain shape orientation in a rock material."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Particle Preferred Orientation Fabric"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Fabric"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Particle_Shape_Fabric",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Fabric defined by alignment of the dimensional axes of prolate or oblate particles in a rock. The fabric might result from primary depositional or crystallization process, or from subsequent deformation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Particle Shape Fabric"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Particle_Preferred_Orientation_Fabric"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Sedimentary_Fabric",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Fabrics in sedimentary rock like \"clast-supported\",  \"matrix-supported\", \"cross-bedding\", and \"graded bed\" are considered kinds of Integral Feature/GeologicStructure because they depend on the configuration of parts of a rock body. Sedimentary_Fabric is used to represent penetrative feature in a rock body;  Sedimentary_Structure is used to describe discrete features in a sedimentary rock;"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sedimentary Fabric  "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Fabric"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Sedimentary_Structure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Structures formed in sedimentary rocks related to depositional or diagenetic processes.   Includes trace fossils. Sedimentary structure is used to describe discrete features in a sedimentary rock; penetrative structures (like bedding, cross bedding) are Sedimentary_Fabrics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sedimentary Structure  "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Structure"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Geological structures"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Structure"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicquality/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/quality/ontology"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Deformation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Structure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/quality/Displacement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://org.semanticweb.owlapi/error#Error1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#minQualifiedCardinality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

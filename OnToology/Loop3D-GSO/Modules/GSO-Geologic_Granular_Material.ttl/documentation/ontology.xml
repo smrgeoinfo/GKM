@@ -1,0 +1,883 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/ontology#"
+     xml:base="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/ontology">
+        <owl:imports rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/ontology"/>
+        <owl:imports rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/ontology"/>
+        <rdfs:comment xml:lang="en">This file contains the categories for describing granular materials-- constituents in a rock material that consist of a particular kind of particle, defined based on genesis and internal characteristics of the particles. The scheme is intended to be indepenent of the mineralogy of the particles to the extent possible.  Based in part on the 2016 SKOS-RDF version of the CGI  IUGS Commission for Geoscience Information (CGI) Geoscience Terminology Working Group Composition Category vocabulary. Terms to specify the nature of individual particles of each constituent in an aggregation, based mostly on their genesis. Examples include clasts, crystals, material fossil. Constituent type is determined based on the nature of the particles, and ideally is independent of the relationship between particles in a rock material aggregation (which would be roles).</rdfs:comment>
+        <rdfs:comment xml:lang="en">dct:date--  2020-08-03</rdfs:comment>
+        <rdfs:comment>dct:creator--  CGI Concept Definition Task Group, Stephen M. Richard OWL adoption for Loop3D project</rdfs:comment>
+        <rdfs:label xml:lang="en">Granular Material</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasQuality -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasQuality"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/isValueOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/isValueOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Named_Value -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Named_Value"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Shape -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Shape"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Grain_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Grain_Material">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasQuality"/>
+                <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Size"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Material"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Aggregate_NonClastic_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Aggregate_NonClastic_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Crystallized_Particle_Material"/>
+        <terms:source xml:lang="en">CGI GTWG ParticleType vocabulary</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of non-clastic particles that are composed of an aggregation of particles.</rdfs:comment>
+        <rdfs:label xml:lang="en">Aggregate non clastic particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Autoclastic_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Autoclastic_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Clastic_Granular_Material"/>
+        <terms:source xml:lang="en">Gillespie and Styles, 1999</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of fragments of extrusive igneous rock formed by mechanical friction of moving lava flow, breakage of chilled lava flow rinds, or gravity crumbling of active spines and domes. Gillespie and Styles (1999) include as type of juvenile pyroclastic fragment, inconsistent with definition of pyroclastic by IUGS and BGS.</rdfs:comment>
+        <rdfs:label xml:lang="en">autoclastic particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Axiolitic_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Axiolitic_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Aggregate_NonClastic_Particle_Material"/>
+        <terms:source xml:lang="en">Williams, Turner, Gilbert 1954</terms:source>
+        <rdfs:comment xml:lang="en">Material that is a collection of elongate to irregular lenticular particles with radial aggregates of acicular and fibrous mineral coalescing along a central axis.</rdfs:comment>
+        <rdfs:label xml:lang="en">Axiolitic particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Bioclastic_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Bioclastic_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Biogenic_Particle_Material"/>
+        <terms:source xml:lang="en">This vocabulary</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of particles that are shell, bone, or other hard skeletal structure of an animal, plant, or protozoan. May be fossilized or non-fossilized. Use in situations where fossil organism can not be identified, thus &apos;material fossil&apos; is too specific.</rdfs:comment>
+        <rdfs:label xml:lang="en">bioclastic particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Biogenic_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Biogenic_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Granular_Particle_Material"/>
+        <rdfs:comment xml:lang="en">Granular material that consists of particles formed by the physiological activities of organisms (plants, animals, protozoa). Includes body parts that are incorporated into a sediment aggregate, as well as fecal pellets or coprolites.  Includes biogenic objects that are whole or fragmentary (bioclasts), can be fossilized or non-fossilized use to describe body fossil components in a fossiliferous rock, e.g. crinoid columnals, radiolaria in chert, ammonites, shell hash....</rdfs:comment>
+        <rdfs:label xml:lang="en">biogenic particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Bleb_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Bleb_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Grain_Material"/>
+        <terms:source xml:lang="en">this vocabulary</terms:source>
+        <rdfs:comment xml:lang="en">Granular material composed of small rounded particle of uncertain origin</rdfs:comment>
+        <rdfs:label xml:lang="en">bleb particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Clastic_Granular_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Clastic_Granular_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Granular_Particle_Material"/>
+        <rdfs:comment xml:lang="en">Granular material consisting of particles that have been transported by surficial processes and are constituents in clastic sedimentary rock/sediment or volcaniclastic rock/sediment --conglomerate clast types, sand components, clay matrix.</rdfs:comment>
+        <rdfs:label xml:lang="en">Clastic particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Coated_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Coated_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Clastic_Granular_Material"/>
+        <terms:source xml:lang="en">NADM SLTTs 2004</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of particles that have coats or layers of foreign material, usually fine mud-sized and occasionally recrystallized, that form concentric or overlapping shells around a core of rock, shell, peloidal, or intraclastic material. (eg: oolith, pisolith)</rdfs:comment>
+        <rdfs:label xml:lang="en">coated particle particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Cognate_Volcanic_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Cognate_Volcanic_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Pyroclastic_Particle_Material"/>
+        <terms:source xml:lang="en">Base on Gillespie and Styles, 1999</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of fragments of rock formed during earlier (related) volcanic activity that have been ejected with other pyroclastic debris during a later eruption.</rdfs:comment>
+        <rdfs:label xml:lang="en">cognate volcanic particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Concretionary_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Concretionary_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Aggregate_NonClastic_Particle_Material"/>
+        <terms:source xml:lang="en">Neuendorf et al, 2005</terms:source>
+        <rdfs:comment xml:lang="en">Granular material composed of particles that are hard, compact masses or aggregates of mineral matter, normally subsperical but commonly oblate, disc-shaped or irregular. Formed by precipitation of mineral from solution in the pores of a granular rock, localized around a nucleus or center, to define a discrete, sharply separated object. Size ranges from cm to meters. Particle geometry description for concretion describes the concretion size and shape, not the size and shape of particles forming the concretion.</rdfs:comment>
+        <rdfs:label xml:lang="en">concretionary particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Coprolite_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Coprolite_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Biogenic_Particle_Material"/>
+        <terms:source xml:lang="en">Neuendorf et al., 2005</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of the fossilised excrement of vertebrate animals</rdfs:comment>
+        <rdfs:label xml:lang="en">coprolite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Crystal_Fragment_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Crystal_Fragment_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Pyroclastic_Particle_Material"/>
+        <terms:source xml:lang="en">this vocabulary</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of crystal fragments interpreted to have been broken by pyroclastic processes.</rdfs:comment>
+        <rdfs:label xml:lang="en">crystal fragment particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Crystallite -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Crystallite">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Single_Crystal_Particle_Material"/>
+        <terms:source xml:lang="en">Williams, Turner, Gilbert 1954</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of minute, spherical, rod, or hair-like particles, mineralogy not discernible with hand lense. Typically appear isotropic in thin section.</rdfs:comment>
+        <rdfs:label xml:lang="en">crystallite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Crystallized_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Crystallized_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Grain_Material"/>
+        <rdfs:comment xml:lang="en">A granular material consisting of particles/grains that are the product of crystallization during formation of a rock material (see NADMC1 2004). Serves to distinguish crystalline from granular rocks (Struik, 2002). Includes constituents crystallized in evaporite environments, during diagenesis or hydrothermal alteration, or in other low-temperature environments.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Use to describe crystalline grain types in igneous, metamorphic and metasomatic rocks, e.g. the plagioclase phenocrysts, groundmass quartz, biotite phenocrysts, Andalusite porphyroblasts...</rdfs:comment>
+        <rdfs:label xml:lang="en">Crystallized particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Deformation_Related_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Deformation_Related_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Granular_Particle_Material"/>
+        <rdfs:comment xml:lang="en">Granular material that consists of fragments formed by comminution, tectonic grain size reduction, fracturing or other deformation processes operating on a pre-existing rock material. Fragments may have been displaced or mixed by processes in a deformation zone, but have not been transported by surficial sedimentary processes.  Includes fragments related to solution collapse.</rdfs:comment>
+        <rdfs:label xml:lang="en">Deformation-related particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Epiclastic_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Epiclastic_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Clastic_Granular_Material"/>
+        <terms:source xml:lang="en">Schmid 1981, NADM SLTTs 2004</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of grains or fragments produced by weathering and erosion of a pre-existing rock mass. Consists of particles whose origin as a fragment is a result of surface (sedimentary, weathering...) processes. &apos;Crystals, crystal fragments, glass and rock fragments that have been liberated from any type of pre-existing consolidated rock (volcanic or non-volcanic) by weathering or erosion and transported from the site of origin by gravity, air, water, or ice&apos; [Schmid, 1981]. Distinguished from intraclast in that epiclast is derived from a pre-existing rock from outside the basin of deposition (NADM SLTTs 2004) before introduction into a clastic rock material.</rdfs:comment>
+        <rdfs:label xml:lang="en">epiclastic particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Fecal_Pellet_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Fecal_Pellet_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Biogenic_Particle_Material"/>
+        <terms:source xml:lang="en">Neuendorf et al., 2005</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of organic excrement, mainly of invertebrates, occuring especially in modern marine sediments but also fossilised in some sedimentary rocks, usually with simple ovoid form, less commonly rod-shaped.</rdfs:comment>
+        <rdfs:label xml:lang="en">fecal pellet particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Fiamme_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Fiamme_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Pyroclastic_Particle_Material"/>
+        <terms:source xml:lang="en">Neuendorf et al 2005, http://en.wikipedia.org/wiki/Fiamme</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of lens-shaped bodies, usually mm to cm thick, and centimeters to 1-2 decimeters long, typically seen on surfaces of some pyroclastic rocks. The name fiamme comes from the Italian word for flames, describing their shape. The term is descriptive and non-genetic. Generally interpreted to form by the collapse of pumice fragments during welding in a hot pyroclastic deposit.</rdfs:comment>
+        <rdfs:label xml:lang="en">fiamme particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Fluidal_Pyroclastic_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Fluidal_Pyroclastic_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Juvenile_Pyroclastic_Particle_Material"/>
+        <terms:source xml:lang="en">Base on Gillespie and Styles, 1999</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of particles that have a rounded, fluidal shape indicating that they were in a wholly or partly molten state during formation and subsequent transport. Concept corresponds to bomb, but with no size denotation.</rdfs:comment>
+        <rdfs:label xml:lang="en">fluidal pyroclastic particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Glass_Shard_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Glass_Shard_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Juvenile_Pyroclastic_Particle_Material"/>
+        <terms:source xml:lang="en">GGIPAC</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of vitric fragments formed by pyroclastic processes, often with a characteristically curved surface of fracture. Shards generally consist of bubble-wall fragments produced by disintegration of pumice during or after an eruption</rdfs:comment>
+        <rdfs:label xml:lang="en">glass shard particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Glomerocryst_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Glomerocryst_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Aggregate_NonClastic_Particle_Material"/>
+        <terms:source xml:lang="en">definition of glomerocryst from Neuendorf et al., 2005</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of particles that are aggregates of crystals of the same mineral</rdfs:comment>
+        <rdfs:comment xml:lang="en">Typically will not play a framework role in a Rock Material.  Expect these to be conceptually like a sub class of phenocryst, but avoid that commitment for now.</rdfs:comment>
+        <rdfs:label xml:lang="en">glomerocryst particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Roundness -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Roundness">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf"/>
+                <owl:allValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Particle_Shape"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:source>https://en.wikipedia.org/wiki/Roundness_(geology)</terms:source>
+        <rdfs:comment xml:lang="en">Roundness is the degree of smoothing due to abrasion of sedimentary particles. It is expressed as the ratio of the average radius of curvature of the edges or corners to the radius of curvature of the maximum inscribed sphere.</rdfs:comment>
+        <rdfs:label xml:lang="en">Grain Shape</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Roundness_Value -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Roundness_Value">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Named_Value"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/isValueOf"/>
+                <owl:allValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Roundness"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Size -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Size">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Grain_Material"/>
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Material"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">SeeAlso https://en.wikipedia.org/wiki/Grain_size TBD-- implement vocabularies for grain size</rdfs:comment>
+        <rdfs:comment xml:lang="en">generaly property for specification of grain size; sub-properties have value spaces for different size specification types.</rdfs:comment>
+        <rdfs:label xml:lang="en">Grain Size property </rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Granular_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Granular_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Grain_Material"/>
+        <terms:source xml:lang="en">NADM SLTTs 2004</terms:source>
+        <rdfs:comment xml:lang="en">Material consisting of a collection of pre-existing objects (particles, grains) before incorporation into a particulate aggregate. \...a component of solid material that has the form of grains, clasts, fragments, or whole objects of any size, shape, composition, texture, and structure.\ (NADMSC SLTTs, 2004)</rdfs:comment>
+        <rdfs:label xml:lang="en">Granular particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Hydroclastic_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Hydroclastic_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Juvenile_Pyroclastic_Particle_Material"/>
+        <terms:source xml:lang="en">Gillespie and Styles 1999</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of juvenile pyroclastic fragments formed by magma-water interaction during subaqueous or subglacial extrusion, typically consist of chilled glass.</rdfs:comment>
+        <rdfs:label xml:lang="en">hydroclastic particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Intraclastic_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Intraclastic_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Clastic_Granular_Material"/>
+        <terms:source xml:lang="en">NADM SLTTs 2004, Neuendorf et al., 2005, Folk, 1959</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of torn-up and re-worked fragments of penecontemporaneous sediment (usually weakly consolidated) that has been eroded within the basin of deposition...and re-deposited there...The fragment may range in size from fine sand to gravel...  A term introduced by Folk (1959, p. 4) for a component of limestone. </rdfs:comment>
+        <rdfs:label xml:lang="en">intraclastic particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Juvenile_Pyroclastic_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Juvenile_Pyroclastic_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Pyroclastic_Particle_Material"/>
+        <terms:source xml:lang="en">Gillespie and Styles 1999</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of fragments formed directly from cooling magma during transport prior to primary deposition.</rdfs:comment>
+        <rdfs:label xml:lang="en">juvenile pyroclastic particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Lithic_Epiclastic_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Lithic_Epiclastic_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Epiclastic_Particle_Material"/>
+        <rdfs:comment xml:lang="en">material consisting of epiclastic particles consisting of discernible rock fragments.</rdfs:comment>
+        <rdfs:label xml:lang="en">Lithic epiclastic particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Material_Fossil_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Material_Fossil_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Bioclastic_Particle_Material"/>
+        <terms:source xml:lang="en">GeoSciML v2 RC1 model element scope note</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of preserved or replaced remains (casts) of plants or animals. An additional type property element can provide a reference to a paleontologic description of the fossil or fossils present.</rdfs:comment>
+        <rdfs:label xml:lang="en">material fossil material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Micrite -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Micrite">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Clastic_Granular_Material"/>
+        <rdfs:comment xml:lang="en">Granular material consisting of carbonate mud with individual particles mostly less than 4 microns maximum diameter; might be of biogenic, biochemical or physiochemical origin. Constituent of a carbonate rock.  (Folk, 1959; Chilingar et al 1967 (https://doi.org/10.1016/S0070-4571(08)70844-6); Bissell and Chilingar, 1967; Neuendor et al., 2005)</rdfs:comment>
+        <rdfs:label xml:lang="en">Micrite material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Microlite -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Microlite">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Single_Crystal_Particle_Material"/>
+        <terms:source xml:lang="en">Williams, Turner, Gilbert 1954</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of minute incipient crystals that display some birefringence in thin section; mineralogy not discernible with hand lense. Coarser grained than crystallite.</rdfs:comment>
+        <rdfs:label xml:lang="en">microlite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Mineral_Epiclastic_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Mineral_Epiclastic_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Epiclastic_Particle_Material"/>
+        <rdfs:comment xml:lang="en">material consisting of epiclastic particles that are individual mineral grains</rdfs:comment>
+        <rdfs:label xml:lang="en">Mineral epiclastic particle material </rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Oncoid_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Oncoid_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Coated_Particle_Material"/>
+        <terms:source xml:lang="en">Jackson 1997, Hallsworth and Knox 1999</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of  &apos;...coated grains with a cortex of irregular, partially overlapping laminae. They are typically irregular in shape and may exhibit biogenic structures. Some forms lack a distinct nucleus. Oncoids are generally larger than 2 mm.&apos; (Hallsworth and Knox, 1999, p. 27). Synonymous with oncolite: A small, variously shaped, concentrically laminated, calcareous sedimentary structure, resembling an oolith, and formed by the accretion of successive layer[s]... It...generally does not exceed 10 cm in dimension. (Jackson, 1997, p. 446).</rdfs:comment>
+        <rdfs:label xml:lang="en">oncoid particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Oolitic_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Oolitic_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Coated_Particle_Material"/>
+        <terms:source xml:lang="en">Jackson1997, Hallsworth and Knox 1999</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of particles that resembles an oolith in outer appearance and size- (Jackson, 1997, p. 447). Hallsworth and Knox (1999, p. 27) describe ooids as coated grains that typically are spherical or ellipsoidal in shape, with the degree of roundness increasing outward. Concentric to semi-concentric coats are smoothly and evenly laminated. A nucleus usually is present, and may have a composition different from the coatings. Biogenic structures are not obvious. NADMSC SLTTs (2004) considers synomous with oolith.</rdfs:comment>
+        <rdfs:label xml:lang="en">oolitic particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Particle_Aspect_Ratio -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Particle_Aspect_Ratio">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf"/>
+                <owl:allValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Particle_Shape"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Property to describe the geometry of particles based on the (average) ratio of the length of long, intermediate and short axes of grains. Equates to sphericity in sedimentary rocks (ie: the degree to which the shape of a particle approximates a sphere).  A quantitative specification based on the ratio of lengths of long, intermediate and short axes of grain shape (Sneed and Folk, 1958; Zingg, 1935). (eg: prolate, slightly flattened, very bladed, equant, acicular, tabular)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">GeoSciML v4</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Particle aspect ratio </rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Particle_Shape -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Particle_Shape">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Shape"/>
+        <rdfs:comment xml:lang="en">Quality that specifies the shape of a particle or object (mm to decimeter scale) </rdfs:comment>
+        <rdfs:label xml:lang="en">Particle_Shape </rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Particle_Sorting -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Particle_Sorting">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Grain_Material"/>
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Material"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The Sorting attribute holds text terms to specify size distribution of particles in a CompoundMaterial. Terminology for sorting in sedimentary rocks is based in the quantitative Graphic Standard Deviation (IGSD) scheme proposed by Folk (1968, 1974).  Example terms for this attribute may include sedimentary terms such as well sorted and poorly sorted, or igneous terms such as porphyritic, equigranuilar, seriate.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">GeoSciML v4</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Particle sorting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Peloid_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Peloid_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Clastic_Granular_Material"/>
+        <terms:source xml:lang="en">Neuendorf et al., 2005</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of usually rounded aggregates of clay-sized calcareous (micritic) material, origin and size are not specified</rdfs:comment>
+        <rdfs:label xml:lang="en">peloid particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Pisolitic_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Pisolitic_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Coated_Particle_Material"/>
+        <terms:source xml:lang="en">NADM SLTTs 2004, Jackson 1997</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of round or ellipsoidal accretionary particles resembling a pea in size and shape.... A pisoid...is larger and less regular in form than an ooid, although it may have the same concentric and/or radial internal structure (Jackson, 1997, p. 489).</rdfs:comment>
+        <rdfs:label xml:lang="en">pisolitic particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Pyroclastic_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Pyroclastic_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Granular_Particle_Material"/>
+        <rdfs:comment xml:lang="en">Particles ejected during a volcanic eruption. (Jackson, 1997, p. 521). Clast whose origin is a direct result of volcanic process (excludes fragments in lava autobreccia) and has not been reworked by sedimentary processes (Gillespie and Styles 1999). Pyroclasts.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Use for description of pyroclastic rocks</rdfs:comment>
+        <rdfs:label xml:lang="en">Pyroclastic particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Reworked_Pyroclastic_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Reworked_Pyroclastic_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Clastic_Granular_Material"/>
+        <terms:source xml:lang="en">Gillespie and Styles 1999</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of fragments formed as a direct result of volcanic activity and reworked by sedimentary processes.</rdfs:comment>
+        <rdfs:label xml:lang="en">reworked pyroclastic particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Single_Crystal_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Single_Crystal_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Crystallized_Particle_Material"/>
+        <rdfs:comment xml:lang="en">Typical grain constituent in a phaneritic igneous or metamorphic rock, visible to naked eye or with hand lense. Particle are individual mineral grains that have crystallized from melt or through metamorphic processes.  In deformed rocks, these my have some subgrain structure but at the scale of description are considered individual particles in a granular material constituent of a rock.</rdfs:comment>
+        <rdfs:label xml:lang="en">mono-mineralic crystal particle </rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Sparite -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Sparite">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Single_Crystal_Particle_Material"/>
+        <rdfs:comment xml:lang="en">Crystalline granular material composed of carbonate minerals, usually calcite or dolomite, interpreted to be precipitated in situ, with grain size greater than about 10 microns.</rdfs:comment>
+        <rdfs:label xml:lang="en">Sparite </rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Spherulitic_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Spherulitic_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Aggregate_NonClastic_Particle_Material"/>
+        <terms:source xml:lang="en">definition of spherule from Williams, Turner, Gilbert 1954</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of rounded or spherical masses of acicular or fibrous mineral, typically in glassy siliceous lava.</rdfs:comment>
+        <rdfs:label xml:lang="en">Spherulitic particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Syngenetic_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Syngenetic_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Granular_Particle_Material"/>
+        <terms:source xml:lang="en">NADM SLTTs 2004</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of nonbiogenic particles formed by in situ or intrabasinal physical-chemical-mechanical processes without the direct biochemical activity of organisms, penecontemporaneously with sediment accumulation or during diagenetic modification.</rdfs:comment>
+        <rdfs:label xml:lang="en">syngenetic particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Variolitic_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Variolitic_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Spherulitic_Particle_Material"/>
+        <terms:source xml:lang="en">definition of variole from Williams, Turner, Gilbert 1954</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of spherulitic clusters of crystals in a mafic rock, usually consisting of divergent plagioclase fibers, with or without interstitial glass, or intergrown with granules of pyroxene, olivine or iron ore. (equivalent to Spherule, but in mafic rock)</rdfs:comment>
+        <rdfs:label xml:lang="en">Variolitic particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Ventrifact_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Ventrifact_Particle_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Clastic_Granular_Material"/>
+        <terms:source xml:lang="en">base on Neuendorf et al., 2005</terms:source>
+        <rdfs:comment xml:lang="en">Granular material consisting of particles that has been shaped, worn, faceted, cut or polished by the abrasive action of windblown particles.</rdfs:comment>
+        <rdfs:label xml:lang="en">ventrifact particle material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/angular -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/angular">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Roundness_Value"/>
+        <terms:source xml:lang="en">Powers, M. C., 1953 A new roundness scale for sedimentary particles. Journal of Sedimentary Petrology, v. 23, p. 117-119</terms:source>
+        <rdfs:comment xml:lang="en">A clastic sedimentary particle showing very little or no evidence of abrasion, with all of its edges and corners sharp, such as blocks with numerous (15-30) secondary corners and a roundness value between 0.17 and 0.25 (midpoint at 0.21).</rdfs:comment>
+        <rdfs:label xml:lang="en">angular</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/anhedral -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/anhedral">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Roundness_Value"/>
+        <terms:source xml:lang="en">MacKenzie, W.S., Donaldson, C.H. &amp; Guilford, C., 1982. Atlas of igneous rocks and their textures. John Wiley &amp; Sons, New York</terms:source>
+        <rdfs:comment xml:lang="en">Crystalline particles in a rock lack well-developed crystal faces, usually referring to igneous or metamorphic grains</rdfs:comment>
+        <rdfs:label xml:lang="en">anhedral</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/diffuse -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/diffuse">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Roundness_Value"/>
+        <terms:source xml:lang="en">SLTTs 2004</terms:source>
+        <rdfs:comment xml:lang="en">Particles in aggregate have diffuse, ill-defined boundaries</rdfs:comment>
+        <rdfs:label xml:lang="en">diffuse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/euhedral -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/euhedral">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Roundness_Value"/>
+        <terms:source xml:lang="en">MacKenzie, W.S., Donaldson, C.H. &amp; Guilford, C., 1982. Atlas of igneous rocks and their textures. John Wiley &amp; Sons, New York</terms:source>
+        <rdfs:comment xml:lang="en">Crystalline particles in a rock are mostly bounded by perfect crystal faces, usually referring to igneous or metamorphoc grains</rdfs:comment>
+        <rdfs:label xml:lang="en">euhedral</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/resorbed -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/resorbed">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Roundness_Value"/>
+        <terms:source xml:lang="en">Neuendorf, K.K.E, Mehl, J.P. &amp; Jackson, J.A. (eds), 2005. Glossary of geology, 5th Edition. American Geological Institute, Alexandria, 779 p.</terms:source>
+        <rdfs:comment xml:lang="en">Particles have smooth, embayed boundaries caused by resorption by the host magma</rdfs:comment>
+        <rdfs:label xml:lang="en">resorbed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/rounded -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/rounded">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Roundness_Value"/>
+        <terms:source xml:lang="en">Powers, M. C., 1953 A new roundness scale for sedimentary particles. Journal of Sedimentary Petrology, v. 23, p. 117-119</terms:source>
+        <rdfs:comment xml:lang="en">A clastic sedimentary particle whose original edges and corners have been smoothed off to rather broad curves and whose original faces are almost completely removed by abrasion (although some comparatively flat surfaces may be present), such as a pebble with a roundness value between 0.49 and 0.70 (midpoint at 0.59) and few (0-5) and greatly subdued secondary corners. The original shape is still readily apparent.</rdfs:comment>
+        <rdfs:label xml:lang="en">rounded</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/shape_not_specified -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/shape_not_specified">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Roundness_Value"/>
+        <terms:source xml:lang="en">this vocabulary</terms:source>
+        <rdfs:comment xml:lang="en">Shape property may have any value. Use in normative definitions where shape may take any value.</rdfs:comment>
+        <rdfs:label xml:lang="en">any shape</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/sub_angular -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/sub_angular">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Roundness_Value"/>
+        <terms:source xml:lang="en">Powers, M. C., 1953 A new roundness scale for sedimentary particles. Journal of Sedimentary Petrology, v. 23, p. 117-119</terms:source>
+        <rdfs:comment xml:lang="en">A clastic sedimentary particle showing definite effects of slight abrasion, retaining its original general form, and having faces that are virtually untouched and edges and corners that are rounded off to some extent, such as a glacial boulder with numerous (10-20) secondary corners and a roundness value between 0.25 and 0.35 (midpoint at 0.300).</rdfs:comment>
+        <rdfs:label xml:lang="en">sub-angular</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/sub_rounded -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/sub_rounded">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Roundness_Value"/>
+        <terms:source xml:lang="en">Powers, M. C., 1953 A new roundness scale for sedimentary particles. Journal of Sedimentary Petrology, v. 23, p. 117-119</terms:source>
+        <rdfs:comment xml:lang="en">A clastic sedimentary particle showing considerable but incomplete abrasion and an original general form that is still discernible, and having many of its edges and corners noticeably rounded off to smooth curves, such as a cobble with a reduced number (5-10) of secondary corners, a considerably reduced area of the original faces, and a roundness value between 0.35 and 0.49 (midpoint at 0.41).</rdfs:comment>
+        <rdfs:label xml:lang="en">sub-rounded</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/subhedral -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/subhedral">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Roundness_Value"/>
+        <terms:source xml:lang="en">MacKenzie, W.S., Donaldson, C.H. &amp; Guilford, C., 1982. Atlas of igneous rocks and their textures. John Wiley &amp; Sons, New York</terms:source>
+        <rdfs:comment xml:lang="en">Crystalline particles in a rock are partly bounded by crystal faces, usually referring to igneous or metamorphic grains</rdfs:comment>
+        <rdfs:label xml:lang="en">subhedral</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/very_angular -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/very_angular">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Roundness_Value"/>
+        <terms:source xml:lang="en">Powers, M. C., 1953 A new roundness scale for sedimentary particles. Journal of Sedimentary Petrology, v. 23, p. 117-119</terms:source>
+        <rdfs:comment xml:lang="en">A clastic sedimentary particle with a roundness value between 0.12 and 0.17 (midpoint at 0.14).</rdfs:comment>
+        <rdfs:label xml:lang="en">very angular</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/granularmaterial/well_rounded -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/well_rounded">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/granularmaterial/Grain_Roundness_Value"/>
+        <terms:source xml:lang="en">Powers, M. C., 1953 A new roundness scale for sedimentary particles. Journal of Sedimentary Petrology, v. 23, p. 117-119</terms:source>
+        <rdfs:comment xml:lang="en">A clastic sedimentary particle whose original faces, edges, and corners have been destroyed by abrasion and whose entire surface consists of broad curves without any flat areas, specif. said of a particle with no secondary corners and a roundness value between 0.70 and 1.00 (midpoint at 0.84). The original shape may be suggested by the present form of the particle.</rdfs:comment>
+        <rdfs:label xml:lang="en">well rounded</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+

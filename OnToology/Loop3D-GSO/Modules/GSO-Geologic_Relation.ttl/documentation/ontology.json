@@ -1,0 +1,360 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Feature"
+    }, {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Foliation"
+    }, {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Lineation"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Foliation"
+    }, {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Lineation"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Feature"
+    }, {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Feature"
+    }, {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Feature"
+    }, {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body"
+    } ]
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Feature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/spatiallyIntersects",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/spatiallyTouches",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeOlderThan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/crosscutBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/crosscuts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "relationship in with the subject Rock_Body or Physical_Feature exhibits field relations demonstrating that it is younger that the object Rock_Body or Physical_Feature and there is a spatial intersection"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cross-cuts or truncates"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/spatiallyIntersects"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/isGeologicallyRelatedTo"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/intrudedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "subject rock body intrudes object rock body. Implies that subject rock body is igneous rock, and that object rock body is older than subject rock body"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "intrudes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/crosscutBy"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/intrudes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "subject rock body intrudes object rock body. Implies that subject rock body is igneous rock, and that object rock body is older than subject rock body"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "intrudes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/crosscuts"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/intrudedBy"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/isConcordantTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "relationship between a foliation and some other planar feature (fault, contact, Ductile Shear zone, another foliation) in which the foliation orientation is broadly parallel to the planar feature."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Foliation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is concordant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/isGeologicallyRelatedTo"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/litparlitintrudes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Intruded rock is penetrated by numerous sheets of intruded igneous rock, usually granitic. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "lit-par-lit intrudes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/intrudes"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "dct:date--  2016-06-15"
+  }, {
+    "@language" : "en",
+    "@value" : "dct:modified-- 2019-12-04"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Geologic Relation"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/ontology"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/overlies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relationship between rock bodies in which subject body is above and in contact with the object body in geographic reference system (the object might or might not be younger than the subject). Generally applied to stratified rock bodies.   subclass from meets"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "overlies "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/spatiallyTouches"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/isGeologicallyRelatedTo"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/underlies"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/overprintedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "relationship in which a subject  Rock_Body or Physical_Feature is interpreted to have a subject fabric (foliation or lineation) imposed on it"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid7"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "overprinted by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid10"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeOlderThan"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/isGeologicallyRelatedTo"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/overprints"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/overprints",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "relationship in which a subject fabric (foliation or lineation) is interpreted to have formed after the object Rock_Body or Physical_Feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid13"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "overprints"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid16"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/isGeologicallyRelatedTo"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/stratOverlies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relationship between rock bodies in which subject body is above and in contact with the object body in geographic reference system (the object might or might not be younger than the subject). Generally applied to stratified rock bodies.   subclass from meets"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "overlies "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/overlies"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/stratUnderlies"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/stratUnderlies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relationship between rock bodies in which subject body is below and in contact with the object body in geographic refernce system (the object might or might not be younger than the subject). Generally applied to stratified rock bodies"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "underlies "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeOlderThan"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/underlies"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/underlies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relationship between rock bodies in which subject body is below and in contact with the object body in geographic refernce system (the object might or might not be younger than the subject). Generally applied to stratified rock bodies"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "underlies"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/spatiallyTouches"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/isGeologicallyRelatedTo"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Foliation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Lineation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/crosscutBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "relationship in with the object Rock_Body or Physical_Feature exhibits field relations demonstrating that it is younger that the subject Rock_Body or Physical_Feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is cross-cut or truncated by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/spatiallyIntersects"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeOlderThan"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/isGeologicallyRelatedTo"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/crosscuts"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/isGeologicallyRelatedTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+} ]

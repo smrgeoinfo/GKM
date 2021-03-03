@@ -1,0 +1,1191 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasEssentialPart"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plunge"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/quality/Displacement"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/quality/Displacement"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/quality/Displacement"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/contains"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasEssentialPart"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid16"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body"
+    }, {
+      "@id" : "_:genid18"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Deformation"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body"
+    }, {
+      "@id" : "_:genid4"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/quality/Thickness"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Ductile_Flow"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/quality/Displacement"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/quality/Displacement"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/quality/Displacement"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicquality/Azimuth"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Material_Feature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/contains",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasEssentialPart",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hostedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Detachment_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "CGI faulttype SKOS vocabulary 2016-10-19"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A regional-scale, large displacement, low-angle normal fault."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "detachment fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Low_Angle_Normal_Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Dextral_Strike_Slip_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "CGI faulttype SKOS vocabulary 2016-10-19"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Fault with right-lateral strike-parallel displacement component of slip vector more than 10 times the dip-parallel component of the slip vector at at least one location along the fault, and right-lateral displacement over more than half the mapped trace of the fault."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "dextral strike slip fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Strike_Slip_Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Dip_Separation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "GGIC vocabularies working group (Australia)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A fault along which there is some separation parallel to the dip of the fault."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "dip separation sense"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault_Separation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Dip_Slip",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "GGIC vocabularies working group (Australia)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The net slip of the fault lies in the dip direction of the fault."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "dip slip"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault_Slip"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Ductile_Shear_Zone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "a broadly planar zone of shear displacement within which deformation has occurred without loss of material continuity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ductile Shear Zone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault_Zone"
+  }, {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Extraction_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "Froitzheim, N., Pleuger, J. & Nagel, T.J., 2006. Extraction faults. Journal of Structural Geology v28, pp. 1388-1395."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A fault whose two sides have approached each other substantially in the direction perpendicular to the fault."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "extraction fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "this vocabulary"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A discrete surface, or zone of discrete surfaces, with some thickness, separating two rock masses across which one mass has slid past the other and characterized by brittle deformation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Fracture"
+  }, {
+    "@id" : "_:genid6"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault_Movement_Magnitude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "magnitude of slip or separation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Displacement magnitude"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality"
+  }, {
+    "@id" : "_:genid7"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault_Movement_Sense",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Quality that specifies the relative sense of displacement (right, left, up, down) between rocks on opposites of a fault."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Fault movement sense "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality"
+  }, {
+    "@id" : "_:genid8"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault_Movement_Vector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Slip vector linking piercing point on opposite sides of fault, or separation vector linking offset surface along fault trace."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Movement Vector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality"
+  }, {
+    "@id" : "_:genid9"
+  }, {
+    "@id" : "_:genid10"
+  }, {
+    "@id" : "_:genid11"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault_Separation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "a vector (magnitude and orientation) specifying the distance between the intersection of a surface on opposite sides of a displacment surface. In 3-D is the projection of a vector normal to the displaced surface into the displacment surface, but might also be specified as offset of the intersection of displacement surface and marker surface in some other profile view (e.g. horizontal/map view, or a cross section)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Separation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality"
+  }, {
+    "@id" : "_:genid12"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault_Slip",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "a vector (magnitude and orientation) that links a peircing point on opposite sides of a displacement surface."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Slip"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality"
+  }, {
+    "@id" : "_:genid13"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault_Zone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A material spatial feature that contains one or more fault surfaces as well as deformed rocks related to the faults located between and adjacent to the fault traces"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Fault Zone "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Material_Feature"
+  }, {
+    "@id" : "_:genid14"
+  }, {
+    "@id" : "_:genid15"
+  }, {
+    "@id" : "_:genid20"
+  }, {
+    "@id" : "_:genid21"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Generic_Decollement_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "Neuendorf et al. 2005"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A large-displacement (kilometers or tens of kilometers) shallowly dipping to subhorizontal fault or shear zone."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "decollement"
+  }, {
+    "@language" : "en",
+    "@value" : "generic decollement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Low_Angle_Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/High_Angle_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "CGI faulttype SKOS vocabulary 2016-10-19"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Fault that dips at least 45 degrees over more than half of its recognized extent, for which slip or separation is not explicitly specified."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "high angle fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/High_Angle_Normal_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "CGI faulttype SKOS vocabulary 2016-10-19"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Fault that dips at least 45 degrees over more than half of the recognized extent of the fault with the hanging wall displaced from a structurally higher position relative to footwall rocks."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "high angle normal fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/High_Angle_Fault"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Normal_Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/High_Angle_Reverse_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "CGI faulttype SKOS vocabulary 2016-10-19"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Reverse fault that dips at least 45 degrees over more than half of its recognized extent, for which slip or separation is not explicitly specified."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "high angle reverse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/High_Angle_Fault"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Reverse_Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Horizontal_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "GGIC vocabularies working group (Australia)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Fault that dips less than 10 degrees over more than half the recognized extent of the fault."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "horizontal fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Low_Angle_Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Left_Normal_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "CGI faulttype SKOS vocabulary 2016-10-19"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "High angle fault with slip vector that has ratio of strike-parallel to dip-parallel displacement between 10 to 1 and 1 to 10 at at least one location along the mapped trace, with left-lateral strike-parallel component and normal dip-parallel component over at least half the mapped trace of the fault."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "left normal fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Oblique_Slip_Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Left_Reverse_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "CGI faulttype SKOS vocabulary 2016-10-19"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "High angle fault with slip vector that has ratio of strike-parallel to dip-parallel displacement between 10 to 1 and 1 to 10 at at least one location along the mapped trace, with left-lateral strike-parallel component and reverse dip-parallel component over at least half the mapped trace of the fault."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "left reverse fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Oblique_Slip_Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Low_Angle_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "CGI faulttype SKOS vocabulary 2016-10-19"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Fault that dips less than 45 degrees over more than half of the recognized extent of the fault."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "low angle fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Low_Angle_Normal_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "CGI faulttype SKOS vocabulary 2016-10-19"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Fault that dips less than 45 degrees over more than half of the recognized extent of the fault with the hanging wall displaced from a structurally higher position relative to footwall rocks."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "low angle normal fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Low_Angle_Fault"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Normal_Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Mixed_Extraction_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "Froitzheim, N., Pleuger, J. & Nagel, T.J., 2006. Extraction faults. Journal of Structural Geology v28, pp. 1388-1395."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An extraction fault with some displacement within the fault plane."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "mixed extraction fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Extraction_Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Normal_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "CGI faulttype SKOS vocabulary 2016-10-19"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Fault with dip-parallel displacement component of slip vector more than 10 times the strike-parallel component of the slip vector over more than half recognized extent of the fault, and for which the fault dips consistently in the same direction, and for which the hanging wall has been displaced down relative to the footwall."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "normal fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Oblique_Slip",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "GGIC vocabularies working group (Australia), SMR"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The net slip of the fault lies between the strike and dip directions of the fault, the slip vector rakes between 10 and 80 degrees in the plane of the fault."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "oblique slip"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault_Slip"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Oblique_Slip_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "CGI faulttype SKOS vocabulary 2016-10-19"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Fault with slip vector that has ratio of strike-parallel to dip-parallel displacement between 10 to 1 and 1 to 10 at at least one location along the mapped trace of the fault."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "oblique slip fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Pure_Extraction_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "Froitzheim, N., Pleuger, J. & Nagel, T.J., 2006. Extraction faults. Journal of Structural Geology v28, pp. 1388-1395."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An extraction fault with no discernible displacement within the fault plane."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pure extraction fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Extraction_Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Reverse_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "CGI faulttype SKOS vocabulary 2016-10-19"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Fault with dip-parallel displacement component of slip vector more than 10 times the strike-parallel component of the slip vector at at least one location along the mapped trace of the fault, and the fault dips consistently in the same direction with the hanging wall displaced up relative to the footwall over at least half the mapped trace of the fault."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "reverse fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Right_Normal_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "CGI faulttype SKOS vocabulary 2016-10-19"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "High angle fault with slip vector that has ratio of strike-parallel to dip-parallel displacement between 10 to 1 and 1 to 10 at at least one location along the mapped trace, with right-lateral strike-parallel component and normal dip-parallel component of slip over at least half the mapped trace of the fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "right normal fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Oblique_Slip_Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Right_Reverse_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "CGI faulttype SKOS vocabulary 2016-10-19"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "High angle fault with slip vector that has ratio of strike-parallel to dip-parallel displacement between 10 to 1 and 1 to 10 at at least one location along the mapped trace, with a right-lateral strike-parallel component and reverse dip-parallel component of slip over at least half the mapped trace of the fault."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "right reverse fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Oblique_Slip_Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Scissor_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "Neuendorf et al 2005"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A fault on which there is increasing offset or separation along the strike from an initial point of no offset, with the opposite sense of offset in the opposite direction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "scissor fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Sinistral_Strike_Slip_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "CGI faulttype SKOS vocabulary 2016-10-19"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Fault with left-lateral strike-parallel displacement component of slip vector more than 10 times the dip-parallel component of the slip vector at at least one location along the fault, and left-lateral displacement over more than half the mapped trace of the fault."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sinistral strike slip fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Strike_Slip_Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Strike_Separation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "GGIC vocabularies working group (Australia)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "planar features indicate some displacement parallel to the strike of the fault."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "strike separation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault_Separation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Strike_Slip",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "GGIC vocabularies working group (Australia), this vocabulary"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The net slip of the fault (slip vector) is parallel to the strike of the fault."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "strike slip"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault_Slip"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Strike_Slip_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "CGI faulttype SKOS vocabulary 2016-10-19"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Fault with strike-parallel displacement component of slip vector more than 10 times the dip-parallel component of the slip vector at at least one location along the mapped trace of the fault."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "strike slip fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Thrust_Decollement_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "GeoScience Victoria and others"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A regional-scale low-angle thrust fault."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "thrust decollement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Thrust_Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Thrust_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "CGI faulttype SKOS vocabulary 2016-10-19"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Fault that dips less than 45 degrees over more than half of the recognized extent of the fault, with a hanging wall displaced from a structurally deeper position relative to footwall rocks."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "thrust fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Low_Angle_Fault"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Reverse_Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Transcurrent_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "GGIC vocabularies working group (Australia)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A large scale strike-slip fault in which the fault surface is steeply inclined."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "transcurrent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/High_Angle_Fault"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Strike_Slip_Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Transform_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "GGIC vocabularies working group (Australia)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A variety of strike-slip fault along which the displacement suddenly stops or changes form, typically associated with mid-ocean ridges."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "transform"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Strike_Slip_Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Wrench_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "GGIC vocabularies working group (Australia)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A strike slip fault in which the fault plane dips at least 45 degrees over more than half of the recognized extent of the fault."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "wrench fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/High_Angle_Fault"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Strike_Slip_Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/dextral",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "GGIC vocabularies working group (Australia)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "In plan view, the side opposite the observer is displaced to the right."
+  }, {
+    "@language" : "en",
+    "@value" : "Right-lateral separation sense, in plan view, the side opposite the observer appears displaced to the right.,"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "dextral"
+  }, {
+    "@language" : "fr",
+    "@value" : "dextre"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault_Movement_Sense"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/extraction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "Froitzheim, N., Pleuger, J. & Nagel, T.J., 2006. Extraction faults. Journal of Structural Geology v28, pp. 1388-1395."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Displacement across a fault is substantially in the direction perpendicular to the fault. The fault-parallel displacement is effectively zero."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "extraction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault_Movement_Sense"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/no_movement_sense",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "Froitzheim, N., Pleuger, J. & Nagel, T.J., 2006. Extraction faults. Journal of Structural Geology v28, pp. 1388-1395."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The fault-parallel displacement is effectively zero, as in an extraction fault."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "no movement sense"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault_Movement_Sense"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/normal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "GGIC vocabularies working group (Australia)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The hanging wall has been displaced down relative to the footwall, dip of fault usually 45-90 degrees."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "normal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault_Movement_Sense"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/normal_dextral",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "GGIC vocabularies working group (Australia)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The movement sense includes both normal and dextral components."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "normal dextral"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/dextral"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/normal"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/normal_sinistral",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "GGIC vocabularies working group (Australia)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The movement sense includes both normal and sinistral components."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "normal sinistral"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/normal"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/sinistral"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This file contains the 2016 SKOS-RDF version of the CGI Fault Type, Fault Movement Sense and Fault Movement Type vocabulary. Compilation and review in MS Excel spreadsheet, converted to MS Excel for SKOS generation using SKOS_for_GA_from_XLS_2016.03.xslt"
+  }, {
+    "@language" : "en",
+    "@value" : "This ontology includes extensions for describing faults in more detail. (ie, a summary of movement type and orientation) as defined by the IUGS Commission for Geoscience Information (CGI) Geoscience Terminology Working Group. Although the terms in this vocabulary are in common usage with definitions in standard texts or glossaries like Neuendorf et al. (2005), the definitions here attempt to establish unambiguous criteria to distinguish the categories, and are thus listed with this vocabulary as the source."
+  }, {
+    "@language" : "en",
+    "@value" : "dct:creator--  CGI Geoscience Terminology Working Group; OWL conversion by Stephen Richard for Loop3D project"
+  }, {
+    "@language" : "en",
+    "@value" : "dct:date--  2016-10-19"
+  }, {
+    "@language" : "en",
+    "@value" : "dct:modified-- 2020-01-29"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Fault"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicquality/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/quality/ontology"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/reverse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "GGIC vocabularies working group (Australia)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The hanging wall has been displaced up relative to the footwall, dip of fault usually greater than 45 degrees."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "inverse"
+  }, {
+    "@language" : "en",
+    "@value" : "reverse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault_Movement_Sense"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/reverse_dextral",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "GGIC vocabularies working group (Australia)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The movement sense includes both reverse and dextral components."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "reverse dextral"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/dextral"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/reverse"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/reverse_sinistral",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "GGIC vocabularies working group (Australia)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The movement sense includes both reverse and sinistral components."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "reverse sinistral"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/reverse"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/sinistral"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/scissor_movement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "Neuendorf et al 2005"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A fault on which there is increasing offset or separation along the strike from an initial point of no offset, with reverse offset in the opposite direction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "scissor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault_Movement_Sense"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/sinistral",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@language" : "en",
+    "@value" : "GGIC vocabularies working group (Australia)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "In plan view the side opposite the observer is displaced to the left."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sinistral"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/Fault_Movement_Sense"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Ductile_Flow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicquality/Azimuth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plunge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Fracture",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Deformation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/quality/Displacement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/quality/Thickness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

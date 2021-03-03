@@ -1,0 +1,397 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant_Location" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "process of sedimentary deposition"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Alluvial_Fan_Setting" ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition" ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Coastal_Plain_Setting" ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Inner_Neritic_Setting" ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Shoreline_Setting" ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Intrusion_Process" ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid18"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant_Location" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasValue" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-event1/Date110Ma"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Middle_Continental_Crust_Setting" ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "90"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid3"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid5"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition" ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Lacustrine_Setting" ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Erosion" ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeFinishedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/Triassic2017"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeStartedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/Silurian2017"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Simple_Uncertainty" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "8"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid4"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://qudt.org/vocab/unit/MegaYR" ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://qudt.org/vocab/unit/MegaYR" ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Intrusion_Process" ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Upper_Continental_Crust_Setting" ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/common/Simple_Uncertainty" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "9"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://qudt.org/vocab/unit/MegaYR" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Simple_Uncertainty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant_Location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/determinedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeFinishedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeOlderThan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeStartedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Alluvial_Fan_Setting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Coastal_Plain_Setting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Inner_Neritic_Setting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Lacustrine_Setting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Middle_Continental_Crust_Setting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Shoreline_Setting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/eventenvironment/Upper_Continental_Crust_Setting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-event1/Cretaceous90Ma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "90 Ma"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-event1/Cretaceous_dike_intrusion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid6"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-event1/Cretaceous90Ma"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-event1/Kg_Intrusion"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasSetting" : [ {
+    "@id" : "_:genid7"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "90 Ma Dike Intrusion"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-event1/Date110Ma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/determinedBy" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-event1/upbconcordantanalysis"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "110"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasQuality" : [ {
+    "@id" : "_:genid8"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasUOM" : [ {
+    "@id" : "_:genid9"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cretaceous 110 Ma Age Date"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-event1/HsGenesis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid10"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/Holocene2017"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-event1/MsGenesis"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasSetting" : [ {
+    "@id" : "_:genid11"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Deposition of Holocene sediments"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Holocene age"
+  }, {
+    "@language" : "en",
+    "@value" : "Holocene sediment deposition"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-event1/JsGenesis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid12"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/Jurassic2017"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-event1/Pre_Jurassic_Erosion"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasSetting" : [ {
+    "@id" : "_:genid13"
+  }, {
+    "@id" : "_:genid14"
+  }, {
+    "@id" : "_:genid15"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Jurassic Age"
+  }, {
+    "@language" : "en",
+    "@value" : "Jurassic sediment Deposition"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-event1/Kg_Intrusion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid16"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly" : [ {
+    "@id" : "_:genid17"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-event1/JsGenesis"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasSetting" : [ {
+    "@id" : "_:genid19"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cretaceous Intrusion Event"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-event1/MsGenesis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid20"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/Miocene2004"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-event1/Cretaceous_dike_intrusion"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasSetting" : [ {
+    "@id" : "_:genid21"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Miocene sediment Deposition"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-event1/Pre_Cretaceous_Burial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Burial of Js to depth of Kg intrusion, must predate Kg "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Pre Kg burial "
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-event1/Pre_Jurassic_Erosion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid22"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly" : [ {
+    "@id" : "_:genid23"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Erosional unroofing of tilted Xm, Cb, Os and Ss "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Pre Jurassic Erosion "
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-event1/Pre_Miocene_Erosion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeOlderThan" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-event1/MsGenesis"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-event1/Cretaceous_dike_intrusion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Erosional unroofing of Kg and Js "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Pre Miocene Erosion "
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-event1/ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/master/ontology"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/ex-event1/upbconcordantanalysis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/perdurant/Determining_Event" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "U-Pb isotopic analysis, concordant"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasSetting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Erosion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Intrusion_Process",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/perdurant/Determining_Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://qudt.org/vocab/unit/MegaYR",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]

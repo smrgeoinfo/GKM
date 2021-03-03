@@ -1,0 +1,225 @@
+@prefix : <http://loop3d.org/GSO/ontology/2020/1/geologiclineation/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://loop3d.org/GSO/ontology/2020/1/geologiclineation/ontology> .
+
+<http://loop3d.org/GSO/ontology/2020/1/geologiclineation/ontology> rdf:type owl:Ontology ;
+                                                                    owl:imports <http://loop3d.org/GSO/ontology/2020/1/common/ontology> ,
+                                                                                <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/ontology> ,
+                                                                                <http://loop3d.org/GSO/ontology/2020/1/geology/ontology> ;
+                                                                    rdfs:comment "This file contains the 2016 SKOS-RDF version of the CGI Lineation Type vocabulary. Compilation and review in MS Excel spreadsheet, converted to MS Excel for SKOS generation using SKOS_for_GA_from_XLS_2016.03.xslt"@en ,
+                                                                                 "This vocabulary specifies subclasses of gsos:Lineation, as defined by the IUGS Commission for Geoscience Information (CGI) Geoscience Terminology Working Group CGI Lineation Type vocabulary. Original vocabular developed for populating Lineation Type properties in GeoSciML GeologicStructure/Lineation elements, adopted here for Loop3D ontology."@en ,
+                                                                                 "dct:creator--  CGI Geoscience Terminology Working Group; OWL adoption by Stephen Richard for Loop3D project"@en ,
+                                                                                 "dct:date--  2016-11-21"@en ;
+                                                                    rdfs:label "Lineation"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/hostedBy
+<http://loop3d.org/GSO/ontology/2020/1/common/hostedBy> rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiclineation/augen_lineation
+<http://loop3d.org/GSO/ontology/2020/1/geologiclineation/augen_lineation> rdf:type owl:Class ;
+                                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiclineation/particle_shape_lineation> ,
+                                                                                          <http://loop3d.org/GSO/ontology/2020/1/geologiclineation/tectonic_lineation> ;
+                                                                          <http://purl.org/dc/terms/source> "CGI lineationtype SKOS vocabulary 2016-11-21"@en ;
+                                                                          rdfs:comment "A shape lineation defined by elongate augen."@en ;
+                                                                          rdfs:label "augen lineation"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiclineation/bedding_cleavage_intersection_lineation
+<http://loop3d.org/GSO/ontology/2020/1/geologiclineation/bedding_cleavage_intersection_lineation> rdf:type owl:Class ;
+                                                                                                  rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiclineation/intersection_lineation> ,
+                                                                                                                  <http://loop3d.org/GSO/ontology/2020/1/geologiclineation/tectonic_lineation> ;
+                                                                                                  <http://purl.org/dc/terms/source> "CGI lineationtype SKOS vocabulary 2016-11-21"@en ;
+                                                                                                  rdfs:comment "Lineation defined by the intersection of bedding surfaces and cleavage surfaces."@en ;
+                                                                                                  rdfs:label "bedding cleavage intersection lineation"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiclineation/biotite_mineral_lineation
+<http://loop3d.org/GSO/ontology/2020/1/geologiclineation/biotite_mineral_lineation> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiclineation/mineral_lineation> ;
+                                                                                    <http://purl.org/dc/terms/source> "CGI lineationtype SKOS vocabulary 2016-11-21"@en ;
+                                                                                    rdfs:comment "Mineral lineation defined by aligned elongate biotite aggregates in a foliation surface. Biotite does not have an elongate (prismatic, acicular) mineral habit, so production of lineation must reflect elongate aggregates of biotite crystals."@en ;
+                                                                                    rdfs:label "biotite mineral lineation"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiclineation/cleavage_intersection_lineation
+<http://loop3d.org/GSO/ontology/2020/1/geologiclineation/cleavage_intersection_lineation> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiclineation/intersection_lineation> ,
+                                                                                                          <http://loop3d.org/GSO/ontology/2020/1/geologiclineation/tectonic_lineation> ;
+                                                                                          <http://purl.org/dc/terms/source> "CGI lineationtype SKOS vocabulary 2016-11-21"@en ;
+                                                                                          rdfs:comment "Lineation defined by the intersection of two cleavages."@en ;
+                                                                                          rdfs:label "cleavage intersection lineation"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiclineation/crenulation_lineation
+<http://loop3d.org/GSO/ontology/2020/1/geologiclineation/crenulation_lineation> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiclineation/tectonic_lineation> ;
+                                                                                <http://purl.org/dc/terms/source> "CGI lineationtype SKOS vocabulary 2016-11-21"@en ;
+                                                                                rdfs:comment "Lineation defined by small-scale wrinkles, typically of phylosillicate minerals, on another surface, typically a cleavage or schistosity. Use instead of intersection lineation if the wrinkles are the measured feature and the intersecting planar feature is not apparent."@en ;
+                                                                                rdfs:label "crenulation lineation"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiclineation/flow_lineation
+<http://loop3d.org/GSO/ontology/2020/1/geologiclineation/flow_lineation> rdf:type owl:Class ;
+                                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Lineation> ;
+                                                                         <http://purl.org/dc/terms/source> "Geoscience Victoria, Australia"@en ;
+                                                                         rdfs:comment "A linear alignment of fabric elements, especially elongate or rod-shaped minerals, interpreted to have been aligned by flow of magma, lava, pyroclastic material, or diapiric flow of sedimentary rock."@en ;
+                                                                         rdfs:label "flow lineation"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiclineation/hornblende_mineral_lineation
+<http://loop3d.org/GSO/ontology/2020/1/geologiclineation/hornblende_mineral_lineation> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiclineation/mineral_lineation> ;
+                                                                                       <http://purl.org/dc/terms/source> "CGI lineationtype SKOS vocabulary 2016-11-21"@en ;
+                                                                                       rdfs:comment "Mineral lineation defined by aligned hornblende crystals."@en ;
+                                                                                       rdfs:label "hornblende mineral lineation"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiclineation/igneous_lineation
+<http://loop3d.org/GSO/ontology/2020/1/geologiclineation/igneous_lineation> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Lineation> ;
+                                                                            <http://purl.org/dc/terms/source> "CGI lineationtype SKOS vocabulary 2016-11-21"@en ;
+                                                                            rdfs:comment "Lineation defined by alignment of elongate fabric elements formed in lava or magma before complete crystallization. Some typical fabric elements are elongate phenocrysts and vesicles."@en ;
+                                                                            rdfs:label "igneous lineation"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiclineation/igneous_mineral_lineation
+<http://loop3d.org/GSO/ontology/2020/1/geologiclineation/igneous_mineral_lineation> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiclineation/igneous_lineation> ,
+                                                                                                    <http://loop3d.org/GSO/ontology/2020/1/geologiclineation/mineral_lineation> ;
+                                                                                    <http://purl.org/dc/terms/source> "CGI lineationtype SKOS vocabulary 2016-11-21"@en ;
+                                                                                    rdfs:comment "Lineation in igneous rock defined by aligned crystals where there is evidence that the crystal alignment is related to process occurring before the rock was solidified."@en ;
+                                                                                    rdfs:label "igneous mineral lineation"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiclineation/igneous_particle_shape_lineation
+<http://loop3d.org/GSO/ontology/2020/1/geologiclineation/igneous_particle_shape_lineation> rdf:type owl:Class ;
+                                                                                           rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiclineation/igneous_lineation> ,
+                                                                                                           <http://loop3d.org/GSO/ontology/2020/1/geologiclineation/particle_shape_lineation> ;
+                                                                                           <http://purl.org/dc/terms/source> "CGI lineationtype SKOS vocabulary 2016-11-21"@en ;
+                                                                                           rdfs:comment "Lineation in an igneous rock, usually welded tuff, defined by elongate objects in the rock (usually pumice pads, also elongate crystals). Descriptive--elogation may be due to deformation or to rotation/alignment of originally elongate (prolate ellipsoid) objects in the rock."@en ;
+                                                                                           rdfs:label "igneous particle shape lineation"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiclineation/igneous_vesicle_lineation
+<http://loop3d.org/GSO/ontology/2020/1/geologiclineation/igneous_vesicle_lineation> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiclineation/igneous_lineation> ;
+                                                                                    <http://purl.org/dc/terms/source> "CGI lineationtype SKOS vocabulary 2016-11-21"@en ;
+                                                                                    rdfs:comment "lineation defined in a volcanic rock by aligned elongation direction of vesicles."@en ;
+                                                                                    rdfs:label "igneous vesicle lineation"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiclineation/intersection_lineation
+<http://loop3d.org/GSO/ontology/2020/1/geologiclineation/intersection_lineation> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Lineation> ;
+                                                                                 <http://purl.org/dc/terms/source> "Neuendorf et al 2005, CGI lineationtype SKOS vocabulary 2016-11-21"@en ;
+                                                                                 rdfs:comment "A lineation produced by the intersection of two planar fabrics."@en ;
+                                                                                 rdfs:label "intersection lineation"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiclineation/mineral_lineation
+<http://loop3d.org/GSO/ontology/2020/1/geologiclineation/mineral_lineation> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiclineation/particle_shape_lineation> ,
+                                                                                            [ rdf:type owl:Restriction ;
+                                                                                              owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/hostedBy> ;
+                                                                                              owl:someValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geology/Mineral>
+                                                                                            ] ;
+                                                                            <http://purl.org/dc/terms/source> "Neuendorf et al 2005, CGI lineationtype SKOS vocabulary 2016-11-21"@en ;
+                                                                            rdfs:comment "Lineation defined by alignment of elongate crystals that have a prismatic crystal habit or of monomineralic grain aggregates."@en ;
+                                                                            rdfs:label "mineral lineation"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiclineation/particle_shape_lineation
+<http://loop3d.org/GSO/ontology/2020/1/geologiclineation/particle_shape_lineation> rdf:type owl:Class ;
+                                                                                   rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Lineation> ;
+                                                                                   <http://purl.org/dc/terms/source> "CGI lineationtype SKOS vocabulary 2016-11-21"@en ;
+                                                                                   rdfs:comment "Lineation defined by alignment of long axes of prolate-shaped particles such as clasts, fossils, crystals, or phenocrysts. Particles may be polycrystalline aggregates formed by deformation of pre-existing particles. General category does not specify genesis of particles or their alignment."@en ;
+                                                                                   rdfs:label "particle shape lineation"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiclineation/pencil_lineation
+<http://loop3d.org/GSO/ontology/2020/1/geologiclineation/pencil_lineation> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Lineation> ;
+                                                                           <http://purl.org/dc/terms/source> "based on Neuendorf et al 2005"@en ;
+                                                                           rdfs:comment "Lineation defined by tendency of rock to break into long, slender pieces resembling pencils. Typically produced by intesection of bedding and cleavage or intersection of two cleavages. Fabric is generally only observed in weakly metamorphosed rocks."@en ;
+                                                                           rdfs:label "pencil lineation"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiclineation/quartz_fibre_lineation
+<http://loop3d.org/GSO/ontology/2020/1/geologiclineation/quartz_fibre_lineation> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiclineation/particle_shape_lineation> ;
+                                                                                 <http://purl.org/dc/terms/source> "CGI lineationtype SKOS vocabulary 2016-11-21"@en ;
+                                                                                 rdfs:comment "Aligned quartz fibres that define a measurable lineation"@en ;
+                                                                                 rdfs:label "quartz fibre lineation"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiclineation/rodding_lineation
+<http://loop3d.org/GSO/ontology/2020/1/geologiclineation/rodding_lineation> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiclineation/tectonic_lineation> ;
+                                                                            <http://purl.org/dc/terms/source> "Jackson 1997"@en ;
+                                                                            rdfs:comment "Linear structure in metamorphic rocks in which the stronger parts have been shaped into parallel rods (eg. vein quartz)"@en ;
+                                                                            rdfs:label "rodding lineation"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiclineation/sillimanite_mineral_lineation
+<http://loop3d.org/GSO/ontology/2020/1/geologiclineation/sillimanite_mineral_lineation> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiclineation/mineral_lineation> ;
+                                                                                        <http://purl.org/dc/terms/source> "CGI lineationtype SKOS vocabulary 2016-11-21"@en ;
+                                                                                        rdfs:comment "Mineral lineation defined by aligned sillimanite crystals."@en ;
+                                                                                        rdfs:label "sillimanite mineral lineation"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiclineation/slickenline
+<http://loop3d.org/GSO/ontology/2020/1/geologiclineation/slickenline> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiclineation/tectonic_lineation> ;
+                                                                      <http://purl.org/dc/terms/source> "based on Neuendorf et al 2005"@en ;
+                                                                      rdfs:comment "Lineation on a brittle slip surface defined by grooves, ridges, or striations"@en ;
+                                                                      rdfs:label "slickenline"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiclineation/stretching_lineation
+<http://loop3d.org/GSO/ontology/2020/1/geologiclineation/stretching_lineation> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiclineation/particle_shape_lineation> ,
+                                                                                               <http://loop3d.org/GSO/ontology/2020/1/geologiclineation/tectonic_lineation> ;
+                                                                               <http://purl.org/dc/terms/source> "CGI lineationtype SKOS vocabulary 2016-11-21"@en ;
+                                                                               rdfs:comment "Lineation defined by elongate (prolate) fabric elements in which the alignment of the fabric elements, and the formation of prolate fabric elements is interpreted to be the product of crystal plastic deformation processes. Associated with mylontic foliation."@en ;
+                                                                               rdfs:label "stretching lineation"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiclineation/tectonic_lineation
+<http://loop3d.org/GSO/ontology/2020/1/geologiclineation/tectonic_lineation> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Lineation> ;
+                                                                             <http://purl.org/dc/terms/source> "CGI lineationtype SKOS vocabulary 2016-11-21"@en ;
+                                                                             rdfs:comment "Penetrative linear structure in a rock body defined by fabric elements that are the product of tectonic processes. Linear is used in the sense that the orientation of the structure can be represented as a line in some sufficiently small neighborhood of any point in the material containig the fabric. Penetrative denotes that the fabric elements defining the structure are repeated at distances so small, compared with the scale of the whole that they can be considered to pervade it uniformly and be present at every point (paraphrase of Turner and Weiss, 1963, p. 21)."@en ;
+                                                                             rdfs:label "tectonic lineation"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Lineation
+<http://loop3d.org/GSO/ontology/2020/1/geologicstructure/Lineation> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geology/Mineral
+<http://loop3d.org/GSO/ontology/2020/1/geology/Mineral> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

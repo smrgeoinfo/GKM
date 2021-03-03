@@ -1,0 +1,3045 @@
+[ {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasAnnotation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/actinium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "89"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33337"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Ac"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@value" : "https://www.wikidata.org/wiki/Q1121"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "actinium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/actinium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/aluminium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "13"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_28984"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Al"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@value" : "https://www.wikidata.org/wiki/Q663"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "aluminium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/aluminium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/americium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "95"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33389"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Am"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@value" : "https://www.wikidata.org/wiki/Q663"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "americium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/americium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/antimony",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "51"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_30513"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Sb"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1099"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "antimony"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/antimony"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/argon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "18"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_49475"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "As"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q871"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "arsenic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/arsenic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/astatine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "85"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_30415"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "At"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q999"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "astatine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/astatine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "atomicNumber"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasAnnotation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/barium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "56"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_32595"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Ba"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1112"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "barium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/barium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/berkelium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "97"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33391"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Bk"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1882"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "berkelium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/berkelium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/beryllium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "4"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33783"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Be"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q569"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "beryllium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/beryllium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/bismuth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "83"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33301"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Bi"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@value" : "http://www.wikidata.org/entity/Q942"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "bismuth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/bismuth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/boron",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_27560"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Cs"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1108"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "caesium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/cesium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/calcium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "20"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_22984"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Ca"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q706"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "calcium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/calcium"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/calcium-ion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/californium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "98"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33392"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Cf"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1888"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "californium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/californium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/carbon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "6"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33415"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "C"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q623"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "carbon"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/carbon-chemical-element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/cerium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "58"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33369"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Ce"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1385"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cerium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/cerium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/chebiid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "chebiid"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasAnnotation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/chlorine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "17"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_23116"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Cl"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q688"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "chlorine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/chlorine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/chromium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "24"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_28073"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Cr"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q725"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "chromium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/chromium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/cobalt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "27"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_27638"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Co"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q740"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cobalt"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/cobalt-chemical-element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/copper",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "29"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_30052"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Cu"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q753"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "copper"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/copper"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/curium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "96"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33390"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Cm"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1876"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "curium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/curium-chemical-element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/dubnium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "105"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33349"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Db"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1232"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "dubnium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/dubnium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/dysprosium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "66"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33377"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Dy"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1843"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "dysprosium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/dysprosium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/einsteinium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "99"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33393"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Es"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1892"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "einsteinium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/einsteinium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/erbium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "68"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33379"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Er"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1849"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "erbium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/erbium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/europium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "63"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_32999"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Eu"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1396"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "europium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/europium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/fermium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "100"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33394"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Fm"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1896"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fermium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/fermium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/fluorine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "9"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_30239"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "F"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q650"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fluorine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/fluorine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/francium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "87"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33323"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Fr"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q671"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "francium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/francium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/gadolinium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "64"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33375"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Gd"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1832"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "gadolinium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/gadolinium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/gallium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "31"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_49631"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Ga"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q861"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "gallium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/germanium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/germanium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "32"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_30441"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Ge"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q867"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "germanium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/gallium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/gold",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "79"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_30050"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Au"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q897"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "gold"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/gold-chemical-element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/hafnium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "72"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33343"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Hf"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1119"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hafnium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/hafnium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/helium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_30217"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "He"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q560"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "helium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/helium-chemical-element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/holmium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "67"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_49648"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Ho"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1846"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "holmium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/holmium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/hydrogen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_49637"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "H"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q556"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hydrogen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/hydrogen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "id"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasAnnotation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/indium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "49"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_30430"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "In"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1094"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "indium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/indium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/iodine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "53"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_36897"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "I"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1103"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "iodine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/iodine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/iridium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "77"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_49666"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Ir"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q877"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "iridium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/iridium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/iron",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "26"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_18248"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Fe"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q677"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "iron"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/iron-chemical-element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/itemLabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "itemLabel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasAnnotation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/krypton",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "36"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_49696"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Kr"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q888"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "krypton"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/krypton-chemical-element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/lanthanum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "57"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33336"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "La"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1801"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "lanthanum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/lanthanum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/lawrencium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "103"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33397"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Lr"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1905"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "lawrencium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/lawrencium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/lead",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "82"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_27889"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Pb"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q708"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "lead"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/lead-chemical-element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/lithium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_30145"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Li"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q568"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "lithium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/lithium-chemical-element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/lutetium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "71"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33382"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Lu"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1857"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "lutetium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/lutetium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/magnesium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_25107"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Mg"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q660"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "magnesium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/magnesium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/manganese",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "25"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_18291"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Mn"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q731"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "manganese"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/manganese"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/mendelevium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "101"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33395"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Md"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1898"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "mendelevium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/mendelevium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/mercury",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "80"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_16170"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Hg"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q925"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "mercury"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/mercury-chemical-element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/molybdenum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "42"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_28685"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Mo"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1053"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "molybdenum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/molybdenum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/neodymium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "60"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33372"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Nd"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1388"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "neodymium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/neodymium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/neon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33310"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Ne"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q654"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "neon"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/neon-chemical-element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/neptunium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "93"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33387"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Np"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1105"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "neptunium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/neptunium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/nickel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "28"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_28112"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Ni"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q744"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "nickel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/nickel-chemical-element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/niobium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "41"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33344"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Nb"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1046"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "niobium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/niobium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/nitrogen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "7"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_25555"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "N"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q627"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "nitrogen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/nitrogen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/nobelium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "102"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33396"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "No"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1901"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "nobelium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/nobelium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "use wikidata URIs. Extracted via SPARQL query. Include atomic number, abbreviation (symbol), rdfs label, CHEBI URI, wikidata URI, and Encyclopedia Britannica link (in rdfs:seeAlso)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@language" : "en",
+    "@value" : "https://robertdavidstevens.wordpress.com/2010/12/21/an-ontology-for-inferring-the-periodic-table-of-the-elements/ for future elaboration ...."
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/ontology"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/osmium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "76"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_30687"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Os"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q751"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "osmium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/osmium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/oxygen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "8"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_25805"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "O"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q629"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "oxygen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/oxygen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/palladium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "46"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33363"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Pd"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1089"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "palladium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/palladium-chemical-element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/phosphorus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "15"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_28659"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "P"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q674"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "phosphorus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/phosphor"
+  }, {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/phosphorus-chemical-element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/platinum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "78"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33364"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Pt"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q880"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "platinum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/platinum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/plutonium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "94"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33388"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Pu"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1102"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "plutonium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/plutonium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/polonium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "84"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33313"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Po"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q979"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "polonium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/polonium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/potassium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "19"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_26216"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "K"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q703"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "potassium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/potassium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/praseodymium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "59"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_49828"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Pr"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1386"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "praseodymium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/praseodymium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/promethium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "61"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33373"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Pm"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1809"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "promethium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/promethium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/protactinium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "91"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33386"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Pa"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1109"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "protactinium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/protactinium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/radium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "88"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33325"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Ra"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1128"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "radium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/radium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/radon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "86"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33314"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Rn"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1133"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "radon"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/radon"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/rhenium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "75"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_49882"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Re"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q737"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "rhenium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/rhenium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/rhodium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "45"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33359"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Rh"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1087"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "rhodium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/rhodium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/rubidium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "37"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33322"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Rb"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q895"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "rubidium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/rubidium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/ruthenium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "44"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_30682"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Ru"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1086"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ruthenium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/ruthenium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/rutherfordium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "104"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33346"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Rf"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1226"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "rutherfordium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/rutherfordium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/samarium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "62"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33374"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Sm"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1819"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "samarium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/samarium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/scandium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "21"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33330"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Sc"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q713"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "scandium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/scandium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/seaborgium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "106"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33351"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Sg"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1234"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "seaborgium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/selenium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/selenium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "34"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_27568"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Se"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q876"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "selenium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/seaborgium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/silicon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "14"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_27573"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Si"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q670"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "silicon"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/silicon"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/silver",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "47"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_9141"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Ag"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1090"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "silver"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/silver"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/sodium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_26708"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Na"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q658"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sodium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/sodium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/strontium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "38"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33324"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Sr"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q938"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "strontium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/strontium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/sulfur",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "16"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33403"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "S"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q682"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sulfur"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/sulfur"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/symbol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "symbol"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasAnnotation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/tantalum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "73"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33348"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Ta"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1123"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tantalum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/tantalum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/technetium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "43"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33353"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Tc"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1054"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "technetium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/technetium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/tellurium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "52"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_30452"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Te"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1100"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tellurium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/tellurium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/terbium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "65"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33376"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Tb"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1838"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "terbium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/terbium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/thallium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "81"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_30440"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Tl"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q932"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "thallium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/thallium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/thorium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "90"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33385"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Th"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1115"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "thorium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/thorium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/thulium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "69"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33380"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Tm"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1853"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "thulium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/thulium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/tin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "50"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_27007"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Sn"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1096"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/tin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/titanium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "22"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33341"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Ti"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q716"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "titanium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/titanium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/tungsten",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "74"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_27998"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "W"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q743"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tungsten"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/tungsten-chemical-element"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/uranium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "92"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_49936"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "U"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1098"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "uranium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/uranium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/vanadium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "23"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_27698"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "V"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q722"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "vanadium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/vanadium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "wikidataid"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasAnnotation"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/xenon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "54"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_49957"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Xe"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1106"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "xenon"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/xenon"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/ytterbium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "70"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33381"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Yb"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1855"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ytterbium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/ytterbium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/yttrium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "39"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33331"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Y"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q941"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "yttrium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/yttrium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/zinc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "30"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_30185"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Zn"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q758"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "zinc"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/zinc"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/zirconium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/atomicNumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "40"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/chebiid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://purl.obolibrary.org/obo/CHEBI_33342"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/symbol" : [ {
+    "@value" : "Zr"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/element/wikidataid" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.wikidata.org/entity/Q1038"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "zirconium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.britannica.com/science/zirconium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/Element"
+  } ]
+} ]

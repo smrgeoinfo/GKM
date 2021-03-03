@@ -1,0 +1,329 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Faulting" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "D02 fault faulting process"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Faulting" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Fatigue fault faulting process"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Faulting" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mitchell fault faulting process"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Faulting" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "N01 fault faulting process"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Faulting" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "N15 fault faulting process"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Faulting" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Nublet fault faulting process"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Faulting" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Simpson fault faulting process"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Faulting" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "T07 faulting process"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeIncomparableTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#D02_fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/fault/Thrust_Fault" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#D02_fault_displacement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "D02 Thrust fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#D02_fault_displacement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Displacment on D02 Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Fatigue_fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/fault/Thrust_Fault" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Fatigue_fault_displacement"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/crosscuts" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#D02_fault"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#N01_fault"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Simpson_fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Fatigue Thrust fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Fatigue_fault_displacement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid2"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeIncomparableTo" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#N15_fault_displacement"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#D02_fault_displacement"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#N01_fault_displacement"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Simpson_fault_displacement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Displacment on Fatigue Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Mitchell_fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/fault/Normal_Fault" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Mitchell_fault_displacement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mitchell normal fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Mitchell_fault_displacement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Displacment on Mitchell Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#N01_fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/fault/Normal_Fault" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#N01_fault_displacement"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/crosscuts" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#D02_fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "N01 normal fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#N01_fault_displacement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Displacment on N01 Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#N15_fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/fault/Normal_Fault" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#N15_fault_displacement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "N15 normal fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#N15_fault_displacement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid5"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Displacment on N15 Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Nublet_fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/fault/Thrust_Fault" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Nublet_fault_displacement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Nublet Thrust fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Nublet_fault_displacement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid6"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Displacment on Nublet Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Simpson_fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/fault/Thrust_Fault" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Simpson_fault_displacement"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/crosscuts" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#N15_fault"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Nublet_fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Simpson Thrust fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Simpson_fault_displacement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid7"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#N15_fault_displacement"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Nublet_fault_displacement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Displacment on Simpson Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#T07_fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/fault/Thrust_Fault" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#T07_fault_displacement"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/crosscuts" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Nublet_fault"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "T07 Thrust fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#T07_fault_displacement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event" ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent" : [ {
+    "@id" : "_:genid8"
+  } ],
+  "http://loop3d.org/GSO/ontology/2020/1/common/timeYoungerThan" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model#Nublet_fault_displacement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Displacment on T07 Fault"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model/ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Data from Eric de Kemp, GSC, for Loop3D project. Owl encoding with Loop3D Geoscience Ontology by SM Richard 2020-11-16"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Kanna V4 crosscutting fault realtionships"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/master/ontology"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/faulKannaV4Model"
+  } ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Geologic_Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Faulting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/crosscuts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/fault/Normal_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/fault/Thrust_Fault",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]

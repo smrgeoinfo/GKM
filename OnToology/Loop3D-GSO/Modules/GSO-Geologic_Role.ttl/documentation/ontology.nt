@@ -1,0 +1,469 @@
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/common/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geologicprocess/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geology/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "dct:creator--  Stephen M Richard, B.Brodaric, based on CGI Geoscience Terminology Working Group"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "dct:date--  2020-08-04"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/ontology> <http://www.w3.org/2000/01/rdf-schema#label> "Geologic Role"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasRoleObject
+<http://loop3d.org/GSO/ontology/2020/1/common/hasRoleObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasRolePlayer
+<http://loop3d.org/GSO/ontology/2020/1/common/hasRolePlayer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/isSampleOf
+<http://loop3d.org/GSO/ontology/2020/1/common/isSampleOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Part
+<http://loop3d.org/GSO/ontology/2020/1/common/Part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Role
+<http://loop3d.org/GSO/ontology/2020/1/common/Role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Sample
+<http://loop3d.org/GSO/ontology/2020/1/common/Sample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Crystal_Role> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals> <http://www.w3.org/2000/01/rdf-schema#comment> "Granular material role for constituent that forms less than about 5 percent of a Rock Material"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals> <http://www.w3.org/2000/01/rdf-schema#label> "accessory constituent"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Block
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Block> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Block> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Inclusion> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Block> <http://purl.org/dc/terms/source> "CGI rockbodypart vocabulary 2016-11-21 "@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Block> <http://www.w3.org/2000/01/rdf-schema#comment> "Geologic unit part is one or more masses with generally sharp boundaries and block-like geometry within a matrix of some other material emplaced by processes at the earth's surface--e.g. volcanic eruption or mass wasting. Use for objects that are larger that what would be considered a clast, e.g. greater than about 10 m shortest dimension, typically large enough and sparse enough to be considered individual objects."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Block> <http://www.w3.org/2000/01/rdf-schema#label> "blocks"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Cataclastic_Matrix
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Cataclastic_Matrix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Cataclastic_Matrix> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Matrix> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Cataclastic_Matrix> <http://www.w3.org/2000/01/rdf-schema#comment> "rock consisting of greater than 50% sulfide or sulfosalt minerals formed by sedimentary exhalative processes." .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Cataclastic_Matrix> <http://www.w3.org/2000/01/rdf-schema#label> "Matrix formed by deformation "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Cement
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Cement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Cement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Matrix> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Cement> <http://www.w3.org/2000/01/rdf-schema#comment> "mineral material introduced during diagenesis that binds detrital material togther in a clastic rock. "@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Cement> <http://www.w3.org/2000/01/rdf-schema#label> "cement "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Clast
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Clast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Clast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Part> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Clast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRoleObject> .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> .
+<http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Clast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRolePlayer> .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Solid_Geologic_Material> .
+<http://loop3d.org/GSO/ontology/2020/1/geology/Solid_Geologic_Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Clast> <http://www.w3.org/2000/01/rdf-schema#comment> "Role for any fragment of material that is a constituent in a rock material; applies to fragments formed before lithification (e.g. sedimentary clasts) as well as fragments formed by in-place deformation of pre-existing rock (e.g. cataclastic fragments)."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Clast> <http://www.w3.org/2000/01/rdf-schema#label> "Clast"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Crystal_Role
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Crystal_Role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Crystal_Role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Role> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Crystal_Role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRoleObject> .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Crystal_Role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRolePlayer> .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Mineral> .
+<http://loop3d.org/GSO/ontology/2020/1/geology/Mineral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Crystal_Role> <http://www.w3.org/2000/01/rdf-schema#comment> "constituent formed by crystallization from melt or by metamorphic processes. Distinct from constituent roles related to clastic processes, or diagenetic processes."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Crystal_Role> <http://www.w3.org/2000/01/rdf-schema#label> "Crystal Constituent"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Enclave
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Enclave> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Enclave> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Inclusion> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Enclave> <http://purl.org/dc/terms/source> "Cobbing, 2000, Barbarin, 1991"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Enclave> <http://www.w3.org/2000/01/rdf-schema#comment> "General term for a polymineralic aggregate enclosed in a granitoid. Use when origin of inclusion as xenolith or a separate igneous phase is unclear."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Enclave> <http://www.w3.org/2000/01/rdf-schema#label> "enclave"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Floating_Clast
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Floating_Clast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Floating_Clast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Clast> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Floating_Clast> <http://www.w3.org/2000/01/rdf-schema#comment> "Clastic particles that are embedded in a sedimentary matrix in the original depositional process, e.g. clasts in a matrix-supported debris flow "@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Floating_Clast> <http://www.w3.org/2000/01/rdf-schema#label> "floating clast "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Clast
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Clast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Clast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Clast> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Clast> <http://www.w3.org/2000/01/rdf-schema#comment> "Clasts are part of an interconnected network of clasts in a sedimentary rock.  Conceptual model is the accumulation of clastic particles as originally deposited-- a heap of particles without matrix constituents. "@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Clast> <http://www.w3.org/2000/01/rdf-schema#label> "framework clast "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Crystals
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Crystals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Crystals> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Crystal_Role> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Crystals> <http://www.w3.org/2000/01/rdf-schema#comment> "crystal that form the main framework of an igneous or metamorphic rock. Framework is the essential supporting structure of a rock material, formed by a collection of particles all in mutual contact to form a continuous connected framerwork; the framework commonly comprises more that one mineral phase, represented as different granular materials in this model, all in the 'framework crystal' role."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Crystals> <http://www.w3.org/2000/01/rdf-schema#label> "framework crystals"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Geologic_Unit_Matrix
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Geologic_Unit_Matrix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Geologic_Unit_Matrix> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Matrix> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Geologic_Unit_Matrix> <http://purl.org/dc/terms/source> "modified from CGI rockbodypart vocabulary 2016-11-21"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Geologic_Unit_Matrix> <http://www.w3.org/2000/01/rdf-schema#comment> "Part of a geologic unit that is generally interstitial to other constituents, e.g. in a mass wasting deposit, melange, tuff breccia."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Geologic_Unit_Matrix> <http://www.w3.org/2000/01/rdf-schema#label> "geologic unit matrix"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Groundmass
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Groundmass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Groundmass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Matrix> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Groundmass> <http://www.w3.org/2000/01/rdf-schema#comment> "in a porphyritic or porphyroblastic rock, the finer-grained cystalline material between the larger crystals "@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Groundmass> <http://www.w3.org/2000/01/rdf-schema#label> "groundmass"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Holoblast
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Holoblast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Holoblast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Crystal_Role> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Holoblast> <http://purl.org/dc/terms/source> "Neuendorf et al., 2005"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Holoblast> <http://www.w3.org/2000/01/rdf-schema#comment> "A crystalline grain in a metamorphic rock that is newly and completely formed during metamorphism"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Holoblast> <http://www.w3.org/2000/01/rdf-schema#comment> "Might be a framework or accessory constituent"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Holoblast> <http://www.w3.org/2000/01/rdf-schema#label> "holoblast"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Hydrothermal_Vein
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Hydrothermal_Vein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Hydrothermal_Vein> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Intrusive_Sheet> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Hydrothermal_Vein> <http://purl.org/dc/terms/source> "Neuendorf et al 2005, CGI GTWG vocabulary"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Hydrothermal_Vein> <http://www.w3.org/2000/01/rdf-schema#comment> "A tabular or sheet-like part of a compound material formed by hydrothermal (or other metasomatic) mineral filling a fracture, may be associated with replacement of the host rock adjacent to the body"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Hydrothermal_Vein> <http://www.w3.org/2000/01/rdf-schema#label> "hydrothermal vein"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Igneous_Vein
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Igneous_Vein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Igneous_Vein> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Intrusive_Sheet> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Igneous_Vein> <http://purl.org/dc/terms/source> "CGI GTWG vocabulary"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Igneous_Vein> <http://www.w3.org/2000/01/rdf-schema#comment> "A tabular or sheet like part of a compound material formed by the intrusion of magma. Syn dike"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Igneous_Vein> <http://www.w3.org/2000/01/rdf-schema#label> "igneous vein"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Inclusion
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Inclusion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Inclusion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Role> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Inclusion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRoleObject> .
+_:genid5 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Inclusion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRolePlayer> .
+_:genid6 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid7 <http://www.w3.org/2002/07/owl#unionOf> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Material> .
+<http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Object> .
+<http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Inclusion> <http://purl.org/dc/terms/source> "CGI rockbodypart vocabulary 2016-11-21 "@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Inclusion> <http://www.w3.org/2000/01/rdf-schema#comment> "A body of material present as masses with generally sharp boundaries enclosed within a matrix of some other material."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Inclusion> <http://www.w3.org/2000/01/rdf-schema#label> "Inclusion"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Intrusive_Sheet
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Intrusive_Sheet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Intrusive_Sheet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Part> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Intrusive_Sheet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRoleObject> .
+_:genid10 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Intrusive_Sheet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRolePlayer> .
+_:genid11 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Intrusive_Sheet> <http://purl.org/dc/terms/source> "CGI GTWG vocabualry"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Intrusive_Sheet> <http://www.w3.org/2000/01/rdf-schema#comment> "A tabular or sheet-like part of a rock body, genetic origin includes Intrusion_Process. Includes dikes, sills, and hydrothermal veins."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Intrusive_Sheet> <http://www.w3.org/2000/01/rdf-schema#label> "Intrusive sheet"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Main_Body
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Main_Body> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Main_Body> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Part> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Main_Body> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRoleObject> .
+_:genid12 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Main_Body> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRolePlayer> .
+_:genid13 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Main_Body> <http://www.w3.org/2000/01/rdf-schema#comment> "Role played by rock body part or constituent that forms most of the unit, and is host to parts in other roles."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Main_Body> <http://www.w3.org/2000/01/rdf-schema#label> "Main body role"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Matrix
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Matrix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Matrix> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Part> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Matrix> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRoleObject> .
+_:genid14 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Matrix> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRolePlayer> .
+_:genid15 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Solid_Geologic_Material> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Matrix> <http://www.w3.org/2000/01/rdf-schema#comment> "Material in which something is enclosed or embedded (3b, https://www.merriam-webster.com/dictionary/matrix)"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Matrix> <http://www.w3.org/2000/01/rdf-schema#label> "Matrix"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Nodule
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Nodule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Nodule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Part> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Nodule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRoleObject> .
+_:genid16 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Nodule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRolePlayer> .
+_:genid17 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Nodule> <http://purl.org/dc/terms/source> "Neuendorf et al., 2005"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Nodule> <http://www.w3.org/2000/01/rdf-schema#comment> "An irregularly rounded mass of a mineral or mineral aggregate normally having a warty or knobby surface and no internal structure, usually with a contrasting composition from the enclosing sediment or rock matrix in which it is embedded, and that can be separated as a discrete mass from the host material."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Nodule> <http://www.w3.org/2000/01/rdf-schema#label> "Nodule"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Orb
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Orb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Orb> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Part> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Orb> <http://purl.org/dc/terms/source> "CGI GTWG vocabulary"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Orb> <http://www.w3.org/2000/01/rdf-schema#comment> "A circular-shaped rock body within another rock body."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Orb> <http://www.w3.org/2000/01/rdf-schema#comment> "Igneous constituent typically mafic, equant rounded spheroid with concentric mineralogic banding."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Orb> <http://www.w3.org/2000/01/rdf-schema#label> "Orb"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Overgrowth
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Overgrowth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Overgrowth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Role> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Overgrowth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRoleObject> .
+_:genid18 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Mineral> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Overgrowth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRolePlayer> .
+_:genid19 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid20 <http://www.w3.org/2002/07/owl#unionOf> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geology/Mineral> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Grain_Material> .
+<http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Grain_Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Overgrowth> <http://www.w3.org/2000/01/rdf-schema#comment> "A rock body part that encloses some other constituent in the rock body" .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Overgrowth> <http://www.w3.org/2000/01/rdf-schema#label> "Overgrowth" .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Paleoblast
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Paleoblast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Paleoblast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Crystal_Role> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Paleoblast> <http://purl.org/dc/terms/source> "Neuendorf et al. 2005"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Paleoblast> <http://www.w3.org/2000/01/rdf-schema#comment> "A crystal or remnant of a crystal that is older than other mineral grains in the rock, especially in metamorphic rocks"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Paleoblast> <http://www.w3.org/2000/01/rdf-schema#comment> "Might be a framework or accessory constituent"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Paleoblast> <http://www.w3.org/2000/01/rdf-schema#label> "paleoblast"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Paramorph
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Paramorph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Paramorph> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Pseudomorph> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Paramorph> <http://purl.org/dc/terms/source> "Neuendorf et al., 2005"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Paramorph> <http://www.w3.org/2000/01/rdf-schema#comment> "A pseudomorph with the same composition as the original crystal (eg: calcite after aragonite)"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Paramorph> <http://www.w3.org/2000/01/rdf-schema#label> "paramorph"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Pendant
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Pendant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Pendant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Part> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Pendant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRoleObject> .
+_:genid23 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Pendant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRolePlayer> .
+_:genid24 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Pendant> <http://purl.org/dc/terms/source> "Base on Neuendorf et al 2005"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Pendant> <http://www.w3.org/2000/01/rdf-schema#comment> "A block of wall rock material in an igneous intrusion. Pendants become xenoliths as the dimension becomes smaller than about 10 m in their longest dimension. Although term pendant has connotation of being suspended or supported from above, this is rarely demonstrable in geologic situations, and the concept here does not require connection to the wall of the containing intrusion."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Pendant> <http://www.w3.org/2000/01/rdf-schema#comment> "a mass of country rock that is entirely surrounded by an igneous intrusion such as a batholith or other pluton. "@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Pendant> <http://www.w3.org/2000/01/rdf-schema#label> "Pendant "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Phenocryst
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Phenocryst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Phenocryst> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Crystal_Role> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Phenocryst> <http://www.w3.org/2000/01/rdf-schema#comment> "crystals that are larger than the enclosing groundmass in an igneous rock; typically euhedral. Phenocrysts do not play a framework role."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Phenocryst> <http://www.w3.org/2000/01/rdf-schema#label> "phenocryst"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Porphyroblast
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Porphyroblast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Porphyroblast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Holoblast> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Porphyroblast> <http://purl.org/dc/terms/source> "https://en.wikipedia.org/wiki/Porphyroblast" .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Porphyroblast> <http://www.w3.org/2000/01/rdf-schema#comment> "a large mineral crystal in a metamorphic rock which has grown within the finer grained matrix. Porphyroblasts are commonly euhedral crystals, but can also be partly to completely irregular in shape"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Porphyroblast> <http://www.w3.org/2000/01/rdf-schema#label> "Porphyroblast "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Porphyroclast
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Porphyroclast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Porphyroclast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Paleoblast> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Porphyroclast> <http://purl.org/dc/terms/source> "Passchier C.W. & Trouw R.A.J. (2005). Microtectonics. Springer Science & Business Media. pp. 132�141. ISBN 9783540293590.; https://en.wikipedia.org/wiki/Porphyroclast" .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Porphyroclast> <http://www.w3.org/2000/01/rdf-schema#comment> "A clast or mineral fragment in a metamorphic rock, surrounded by a groundmass of finer grained crystals. Porphyroclasts are fragments of the original rock before dynamic recrystallisation or cataclasis produced the groundmass. This means they are older than the groundmass."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Porphyroclast> <http://www.w3.org/2000/01/rdf-schema#label> "Porphyroclast "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Protolith
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Protolith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Protolith> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Role> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Protolith> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRoleObject> .
+_:genid25 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Protolith> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRolePlayer> .
+_:genid26 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Protolith> <http://www.w3.org/2000/01/rdf-schema#comment> "Role that relates a rock object to an altered, metasomatized, or metamorphic rock object produced from that rock. Non-metamorphosed rock object is role player, metamorphic product is the role object. Read X is protolith for Y."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Protolith> <http://www.w3.org/2000/01/rdf-schema#label> "Protolith "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Pseudomorph
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Pseudomorph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Pseudomorph> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Role> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Pseudomorph> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRoleObject> .
+_:genid27 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Mineral> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Pseudomorph> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRolePlayer> .
+_:genid28 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Mineral> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Pseudomorph> <http://purl.org/dc/terms/source> "Neuendorf et al. 2005, Spry 1969, Fettes and Desmons, 2007"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Pseudomorph> <http://www.w3.org/2000/01/rdf-schema#comment> "Constituent particle that has the outward form of a mineral species or particle type, but the original minerals composing the particle have been altered or replaced by different minerals, a secondary mineral whose outward crystal form has been inherited from the orignal mineral it has replaced"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Pseudomorph> <http://www.w3.org/2000/01/rdf-schema#label> "pseudomorph"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Raft
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Raft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Raft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Pendant> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Raft> <http://purl.org/dc/terms/source> "CGI rockbodypart vocabulary 2016-11-21 "@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Raft> <http://www.w3.org/2000/01/rdf-schema#comment> "A pendant of pre-intrusive country rock in an intrusive igneous matrix that has large horizontal extent relative to its thickness"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Raft> <http://www.w3.org/2000/01/rdf-schema#label> "Raft"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Rock_Sample
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Rock_Sample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Rock_Sample> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Sample> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Rock_Sample> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid29 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRolePlayer> .
+_:genid29 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Specific_Rock_Object> .
+<http://loop3d.org/GSO/ontology/2020/1/geology/Specific_Rock_Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Rock_Sample> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid30 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isSampleOf> .
+_:genid30 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Rock_Sample> <http://www.w3.org/2000/01/rdf-schema#label> "Rock Sample"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Roof_pendant
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Roof_pendant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Roof_pendant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Pendant> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Roof_pendant> <http://purl.org/dc/terms/source> "Neuendorf et al 2005"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Roof_pendant> <http://www.w3.org/2000/01/rdf-schema#comment> "A pendant that is demonstrably derived from the upper boundary of an igneous body."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Roof_pendant> <http://www.w3.org/2000/01/rdf-schema#label> "Roof pendant"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Schlieren
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Schlieren> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Schlieren> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Part> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Schlieren> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRoleObject> .
+_:genid31 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Material> .
+<http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Schlieren> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid32 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasRolePlayer> .
+_:genid32 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Schlieren> <http://purl.org/dc/terms/source> "GGIPAC"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Schlieren> <http://www.w3.org/2000/01/rdf-schema#comment> "a tabular body, generally a few cm to a few metres long, within a plutonic rock, having different mineral proportions and colour to the surrounding rock"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Schlieren> <http://www.w3.org/2000/01/rdf-schema#comment> "could be considered a primary structure or  a role ..."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Schlieren> <http://www.w3.org/2000/01/rdf-schema#label> "Schlieren"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Screen
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Screen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Screen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Pendant> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Screen> <http://purl.org/dc/terms/source> "CGI rockbodypart vocabulary 2016-11-21 "@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Screen> <http://www.w3.org/2000/01/rdf-schema#comment> "A pendant that is a vertical sheet like body in an intrusive igneous rock body."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Screen> <http://www.w3.org/2000/01/rdf-schema#label> "Screen"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Sedimentary_Matrix
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Sedimentary_Matrix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Sedimentary_Matrix> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Matrix> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Sedimentary_Matrix> <http://www.w3.org/2000/01/rdf-schema#comment> "very fine-grained material of undiscernible sedimentary or diagenetic origin between clasts in a sedimentary rock. Includes mud matrix and pseudomatrix derived from degraded clasts e.g. in a graywacke "@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Sedimentary_Matrix> <http://www.w3.org/2000/01/rdf-schema#label> "matrix "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Syngenetic_Nodule
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Syngenetic_Nodule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Syngenetic_Nodule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Nodule> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Syngenetic_Nodule> <http://purl.org/dc/terms/source> "NADM SLTTs 2004, Jackson 1997"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Syngenetic_Nodule> <http://www.w3.org/2000/01/rdf-schema#comment> "Particle formed by chemical precipitation at sediment-water interface, lacking layered structure that characterizes coated grains. Includes glauconite grains, manganese nodules, phosphate grains. Manganese nodule--\\An irregular, black to brown, friable"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Syngenetic_Nodule> <http://www.w3.org/2000/01/rdf-schema#label> "syngenetic nodule"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Tectonic_block
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Tectonic_block> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Tectonic_block> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Block> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Tectonic_block> <http://purl.org/dc/terms/source> "CGI rockbodypart vocabulary 2016-11-21 "@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Tectonic_block> <http://www.w3.org/2000/01/rdf-schema#comment> "Discrete masses with faulted boundaries, emplaced into the host unit by tectonic processes inside the earth, e.g. blocks in tectonic melange"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Tectonic_block> <http://www.w3.org/2000/01/rdf-schema#label> "tectonic block"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Xenocryst
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Xenocryst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Xenocryst> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Crystal_Role> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Xenocryst> <http://purl.org/dc/terms/source> "Neuendorf et al., 2005"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Xenocryst> <http://www.w3.org/2000/01/rdf-schema#comment> "A xenocryst in general can not play a framework role in a Rock Material"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Xenocryst> <http://www.w3.org/2000/01/rdf-schema#comment> "Granular material consisting of crystals that resemble phenocrysts in an igneous rock, but that are foreign to the rock in which they occur - not formed by crystallization of the magma that formed the igneous rock."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Xenocryst> <http://www.w3.org/2000/01/rdf-schema#label> "xenocryst"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrole/Xenolith
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Xenolith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Xenolith> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicrole/Inclusion> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Xenolith> <http://purl.org/dc/terms/source> "Neuendorf et al. 2005, Cobbing, 2000, This vocabulary"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Xenolith> <http://www.w3.org/2000/01/rdf-schema#comment> "Inclusion of pre-intrusive country rock in intrusive igneous matrix, cm to about 10 meter diameter in longest dimension. Use term pendant for larger blocks or for lithologically heterogeneous blocks."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicrole/Xenolith> <http://www.w3.org/2000/01/rdf-schema#label> "Xenolith"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Material
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Object
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geology/Mineral
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Grain_Material
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Material
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geology/Solid_Geologic_Material
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geology/Specific_Rock_Object
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

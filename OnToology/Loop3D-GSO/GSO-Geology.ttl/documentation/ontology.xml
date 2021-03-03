@@ -1,0 +1,1536 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://loop3d.org/GSO/ontology/2020/1/geology/ontology#"
+     xml:base="http://loop3d.org/GSO/ontology/2020/1/geology/ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/ontology">
+        <owl:imports rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/ontology"/>
+        <rdfs:comment xml:lang="en">Base geologic feature classes, constraints, and relationships</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#qualifiedCardinality -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#qualifiedCardinality"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/determinedBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/determinedBy"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/externallyGenDependsOn -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/externallyGenDependsOn"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasEssentialPart -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasEssentialPart"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasInput -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasInput"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasOutput -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasOutput"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasPart -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasPart"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasParticipant -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasParticipant"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasQuality -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasQuality"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasRole -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasRole"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasStaticPart -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasStaticPart"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasValue -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasValue"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hostedBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hostedBy"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/isConstituentOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/isConstituentOf"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/isEssentialPartOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/isEssentialPartOf"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/isRelatedTo -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/isRelatedTo"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/nextTimeInterval -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/nextTimeInterval"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/previousTimeInterval -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/previousTimeInterval"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/spatio-temporallyDependsOn -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/spatio-temporallyDependsOn"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/staticHostedBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/staticHostedBy"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/timeFinishedBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/timeFinishedBy"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/timeStartedBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/timeStartedBy"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/isGeologicallyRelatedTo -->
+
+
+    <owl:ObjectProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/isGeologicallyRelatedTo">
+        <rdfs:subPropertyOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/isRelatedTo"/>
+        <rdfs:label xml:lang="en">geologically related to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Amount_Of_Matter -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Amount_Of_Matter"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Dominant_Proportion -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Dominant_Proportion"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Element -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Element">
+        <owl:disjointWith rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Mineral"/>
+        <owl:disjointWith rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Mineraloid"/>
+        <owl:disjointWith rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Grain_Material"/>
+        <owl:disjointWith rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Material"/>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Endurant_Feature -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Endurant_Feature"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Event -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Event"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Fluid_Matter -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Fluid_Matter"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Low_Dimension_Feature -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Low_Dimension_Feature"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Material_Boundary -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Material_Boundary"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Material_Endurant -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Material_Endurant"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Material_Object -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Material_Object"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Process -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Process"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Solid_Matter -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Solid_Matter"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Boundary -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Boundary"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Feature -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Feature"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant_Feature -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant_Feature"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval_Feature -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval_Feature"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Additive_Process -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Additive_Process">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Process"/>
+        <rdfs:comment xml:lang="en">A geologic process that adds material to some geologic material or object.</rdfs:comment>
+        <rdfs:label xml:lang="en">Additive Process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Deformation -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Deformation">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Process"/>
+        <rdfs:comment xml:lang="en">A geologic process that deforms the material of some geologic material or ob-ject. Includes strain and translation. Includes translation of rock bodies, and strain-related processes resulting in changes to the shape of a rock body, including folding, faulting, shearing, or fabric development. Deformation may be either brittle or ductile.</rdfs:comment>
+        <rdfs:label xml:lang="en">Deformation Process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Fluid_Geologic_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Fluid_Geologic_Material">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Material"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasPart"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Fluid_Matter"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasRole"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasQuality"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasValue"/>
+                                                        <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Dominant_Proportion"/>
+                                                    </owl:Restriction>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Material"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasPart"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Fluid_Matter"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasRole"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasQuality"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasValue"/>
+                                                <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Dominant_Proportion"/>
+                                            </owl:Restriction>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Solid_Geologic_Material"/>
+        <rdfs:comment>Includes all forms of geologic fluids including lava, molten rock, gases, etc.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/GSSA -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/GSSA">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Date"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/isEssentialPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Boundary"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/determinedBy"/>
+                <owl:allValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/perdurant/Assertion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Point"/>
+        <rdfs:comment xml:lang="en">Global Standard Stratigraphic Age: a geological time date defined by the International Stratigraphic Commission, based on assertion of a time point and loosely affiliated with some rock body related to e.g. an age date or a field observation.</rdfs:comment>
+        <rdfs:comment xml:lang="en">add SHACL rule that GSSA may not have property Simple_Uncertainty</rdfs:comment>
+        <rdfs:label xml:lang="en">GSSA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Generic_Geologic_Time_Unit -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Generic_Geologic_Time_Unit">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Interval"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasEssentialPart"/>
+                        <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Generic_Geologic_Time_Unit"/>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasStaticPart"/>
+                        <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval"/>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasEssentialPart"/>
+                <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Specific_Geologic_Time_Unit"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/nextTimeInterval"/>
+                <owl:allValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Generic_Geologic_Time_Unit"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/previousTimeInterval"/>
+                <owl:allValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Generic_Geologic_Time_Unit"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Scale"/>
+        <owl:disjointWith rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Specific_Geologic_Time_Unit"/>
+        <rdfs:comment xml:lang="en">A generic geologic time interval (e.g. Jurassic) having specific manifestations (e.g. Jurassic 2017). The specific manifestations are its essential parts, while the generic interval is the whole.  These time intervals are largely defined by their position between other intervals, without necessarily specifying their bounding time instants. Generic geologic time intervals such as Jurassic are not types (classes) for practical and ontological reasons. Practically, it would imply a cumbersome and complex multi-level ontology: time ranks such as Period would be metatypes (following biological ranks such as Species; Carvalho &amp; Almeida 2016) that instantiate time intervals such as Jurassic, that in turn instantiate Jurassic 2017. It would also be more complex to specify e.g. Jurassic (a type) as the age of a formation (an individual), due to non-instantiation relation between an individual and a type. Ontologically, it would imply Jurassic is not a time span, which is contrary to stratigraphic codes that consider Jurassic (as a geochronologic unit) to be an actual chunk of time: &quot;...units of geologic time... represent [a] span of time ...&quot; (NACSM 2005) and &quot;Geochronologic units are units of time...&quot; (Murphy &amp; Salvador 1998). For these reasons, generic geologic time intervals, such as Jurassic, are considered in GSO to be individuals with essential parts, such as Jurassic 2017. However, it remains somewhat of an open question whether this characterization is indeed best.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Event -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Event">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Event"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent"/>
+                <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Process"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasParticipant"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Material"/>
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Object"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">When something happens, events are the ‘what’ of the happening, and processes are the ‘how’. E.g. the Trans-Hudson Orogeny (event) caused by a subduction (process). The relation between events and processes is constitution: events are constituted by processes, and processes constitute events. Geologic processes and events have at least one geologic endurant as participant, i.e. a happening cannot occur unless it happens to something. Events can only have events as parts.</rdfs:comment>
+        <rdfs:label xml:lang="en">Geologic Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Material">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Amount_Of_Matter"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasPart"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasRole"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasQuality"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasValue"/>
+                                                        <owl:allValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Dominant_Proportion"/>
+                                                    </owl:Restriction>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:unionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Event"/>
+                                                    <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Process"/>
+                                                </owl:unionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Amount_Of_Matter"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasPart"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasRole"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasQuality"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasValue"/>
+                                                <owl:allValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Dominant_Proportion"/>
+                                            </owl:Restriction>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:unionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Event"/>
+                                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Process"/>
+                                        </owl:unionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Object"/>
+        <rdfs:comment xml:lang="en">An amount of matter primarily (dominantly) having parts created by geologic processes. Can include minor parts that are not of geologic origin, such as organic material</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Object -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Object">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Material_Object"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent"/>
+                        <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Material"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent"/>
+                        <owl:allValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Material"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Material_Object"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/externallyGenDependsOn"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Event"/>
+                                    <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Process"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent"/>
+                <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Material"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent"/>
+                <owl:allValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Material"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A material object constituted by some geological material. Is generically dependent on some process or event - it cannot exist without some geologic processes or events. Not necessarily a product of a single or multiple geologic processes or events: the sum of the processes creating the parts does not necessarily make the whole, as some additional process might be required to bind them into a whole.</rdfs:comment>
+        <rdfs:label xml:lang="en">Geologic Object</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Process -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Process">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Process"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasParticipant"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Material"/>
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Object"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/isConstituentOf"/>
+                <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Event"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A process that has inputs and or outputs that are part of the Earth System</rdfs:comment>
+        <rdfs:label xml:lang="en">Geologic Process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Structure -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Structure">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Endurant_Feature"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hostedBy"/>
+                <owl:allValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A pattern in a rock body (foliation, fold), or a feature occurring between rock bodies (contact, fracture).  GeoSciML 3.2: A configuration of matter in the Earth based on describable inhomogeneity, pattern, or fracture in a Rock Body. The identity of a GeologicStructure is independent of the material that is the substrate for the structure.  Includes sedimentary structures.</rdfs:comment>
+        <rdfs:label xml:lang="en">Geologic Structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Boundary -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Boundary">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Boundary"/>
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Feature"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasEssentialPart"/>
+                <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Date"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/staticHostedBy"/>
+                <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Interval"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Date"/>
+        <owl:disjointWith rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Interval"/>
+        <rdfs:comment xml:lang="en">A temporal feature that is the boundary between two Geologic time Intervals. Is generically dependent on a date - e.g. the end of the Anthropocene is the current moment, which changes with each moment.</rdfs:comment>
+        <rdfs:label xml:lang="en">Geologic Time Boundary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Date -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Date">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant_Feature"/>
+                    <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Feature"/>
+                    <rdf:Description rdf:about="http://org.semanticweb.owlapi/error#Error2"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant_Feature"/>
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Feature"/>
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error1"/>
+        <owl:disjointWith rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Interval"/>
+        <rdfs:comment xml:lang="en">A temporal coordinate value, located either by a point position (with uncertainty) on a time line, specified by a numeric coordinate (generally MYPB, but definitions of &apos;present&apos; vary). Can be a GSSA if the numeric time coordinate is arbitrarily assigned.  Probably should specify a Temporal Reference System used to assign coordinate values.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Need SHACL rule that gsoc:Simple_Uncertainty and Statistical_Calculation are recommended</rdfs:comment>
+        <rdfs:label xml:lang="en">Geologic Time Date</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Feature -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Feature">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Feature"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hostedBy"/>
+                        <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Feature"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hostedBy"/>
+                <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Interval -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Interval">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval_Feature"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hostedBy"/>
+                        <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval_Feature"/>
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Feature"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Scale"/>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasEssentialPart"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval"/>
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Interval"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/timeFinishedBy"/>
+                <owl:allValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Feature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/timeStartedBy"/>
+                <owl:allValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Feature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A time interval dependent on some rock body and having parts that are (geologic) time intervals. There are 3 primary types of geologic time intervals - these are not comprehensive (i.e. there could be additional types): generic (e.g. Jurassic), specific (e.g. Jurassic 2017), and time scale (ISC 2017).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Point -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Point">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Date"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/determinedBy"/>
+                <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Low_Dimension_Feature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/isEssentialPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Boundary"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/staticHostedBy"/>
+                <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Low_Dimension_Feature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Hosted by a contact (low-dimension feature),  by an event that caused the contact, by a stratigraphic point, and by a stratigraphic section containing the point.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Scale -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Scale">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Interval"/>
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error3"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasEssentialPart"/>
+                                <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Interval"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasStaticPart"/>
+                        <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Interval"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasStaticPart"/>
+                <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Interval"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Specific_Geologic_Time_Unit"/>
+        <rdfs:comment xml:lang="en">A time scale is a geologic time inteval in GSO - it is a rock-dependent span of time that is internally divided into other rock-dependent spans of time following a certain topology (after Simon &amp; Cox, 2010). Rock-dependence implies it is intrinsically tied to a specific rock object (e.g. the Earth&apos;s rock mass) and internal subdivision implies it is a collection of other geologic time intervals. Moreoever, any change to the membership of the collection results in a different time scale - this implies geologic time intervals cannot be essential parts of a time scale without being static parts (see Brodaric et al, 2019 for types of parts). Time scales are also not part of other time scales, nor specific or generic geologic time intervals - this is primarily to maintain internal temporal topology, though this constraint could be relaxed if use-cases warrant. Aligned generally with (Cox and Richard, 2010).</rdfs:comment>
+        <rdfs:label xml:lang="en">Geologic Time Scale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Unit -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Unit">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Object"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Specific_Rock_Object"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Object"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Specific_Rock_Object"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Specific_Rock_Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Mineral -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Mineral">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Solid_Geologic_Material"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent"/>
+                <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent"/>
+                <owl:allValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/isConstituentOf"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Material_Endurant"/>
+                            <owl:Class>
+                                <owl:complementOf>
+                                    <owl:Class>
+                                        <owl:unionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+                                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Mineral"/>
+                                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Mineraloid"/>
+                                        </owl:unionOf>
+                                    </owl:Class>
+                                </owl:complementOf>
+                            </owl:Class>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Mineraloid"/>
+        <owl:disjointWith rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Grain_Material"/>
+        <owl:disjointWith rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Material"/>
+        <rdfs:comment xml:lang="en">&quot;A mineral is an element or chemical compound that is normally crystalline and that has been formed as a result of geological processes.&quot; Nickel, Ernest H. (1995), The definition of a mineral,  The Canadian Mineralogist. 33 (3): 689–90. Include mineraloids for GSO purposes</rdfs:comment>
+        <rdfs:label xml:lang="en">Mineral</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Mineraloid -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Mineraloid">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Solid_Geologic_Material"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent"/>
+                <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent"/>
+                <owl:allValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/isConstituentOf"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Material_Endurant"/>
+                            <owl:Class>
+                                <owl:complementOf>
+                                    <owl:Class>
+                                        <owl:unionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+                                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Mineral"/>
+                                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Mineraloid"/>
+                                        </owl:unionOf>
+                                    </owl:Class>
+                                </owl:complementOf>
+                            </owl:Class>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Grain_Material"/>
+        <owl:disjointWith rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Material"/>
+        <rdfs:comment xml:lang="en">amorphous product of rapid cooling of melted material. Includes natural glasses in Earth and extraterrestrial material, as well as anthromophomorphic manufactured material</rdfs:comment>
+        <rdfs:label xml:lang="en">Mineraloid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Material_Endurant"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Object"/>
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Solid_Geologic_Material"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Material_Endurant"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/externallyGenDependsOn"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Event"/>
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Process"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">An endurant constituent by Geologic Material or that is such a material</rdfs:comment>
+        <rdfs:label xml:lang="en">Rock Body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body_Boundary">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Material_Boundary"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hostedBy"/>
+                <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasEssentialPart"/>
+                <owl:allValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">a physical boundary hosted by a rock body.The exterior-facing material of a rock body.  A rock body boundary can have a thickness physical property</rdfs:comment>
+        <rdfs:label xml:lang="en">Rock Body Boundary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Grain_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Grain_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Solid_Geologic_Material"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Mineral"/>
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Mineraloid"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/isConstituentOf"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Material_Endurant"/>
+                            <owl:Class>
+                                <owl:complementOf>
+                                    <owl:Class>
+                                        <owl:unionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+                                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Mineral"/>
+                                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Mineraloid"/>
+                                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Grain_Material"/>
+                                        </owl:unionOf>
+                                    </owl:Class>
+                                </owl:complementOf>
+                            </owl:Class>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Material"/>
+        <rdfs:comment xml:lang="en">A Rock_Material constituent consisting of particles that share a set of characteristics, e.g. genesis, particle size (distribution), mineralogy, shape.  For example. the quartz sand that is a constituent in a sandstone, or the feldspar phenocrysts that are a constituent in a granite.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Particle is defined as a &apos;General term, used without restriction as to shape composition or internal structure, for a separable or distinct unit in a [Rock_Material]&apos;. (Neuendorf et al, 2005).  Note that the term particle has no size denotation as used here.</rdfs:comment>
+        <rdfs:label xml:lang="en">Rock Grain Material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Material">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Solid_Geologic_Material"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Element"/>
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Mineral"/>
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Mineraloid"/>
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Grain_Material"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/isConstituentOf"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Material_Endurant"/>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Amount_Of_Matter"/>
+                            </owl:Class>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:source xml:lang="en">NADM C1 2004</terms:source>
+        <rdfs:comment xml:lang="en">A material consisting of an aggregation of particles composed of mineral, glass, or other rock material. General concept for any rock, sediment, or other solid constituent of the Earth.  This is &apos;top&apos; of the lithology category hierarchy with standard rock names, and should be used to indicate &apos;any rock or unconsolidated material&apos;.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Rock_material properties a bound in the Rock_Material module</rdfs:comment>
+        <rdfs:label xml:lang="en">Rock Material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Object -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Object">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Object"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent"/>
+                        <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Solid_Geologic_Material"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent"/>
+                        <owl:allValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Solid_Geologic_Material"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Object"/>
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent"/>
+                <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Solid_Geologic_Material"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent"/>
+                <owl:allValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Solid_Geologic_Material"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Solid_Geologic_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Solid_Geologic_Material">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Material"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasPart"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Solid_Matter"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasRole"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasQuality"/>
+                                                <owl:someValuesFrom>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasValue"/>
+                                                        <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Dominant_Proportion"/>
+                                                    </owl:Restriction>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Solid_Matter"/>
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Material"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasPart"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Solid_Matter"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasRole"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasQuality"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasValue"/>
+                                                <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Dominant_Proportion"/>
+                                            </owl:Restriction>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Specific_Geologic_Time_Unit -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Specific_Geologic_Time_Unit">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Interval"/>
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error6"/>
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error7"/>
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error8"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasEssentialPart"/>
+                        <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Interval"/>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/nextTimeInterval"/>
+                <owl:allValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Specific_Geologic_Time_Unit"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/previousTimeInterval"/>
+                <owl:allValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Specific_Geologic_Time_Unit"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A time interval defined by specifying geologic time boundaries. E.g. Jurassic 2017 (but not Jurassic). Geologic in the sense that the interval is either referenced to some particular rock body, or its boundaries (started_by, finished_by) are referenced to stratigraphic points.</rdfs:comment>
+        <rdfs:label xml:lang="en">Geologic Time Interval</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Specific_Rock_Object -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Specific_Rock_Object">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Object"/>
+                    <rdf:Description rdf:about="http://org.semanticweb.owlapi/error#Error5"/>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/spatio-temporallyDependsOn"/>
+                                <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Object"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Object"/>
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error4"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/spatio-temporallyDependsOn"/>
+                        <owl:someValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Object"/>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/isOutputOf"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Event"/>
+                            <rdf:Description rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Process"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">These are rock objects that retain identity if moved (i.e. non-situated) and depend on a single unified material e.g. Crystal, Fossil (rock material). They are not chunks of matter, but are constituted by such chunks</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Subtractive_Process -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Subtractive_Process">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Process"/>
+        <rdfs:comment xml:lang="en">A geologic process that removes material from some geologic material or object.</rdfs:comment>
+        <rdfs:label xml:lang="en">Subtractive Process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geology/Transformation -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geology/Transformation">
+        <rdfs:subClassOf rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Process"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasInput"/>
+                <owl:allValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Amount_Of_Matter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/hasOutput"/>
+                <owl:allValuesFrom rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Amount_Of_Matter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A geologic process that changes the material of some geologic material or object. Includes metamorphism, metasomatism, alteration, weathering.</rdfs:comment>
+        <rdfs:label xml:lang="en">Transformation Process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/perdurant/Assertion -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/perdurant/Assertion"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error1 -->
+
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error1"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error2 -->
+
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error2"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error3 -->
+
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error3"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error4 -->
+
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error4"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error5 -->
+
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error5"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error6 -->
+
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error6"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error7 -->
+
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error7"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error8 -->
+
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error8"/>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+

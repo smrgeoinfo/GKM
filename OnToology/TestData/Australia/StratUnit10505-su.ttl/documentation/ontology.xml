@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:su="https://linked.data.gov.au/def/su/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:qudt="http://qudt.org/schema/qudt/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/isPartOf -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/isPartOf"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/units -->
+
+
+    <AnnotationProperty rdf:about="http://qudt.org/schema/qudt/units"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/value -->
+
+
+    <AnnotationProperty rdf:about="http://qudt.org/schema/qudt/value"/>
+    
+
+
+    <!-- https://linked.data.gov.au/def/su/descriptionPurpose -->
+
+
+    <AnnotationProperty rdf:about="https://linked.data.gov.au/def/su/descriptionPurpose"/>
+    
+
+
+    <!-- https://linked.data.gov.au/def/su/eventProcess -->
+
+
+    <AnnotationProperty rdf:about="https://linked.data.gov.au/def/su/eventProcess"/>
+    
+
+
+    <!-- https://linked.data.gov.au/def/su/geologicHistory -->
+
+
+    <AnnotationProperty rdf:about="https://linked.data.gov.au/def/su/geologicHistory"/>
+    
+
+
+    <!-- https://linked.data.gov.au/def/su/geologicUnitType -->
+
+
+    <AnnotationProperty rdf:about="https://linked.data.gov.au/def/su/geologicUnitType"/>
+    
+
+
+    <!-- https://linked.data.gov.au/def/su/observationMethod -->
+
+
+    <AnnotationProperty rdf:about="https://linked.data.gov.au/def/su/observationMethod"/>
+    
+
+
+    <!-- https://linked.data.gov.au/def/su/olderBound -->
+
+
+    <AnnotationProperty rdf:about="https://linked.data.gov.au/def/su/olderBound"/>
+    
+
+
+    <!-- https://linked.data.gov.au/def/su/olderNamedAge -->
+
+
+    <AnnotationProperty rdf:about="https://linked.data.gov.au/def/su/olderNamedAge"/>
+    
+
+
+    <!-- https://linked.data.gov.au/def/su/stratigraphicRank -->
+
+
+    <AnnotationProperty rdf:about="https://linked.data.gov.au/def/su/stratigraphicRank"/>
+    
+
+
+    <!-- https://linked.data.gov.au/def/su/youngerBound -->
+
+
+    <AnnotationProperty rdf:about="https://linked.data.gov.au/def/su/youngerBound"/>
+    
+
+
+    <!-- https://linked.data.gov.au/def/su/youngerNamedAge -->
+
+
+    <AnnotationProperty rdf:about="https://linked.data.gov.au/def/su/youngerNamedAge"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://qudt.org/schema/qudt/Quantity -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/Quantity"/>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#Feature -->
+
+
+    <Class rdf:about="http://www.opengis.net/ont/geosparql#Feature"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://pid.geoscience.gov.au/feature/asc/gsml/geologicalunit/10505 -->
+
+
+    <NamedIndividual rdf:about="http://pid.geoscience.gov.au/feature/asc/gsml/geologicalunit/10505">
+        <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+        <terms:isPartOf rdf:resource="http://example.com/dataset/auststrat/sus"/>
+        <su:descriptionPurpose rdf:resource="http://resource.geosciml.org/classifier/cgi/descriptionpurpose/typical_norm"/>
+        <su:geologicHistory rdf:nodeID="genid2"/>
+        <su:geologicUnitType rdf:resource="http://resource.geosciml.org/classifier/cgi/geologicunittype/lithostratigraphic_unit"/>
+        <su:observationMethod rdf:resource="http://resource.geosciml.org/classifier/cgi/featureobservationmethod/synthesis_from_multiple_sources"/>
+        <su:stratigraphicRank rdf:resource="http://resource.geosciml.org/classifier/cgi/stratigraphicrank/group"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid2">
+        <su:eventProcess rdf:resource="http://resource.geosciml.org/classifier/cgi/eventprocess/eruption"/>
+        <su:olderBound rdf:nodeID="genid3"/>
+        <su:olderNamedAge rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Eocene"/>
+        <su:youngerBound rdf:nodeID="genid4"/>
+        <su:youngerNamedAge rdf:resource="http://resource.geosciml.org/classifier/ics/ischart/Oligocene"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid3">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/Quantity"/>
+        <qudt:units rdf:resource="http://qudt.org/vocab/unit/YR"/>
+        <qudt:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0E7</qudt:value>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid4">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/Quantity"/>
+        <qudt:units rdf:resource="http://qudt.org/vocab/unit/YR"/>
+        <qudt:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.23E7</qudt:value>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+

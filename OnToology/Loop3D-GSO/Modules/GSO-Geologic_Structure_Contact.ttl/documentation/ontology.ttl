@@ -1,0 +1,485 @@
+@prefix : <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/ontology> .
+
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/ontology> rdf:type owl:Ontology ;
+                                                                  owl:imports <http://loop3d.org/GSO/ontology/2020/1/common/ontology> ,
+                                                                              <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/ontology> ,
+                                                                              <http://loop3d.org/GSO/ontology/2020/1/geology/ontology> ,
+                                                                              <http://loop3d.org/GSO/ontology/2020/1/quality/ontology> ;
+                                                                  rdfs:comment "This file contains the 2016 SKOS-RDF version of the CGI Contact Type vocabulary. Compilation and review in MS Excel spreadsheet, converted to MS Excel for SKOS generation using GSML_SKOS_fromXLS_2016.01.xslt."@en ,
+                                                                               "This vocabulary specifies Contact Type concepts, as defined by the IUGS Commission for Geoscience Information (CGI) Geoscience Terminology Working Group. Originally designed for use in the contactType property in GeoSciML Contact elements, adopt here as subClasses of gscn:Contact."@en ,
+                                                                               "dct:creator--  CGI Concept Definition Task Group, Stephen Richard Owl adoption for Loop3D project"@en ,
+                                                                               "dct:date--  2012-11-24"@en ,
+                                                                               "dct:modified-- 2020-01-29"@en ;
+                                                                  rdfs:label "Contact"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#minQualifiedCardinality
+owl:minQualifiedCardinality rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#qualifiedCardinality
+owl:qualifiedCardinality rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/contains
+<http://loop3d.org/GSO/ontology/2020/1/common/contains> rdf:type owl:ObjectProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/determinedBy
+<http://loop3d.org/GSO/ontology/2020/1/common/determinedBy> rdf:type owl:ObjectProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/hasEssentialPart
+<http://loop3d.org/GSO/ontology/2020/1/common/hasEssentialPart> rdf:type owl:ObjectProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/hasQuality
+<http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> rdf:type owl:ObjectProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/isExampleOf
+<http://loop3d.org/GSO/ontology/2020/1/common/isExampleOf> rdf:type owl:ObjectProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/isPartOf
+<http://loop3d.org/GSO/ontology/2020/1/common/isPartOf> rdf:type owl:ObjectProperty .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/staticHostedBy
+<http://loop3d.org/GSO/ontology/2020/1/common/staticHostedBy> rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Low_Dimension_Feature
+<http://loop3d.org/GSO/ontology/2020/1/common/Low_Dimension_Feature> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Material_Feature
+<http://loop3d.org/GSO/ontology/2020/1/common/Material_Feature> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/common/Spatial_Region_0D
+<http://loop3d.org/GSO/ontology/2020/1/common/Spatial_Region_0D> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Alteration_Facies_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Alteration_Facies_Contact> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Metamorphic_Contact> ;
+                                                                                  <http://purl.org/dc/terms/source> "CGI contacttype SKOS vocabulary 2012-11-24"@en ;
+                                                                                  rdfs:comment "A metasomatic facies contact separating rocks that have undergone alteration of a particular facies from those that have undergone metasomatism of another facies. Alteration is a kind of metasomatism that does not introduce economically important minerals."@en ;
+                                                                                  rdfs:label "alteration facies contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Angular_Unconformable_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Angular_Unconformable_Contact> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Unconformable_Contact> ;
+                                                                                      <http://purl.org/dc/terms/source> "Neuendorf, K.K.E, Mehl, J.P. & Jackson, J.A. (eds), 2005. Glossary of geology, 5th Edition. American Geological Institute, Alexandria, 779 p."@en ;
+                                                                                      rdfs:comment "An unconformable contact between two geological units in which the older, underlying rocks dip at an angle different from the younger, overlying strata, usually in which younger sediments rest upon the eroded surface of tilted or folded older rocks."@en ;
+                                                                                      rdfs:label "angular unconformable contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Buttress_Unconformity
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Buttress_Unconformity> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Unconformable_Contact> ;
+                                                                              <http://purl.org/dc/terms/source> "Neuendorf, K.K.E, Mehl, J.P. & Jackson, J.A. (eds), 2005. Glossary of geology, 5th Edition. American Geological Institute, Alexandria, 779 p."@en ;
+                                                                              rdfs:comment "An unconformity in which onlapping strata are truncated against a steep topographic scarp."@en ;
+                                                                              rdfs:label "buttress unconformity"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Chronostratigraphic_Zone_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Chronostratigraphic_Zone_Contact> rdf:type owl:Class ;
+                                                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Contact> ;
+                                                                                         <http://purl.org/dc/terms/source> "FGDC"@en ;
+                                                                                         rdfs:comment "A contact between bodies of material having different ages of origin."@en ;
+                                                                                         rdfs:label "chronostratigraphic-zone contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Conductivity_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Conductivity_Contact> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Geophysical_Contact> ;
+                                                                             <http://purl.org/dc/terms/source> "CGI contacttype SKOS vocabulary 2012-11-24"@en ;
+                                                                             rdfs:comment "A geophysical contact between bodies of material distinguished based on electrical conductivity characteristics"@en ;
+                                                                             rdfs:label "conductivity contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Conformable_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Conformable_Contact> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Depositional_Contact> ;
+                                                                            <http://purl.org/dc/terms/source> "Neuendorf, K.K.E, Mehl, J.P. & Jackson, J.A. (eds), 2005. Glossary of geology, 5th Edition. American Geological Institute, Alexandria, 779 p."@en ;
+                                                                            rdfs:comment "A contact separating two geological units in which the layers are formed one above the other in order by regular, uninterrupted deposition under the same general conditions."@en ;
+                                                                            rdfs:label "conformable contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Contact> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Low_Dimension_Feature> ,
+                                                                                <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Structure> ,
+                                                                                <http://org.semanticweb.owlapi/error#Error2> ;
+                                                                rdfs:comment "A surface that separates geologic units. Very general concept representing any kind of surface separating two geologic units, including primary boundaries such as depositional contacts, all kinds of unconformities, intrusive contacts, and gradational contacts, as well as faults that separate geologic units. (CGI ContactType vocabulary, adapted from Jackson, 1997, page 137, NADM C1 2004)"@en ;
+                                                                rdfs:label "Contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Deformation_Zone_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Deformation_Zone_Contact> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Lithogenetic_Contact> ;
+                                                                                 <http://purl.org/dc/terms/source> "CGI contacttype SKOS vocabulary 2012-11-24"@en ;
+                                                                                 rdfs:comment "A lithogenetic bundary separating rock masses that have different deformation structure, e.g. sheared rock against non sheared rock, brecciated rock against non-brecciated rock."@en ;
+                                                                                 rdfs:label "deformation zone contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Density_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Density_Contact> rdf:type owl:Class ;
+                                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Geophysical_Contact> ;
+                                                                        <http://purl.org/dc/terms/source> "CGI contacttype SKOS vocabulary 2012-11-24"@en ;
+                                                                        rdfs:comment "A geophysical contact separating bodies of material with different density characteristics, generally determined through measurement and modelling of gravity variations."@en ;
+                                                                        rdfs:label "density contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Depositional_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Depositional_Contact> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Lithogenetic_Contact> ;
+                                                                             <http://purl.org/dc/terms/source> "CGI contacttype SKOS vocabulary 2012-11-24"@en ;
+                                                                             rdfs:comment "Lithogenetic contact at which a sedimentary or volcanic rock has been deposited on (or against) another rock body. The relationship between the older underlying rocks and younger overlying rocks is unknown or not specfied."@en ;
+                                                                             rdfs:label "depositional contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Disconformable_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Disconformable_Contact> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Unconformable_Contact> ;
+                                                                               <http://purl.org/dc/terms/source> "Neuendorf, K.K.E, Mehl, J.P. & Jackson, J.A. (eds), 2005. Glossary of geology, 5th Edition. American Geological Institute, Alexandria, 779 p."@en ;
+                                                                               rdfs:comment "An unconformable contact between two geological units in which the bedding of the older, underlying unit is parallel to the bedding of the younger, overlying unit, but in which the contact between the two units is marked by an irregular or uneven surface of appreciable relief."@en ;
+                                                                               rdfs:label "disconformable contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Faulted_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Faulted_Contact> rdf:type owl:Class ;
+                                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Contact> ;
+                                                                        <http://purl.org/dc/terms/source> "Neuendorf, K.K.E, Mehl, J.P. & Jackson, J.A. (eds), 2005. Glossary of geology, 5th Edition. American Geological Institute, Alexandria, 779 p."@en ;
+                                                                        rdfs:comment "A contact separating two bodies of material across which one body has slid past the other."@en ;
+                                                                        rdfs:label "faulted contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/GSSP
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/GSSP> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Stratigraphic_Point> ,
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/staticHostedBy> ;
+                                                                               owl:someValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Event>
+                                                                             ] ;
+                                                             rdfs:comment "GSSP is dependent on some particular geologic event that is manifested globally in the stratigraphic record." ;
+                                                             rdfs:label "GSSP "@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Geologic_Province_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Geologic_Province_Contact> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Contact> ;
+                                                                                  <http://purl.org/dc/terms/source> "Neuendorf, K.K.E, Mehl, J.P. & Jackson, J.A. (eds), 2005. Glossary of geology, 5th Edition. American Geological Institute, Alexandria, 779 p."@en ;
+                                                                                  rdfs:comment "A contact between regions characterised by their geological history or by similar structural, petrographic or stratigraphic features"@en ;
+                                                                                  rdfs:label "geologic province contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Geophysical_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Geophysical_Contact> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Contact> ;
+                                                                            <http://purl.org/dc/terms/source> "CGI contacttype SKOS vocabulary 2012-11-24"@en ;
+                                                                            rdfs:comment "A contact separating bodies of material in the earth that have different geophysical properties. Use for boundaries that are detected by geophysical sensor techniques as opposed to direct lithologic observation."@en ;
+                                                                            rdfs:label "geophysical contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Glacial_Stationary_Line
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Glacial_Stationary_Line> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Contact> ;
+                                                                                <http://purl.org/dc/terms/source> "CGI contacttype SKOS vocabulary 2012-11-24"@en ;
+                                                                                rdfs:comment "A boundary between a subglacial geomorphic unit and a periglacial geomorphic unit, marking the maximum extent of glacial cover. This can be thought of as the outcrop of the contact between a glacier and its substrate at some time at each point along the boundary. This contact type is included as an interim concept, assuming that in the future, there will be extensions to account better for geomorphic units and line types."@en ;
+                                                                                rdfs:label "glacial stationary line"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Gradational_Contact_Zone
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Gradational_Contact_Zone> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/common/Material_Feature> ,
+                                                                                                 <http://org.semanticweb.owlapi/error#Error3> ,
+                                                                                                 [ rdf:type owl:Restriction ;
+                                                                                                   owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/contains> ;
+                                                                                                   owl:someValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Contact>
+                                                                                                 ] ,
+                                                                                                 [ rdf:type owl:Restriction ;
+                                                                                                   owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/hasEssentialPart> ;
+                                                                                                   owl:someValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body>
+                                                                                                 ] ,
+                                                                                                 [ rdf:type owl:Restriction ;
+                                                                                                   owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> ;
+                                                                                                   owl:someValuesFrom <http://loop3d.org/GSO/ontology/2020/1/quality/Thickness>
+                                                                                                 ] ;
+                                                                                 rdfs:label "Gradational Contact Zone"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Igneous_Intrusive_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Igneous_Intrusive_Contact> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Lithogenetic_Contact> ;
+                                                                                  <http://purl.org/dc/terms/source> "Neuendorf, K.K.E, Mehl, J.P. & Jackson, J.A. (eds), 2005. Glossary of geology, 5th Edition. American Geological Institute, Alexandria, 779 p."@en ;
+                                                                                  rdfs:comment "An intrusive contact between a younger igneous rock and an older, pre-existing geological unit into which it has been intruded."@en ;
+                                                                                  rdfs:label "igneous intrusive contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Igneous_Phase_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Igneous_Phase_Contact> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Lithogenetic_Contact> ;
+                                                                              <http://purl.org/dc/terms/source> "CGI contacttype SKOS vocabulary 2012-11-24"@en ;
+                                                                              rdfs:comment "A lithogenetic contact separating lithologically distinct phases of a single intrusive body. Does not denote nature of contact (intrusive or gradation)."@en ;
+                                                                              rdfs:label "igneous phase contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Impact_Structure_Boundary
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Impact_Structure_Boundary> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Lithogenetic_Contact> ;
+                                                                                  <http://purl.org/dc/terms/source> "CGI contacttype SKOS vocabulary 2012-11-24"@en ;
+                                                                                  rdfs:comment "surface that bounds a body of rock affected by an extraterrestrial impact event"@en ;
+                                                                                  rdfs:label "impact structure boundary"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Lithogenetic_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Lithogenetic_Contact> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Contact> ;
+                                                                             <http://purl.org/dc/terms/source> "CGI contacttype SKOS vocabulary 2012-11-24"@en ;
+                                                                             rdfs:comment "A non-faulted contact separating bodies of material in the earth that have different lithologic character or geologic history."@en ;
+                                                                             rdfs:label "lithogenetic contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Magnetic_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Magnetic_Contact> rdf:type owl:Class ;
+                                                                         rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Geophysical_Contact> ;
+                                                                         <http://purl.org/dc/terms/source> "CGI contacttype SKOS vocabulary 2012-11-24"@en ;
+                                                                         rdfs:comment "A geophysical contact separating bodies of material distinguished based on properties related to magnetic fields."@en ;
+                                                                         rdfs:label "magnetic contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Magnetic_Polarity_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Magnetic_Polarity_Contact> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Magnetic_Contact> ;
+                                                                                  <http://purl.org/dc/terms/source> "CGI contacttype SKOS vocabulary 2012-11-24"@en ;
+                                                                                  rdfs:comment "A magentic contact between bodies of material with different polarity of remnant magnetization, e.g. between sections of ocean floor with different polarity."@en ;
+                                                                                  rdfs:label "magnetic polarity contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Magnetic_Susceptiblity_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Magnetic_Susceptiblity_Contact> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Magnetic_Contact> ;
+                                                                                       <http://purl.org/dc/terms/source> "CGI contacttype SKOS vocabulary 2012-11-24"@en ;
+                                                                                       rdfs:comment "A magnetic contact between bodies of material distinguished based on magnetic susceptibility characteristics."@en ;
+                                                                                       rdfs:label "magnetic susceptiblity contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Magnetization_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Magnetization_Contact> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Magnetic_Contact> ;
+                                                                              <http://purl.org/dc/terms/source> "CGI contacttype SKOS vocabulary 2012-11-24"@en ;
+                                                                              rdfs:comment "A magnetic contact between bodies of material distinguished based on any aspect of magnetization of material in the units."@en ;
+                                                                              rdfs:label "magnetization contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Metamorphic_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Metamorphic_Contact> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Lithogenetic_Contact> ;
+                                                                            <http://purl.org/dc/terms/source> "CGI contacttype SKOS vocabulary 2012-11-24"@en ;
+                                                                            rdfs:comment "Lithogenetic contact separating rocks that have different lithologic properties related to metamorphism, metasomatism, alteration, or mineralization. Generally separates metamorphic rock bodies, but may separate metamorphosed (broadly speaking) and non-metamorphosed rock."@en ;
+                                                                            rdfs:label "metamorphic contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Metamorphic_Facies_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Metamorphic_Facies_Contact> rdf:type owl:Class ;
+                                                                                   rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Metamorphic_Contact> ;
+                                                                                   <http://purl.org/dc/terms/source> "CGI contacttype SKOS vocabulary 2012-11-24"@en ;
+                                                                                   rdfs:comment "A metamorphic contact separating rocks that have undergone metamorphism of a particular facies from those that have undergone metamorphism of another facies."@en ;
+                                                                                   rdfs:label "metamorphic facies contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Metasomatic_Facies_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Metasomatic_Facies_Contact> rdf:type owl:Class ;
+                                                                                   rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Metamorphic_Contact> ;
+                                                                                   <http://purl.org/dc/terms/source> "CGI contacttype SKOS vocabulary 2012-11-24"@en ;
+                                                                                   rdfs:comment "A metamorphic contact separating rocks that have undergone metasomatism of a particular facies from those that have undergone metasomatism of another facies. Metasomatism is distinguished from metamorphism by significant changes in bulk chemistry of the affected rock."@en ;
+                                                                                   rdfs:label "metasomatic facies contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Mineralisation_Assemblage_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Mineralisation_Assemblage_Contact> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Metamorphic_Contact> ;
+                                                                                          <http://purl.org/dc/terms/source> "CGI contacttype SKOS vocabulary 2012-11-24"@en ;
+                                                                                          rdfs:comment "A metasomatic facies contact separating rocks which have been mineralised and contain a particular mineral assemblage from those which contain a different assemblage. Mineralization is a kind of metasomatism that introduces ecomomically important minerals."@en ;
+                                                                                          rdfs:label "mineralisation assemblage contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Nonconformable_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Nonconformable_Contact> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Unconformable_Contact> ;
+                                                                               <http://purl.org/dc/terms/source> "Neuendorf, K.K.E, Mehl, J.P. & Jackson, J.A. (eds), 2005. Glossary of geology, 5th Edition. American Geological Institute, Alexandria, 779 p."@en ;
+                                                                               rdfs:comment "An unconformable contact between an underlying, older nonstratified geological unit (usually intrusive igneous rocks or metamorphics) and an overlying, younger stratified geological unit."@en ;
+                                                                               rdfs:label "nonconformable contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Paraconformable_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Paraconformable_Contact> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Unconformable_Contact> ;
+                                                                                <http://purl.org/dc/terms/source> "Neuendorf, K.K.E, Mehl, J.P. & Jackson, J.A. (eds), 2005. Glossary of geology, 5th Edition. American Geological Institute, Alexandria, 779 p."@en ;
+                                                                                rdfs:comment "An unconformable contact between two geological units in which the bedding of the older, underlying unit is parallel to the bedding of the younger, overlying unit, in which the contact between the two units is planar, and may be coincident with a bedding plane."@en ;
+                                                                                rdfs:label "paraconformable contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Radiometric_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Radiometric_Contact> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Geophysical_Contact> ;
+                                                                            <http://purl.org/dc/terms/source> "CGI contacttype SKOS vocabulary 2012-11-24"@en ;
+                                                                            rdfs:comment "A geophysical contact separating bodies of material distinguished based on the characteristics of emitted of radiant energy related to radioactivity (e.g. gamma rays)."@en ;
+                                                                            rdfs:label "radiometric contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Sedimentary_Facies_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Sedimentary_Facies_Contact> rdf:type owl:Class ;
+                                                                                   rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Lithogenetic_Contact> ;
+                                                                                   <http://purl.org/dc/terms/source> "base on Nichols, Gary, 1999, Sedimentology and stratigraphy, Blackwell, p. 62-63."@en ;
+                                                                                   rdfs:comment "A lithogenetic contact separating essentially coeval sedimentary material bodies distinguished by characteristics reflecting different physical or chemical processes active at the time of deposition of the sediment."@en ;
+                                                                                   rdfs:label "sedimentary facies contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Sedimentary_Intrusive_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Sedimentary_Intrusive_Contact> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Lithogenetic_Contact> ;
+                                                                                      <http://purl.org/dc/terms/source> "Neuendorf, K.K.E, Mehl, J.P. & Jackson, J.A. (eds), 2005. Glossary of geology, 5th Edition. American Geological Institute, Alexandria, 779 p."@en ;
+                                                                                      rdfs:comment "An intrusive contact between a sedimentary rock unit and plastic sediment (e.g., clay, chalk, salt, gypsum, etc.), forced upward into it from underlying sediment"@en ;
+                                                                                      rdfs:label "sedimentary intrusive contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Seismic_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Seismic_Contact> rdf:type owl:Class ;
+                                                                        rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Geophysical_Contact> ;
+                                                                        <http://purl.org/dc/terms/source> "CGI contacttype SKOS vocabulary 2012-11-24"@en ;
+                                                                        rdfs:comment "A geophysical contact separating bodies of material defined based on their seismic character. Seismic character is based on transmission of vibrations (seismic waves) through a rock body, and relates to the velocity of transmission, and the nature of reflection, refraction, or transformation of seismic waves by inhomogeneities in the rock body."@en ;
+                                                                        rdfs:label "seismic contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Stratigraphic_Point
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Stratigraphic_Point> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Contact> ,
+                                                                                            <http://org.semanticweb.owlapi/error#Error1> ,
+                                                                                            [ rdf:type owl:Restriction ;
+                                                                                              owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/isPartOf> ;
+                                                                                              owl:someValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Contact>
+                                                                                            ] ,
+                                                                                            [ rdf:type owl:Restriction ;
+                                                                                              owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/staticHostedBy> ;
+                                                                                              owl:someValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Stratigraphic_Section>
+                                                                                            ] ,
+                                                                                            [ rdf:type owl:Restriction ;
+                                                                                              owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/hasEssentialPart> ;
+                                                                                              owl:allValuesFrom <http://loop3d.org/GSO/ontology/2020/1/common/Spatial_Region_0D>
+                                                                                            ] ;
+                                                                            rdfs:comment "A spatially restricted part of a Contact feature, typically located by a point location. "@en ;
+                                                                            rdfs:label "Stratigraphic Point"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Unconformable_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Unconformable_Contact> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Depositional_Contact> ;
+                                                                              <http://purl.org/dc/terms/source> "Neuendorf, K.K.E, Mehl, J.P. & Jackson, J.A. (eds), 2005. Glossary of geology, 5th Edition. American Geological Institute, Alexandria, 779 p."@en ;
+                                                                              rdfs:comment "A contact separating two geological units in which the younger unit succeeds the older after a substantial hiatus in deposition."@en ;
+                                                                              rdfs:label "unconformable contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Volcanic_Subsidence_Zone_Boundary
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Volcanic_Subsidence_Zone_Boundary> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Lithogenetic_Contact> ;
+                                                                                          <http://purl.org/dc/terms/source> "this vocabulary, concept to encompass boundary of caldron, caldera, or crater."@en ;
+                                                                                          rdfs:comment "boundary around a body of rock that is within a zone of subsidence or cratering produced by volcanic activity."@en ;
+                                                                                          rdfs:label "volcanic subsidence zone boundary"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Weathering_Contact
+<http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Weathering_Contact> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Lithogenetic_Contact> ;
+                                                                           <http://purl.org/dc/terms/source> "CGI contacttype SKOS vocabulary 2012-11-24"@en ;
+                                                                           rdfs:comment "A lithogenetic contact separating bodies of material differentiated based on lithologic properties related to weathering."@en ;
+                                                                           rdfs:label "weathering contact"@en .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Boundary_Stratotype
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Boundary_Stratotype> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                              owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/isExampleOf> ;
+                                                                                              owl:someValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Contact>
+                                                                                            ] .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Stratigraphic_Section
+<http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Stratigraphic_Section> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Event
+<http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Event> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Structure
+<http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Structure> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Point
+<http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Time_Point> rdf:type owl:Class ;
+                                                                    rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                      owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/determinedBy> ;
+                                                                                      owl:someValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Stratigraphic_Point>
+                                                                                    ] ,
+                                                                                    [ rdf:type owl:Restriction ;
+                                                                                      owl:onProperty <http://loop3d.org/GSO/ontology/2020/1/common/staticHostedBy> ;
+                                                                                      owl:someValuesFrom <http://loop3d.org/GSO/ontology/2020/1/geologiccontact/Stratigraphic_Point>
+                                                                                    ] .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body
+<http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> rdf:type owl:Class .
+
+
+###  http://loop3d.org/GSO/ontology/2020/1/quality/Thickness
+<http://loop3d.org/GSO/ontology/2020/1/quality/Thickness> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error1
+<http://org.semanticweb.owlapi/error#Error1> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error2
+<http://org.semanticweb.owlapi/error#Error2> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error3
+<http://org.semanticweb.owlapi/error#Error3> rdf:type owl:Class .
+
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+] .
+
+[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
+ ] .
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

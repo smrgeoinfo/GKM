@@ -1,0 +1,410 @@
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/common/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geologicquality/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/geology/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/quality/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "extension module for properties related to folds. Depencencies:  GSO-Common, GSO-Geology, GSO-Geologic_Quality, GSO-Quality"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/ontology> <http://www.w3.org/2000/01/rdf-schema#label> "Fold"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#minQualifiedCardinality
+<http://www.w3.org/2002/07/owl#minQualifiedCardinality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#qualifiedCardinality
+<http://www.w3.org/2002/07/owl#qualifiedCardinality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/contains
+<http://loop3d.org/GSO/ontology/2020/1/common/contains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasEssentialPart
+<http://loop3d.org/GSO/ontology/2020/1/common/hasEssentialPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasPersistentPart
+<http://loop3d.org/GSO/ontology/2020/1/common/hasPersistentPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasQuality
+<http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasStaticPart
+<http://loop3d.org/GSO/ontology/2020/1/common/hasStaticPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hostedBy
+<http://loop3d.org/GSO/ontology/2020/1/common/hostedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/isPartOf
+<http://loop3d.org/GSO/ontology/2020/1/common/isPartOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf
+<http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/staticHostedBy
+<http://loop3d.org/GSO/ontology/2020/1/common/staticHostedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Inherant_Feature
+<http://loop3d.org/GSO/ontology/2020/1/common/Inherant_Feature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Low_Dimension_Feature
+<http://loop3d.org/GSO/ontology/2020/1/common/Low_Dimension_Feature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Nonphysical_Morphologic_Feature
+<http://loop3d.org/GSO/ontology/2020/1/common/Nonphysical_Morphologic_Feature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality
+<http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Shape
+<http://loop3d.org/GSO/ontology/2020/1/common/Shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Shape_Value
+<http://loop3d.org/GSO/ontology/2020/1/common/Shape_Value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Spatial_Region_1D
+<http://loop3d.org/GSO/ontology/2020/1/common/Spatial_Region_1D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Spatial_Region_2D
+<http://loop3d.org/GSO/ontology/2020/1/common/Spatial_Region_2D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfold/Anticline
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Anticline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Anticline> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Anticline> <http://purl.org/dc/terms/source> "https://inspire.ec.europa.eu/codelist/FoldProfileTypeValue/anticline" .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Anticline> <http://www.w3.org/2000/01/rdf-schema#comment> "A fold whose core contains the stratigraphically older rocks"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Anticline> <http://www.w3.org/2000/01/rdf-schema#label> "Anticline "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfold/Antiform
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Antiform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Antiform> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Antiform> <http://purl.org/dc/terms/source> "https://inspire.ec.europa.eu/codelist/FoldProfileTypeValue/antiform" .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Antiform> <http://www.w3.org/2000/01/rdf-schema#comment> "A convex-upward, concave downward fold."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Antiform> <http://www.w3.org/2000/01/rdf-schema#label> "Antiform"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfold/Chevron_Fold
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Chevron_Fold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Chevron_Fold> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Chevron_Fold> <http://purl.org/dc/terms/source> "http://www.geologyin.com/2015/02/types-of-folds-with-photos.html" .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Chevron_Fold> <http://www.w3.org/2000/01/rdf-schema#comment> "A fold with straight limbs and sharp hinges. Well developed, these folds develop repeated set of v-shaped beds.  Inter-limb angles are generally 60 degrees or less. Chevron folding preferentially occurs in well bedded units where  bedding regularly alternates between contrasting competences."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Chevron_Fold> <http://www.w3.org/2000/01/rdf-schema#label> "Chevron Fold "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Nonphysical_Morphologic_Feature> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Structure> .
+<http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error3> .
+<http://org.semanticweb.owlapi/error#Error3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/contains> .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Hinge> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasPersistentPart> .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/common/Shape_Value> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasStaticPart> .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Limb> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hostedBy> .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> .
+<http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> <http://www.w3.org/2000/01/rdf-schema#comment> "A curve or bend of a planar structure, such as rock strata, bedding planes, foliation or cleavage. A fold is usually the product of deformation, involving the compression of strata, but may include primary structures, as its definition is descriptive, not genetic. (Neuendorf et al., 2011)."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> <http://www.w3.org/2000/01/rdf-schema#comment> "One or more systematically curved layers, surfaces, or lines in a rock body. Fold denotes a structure formed by the deformation of a GeologicStructure to form a structure that may be described by the translation of an abstract line (the fold axis) parallel to itself along some curvilinear path (the fold profile). Folds have a hinge zone (zone of maximum curvature along the surface) and limbs (parts of the deformed surface not in the hinge zone).  Folds are described by an axial surface, hinge line , profile geometry, the solid angle between the limbs, and the relationships between adjacent folded surfaces if the folded structure is a Layering fabric (similar, parallel). (GeoSciML v3.2)"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclasses are defined based on concave/convex geometry of fold relative to earth surface, and relationship to younging direction in folded strata if known."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> <http://www.w3.org/2000/01/rdf-schema#label> "Fold"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://linked.data.gov.au/def/geofeatures/Fold> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Amplitude
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Amplitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Amplitude> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Amplitude> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf> .
+_:genid5 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Amplitude> <http://www.w3.org/2000/01/rdf-schema#comment> "the length of half the distance from the crest of a fold to the adjacent troughs. "@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Amplitude> <http://www.w3.org/2000/01/rdf-schema#label> "Fold Amplitude"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Axial_Surface
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Axial_Surface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Axial_Surface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Low_Dimension_Feature> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Axial_Surface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasEssentialPart> .
+_:genid6 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/common/Spatial_Region_2D> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Axial_Surface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasQuality> .
+_:genid7 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/quality/Orientation> .
+<http://loop3d.org/GSO/ontology/2020/1/quality/Orientation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Axial_Surface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hostedBy> .
+_:genid8 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Axial_Surface> <http://www.w3.org/2000/01/rdf-schema#comment> "Abstract surface that bisects the limbs of a fold or is the normal to a surface defined by the poles to the folded surface (typically visualized on a stereonet).  The axial surface of a particular fold may be located based on observations of the folded geologic structure, but in general it has no direct physical manifestation. Contrast with hinge surface, which is defined as the surface containing a set of hinge lines in the stack of folded surfaces defining a fold structure.  As a geologic surface, the axial surface has geometric properties, including orientation, which may be specified by observations at one or more locations, or generalized using terminology (upright, inclined, reclined, recumbent, overturned). (revised from GeoSciML 3.2)"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Axial_Surface> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Revised from GeoSciML v3.2"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Axial_Surface> <http://www.w3.org/2000/01/rdf-schema#label> "Fold axial surface"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Hinge
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Hinge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Hinge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Low_Dimension_Feature> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Hinge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasEssentialPart> .
+_:genid9 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/common/Spatial_Region_1D> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Hinge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hostedBy> .
+_:genid10 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Hinge> <http://www.w3.org/2000/01/rdf-schema#comment> "the line linking points of maximum curvature on a folded surface (http://www.geosci.usyd.edu.au/users/prey/Teaching/Geos-2123/Folds/Sld22.html). A low-dimensional feature"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Hinge> <http://www.w3.org/2000/01/rdf-schema#label> "Fold Hinge"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Hinge_Surface
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Hinge_Surface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Hinge_Surface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Low_Dimension_Feature> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Hinge_Surface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error4> .
+<http://org.semanticweb.owlapi/error#Error4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Hinge_Surface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasEssentialPart> .
+_:genid11 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/common/Spatial_Region_2D> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Hinge_Surface> <http://www.w3.org/2000/01/rdf-schema#comment> "Surface that contains the hinge lines in a stack of folded layers"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Hinge_Surface> <http://www.w3.org/2000/01/rdf-schema#label> "Fold - Hinge surface"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_InterLimb_Angle
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_InterLimb_Angle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_InterLimb_Angle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_InterLimb_Angle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf> .
+_:genid12 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_InterLimb_Angle> <http://purl.org/dc/terms/source> "Neuendorf et al., 2005" .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_InterLimb_Angle> <http://www.w3.org/2000/01/rdf-schema#comment> "The angle between adjacent limbs of a fold, normally determined by drawing tangents to the fold limbs at the inflection points."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_InterLimb_Angle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "GeoSciML v4"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_InterLimb_Angle> <http://www.w3.org/2000/01/rdf-schema#label> "Fold limb shape"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Limb
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Limb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Limb> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Nonphysical_Morphologic_Feature> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Limb> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Structure> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Limb> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/hasPersistentPart> .
+_:genid13 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/common/Shape_Value> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Limb> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/staticHostedBy> .
+_:genid14 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Limb> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isPartOf> .
+_:genid15 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Limb> <http://www.w3.org/2000/01/rdf-schema#comment> "The generally planar region of a fold which lies between two adjacent hinge lines and is confined between the zones of maximum curvature. A role played by some layered rock reated to the adjacent fold hinges.  Not necessarily a feature"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Limb> <http://www.w3.org/2000/01/rdf-schema#label> "Fold Limb"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Limb_Shape
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Limb_Shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Limb_Shape> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Shape> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Limb_Shape> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf> .
+_:genid16 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Limb_Shape> <http://www.w3.org/2000/01/rdf-schema#comment> "Straight vs curved limbs, eg kink, chevron, sinusoidal, box"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Limb_Shape> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "GeoSciML v4"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Limb_Shape> <http://www.w3.org/2000/01/rdf-schema#label> "Fold limb shape"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Span
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Span> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Span> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Span> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf> .
+_:genid17 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Span> <http://www.w3.org/2000/01/rdf-schema#comment> "linear distance between inflection points in a single fold (GeoSciML v3.2)"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Span> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "GeoSciML v3.2"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Span> <http://www.w3.org/2000/01/rdf-schema#label> "Fold span"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Symmetry
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Symmetry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Symmetry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Symmetry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf> .
+_:genid18 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Symmetry> <http://www.w3.org/2000/01/rdf-schema#comment> "Concordance or discordance of bisecting surface and axial surface, or ratio of length of limbs. Folded surface may have asymmetry defined by limb length ratio if inflection points are defined. Definition based on bisecting surface/axial surface angle depends on having multiple surfaces defined such that the axial surface may be identified. (symmetric, assymetric)"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Symmetry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "GeoSciML v4"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Symmetry> <http://www.w3.org/2000/01/rdf-schema#label> "Fold symmetry"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_System
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Inherant_Feature> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Structure> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error1> .
+<http://org.semanticweb.owlapi/error#Error1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error2> .
+<http://org.semanticweb.owlapi/error#Error2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_System> <http://www.w3.org/2000/01/rdf-schema#comment> "A collection of congruent folds  (axis and axial surface are parallel) produced by the same tectonic event. Sometimes referred to as a \"Fold Train\". (GeoSciML 4.0.1)"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_System> <http://www.w3.org/2000/01/rdf-schema#label> "Fold System"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Wavelength
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Wavelength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Wavelength> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Wavelength> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf> .
+_:genid19 <http://www.w3.org/2002/07/owl#allValuesFrom> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid20 <http://www.w3.org/2002/07/owl#unionOf> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_System> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Wavelength> <http://www.w3.org/2000/01/rdf-schema#comment> "The distance between adjacent crest or trough of  a single fold, or the average distance between adjacent crests or troughs in a fold system. "@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_Wavelength> <http://www.w3.org/2000/01/rdf-schema#label> "Fold wavelength"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfold/Hinge_Line_Curvature
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Hinge_Line_Curvature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Hinge_Line_Curvature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Hinge_Line_Curvature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf> .
+_:genid23 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Hinge_Line_Curvature> <http://www.w3.org/2000/01/rdf-schema#comment> "Variation in orientation of fold hinge along trend of fold, distinguish sheath from cylindrical folds. Specify with terminology eg sheath, dome, basin, cylindrical."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Hinge_Line_Curvature> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "GeoSciML v4"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Hinge_Line_Curvature> <http://www.w3.org/2000/01/rdf-schema#label> "Fold hinge line curvature"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfold/Hinge_Shape
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Hinge_Shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Hinge_Shape> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Shape> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Hinge_Shape> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf> .
+_:genid24 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Hinge_Shape> <http://www.w3.org/2000/01/rdf-schema#comment> "Rounded vs. angular hinge zones; has to do with the proportion of the wavelength that is considered part of hinge"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Hinge_Shape> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "GeoSciML v4"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Hinge_Shape> <http://www.w3.org/2000/01/rdf-schema#label> "Fold hinge shape"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfold/Is_Periodic
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Is_Periodic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Is_Periodic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/common/Physical_Quality> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Is_Periodic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://loop3d.org/GSO/ontology/2020/1/common/isQualityOf> .
+_:genid25 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold_System> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Is_Periodic> <http://www.w3.org/2000/01/rdf-schema#comment> "boolean value, true if wavelength of folds in a fold system is approximately the same"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Is_Periodic> <http://www.w3.org/2000/01/rdf-schema#label> "Folds are periodic"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfold/Monocline
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Monocline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Monocline> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Monocline> <http://purl.org/dc/terms/source> "https://en.wikipedia.org/wiki/Monocline" .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Monocline> <http://www.w3.org/2000/01/rdf-schema#comment> "step-like fold in rock strata consisting of a zone of steeper dip within an otherwise horizontal or gently-dipping sequence."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Monocline> <http://www.w3.org/2000/01/rdf-schema#label> "Monocline "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfold/Neutral_Fold
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Neutral_Fold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Neutral_Fold> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Neutral_Fold> <http://purl.org/dc/terms/source> "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/neutral-fold" .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Neutral_Fold> <http://www.w3.org/2000/01/rdf-schema#comment> "A fold which closes laterally and is therefore neither antiformal nor synformal.  "@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Neutral_Fold> <http://www.w3.org/2000/01/rdf-schema#label> "Neutral Fold "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfold/Ptygmatic_Fold
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Ptygmatic_Fold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Ptygmatic_Fold> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Ptygmatic_Fold> <http://www.w3.org/2000/01/rdf-schema#comment> "Chaotic and highly sinuous fold typically in an isolated layer within a more homogeneous rock body. Typical of sedimentary slump folding and veins or dikes in medium to high-grade metamorphic rocks"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Ptygmatic_Fold> <http://www.w3.org/2000/01/rdf-schema#label> "Ptygmatic Fold "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfold/Recumbent
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Recumbent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Recumbent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plane_Orientation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plane_Orientation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Recumbent> <http://purl.org/dc/terms/source> "Fleuty (1964) Folds classification." .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Recumbent> <http://www.w3.org/2000/01/rdf-schema#comment> "Surface dips between 0 and 10 degrees; typically used to describe orientation of fold hing surface or axial surface, use equivalent term 'Horizontal inclination' for other geologic surfaces."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Recumbent> <http://www.w3.org/2000/01/rdf-schema#label> "Recumbent "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfold/Recumbent_Fold
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Recumbent_Fold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Recumbent_Fold> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Neutral_Fold> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Recumbent_Fold> <http://purl.org/dc/terms/source> "Fleuty (1964) Folds classification." .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Recumbent_Fold> <http://www.w3.org/2000/01/rdf-schema#comment> "A fold that has an essentially horizontal axial plane."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Recumbent_Fold> <http://www.w3.org/2000/01/rdf-schema#label> "Recumbent Fold "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfold/Syncline
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Syncline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Syncline> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Syncline> <http://purl.org/dc/terms/source> "https://inspire.ec.europa.eu/codelist/FoldProfileTypeValue/syncline" .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Syncline> <http://www.w3.org/2000/01/rdf-schema#comment> "A fold of which the core contains the stratigraphically younger rocks"@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Syncline> <http://www.w3.org/2000/01/rdf-schema#label> "Syncline "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfold/Synform
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Synform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Synform> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Fold> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Synform> <http://purl.org/dc/terms/source> "based on https://inspire.ec.europa.eu/codelist/FoldProfileTypeValue/antiform" .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Synform> <http://www.w3.org/2000/01/rdf-schema#comment> "A convex-downward, concave upward fold."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Synform> <http://www.w3.org/2000/01/rdf-schema#label> "Synform"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfold/Upright_Inclination
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Upright_Inclination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Upright_Inclination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plane_Orientation> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Upright_Inclination> <http://purl.org/dc/terms/source> "Fleuty (1964) Folds classification." .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Upright_Inclination> <http://www.w3.org/2000/01/rdf-schema#comment> "Surface dips between 80 and 90 degrees, used to describe orientation of fold hinge surface or axial surface;  use equivalent term 'Vertical inclination' for other geologic surfaces."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Upright_Inclination> <http://www.w3.org/2000/01/rdf-schema#label> "Upright Inclination"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicfold/Vertical_Fold
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Vertical_Fold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Vertical_Fold> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://loop3d.org/GSO/ontology/2020/1/geologicfold/Neutral_Fold> .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Vertical_Fold> <http://purl.org/dc/terms/source> "Fleuty (1964) Folds classification." .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Vertical_Fold> <http://www.w3.org/2000/01/rdf-schema#comment> "A fold for which the fold axis is vertical and axial surface is upright."@en .
+<http://loop3d.org/GSO/ontology/2020/1/geologicfold/Vertical_Fold> <http://www.w3.org/2000/01/rdf-schema#label> "Vertical Fold "@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicquality/Plane_Orientation
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geology/Geologic_Structure
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geology/Rock_Body
+# 
+# http://loop3d.org/GSO/ontology/2020/1/quality/Orientation
+# 
+# http://org.semanticweb.owlapi/error#Error1
+# 
+# http://org.semanticweb.owlapi/error#Error2
+# 
+# http://org.semanticweb.owlapi/error#Error3
+# 
+# http://org.semanticweb.owlapi/error#Error4
+# 
+_:genid26 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid27 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid28 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid29 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

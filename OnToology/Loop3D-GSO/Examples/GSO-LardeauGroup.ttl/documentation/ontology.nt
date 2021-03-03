@@ -1,0 +1,135 @@
+<http://loop3d.org/GSO/ontology/2020/1/ec-lardeaustrat/ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/ec-lardeaustrat/ontology> <http://www.w3.org/2002/07/owl#imports> <http://loop3d.org/GSO/ontology/2020/1/master/ontology> .
+<http://loop3d.org/GSO/ontology/2020/1/ec-lardeaustrat/ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "Stephen M. Richard 2020-08-11"@en .
+<http://loop3d.org/GSO/ontology/2020/1/ec-lardeaustrat/ontology> <http://www.w3.org/2000/01/rdf-schema#label> "Stratigraphy of Lardeau group"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/hasPart
+<http://loop3d.org/GSO/ontology/2020/1/common/hasPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeIndirectly
+<http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeIndirectly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/timeFinishedBy
+<http://loop3d.org/GSO/ontology/2020/1/common/timeFinishedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/timeStartedBy
+<http://loop3d.org/GSO/ontology/2020/1/common/timeStartedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrelation/stratOverlies
+<http://loop3d.org/GSO/ontology/2020/1/geologicrelation/stratOverlies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicrelation/stratUnderlies
+<http://loop3d.org/GSO/ontology/2020/1/geologicrelation/stratUnderlies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#description
+<http://www.w3.org/2000/01/rdf-schema#description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval
+<http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/geologicunit/Group
+<http://loop3d.org/GSO/ontology/2020/1/geologicunit/Group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#ajaxfm
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#ajaxfm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#ajaxfm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#ajaxfm> <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/stratUnderlies> <http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#sharoncreekfm> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#ajaxfm> <http://purl.org/dc/terms/source> "https://www.researchgate.net/publication/237174271_Structural_geology_of_the_Lardeau_Group_near_Trout_Lake_British_Columbia_implications_for_the_structural_evolution_of_the_Kootenay_Arc" .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#ajaxfm> <http://www.w3.org/2000/01/rdf-schema#label> "Ajax formation"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#broadviewfm
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#broadviewfm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#broadviewfm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#broadviewfm> <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/stratOverlies> <http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#jowettfm> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#broadviewfm> <http://purl.org/dc/terms/source> "https://www.researchgate.net/publication/237174271_Structural_geology_of_the_Lardeau_Group_near_Trout_Lake_British_Columbia_implications_for_the_structural_evolution_of_the_Kootenay_Arc" .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#broadviewfm> <http://www.w3.org/2000/01/rdf-schema#description> "Coarse clastic strata of the Broadview Formation make up the most extensive unit in the Lardeau Group. Predominant lithology is grey to green, gritty quartz wacke or subarkosic wacke with grey to black or green slate or phyllite interbeds. Normal size grading, including amalgamated graded beds, is not uncommon."@en .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#broadviewfm> <http://www.w3.org/2000/01/rdf-schema#label> "Broadview formation"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#indxfm
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#indxfm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#indxfm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#indxfm> <http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeIndirectly> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval> .
+_:genid1 <http://loop3d.org/GSO/ontology/2020/1/common/timeFinishedBy> <http://loop3d.org/GSO/ontology/2020/1/ischart/Mississippian2017> .
+_:genid1 <http://loop3d.org/GSO/ontology/2020/1/common/timeStartedBy> <http://loop3d.org/GSO/ontology/2020/1/ischart/Cambrian2017> .
+_:genid1 <http://www.w3.org/2000/01/rdf-schema#description> "" .
+_:genid1 <http://www.w3.org/2000/01/rdf-schema#label> "Lower Paleozoic Age"@en .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#indxfm> <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/stratUnderlies> <http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#triunefm> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#indxfm> <http://purl.org/dc/terms/source> "https://www.researchgate.net/publication/237174271_Structural_geology_of_the_Lardeau_Group_near_Trout_Lake_British_Columbia_implications_for_the_structural_evolution_of_the_Kootenay_Arc" .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#indxfm> <http://www.w3.org/2000/01/rdf-schema#description> "thick sequence of grey, green, and black phyllite, limestone and calcareous phyllite, tuff, tuffaceous greywacke, pillow basalt, and rare quartzite and quartzo-feldspathic gritty sandstone. Mapping by Fyles (1964) and Fyles and Eastwood (1962) suggests that the Index Formation is broadly divisible, over a few hundred kilometres of strike length, into a unit consisting primarily of black and grey phyllite adjacent to the Badshot contact, and a second unit of primarily green phyllite. These units are also present in the study area, but are internally highly variable. The Index Formation is in contact with a conformable assemblage of black siliceous argillite, grey quartzite, and black siliceous argillite known respectively as the Triune, Ajax, and Sharon Creek formations."@en .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#indxfm> <http://www.w3.org/2000/01/rdf-schema#label> "Index Formation"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#jowettfm
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#jowettfm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#jowettfm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#jowettfm> <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/stratUnderlies> <http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#broadviewfm> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#jowettfm> <http://purl.org/dc/terms/source> "Structural geology of the Lardeau Group near Trout Lake, British Columbia: implications for the structural evolution of the Kootenay Arc. Available from: https://www.researchgate.net/publication/237174271_Structural_geology_of_the_Lardeau_Group_near_Trout_Lake_British_Columbia_implications_for_the_structural_evolution_of_the_Kootenay_Arc [accessed Jun 08 2020]." .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#jowettfm> <http://www.w3.org/2000/01/rdf-schema#description> "a volcanic unit adjacent to and partly within the Broadview Formation. It is composed of mafic pillow basalt, breccia, tuff, and, where bulk strain and metamorphic recrystallization are intense, greenschist and calcareous greenschist."@en .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#jowettfm> <http://www.w3.org/2000/01/rdf-schema#label> "Jowett formation"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#largroup
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#largroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#largroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Group> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#largroup> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> <http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#ajaxfm> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#largroup> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> <http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#broadviewfm> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#largroup> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> <http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#indxfm> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#largroup> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> <http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#jowettfm> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#largroup> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> <http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#sharoncreekfm> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#largroup> <http://loop3d.org/GSO/ontology/2020/1/common/hasPart> <http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#triunefm> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#largroup> <http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeIndirectly> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval> .
+_:genid2 <http://loop3d.org/GSO/ontology/2020/1/common/timeFinishedBy> <http://loop3d.org/GSO/ontology/2020/1/ischart/Mississippian2017> .
+_:genid2 <http://loop3d.org/GSO/ontology/2020/1/common/timeStartedBy> <http://loop3d.org/GSO/ontology/2020/1/ischart/Cambrian2017> .
+_:genid2 <http://www.w3.org/2000/01/rdf-schema#description> "Lardeau Group was defined by Fyles and Eastwood (1962) in the Ferguson area, and interpreted as conformable over the Badshot Formation. Within the Lardeau Group, all units were interpreted as conformable, and comprise (from east to west and structurally lowest to highest) the Index, Triune, Ajax, Sharon Creek, Jowett, and Broadview formations (Fig. 4). Fyles and Eastwood (1962) interpreted this as an upright strati- graphic sequence, with the Index Formation at the base and the Broadview Formation at the top. Lack of facing indicators and the presence of faulted contacts in the study area hinder verification of this interpretation, and evidence from northeast Washington suggests that the present succession may reflect structural inversion (Smith and Gehrels 1992). Structural geology of the Lardeau Group near Trout Lake, British Columbia: implications for the structural evolution of the Kootenay Arc. Available from: https://www.researchgate.net/publication/237174271_Structural_geology_of_the_Lardeau_Group_near_Trout_Lake_British_Columbia_implications_for_the_structural_evolution_of_the_Kootenay_Arc [accessed Jun 08 2020]."@en .
+_:genid2 <http://www.w3.org/2000/01/rdf-schema#label> "Lower Paleozoic Age"@en .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#largroup> <http://purl.org/dc/terms/source> "Structural geology of the Lardeau Group near Trout Lake, British Columbia: implications for the structural evolution of the Kootenay Arc. Available from: https://www.researchgate.net/publication/237174271_Structural_geology_of_the_Lardeau_Group_near_Trout_Lake_British_Columbia_implications_for_the_structural_evolution_of_the_Kootenay_Arc [accessed Jun 08 2020]." .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#largroup> <http://www.w3.org/2000/01/rdf-schema#description> " Lack of facing indicators and the presence of faulted contacts in the study area hinder verifi- cation of this interpretation, and evidence from northeast Washington suggests that the present succession may reflect structural inversion (Smith and Gehrels 1992)."@en .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#largroup> <http://www.w3.org/2000/01/rdf-schema#label> "Lardeau Group (Lower Paleozoic)"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#sharoncreekfm
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#sharoncreekfm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#sharoncreekfm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#sharoncreekfm> <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/stratUnderlies> <http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#jowettfm> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#sharoncreekfm> <http://purl.org/dc/terms/source> "https://www.researchgate.net/publication/237174271_Structural_geology_of_the_Lardeau_Group_near_Trout_Lake_British_Columbia_implications_for_the_structural_evolution_of_the_Kootenay_Arc" .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#sharoncreekfm> <http://www.w3.org/2000/01/rdf-schema#label> "Sharon Creek formation"@en .
+# 
+# http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#triunefm
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#triunefm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#triunefm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#triunefm> <http://loop3d.org/GSO/ontology/2020/1/geologicrelation/stratUnderlies> <http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#ajaxfm> .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#triunefm> <http://purl.org/dc/terms/source> "https://www.researchgate.net/publication/237174271_Structural_geology_of_the_Lardeau_Group_near_Trout_Lake_British_Columbia_implications_for_the_structural_evolution_of_the_Kootenay_Arc" .
+<http://loop3d.org/GSO/ontology/2020/1/ex-lardeaustrat#triunefm> <http://www.w3.org/2000/01/rdf-schema#label> "Triune formation"@en .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

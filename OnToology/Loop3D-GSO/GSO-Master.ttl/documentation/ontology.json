@@ -1,0 +1,71 @@
+[ {
+  "@id" : "http://loop3d.org/GSO/ontology/2020/1/master/ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is a shell to load all GSO files."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "GSO Master"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://loop3d.org/GSO/2004/02/skos/annotation/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/2021/2/qudt/voc/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/common/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/element/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologiccontact/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicevent/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfault/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfeature/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfold/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicfoliation/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologiclineation/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicprocess/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicquality/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicreferencesystem/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrelation/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicrole/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicsetting/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicstructure/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologictime/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geologicunit/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/geology/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/granularmaterial/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/hydrology/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/ischart/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/mineral/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/perdurant/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/quality/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/rockmaterial/ontology"
+  }, {
+    "@id" : "http://loop3d.org/GSO/ontology/2020/1/rockobject/ontology"
+  } ]
+} ]

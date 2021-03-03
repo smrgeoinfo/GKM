@@ -1,0 +1,1758 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza/ontology#"
+     xml:base="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza/ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:common="http://loop3d.org/GSO/ontology/2020/1/common/"
+     xmlns:geologicfeature="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/">
+    <owl:Ontology rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza/ontology">
+        <owl:imports rdf:resource="http://loop3d.org/GSO/ontology/2020/1/master/ontology"/>
+        <rdfs:comment xml:lang="en">Example description of pluton with pendants, enclaves, composition variations</rdfs:comment>
+        <rdfs:comment xml:lang="en">Stephen M. Richard 2020-04-10</rdfs:comment>
+        <rdfs:comment xml:lang="en">based on descriptions in A. ARANGUREN, J. CUEVAS, J. M. TUBI´A, T. ROMA´ N-BERDIEL, A. CASAS-SAINZ, &amp; A. CASAS-PONSATI, 2003, Granite laccolith emplacement in the Iberian arc: AMS and gravity study of the La Tojiza pluton (NW Spain): Journal of the Geological Society, London, Vol. 160, 2003, pp. 435–445. DOI: 10.1144/0016-764902-079</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/determinedBy -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/determinedBy"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasConstituent"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasDataValue"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasEndValue"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasPart -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasPart"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasQuality -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasQuality"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasRole -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasRole"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasStartValue"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasUOM -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasUOM"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hasValue -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hasValue"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hostedBy -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hostedBy"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/hosts -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/hosts"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/isParticipantIn"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeDirectly"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeIndirectly -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/occupiesTimeIndirectly"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasEndValue -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasEndValue"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasOlderHost -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasOlderHost"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasStartValue -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasStartValue"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasYoungerHost -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/hasYoungerHost"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicfeature/intrudes -->
+
+
+    <owl:AnnotationProperty rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/intrudes"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Intensity -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Intensity"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Range_Value -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Range_Value"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Simple_Uncertainty -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Simple_Uncertainty"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Range -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Range"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant_Location -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant_Location"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval_Location -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval_Location"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/common/Weak_Intensity -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/common/Weak_Intensity"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Crystallographic_Preferred_Orientation -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Crystallographic_Preferred_Orientation"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Pendant -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Pendant"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Top -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Top"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Magmatic_Cystallisation -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Magmatic_Cystallisation"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicquality/Low_Metamorphic_Grade -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicquality/Low_Metamorphic_Grade"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphic_Grade -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphic_Grade"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Crystals -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Crystals"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicrole/Groundmass -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Groundmass"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicrole/Phenocryst -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Phenocryst"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicstructure/contact/Igneous_Intrusive_Contact -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/contact/Igneous_Intrusive_Contact"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicunit/Igneous_Facies -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicunit/Igneous_Facies"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithologic_Unit -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithologic_Unit"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pluton -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pluton"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/lithology/Grain_Roundness -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/lithology/Grain_Roundness"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/lithology/Granite -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/lithology/Granite"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/lithology/Particle_Sorting -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/lithology/Particle_Sorting"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/lithology/Quartzite -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/lithology/Quartzite"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/lithology/Schist -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/lithology/Schist"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/lithology/Slate -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/lithology/Slate"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Size -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Size"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/anhedral -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/anhedral"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/rounded -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/rounded"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/subhedral -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/subhedral"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/mineral/alkali_feldspar -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/mineral/alkali_feldspar"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/mineral/apatite -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/mineral/apatite"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/mineral/biotite -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/mineral/biotite"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/mineral/garnetgroup -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/mineral/garnetgroup"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/mineral/ilmenite -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/mineral/ilmenite"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/mineral/muscovite -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/mineral/muscovite"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/mineral/plagioclase -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/mineral/plagioclase"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/mineral/quartz -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/mineral/quartz"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/mineral/zircon -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/mineral/zircon"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/perdurant/Inference -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/perdurant/Inference"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/perdurant/Observation -->
+
+
+    <owl:Class rdf:about="http://loop3d.org/GSO/ontology/2020/1/perdurant/Observation"/>
+    
+
+
+    <!-- http://qudt.org/vocab/unit/MegaYR -->
+
+
+    <owl:Class rdf:about="http://qudt.org/vocab/unit/MegaYR"/>
+    
+
+
+    <!-- http://qudt.org/vocab/unit/MilliM -->
+
+
+    <owl:Class rdf:about="http://qudt.org/vocab/unit/MilliM"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza_2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza_2">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza_2_1"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza_2_2"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza_2_3"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza_2_4"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianformation"/>
+        <rdfs:comment>boundary has 4 distinct segments</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza_2_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza_2_1">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianformation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza_2_2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza_2_2">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianformation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza_2_3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza_2_3">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianformation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza_2_4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza_2_4">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianformation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryOrdovician -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryOrdovician">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Top"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianformation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryVillalbaSeries -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryVillalbaSeries">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianformation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianformation -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianformation">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation"/>
+        <common:hasConstituent rdf:nodeID="genid1"/>
+        <common:hasConstituent rdf:nodeID="genid2"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryOrdovician"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryVillalbaSeries"/>
+        <common:hasQuality rdf:nodeID="genid3"/>
+        <common:isParticipantIn rdf:nodeID="genid5"/>
+        <common:occupiesTimeIndirectly rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ischart/Cambrian2017"/>
+        <rdfs:label xml:lang="en">Cambrian Age sediments, slightly metamorphosed</rdfs:label>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid1">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/Quartzite"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid2">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/Slate"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid3">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphic_Grade"/>
+        <common:hasValue rdf:nodeID="genid4"/>
+        <rdfs:label xml:lang="en">low grade</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid5">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition"/>
+        <common:occupiesTimeDirectly rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ischart/Cambrian2017"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid4">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicquality/Low_Metamorphic_Grade"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#intrusionintineo -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#intrusionintineo">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value"/>
+        <common:determinedBy rdf:nodeID="genid6"/>
+        <common:hasDataValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">600</common:hasDataValue>
+        <common:hasUOM rdf:nodeID="genid7"/>
+        <rdfs:label xml:lang="en">approximately 600 Ma</rdfs:label>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid6">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/perdurant/Inference"/>
+        <terms:source>https://eprints.ucm.es/59104/1/0656.pdf</terms:source>
+        <rdfs:comment xml:lang="en">TBD -- adopt conventions for better representation of data provenance</rdfs:comment>
+        <rdfs:comment xml:lang="en">approximate age of plutons intruding correlative Tineo Series (Fernandez-Suarez et al. 2000a)</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid7">
+        <rdf:type rdf:resource="http://qudt.org/vocab/unit/MegaYR"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaBoundaryCambrian_2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaBoundaryCambrian_2">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaBoundaryOrdovician_3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaBoundaryOrdovician_3">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaBoundarySanCiprian_4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaBoundarySanCiprian_4">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaBoundaryVillalba_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaBoundaryVillalba_1">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaCambrianContact -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaCambrianContact">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/contact/Igneous_Intrusive_Contact"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianBoundaryLaTojiza_2"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaBoundaryCambrian_2"/>
+        <geologicfeature:hasOlderHost rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianformation"/>
+        <geologicfeature:hasYoungerHost rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizapluton"/>
+        <rdfs:comment xml:lang="en">Contact between Cambrian Formation and La Tojiza Pluton. Contact has 4 segments</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaOrdovicianContact -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaOrdovicianContact">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/contact/Igneous_Intrusive_Contact"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaBoundaryOrdovician_3"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#ordovicianBoundaryLaTojiza_3"/>
+        <geologicfeature:hasOlderHost rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#ordovicianformation"/>
+        <geologicfeature:hasYoungerHost rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizapluton"/>
+        <rdfs:comment xml:lang="en">Contact between Ordovician Formation and La Tojiza Pluton. Contact has one segment</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaVillalbaContact -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaVillalbaContact">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicstructure/contact/Igneous_Intrusive_Contact"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaBoundaryVillalba_1"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaBoundaryLaTojiza_1"/>
+        <geologicfeature:hasOlderHost rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaseries"/>
+        <geologicfeature:hasYoungerHost rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizapluton"/>
+        <rdfs:comment xml:lang="en">Contact between Villalba Series and La Tojiza Pluton. Contact has 2 segments</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizacrystallization -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizacrystallization">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value"/>
+        <common:determinedBy rdf:nodeID="genid8"/>
+        <common:hasDataValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">295</common:hasDataValue>
+        <common:hasQuality rdf:nodeID="genid9"/>
+        <common:hasUOM rdf:nodeID="genid11"/>
+        <rdfs:label xml:lang="en">295 +|- 2 Ma, Variscan, Post tectonic, Permian</rdfs:label>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid8">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/perdurant/Observation"/>
+        <terms:source>DOI: 10.1144/jgs.157.3.565</terms:source>
+        <rdfs:comment xml:lang="en">TBD -- adopt conventions for better representation of data provenance</rdfs:comment>
+        <rdfs:comment xml:lang="en">U-Pb zircon (Fernandez-Suarez et al. 2000)</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid9">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Simple_Uncertainty"/>
+        <common:hasDataValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</common:hasDataValue>
+        <common:hasUOM rdf:nodeID="genid10"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid11">
+        <rdf:type rdf:resource="http://qudt.org/vocab/unit/MegaYR"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid10">
+        <rdf:type rdf:resource="http://qudt.org/vocab/unit/MegaYR"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizafinegrained -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizafinegrained">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicunit/Igneous_Facies"/>
+        <common:hasConstituent rdf:nodeID="genid12"/>
+        <rdfs:comment>The amount of muscovite and garnet increases, and grain size decreases, towards the eastern and southern pluton borders. contain rounded grains of quartz visible to the naked eye. Most samples are equigranular. Phases are not mapped separately</rdfs:comment>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid12">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/Granite"/>
+        <common:hasConstituent rdf:nodeID="genid13"/>
+        <common:hasConstituent rdf:nodeID="genid16"/>
+        <common:hasConstituent rdf:nodeID="genid19"/>
+        <common:hasConstituent rdf:nodeID="genid22"/>
+        <common:hasConstituent rdf:nodeID="genid25"/>
+        <common:hasConstituent rdf:nodeID="genid28"/>
+        <common:hasConstituent rdf:nodeID="genid31"/>
+        <common:hasConstituent rdf:nodeID="genid34"/>
+        <common:hasConstituent rdf:nodeID="genid39"/>
+        <common:hasQuality rdf:nodeID="genid42"/>
+        <common:hasQuality rdf:nodeID="genid48"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid13">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+        <common:hasConstituent rdf:nodeID="genid14"/>
+        <common:hasRole rdf:nodeID="genid15"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid16">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+        <common:hasConstituent rdf:nodeID="genid17"/>
+        <common:hasRole rdf:nodeID="genid18"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid19">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+        <common:hasConstituent rdf:nodeID="genid20"/>
+        <common:hasRole rdf:nodeID="genid21"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid22">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+        <common:hasConstituent rdf:nodeID="genid23"/>
+        <common:hasRole rdf:nodeID="genid24"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid25">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+        <common:hasConstituent rdf:nodeID="genid26"/>
+        <common:hasRole rdf:nodeID="genid27"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid28">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+        <common:hasConstituent rdf:nodeID="genid29"/>
+        <common:hasRole rdf:nodeID="genid30"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid31">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+        <common:hasConstituent rdf:nodeID="genid32"/>
+        <common:hasRole rdf:nodeID="genid33"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid34">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+        <common:hasConstituent rdf:nodeID="genid35"/>
+        <common:hasQuality rdf:nodeID="genid36"/>
+        <common:hasRole rdf:nodeID="genid38"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid39">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+        <common:hasConstituent rdf:nodeID="genid40"/>
+        <common:hasRole rdf:nodeID="genid41"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid42">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Size"/>
+        <common:hasQuality rdf:nodeID="genid43"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid48">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/Particle_Sorting"/>
+        <common:hasDataValue>Equigranular</common:hasDataValue>
+        <rdfs:label xml:lang="en">equigranular texture</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid14">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/alkali_feldspar"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid15">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Crystals"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid17">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/apatite"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid18">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid20">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/biotite"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid21">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Crystals"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid23">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/garnetgroup"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid24">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid26">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/ilmenite"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid27">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid29">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/muscovite"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid30">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid32">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/plagioclase"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid33">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Crystals"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid35">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/quartz"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid36">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/Grain_Roundness"/>
+        <common:hasValue rdf:nodeID="genid37"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid38">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Crystals"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid40">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/zircon"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid41">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid43">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Range_Value"/>
+        <common:hasEndValue rdf:nodeID="genid44"/>
+        <common:hasStartValue rdf:nodeID="genid46"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid37">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/rounded"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid44">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value"/>
+        <common:hasDataValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</common:hasDataValue>
+        <common:hasUOM rdf:nodeID="genid45"/>
+        <rdfs:label xml:lang="en">fine grain size: 3 mm maximum</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid46">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value"/>
+        <common:hasDataValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.05</common:hasDataValue>
+        <common:hasUOM rdf:nodeID="genid47"/>
+        <rdfs:label xml:lang="en">fine grain size: .05 mm minimum</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid45">
+        <rdf:type rdf:resource="http://qudt.org/vocab/unit/MilliM"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid47">
+        <rdf:type rdf:resource="http://qudt.org/vocab/unit/MilliM"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizamain -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizamain">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicunit/Igneous_Facies"/>
+        <common:hasConstituent rdf:nodeID="genid49"/>
+        <rdfs:comment>medium- to coarse-grained granite consists of quartz, K-feldspar, plagioclase and biotite. Apatite, ilmenite, zircon, muscovite and, locally, garnet are accessory minerals; contains rounded grains of quartz visible to the naked eye. Most samples are equigranular</rdfs:comment>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid49">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/Granite"/>
+        <common:hasConstituent rdf:nodeID="genid50"/>
+        <common:hasConstituent rdf:nodeID="genid53"/>
+        <common:hasConstituent rdf:nodeID="genid56"/>
+        <common:hasConstituent rdf:nodeID="genid59"/>
+        <common:hasConstituent rdf:nodeID="genid62"/>
+        <common:hasConstituent rdf:nodeID="genid65"/>
+        <common:hasConstituent rdf:nodeID="genid68"/>
+        <common:hasConstituent rdf:nodeID="genid71"/>
+        <common:hasConstituent rdf:nodeID="genid76"/>
+        <common:hasQuality rdf:nodeID="genid79"/>
+        <common:hasQuality rdf:nodeID="genid81"/>
+        <common:hasQuality rdf:nodeID="genid83"/>
+        <common:hasQuality rdf:nodeID="genid89"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid50">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+        <common:hasConstituent rdf:nodeID="genid51"/>
+        <common:hasRole rdf:nodeID="genid52"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid53">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+        <common:hasConstituent rdf:nodeID="genid54"/>
+        <common:hasRole rdf:nodeID="genid55"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid56">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+        <common:hasConstituent rdf:nodeID="genid57"/>
+        <common:hasRole rdf:nodeID="genid58"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid59">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+        <common:hasConstituent rdf:nodeID="genid60"/>
+        <common:hasRole rdf:nodeID="genid61"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid62">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+        <common:hasConstituent rdf:nodeID="genid63"/>
+        <common:hasRole rdf:nodeID="genid64"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid65">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+        <common:hasConstituent rdf:nodeID="genid66"/>
+        <common:hasRole rdf:nodeID="genid67"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid68">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+        <common:hasConstituent rdf:nodeID="genid69"/>
+        <common:hasRole rdf:nodeID="genid70"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid71">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+        <common:hasConstituent rdf:nodeID="genid72"/>
+        <common:hasQuality rdf:nodeID="genid73"/>
+        <common:hasRole rdf:nodeID="genid75"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid76">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+        <common:hasConstituent rdf:nodeID="genid77"/>
+        <common:hasRole rdf:nodeID="genid78"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid79">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/Grain_Roundness"/>
+        <common:hasValue rdf:nodeID="genid80"/>
+        <rdfs:label xml:lang="en">anhedral grains</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid81">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/Grain_Roundness"/>
+        <common:hasValue rdf:nodeID="genid82"/>
+        <rdfs:label xml:lang="en">subhedral grains</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid83">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Size"/>
+        <common:hasQuality rdf:nodeID="genid84"/>
+        <rdfs:label>Medium to coarse-grained</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid89">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/Particle_Sorting"/>
+        <common:hasDataValue>Equigranular</common:hasDataValue>
+        <rdfs:label xml:lang="en">equigranular texture</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid51">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/alkali_feldspar"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid52">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Crystals"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid54">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/apatite"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid55">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid57">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/biotite"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid58">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Crystals"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid60">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/garnetgroup"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid61">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid63">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/ilmenite"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid64">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid66">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/muscovite"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid67">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid69">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/plagioclase"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid70">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Crystals"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid72">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/quartz"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid73">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/Grain_Roundness"/>
+        <common:hasValue rdf:nodeID="genid74"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid75">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Framework_Crystals"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid77">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/zircon"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid78">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid80">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/anhedral"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid82">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/subhedral"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid84">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Range_Value"/>
+        <common:hasEndValue rdf:nodeID="genid85"/>
+        <common:hasStartValue rdf:nodeID="genid87"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid74">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/rounded"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid85">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value"/>
+        <common:hasDataValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</common:hasDataValue>
+        <common:hasUOM rdf:nodeID="genid86"/>
+        <rdfs:label xml:lang="en">coarse grain size: 10 mm maximum</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid87">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value"/>
+        <common:hasDataValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</common:hasDataValue>
+        <common:hasUOM rdf:nodeID="genid88"/>
+        <rdfs:label xml:lang="en">medium grain size: 3 mm minimum</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid86">
+        <rdf:type rdf:resource="http://qudt.org/vocab/unit/MilliM"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid88">
+        <rdf:type rdf:resource="http://qudt.org/vocab/unit/MilliM"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizapendants -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizapendants">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicunit/Lithologic_Unit"/>
+        <common:hasConstituent rdf:nodeID="genid90"/>
+        <common:hasRole rdf:nodeID="genid91"/>
+        <rdfs:comment>Large xenoliths and roof pendants of country rocks occur mainly in the central part of the intrusion</rdfs:comment>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid90">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/Schist"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid91">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Pendant"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizapluton -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizapluton">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pluton"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaBoundaryCambrian_2"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaBoundaryOrdovician_3"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaBoundarySanCiprian_4"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaBoundaryVillalba_1"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizafinegrained"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizamain"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizapendants"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaporphyritic"/>
+        <common:hosts rdf:nodeID="genid92"/>
+        <common:isParticipantIn rdf:nodeID="genid95"/>
+        <common:occupiesTimeIndirectly rdf:nodeID="genid97"/>
+        <geologicfeature:intrudes rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#cambrianformation"/>
+        <geologicfeature:intrudes rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#ordovicianformation"/>
+        <geologicfeature:intrudes rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#sancipriangranitoid"/>
+        <geologicfeature:intrudes rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaseries"/>
+        <rdfs:comment xml:lang="en">medium- to coarse-grained granite, consists of quartz, K-feldspar, plagioclase and biotite. Apatite, ilmenite, zircon, muscovite and, locally, garnet are accessory minerals. The amount of muscovite and garnet increases, and grain size decreases, towards the eastern and southern pluton borders.  but most samples are equigranular. Both textural types contain rounded grains of quartz visible to the naked eye, pointing to the lack of solid-state deformation. Large xenoliths and roofpendants of country rocks occur mainly in the central part of the intrusion and enclaves of basic igneous rocks in its eastern part.</rdfs:comment>
+        <rdfs:label xml:lang="en">La Tojiza Pluton</rdfs:label>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid92">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Crystallographic_Preferred_Orientation"/>
+        <common:hasQuality rdf:nodeID="genid93"/>
+        <rdfs:comment xml:lang="en">considered to have developed exclusively in the magmatic state</rdfs:comment>
+        <rdfs:label xml:lang="en">weak preferred orientation of feldspar and biotite;</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid95">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Magmatic_Cystallisation"/>
+        <common:occupiesTimeDirectly rdf:nodeID="genid96"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid97">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant_Location"/>
+        <common:hasValue rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizacrystallization"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid93">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Intensity"/>
+        <common:hasValue rdf:nodeID="genid94"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid96">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant_Location"/>
+        <common:hasValue rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizacrystallization"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid94">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Weak_Intensity"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaporphyritic -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#latojizaporphyritic">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicunit/Igneous_Facies"/>
+        <common:hasConstituent rdf:nodeID="genid98"/>
+        <rdfs:comment>Some outcrops show porphyritic textures with euhedral, 1–5 cm, K-feldspar phenocrysts within a medium- to coarse-grained matrix; contains rounded grains of quartz visible to the naked eye</rdfs:comment>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid98">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/Granite"/>
+        <common:hasConstituent rdf:nodeID="genid99"/>
+        <common:hasConstituent rdf:nodeID="genid108"/>
+        <common:hasConstituent rdf:nodeID="genid111"/>
+        <common:hasConstituent rdf:nodeID="genid120"/>
+        <common:hasConstituent rdf:nodeID="genid123"/>
+        <common:hasConstituent rdf:nodeID="genid126"/>
+        <common:hasConstituent rdf:nodeID="genid129"/>
+        <common:hasConstituent rdf:nodeID="genid138"/>
+        <common:hasConstituent rdf:nodeID="genid149"/>
+        <common:hasConstituent rdf:nodeID="genid152"/>
+        <common:hasQuality rdf:nodeID="genid160"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid99">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+        <common:hasConstituent rdf:nodeID="genid100"/>
+        <common:hasQuality rdf:nodeID="genid101"/>
+        <common:hasRole rdf:nodeID="genid107"/>
+        <rdfs:label>K-feldspar in groundmass</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid108">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+        <common:hasConstituent rdf:nodeID="genid109"/>
+        <common:hasRole rdf:nodeID="genid110"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid111">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+        <common:hasConstituent rdf:nodeID="genid112"/>
+        <common:hasQuality rdf:nodeID="genid113"/>
+        <common:hasRole rdf:nodeID="genid119"/>
+        <rdfs:label>biotite in groundmass</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid120">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+        <common:hasConstituent rdf:nodeID="genid121"/>
+        <common:hasRole rdf:nodeID="genid122"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid123">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+        <common:hasConstituent rdf:nodeID="genid124"/>
+        <common:hasRole rdf:nodeID="genid125"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid126">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+        <common:hasConstituent rdf:nodeID="genid127"/>
+        <common:hasRole rdf:nodeID="genid128"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid129">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+        <common:hasConstituent rdf:nodeID="genid130"/>
+        <common:hasQuality rdf:nodeID="genid131"/>
+        <common:hasRole rdf:nodeID="genid137"/>
+        <rdfs:label>plagioclase in groundmass</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid138">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+        <common:hasConstituent rdf:nodeID="genid139"/>
+        <common:hasQuality rdf:nodeID="genid140"/>
+        <common:hasQuality rdf:nodeID="genid142"/>
+        <common:hasRole rdf:nodeID="genid148"/>
+        <rdfs:label>Quartz in groundmass</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid149">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Single_Crystal_Particle_Material"/>
+        <common:hasConstituent rdf:nodeID="genid150"/>
+        <common:hasRole rdf:nodeID="genid151"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid152">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/alkali_feldspar"/>
+        <common:hasQuality rdf:nodeID="genid153"/>
+        <common:hasRole rdf:nodeID="genid159"/>
+        <rdfs:label>K-feldspar phenocrysts</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid160">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/Particle_Sorting"/>
+        <common:hasDataValue>Porphyritic</common:hasDataValue>
+        <rdfs:label xml:lang="en">porphyritic texture</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid100">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/alkali_feldspar"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid101">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Size"/>
+        <common:hasQuality rdf:nodeID="genid102"/>
+        <rdfs:label>1 to 5 mm diameter crystals</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid107">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Groundmass"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid109">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/apatite"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid110">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid112">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/biotite"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid113">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Size"/>
+        <common:hasQuality rdf:nodeID="genid114"/>
+        <rdfs:label>1 to 3 mm diameter crystals</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid119">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Groundmass"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid121">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/garnetgroup"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid122">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid124">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/ilmenite"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid125">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid127">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/muscovite"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid128">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid130">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/plagioclase"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid131">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Size"/>
+        <common:hasQuality rdf:nodeID="genid132"/>
+        <rdfs:label>3 to 8 mm diameter crystals</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid137">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Groundmass"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid139">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/quartz"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid140">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/Grain_Roundness"/>
+        <common:hasValue rdf:nodeID="genid141"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid142">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Size"/>
+        <common:hasQuality rdf:nodeID="genid143"/>
+        <rdfs:label>5-8 mm diameter crystals</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid148">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Groundmass"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid150">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/zircon"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid151">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Accessory_Crystals"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid153">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/granularmaterial/Grain_Size"/>
+        <common:hasQuality rdf:nodeID="genid154"/>
+        <rdfs:label>1 to 5 cm diameter phenocrysts</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid159">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicrole/Phenocryst"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid102">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Range_Value"/>
+        <common:hasEndValue rdf:nodeID="genid103"/>
+        <common:hasStartValue rdf:nodeID="genid105"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid114">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Range_Value"/>
+        <common:hasEndValue rdf:nodeID="genid115"/>
+        <common:hasStartValue rdf:nodeID="genid117"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid132">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Range_Value"/>
+        <common:hasEndValue rdf:nodeID="genid133"/>
+        <common:hasStartValue rdf:nodeID="genid135"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid141">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/particleroundness/rounded"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid143">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Range_Value"/>
+        <common:hasEndValue rdf:nodeID="genid144"/>
+        <common:hasStartValue rdf:nodeID="genid146"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid154">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Range_Value"/>
+        <common:hasEndValue rdf:nodeID="genid155"/>
+        <common:hasStartValue rdf:nodeID="genid157"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid103">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value"/>
+        <common:hasDataValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</common:hasDataValue>
+        <common:hasUOM rdf:nodeID="genid104"/>
+        <rdfs:label xml:lang="en">5 mm maximum</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid105">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value"/>
+        <common:hasDataValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</common:hasDataValue>
+        <common:hasUOM rdf:nodeID="genid106"/>
+        <rdfs:label xml:lang="en">1 mm minimum</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid115">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value"/>
+        <common:hasDataValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</common:hasDataValue>
+        <common:hasUOM rdf:nodeID="genid116"/>
+        <rdfs:label xml:lang="en">3 mm maximum</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid117">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value"/>
+        <common:hasDataValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</common:hasDataValue>
+        <common:hasUOM rdf:nodeID="genid118"/>
+        <rdfs:label xml:lang="en">1 mm minimum</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid133">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value"/>
+        <common:hasDataValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</common:hasDataValue>
+        <common:hasUOM rdf:nodeID="genid134"/>
+        <rdfs:label xml:lang="en">8 mm maximum</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid135">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value"/>
+        <common:hasDataValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</common:hasDataValue>
+        <common:hasUOM rdf:nodeID="genid136"/>
+        <rdfs:label xml:lang="en">3 mm minimum</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid144">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value"/>
+        <common:hasDataValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</common:hasDataValue>
+        <common:hasUOM rdf:nodeID="genid145"/>
+        <rdfs:label xml:lang="en">8 mm maximum</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid146">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value"/>
+        <common:hasDataValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</common:hasDataValue>
+        <common:hasUOM rdf:nodeID="genid147"/>
+        <rdfs:label xml:lang="en">5 mm minimum</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid155">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value"/>
+        <common:hasDataValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50</common:hasDataValue>
+        <common:hasUOM rdf:nodeID="genid156"/>
+        <rdfs:label xml:lang="en">5 cm maximum</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid157">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Numeric_Value"/>
+        <common:hasDataValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</common:hasDataValue>
+        <common:hasUOM rdf:nodeID="genid158"/>
+        <rdfs:label xml:lang="en">1 cm minimum</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid104">
+        <rdf:type rdf:resource="http://qudt.org/vocab/unit/MilliM"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid106">
+        <rdf:type rdf:resource="http://qudt.org/vocab/unit/MilliM"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid116">
+        <rdf:type rdf:resource="http://qudt.org/vocab/unit/MilliM"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid118">
+        <rdf:type rdf:resource="http://qudt.org/vocab/unit/MilliM"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid134">
+        <rdf:type rdf:resource="http://qudt.org/vocab/unit/MilliM"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid136">
+        <rdf:type rdf:resource="http://qudt.org/vocab/unit/MilliM"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid145">
+        <rdf:type rdf:resource="http://qudt.org/vocab/unit/MilliM"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid147">
+        <rdf:type rdf:resource="http://qudt.org/vocab/unit/MilliM"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid156">
+        <rdf:type rdf:resource="http://qudt.org/vocab/unit/MilliM"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid158">
+        <rdf:type rdf:resource="http://qudt.org/vocab/unit/MilliM"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#ordovicianBoundaryCambrian -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#ordovicianBoundaryCambrian">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Bottom"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#ordovicianformation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#ordovicianBoundaryLaTojiza -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#ordovicianBoundaryLaTojiza"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#ordovicianBoundaryLaTojiza_3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#ordovicianBoundaryLaTojiza_3">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#ordovicianformation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#ordovicianformation -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#ordovicianformation">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation"/>
+        <common:hasConstituent rdf:nodeID="genid161"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#ordovicianBoundaryCambrian"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#ordovicianBoundaryLaTojiza"/>
+        <common:hasQuality rdf:nodeID="genid162"/>
+        <common:occupiesTimeDirectly rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ischart/Ordovician2017"/>
+        <rdfs:label xml:lang="en">Ordovician Age</rdfs:label>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid161">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/Slate"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid162">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphic_Grade"/>
+        <common:hasValue rdf:nodeID="genid163"/>
+        <rdfs:label xml:lang="en">low grade</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid163">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicquality/Low_Metamorphic_Grade"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#sanciprianBoundaryLaTojiza -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#sanciprianBoundaryLaTojiza">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#sancipriangranitoid"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#sancipriancrystallization -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#sancipriancrystallization">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value"/>
+        <common:determinedBy rdf:nodeID="genid164"/>
+        <common:hasDataValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">287</common:hasDataValue>
+        <common:hasUOM rdf:nodeID="genid165"/>
+        <rdfs:label xml:lang="en">287 Ma, Variscan, Permian, syn-tectonic</rdfs:label>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid164">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/perdurant/Observation"/>
+        <terms:source>An example of low-Th/U zircon overgrowths of magmatic origin in a late orogenic Variscan intrusion: the San Ciprián massif (NW Spain) Lopez-Sanchez,Marco A. et al. Journal of the Geological Society(2016),173(2):282  http://dx.doi.org/10.1144/jgs2015-071</terms:source>
+        <rdfs:comment>TBD -- adopt conventions for better representation of data provenance</rdfs:comment>
+        <rdfs:comment>U-Pb interpreted date from zircon mantles, interpreted as age of magmatic crystallization. NOTE that this age is younger that the reported age for La Tojiza granite (295 Ma) which is reported to intrude San Ciprian Granite </rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid165">
+        <rdf:type rdf:resource="http://qudt.org/vocab/unit/MegaYR"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#sancipriangranitoid -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#sancipriangranitoid">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicunit/Pluton"/>
+        <common:hasConstituent rdf:nodeID="genid166"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#sanciprianBoundaryLaTojiza"/>
+        <common:isParticipantIn rdf:nodeID="genid169"/>
+        <common:occupiesTimeIndirectly rdf:nodeID="genid171"/>
+        <rdfs:label>San Ciprian massif</rdfs:label>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid166">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/Granite"/>
+        <common:hasConstituent rdf:nodeID="genid167"/>
+        <common:hasConstituent rdf:nodeID="genid168"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid169">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Magmatic_Cystallisation"/>
+        <common:occupiesTimeDirectly rdf:nodeID="genid170"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid171">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant_Location"/>
+        <common:hasValue rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#sancipriancrystallization"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid167">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/biotite"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid168">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/mineral/muscovite"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid170">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Time_Instant_Location"/>
+        <common:hasValue rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#sancipriancrystallization"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaBoundaryCambrian -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaBoundaryCambrian">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Top"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaseries"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaBoundaryLaTojiza -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaBoundaryLaTojiza"/>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaBoundaryLaTojiza_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaBoundaryLaTojiza_1">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaBoundaryLaTojiza_1_1"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaBoundaryLaTojiza_1_2"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaseries"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaBoundaryLaTojiza_1_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaBoundaryLaTojiza_1_1">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaseries"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaBoundaryLaTojiza_1_2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaBoundaryLaTojiza_1_2">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicfeature/Rock_Body_Boundary"/>
+        <common:hostedBy rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaseries"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbadetritalzircon -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbadetritalzircon">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Time_Numeric_Value"/>
+        <common:determinedBy rdf:nodeID="genid172"/>
+        <common:hasDataValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">700</common:hasDataValue>
+        <common:hasUOM rdf:nodeID="genid173"/>
+        <rdfs:label xml:lang="en">700 Ma, single crystal detrital zircon, Lower Villalba</rdfs:label>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid172">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/perdurant/Inference"/>
+        <terms:source>https://eprints.ucm.es/59104/1/0656.pdf</terms:source>
+        <rdfs:comment xml:lang="en">TBD -- adopt conventions for better representation of data provenance</rdfs:comment>
+        <rdfs:comment xml:lang="en">youngest single crystal detrital zircons in Lower Villalba unit, sub concordant 206Pb/238U date from single crystals. (Fernandez-Suarez et al. 2000a)</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid173">
+        <rdf:type rdf:resource="http://qudt.org/vocab/unit/MegaYR"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaseries -->
+
+
+    <owl:NamedIndividual rdf:about="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaseries">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicunit/Formation"/>
+        <common:hasConstituent rdf:nodeID="genid174"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaBoundaryCambrian"/>
+        <common:hasPart rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbaBoundaryLaTojiza"/>
+        <common:hasQuality rdf:nodeID="genid175"/>
+        <common:isParticipantIn rdf:nodeID="genid177"/>
+        <common:occupiesTimeIndirectly rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ischart/Neoproterozoic2017"/>
+        <rdfs:label>Villalba Series</rdfs:label>
+    </owl:NamedIndividual>
+    <rdf:Description rdf:nodeID="genid174">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/lithology/Schist"/>
+        <rdfs:label>metagraywacke</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid175">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicquality/Metamorphic_Grade"/>
+        <common:hasValue rdf:nodeID="genid176"/>
+        <rdfs:label xml:lang="en">low grade metamorphism</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid177">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicprocess/Deposition"/>
+        <common:occupiesTimeDirectly rdf:nodeID="genid178"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid176">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/geologicquality/Low_Metamorphic_Grade"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid178">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Time_Interval_Location"/>
+        <common:hasValue rdf:nodeID="genid179"/>
+        <rdfs:label xml:lang="en">Neoproterozoic, approximately 700-600 Ma</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid179">
+        <rdf:type rdf:resource="http://loop3d.org/GSO/ontology/2020/1/common/Temporal_Range"/>
+        <geologicfeature:hasEndValue rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#intrusionintineo"/>
+        <geologicfeature:hasStartValue rdf:resource="http://loop3d.org/GSO/ontology/2020/1/ex-plutontojiza#villalbadetritalzircon"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+
